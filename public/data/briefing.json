@@ -1,0 +1,146 @@
+{
+    "date": "2026년 1월 14일 수요일",
+    "keywords": [
+        "AGI 프로토타입",
+        "On-Device LLM",
+        "AI 윤리 가이드라인 v5",
+        "뉴로모픽 칩",
+        "우주 탐사 AI"
+    ],
+    "news": [
+        {
+            "title": "OpenAI, 차세대 'GPT-6' 프리뷰 공개",
+            "summary": "OpenAI가 추론 능력이 비약적으로 향상된 GPT-6의 프리뷰를 공개했습니다. 특히 복잡한 수학 증명과 소프트웨어 아키텍처 설계에서 인간 전문가 수준을 달성했다고 주장합니다.",
+            "content": "OpenAI가 오늘 개발자 컨퍼런스에서 GPT-6의 프리뷰 버전을 전격 공개했습니다. \n\n이번 모델의 가장 큰 특징은 'Deep Reasoning' 능력의 비약적 향상입니다. 샘 알트만 CEO는 키노트에서 'GPT-6는 단순한 언어 모델을 넘어, 스스로 가설을 세우고 검증하는 사고 과정을 거친다'고 설명했습니다. \n\n실제로 시연된 복잡한 미적분 증명과 대규모 분산 시스템 아키텍처 설계 데모에서 GPT-6는 인간 수석 엔지니어 수준의 통찰력을 보여주었습니다. 또한, 새로운 'Thinking Token' 메커니즘을 통해 모델이 답변을 생성하기 전에 내부적으로 추론 과정을 거치도록 설계되어 환각 현상(Hallucination)을 획기적으로 줄였다고 합니다.\n\nAPI 접근은 오늘부터 일부 파트너사에게만 제한적으로 제공되며, 일반 공개는 내년 상반기로 예정되어 있습니다.",
+            "link": "https://openai.com/blog",
+            "tags": [
+                "OpenAI",
+                "GPT-6",
+                "LLM"
+            ]
+        },
+        {
+            "title": "애플, 아이폰 18을 위한 'Apple Intelligence+' 발표",
+            "summary": "Siri가 이제 기기 내에서 로컬로 동작하는 100B 파라미터 모델을 탑재합니다. 인터넷 연결 없이도 실시간 통번역과 복잡한 개인 비서 업무를 수행할 수 있습니다.",
+            "content": "애플이 WWDC 2026에서 차세대 온디바이스 AI 기술인 'Apple Intelligence+'를 발표했습니다.\n\n핵심은 아이폰 18 프로 라인업에 탑재될 A19 Pro 칩의 뉴럴 엔진 성능입니다. 이 칩셋은 1000억(100B) 파라미터 규모의 LLM을 초당 40 토큰의 속도로 로컬 구동할 수 있다고 합니다. \n\n이를 통해 Siri는 사용자의 이메일, 캘린더, 메시지 앱의 맥락을 완벽하게 이해하고, 인터넷 연결이 끊긴 비행기 모드에서도 복잡한 질의응답과 실시간 통역을 수행할 수 있게 되었습니다.\n\n개인정보 보호를 최우선 가치로 내세운 애플은 '클라우드로 전송되는 데이터는 0바이트'라고 강조했습니다.",
+            "link": "https://www.apple.com/newsroom/",
+            "tags": [
+                "Apple",
+                "On-Device AI",
+                "Siri"
+            ]
+        },
+        {
+            "title": "Google DeepMind, 기기 예측 AI 'Earth-2' 상용화",
+            "summary": "DeepMind의 Earth-2 모델이 전 세계 기상청에 도입되기 시작했습니다. 기존 슈퍼컴퓨터보다 1000배 빠른 속도로 2주 뒤의 날씨를 99% 정확도로 예측합니다.",
+            "content": "구글 딥마인드의 기상 예측 AI 'Earth-2'가 실험실을 벗어나 실제 현장에 투입됩니다. \n\n기존의 물리 기반 수치 예보 모델(NWP)은 슈퍼컴퓨터로 며칠씩 걸리던 계산을 Earth-2는 단일 TPU 포드에서 몇 분 만에 완료할 수 있습니다. 이미 유럽중기예보센터(ECMWF)와의 테스트에서 기존 모델보다 20% 높은 태풍 경로 예측 정확도를 보여주었습니다.\n\n특히 기후 변화로 인한 국지성 호우나 폭염 같은 이상 기후 징후를 조기에 포착하는 데 특화되어 있어, 재난 방재 시스템의 혁신을 가져올 것으로 기대됩니다.",
+            "link": "https://deepmind.google/discover/",
+            "tags": [
+                "Google",
+                "DeepMind",
+                "Climate Tech"
+            ]
+        },
+        {
+            "title": "EU 'AI 법' 최종 발효, 위반 시 매출의 7% 벌금",
+            "summary": "세계 최초의 포괄적 AI 규제법인 'EU AI Act'가 오늘부터 효력을 발휘합니다. 고위험 AI 시스템에 대한 의무 사항과 생체 인식 감시 금지 조항이 포함되었습니다.",
+            "content": "유럽연합(EU)의 인공지능 규제법(AI Act)이 오늘부로 전면 시행됩니다. 이 법은 AI 시스템을 위험도에 따라 4단계로 분류하고, '용인할 수 없는 위험'으로 간주되는 기술(예: 실시간 원격 생체 인식, 사회적 신용 평가 등)의 사용을 원천 금지합니다.\n\n가장 논란이 되었던 범용 AI 모델(GPAI)에 대해서는 투명성 의무가 부과되며, 이를 위반할 경우 전 세계 연간 매출의 최대 7%에 달하는 천문학적인 벌금이 부과될 수 있습니다. \n\n글로벌 빅테크 기업들은 이에 대응하기 위해 급히 컴플라이언스 팀을 확충하고 있으며, 이번 법안이 향후 미국의 AI 규제 방향에도 큰 영향을 미칠 것으로 보입니다.",
+            "link": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+            "tags": [
+                "Regulation",
+                "EU",
+                "AI Act"
+            ]
+        },
+        {
+            "title": "메타, 코딩 전용 오픈 모델 'CodeLlama 4' 기습 공개",
+            "summary": "메타가 GPT-5 코딩 성능을 능가하는 'CodeLlama 4' 70B 모델을 오픈소스로 공개했습니다. 128k 컨텍스트 윈도우를 지원하며 레포지토리 전체 분석이 가능합니다.",
+            "content": "메타(Meta)가 오늘 새벽, 코딩 작업에 특화된 최신 오픈소스 모델 'CodeLlama 4'를 공개해 개발자 커뮤니티를 흔들었습니다. \n\n이번 모델은 70B 파라미터 크기임에도 불구하고, 벤치마크 테스트(HumanEval, MBPP)에서 GPT-5 초기 버전을 상회하는 점수를 기록했습니다. 특히 128k 토큰이라는 방대한 컨텍스트 윈도우 덕분에 수백 개의 파일로 이루어진 대규모 프로젝트의 전체 구조를 한 번에 파악하고 리팩토링을 제안할 수 있습니다.\n\n마크 저커버그 CEO는 'AI 기술의 민주화를 위해 가장 강력한 코딩 도구를 무료로 푼다'고 밝혔습니다. 현재 Hugging Face에서 가중치 파일을 다운로드할 수 있습니다.",
+            "link": "https://ai.meta.com/llama/",
+            "tags": [
+                "Meta",
+                "Open Source",
+                "CodeLlama"
+            ]
+        }
+    ],
+    "github_repos": [
+        {
+            "name": "microsoft/agent-kernel",
+            "description": "멀티모달 AI 에이전트 오케스트레이션을 위한 차세대 프레임워크",
+            "reason": "최근 MS Build 2026 발표 이후 별 5천 개 급상승, 엔터프라이즈 에이전트 개발 표준으로 부상",
+            "stars": 24500,
+            "language": "TypeScript",
+            "url": "https://github.com/microsoft/semantic-kernel"
+        },
+        {
+            "name": "hw-accelerators/neutron",
+            "description": "M5 칩셋에 최적화된 초경량 온디바이스 추론 엔진",
+            "reason": "애플 실리콘 최적화로 Llama-4 모델 구동 속도 3배 향상 입증되어 화제",
+            "stars": 8200,
+            "language": "Rust",
+            "url": "https://github.com/trending"
+        },
+        {
+            "name": "open-science/bio-gpt-2026",
+            "description": "신약 개발을 위한 오픈소스 거대 단백질 구조 예측 모델",
+            "reason": "AlphaFold3의 대항마로 오픈소스 커뮤니티에서 주목, Nature지 게재",
+            "stars": 15600,
+            "language": "Python",
+            "url": "https://github.com/trending"
+        },
+        {
+            "name": "anthropics/claude-code-interpreter",
+            "description": "로컬 환경에서 안전하게 실행되는 샌드박스형 코드 실행기",
+            "reason": "보안이 강화된 기업용 AI 솔루션으로 인기 급상승",
+            "stars": 5400,
+            "language": "Go",
+            "url": "https://github.com/trending"
+        },
+        {
+            "name": "vercel/next-ai-sdk-v5",
+            "description": "Next.js 16과 완벽 호환되는 스트리밍 전용 AI SDK",
+            "reason": "React Server Components(RSC)와의 통합성 개선으로 프론트엔드 개발자 필수템 등극",
+            "stars": 12300,
+            "language": "TypeScript",
+            "url": "https://github.com/trending"
+        }
+    ],
+    "youtube_videos": [
+        {
+            "title": "GPT-6 첫인상: 개발자에게 의미하는 것",
+            "channel": "AI Explained Korea",
+            "link": "https://www.youtube.com/watch?v=kYIe8OggzMg",
+            "thumbnail_url": "",
+            "views": "조회수 15만회"
+        },
+        {
+            "title": "로컬 LLM을 10분만에 내 노트북에 설치하기 (2026 가이드)",
+            "channel": "조코딩 JoCoding",
+            "link": "https://www.youtube.com/watch?v=_ZvnD73m40o",
+            "thumbnail_url": "",
+            "views": "조회수 8.2만회"
+        },
+        {
+            "title": "엔비디아 CEO 젠슨 황 GTC 2026 키노트 하이라이트",
+            "channel": "NVIDIA",
+            "link": "https://www.youtube.com/watch?v=U9mJuUkhUzk",
+            "thumbnail_url": "",
+            "views": "조회수 230만회"
+        },
+        {
+            "title": "코딩하는 AI, 데빈(Devin) 2.0 실사용 리뷰",
+            "channel": "노마드 코더 Nomad Coders",
+            "link": "https://www.youtube.com/watch?v=Yx3i2w2rOa0",
+            "thumbnail_url": "",
+            "views": "조회수 45만회"
+        },
+        {
+            "title": "AGI는 정말 올까? 딥러닝의 한계와 새로운 가능성",
+            "channel": "슈카월드",
+            "link": "https://www.youtube.com/watch?v=xZ_pD0gCkXQ",
+            "thumbnail_url": "",
+            "views": "조회수 89만회"
+        }
+    ]
+}
