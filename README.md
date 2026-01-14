@@ -48,9 +48,10 @@ npm run dev
 
 | 문서 | 설명 |
 |------|------|
-| **[HOWTOINSTALL.md](./HOWTOINSTALL.md)** | 로컬 개발 환경 설정 및 기본 사용법 |
-| **[DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)** | Cloudflare Pages 배포 가이드 |
-| **[ARCHITECTURE_PROPOSAL.md](./ARCHITECTURE_PROPOSAL.md)** | 시스템 아키텍처 및 설계 문서 |
+| **[QUICKSTART.md](./QUICKSTART.md)** | 🚀 빠른 시작 가이드 (로컬 실행) |
+| **[DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)** | 📦 Cloudflare Pages 배포 가이드 |
+| **[GEMINI_API_GUIDE.md](./GEMINI_API_GUIDE.md)** | 🤖 Gemini API 사용 가이드 (무료) |
+| **[HOWTOINSTALL.md](./HOWTOINSTALL.md)** | 📖 상세 설치 가이드 |
 
 ---
 

@@ -35,7 +35,7 @@ jobs:
       
       - name: Generate briefing data
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           echo "🤖 Generating daily briefing..."
           node scripts/generate-briefing.js
