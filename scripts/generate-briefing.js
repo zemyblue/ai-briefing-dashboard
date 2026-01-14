@@ -173,13 +173,11 @@ async function generateBriefing() {
 
             // 1. 뉴스 검증
             if (data.news) {
-                const validNews = [];
-                for (const item of data.news) {
-                    if (await validateUrl(item.link)) {
-                        validNews.push(item);
-                    }
-                }
-                data.news = validNews.slice(0, 5); // 5개만 선택
+                const newsValidationPromises = data.news.map(async (item) =>
+                    (await validateUrl(item.link)) ? item : null
+                );
+                const validatedNews = await Promise.all(newsValidationPromises);
+                data.news = validatedNews.filter(Boolean).slice(0, 5); // 5개만 선택
                 console.log(`📰 뉴스: ${data.news.length}개 유효함`);
             }
 
