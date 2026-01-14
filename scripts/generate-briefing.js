@@ -155,12 +155,9 @@ async function generateBriefing() {
           "thumbnail_url": "", 
           "views": "조회수"
         },
-        ... (10개, 최근 1개월 이내에 올라온 영상 중, 이전에 다루지 않은 신선한 AI 기술 심층 리뷰나 튜토리얼. 검증을 위해 넉넉히 10개를 생성하세요.)
+        ... (8개)
       ]
     }
-    
-    데이터는 모두 '한국어'로 작성되어야 합니다. 뉴스나 설명이 영어라면 한국어로 번역해서 출력하세요. 
-    유튜브 링크는 절대 검색 결과 페이지(results?search_query=...)가 아니어야 하며, 개별 영상 URL이어야 합니다.
     `;
 
     const jsonString = await callOpenAI(prompt);
@@ -171,18 +168,44 @@ async function generateBriefing() {
             const cleanJson = jsonString.replace(/```json/g, '').replace(/```/g, '').trim();
             const data = JSON.parse(cleanJson);
 
-            // YouTube 링크 검증 수행
-            if (data.youtube_videos) {
-                // 1. 유효성 검사
-                let validVideos = await validateVideoList(data.youtube_videos);
+            // --- 데이터 검증 및 필터링 시작 ---
+            console.log("🔍 데이터 유효성 검증 시작...");
 
-                // 2. 최대 5개까지만 사용
-                if (validVideos.length > 5) {
-                    validVideos = validVideos.slice(0, 5);
+            // 1. 뉴스 검증
+            if (data.news) {
+                const validNews = [];
+                for (const item of data.news) {
+                    if (await validateUrl(item.link)) {
+                        validNews.push(item);
+                    }
                 }
-
-                data.youtube_videos = validVideos;
+                data.news = validNews.slice(0, 5); // 5개만 선택
+                console.log(`📰 뉴스: ${data.news.length}개 유효함`);
             }
+
+            // 2. GitHub 검증
+            if (data.github_repos) {
+                const validRepos = [];
+                for (const repo of data.github_repos) {
+                    if (await validateGitHubRepo(repo.name)) {
+                        validRepos.push(repo);
+                    } else {
+                        console.log(`❌ 가짜 레포 제거됨: ${repo.name}`);
+                    }
+                }
+                data.github_repos = validRepos.slice(0, 5);
+                console.log(`💻 GitHub: ${data.github_repos.length}개 유효함`);
+            }
+
+            // 3. YouTube 검증
+            if (data.youtube_videos) {
+                data.youtube_videos = await validateVideoList(data.youtube_videos);
+                if (data.youtube_videos.length > 5) {
+                    data.youtube_videos = data.youtube_videos.slice(0, 5);
+                }
+                console.log(`📺 YouTube: ${data.youtube_videos.length}개 유효함`);
+            }
+            // --- 데이터 검증 끝 ---
 
             // 1. 파일로 저장
             const outputDir = path.join(__dirname, '../public/data');
@@ -197,11 +220,11 @@ async function generateBriefing() {
             saveBriefing(today, data);
 
             // 미리보기 출력
-            console.log("--- 요약 ---");
+            console.log("--- 최종 결과 ---");
             console.log("키워드:", data.keywords ? data.keywords.join(', ') : '없음');
-            console.log("뉴스 개수:", data.news ? data.news.length : 0);
-            console.log("GitHub 저장소:", data.github_repos ? data.github_repos.length : 0);
-            console.log("YouTube 영상:", data.youtube_videos ? data.youtube_videos.length : 0);
+            console.log("뉴스:", data.news ? data.news.length : 0);
+            console.log("GitHub:", data.github_repos ? data.github_repos.length : 0);
+            console.log("YouTube:", data.youtube_videos ? data.youtube_videos.length : 0);
 
         } catch (e) {
             console.error("JSON 파싱 실패:", e);
