@@ -48,7 +48,7 @@ npm run dev
 
 | 문서 | 설명 |
 |------|------|
-| **[AI_DEVELOPMENT_GUIDE.md](./AI_DEVELOPMENT_GUIDE.md)** | 🤖 **AI 개발 가이드** (필독!) |
+| **[AGENTS.md](./AGENTS.md)** | 🤖 **AI 에이전트 가이드** (필독!) |
 | **[QUICKSTART.md](./QUICKSTART.md)** | 🚀 빠른 시작 가이드 (로컬 실행) |
 | **[DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)** | 📦 Cloudflare Pages 배포 가이드 |
 | **[GEMINI_API_GUIDE.md](./GEMINI_API_GUIDE.md)** | 🤖 Gemini API 사용 가이드 (무료) |
