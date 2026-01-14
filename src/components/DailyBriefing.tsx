@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Sparkles, Newspaper, Github, ExternalLink, Hash, Calendar, Star, GitBranch, Cpu, Youtube, PlayCircle, X, ChevronRight } from 'lucide-react';
+import { Sparkles, Newspaper, Github, ExternalLink, Calendar, Star, Cpu, Youtube, PlayCircle, X, ChevronRight } from 'lucide-react';
 
 
 interface NewsItem {
@@ -30,7 +30,7 @@ interface RepoItem {
   reason?: string; // 트렌딩 이유
 }
 
-interface DailyBriefingProps {
+export interface DailyBriefingProps {
   date: string;
   keywords: string[];
   news: NewsItem[];
@@ -50,7 +50,7 @@ export default function DailyBriefing({ date, keywords, news, github_repos, yout
       if (videoId) {
         return `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`;
       }
-    } catch (e) {
+    } catch {
       // invalid url
     }
     return null;
@@ -94,7 +94,7 @@ export default function DailyBriefing({ date, keywords, news, github_repos, yout
           <section className="bg-slate-900/40 rounded-3xl p-6 border border-slate-800/50 backdrop-blur-sm">
             <div className="flex items-center gap-2 mb-6">
               <Sparkles className="w-4 h-4 text-yellow-400" />
-              <h2 className="text-sm font-bold tracking-wider uppercase text-slate-400">Today's Keywords</h2>
+              <h2 className="text-sm font-bold tracking-wider uppercase text-slate-400">Today&apos;s Keywords</h2>
             </div>
             <div className="flex flex-wrap gap-2">
               {keywords.map((keyword, i) => (
@@ -202,6 +202,7 @@ export default function DailyBriefing({ date, keywords, news, github_repos, yout
                 <a key={i} href={video.link} target="_blank" rel="noopener noreferrer" className="block group relative overflow-hidden rounded-xl bg-slate-900 border border-slate-800 hover:border-red-500/50 transition-all duration-300">
                   <div className="aspect-video bg-slate-800 relative">
                     {thumbnailUrl ? (
+                      // eslint-disable-next-line @next/next/no-img-element
                       <img src={thumbnailUrl} alt={video.title} className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
                     ) : (
                       <div className="flex items-center justify-center w-full h-full bg-slate-800">

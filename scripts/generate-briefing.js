@@ -1,46 +1,67 @@
-const { spawn } = require('child_process');
+// .env 파일 로드 (로컬 개발용)
+require('dotenv').config();
+
 const fs = require('fs');
 const path = require('path');
-const { saveBriefing } = require('../src/lib/db'); // DB 유틸리티 임포트
+const { saveBriefing } = require('../src/lib/db');
 
 // 오늘 날짜 포맷 (한국어)
 const today = new Date().toLocaleDateString('ko-KR', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
 });
 
-function runClaude(prompt) {
-    return new Promise((resolve, reject) => {
-        console.log("🤖 Claude에게 질문 중...");
+// OpenAI API 키 (환경 변수에서 가져오기)
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
-        // spawn을 사용하여 쉘 해석 없이 인자 전달
-        const claude = spawn('claude', ['-p', prompt]);
+if (!OPENAI_API_KEY) {
+    console.error('❌ OPENAI_API_KEY 환경 변수가 설정되지 않았습니다.');
+    console.error('GitHub Secrets에 OPENAI_API_KEY를 추가하거나, 로컬에서는 .env 파일을 사용하세요.');
+    process.exit(1);
+}
 
-        let stdoutData = '';
-        let stderrData = '';
+async function callOpenAI(prompt) {
+    console.log("🤖 OpenAI에게 질문 중...");
 
-        claude.stdout.on('data', (data) => {
-            stdoutData += data.toString();
-        });
-
-        claude.stderr.on('data', (data) => {
-            stderrData += data.toString();
-        });
-
-        claude.on('close', (code) => {
-            if (code !== 0) {
-                console.error(`Claude process exited with code ${code}`);
-                console.error("Stderr:", stderrData);
-                resolve(null);
-            } else {
-                resolve(stdoutData.trim());
+    try {
+        const response = await fetch(
+            'https://api.openai.com/v1/chat/completions',
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${OPENAI_API_KEY}`
+                },
+                body: JSON.stringify({
+                    model: 'gpt-4o-mini',  // 가장 저렴한 모델
+                    messages: [{
+                        role: 'user',
+                        content: prompt
+                    }],
+                    temperature: 0.7,
+                    max_tokens: 8192,
+                })
             }
-        });
+        );
 
-        claude.on('error', (err) => {
-            console.error("Failed to start Claude process:", err);
-            resolve(null); // Resolve null to allow script to finish gracefully
-        });
-    });
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error(`OpenAI API 오류 (${response.status}):`, errorText);
+            return null;
+        }
+
+        const data = await response.json();
+
+        if (data.choices && data.choices[0] && data.choices[0].message) {
+            const text = data.choices[0].message.content;
+            return text.trim();
+        } else {
+            console.error('OpenAI API 응답 형식 오류:', JSON.stringify(data, null, 2));
+            return null;
+        }
+    } catch (error) {
+        console.error('OpenAI API 호출 실패:', error);
+        return null;
+    }
 }
 
 async function generateBriefing() {
@@ -73,8 +94,6 @@ async function generateBriefing() {
           "language": "Python, etc",
           "url": "https://github.com/..."
         },
-
-        ... (3개, 실제 존재하는 최신 트렌딩 AI 프로젝트 위주)
         ... (5개, 실제 존재하는 최신 트렌딩 AI 프로젝트 위주)
       ],
       "youtube_videos": [
@@ -91,19 +110,17 @@ async function generateBriefing() {
     
     데이터는 모두 '한국어'로 작성되어야 합니다. 뉴스나 설명이 영어라면 한국어로 번역해서 출력하세요. 
     유튜브 링크는 절대 검색 결과 페이지(results?search_query=...)가 아니어야 하며, 개별 영상 URL이어야 합니다.
-
-
     `;
 
-    const jsonString = await runClaude(prompt);
+    const jsonString = await callOpenAI(prompt);
 
     if (jsonString) {
         try {
-            // Claude가 가끔 마크다운 코드 블록(```json ... ```)을 포함할 수 있으므로 제거
+            // Gemini가 마크다운 코드 블록(```json ... ```)을 포함할 수 있으므로 제거
             const cleanJson = jsonString.replace(/```json/g, '').replace(/```/g, '').trim();
             const data = JSON.parse(cleanJson);
 
-            // 1. 파일로 저장 (레거시 지원 및 정적 서빙용)
+            // 1. 파일로 저장
             const outputDir = path.join(__dirname, '../public/data');
             if (!fs.existsSync(outputDir)) {
                 fs.mkdirSync(outputDir, { recursive: true });
@@ -118,14 +135,18 @@ async function generateBriefing() {
             // 미리보기 출력
             console.log("--- 요약 ---");
             console.log("키워드:", data.keywords ? data.keywords.join(', ') : '없음');
+            console.log("뉴스 개수:", data.news ? data.news.length : 0);
+            console.log("GitHub 저장소:", data.github_repos ? data.github_repos.length : 0);
+            console.log("YouTube 영상:", data.youtube_videos ? data.youtube_videos.length : 0);
 
         } catch (e) {
             console.error("JSON 파싱 실패:", e);
             console.log("원본 응답:", jsonString);
         }
     } else {
-        console.log("❌ Claude로부터 응답을 받지 못했습니다.");
+        console.log("❌ OpenAI로부터 응답을 받지 못했습니다.");
     }
 }
 
 generateBriefing();
+
