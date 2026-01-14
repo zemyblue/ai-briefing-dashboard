@@ -4,11 +4,48 @@
 
 ---
 
-## 📋 프로젝트 개요
+## � 최우선 규칙 (TOP PRIORITY RULES)
+
+### Git 명령어 사용 규칙
+
+**절대 규칙:**
+- ❌ **Git commit/push를 사용자 승인 없이 자동 실행 금지**
+- ❌ `git commit`, `git push` 명령어는 `SafeToAutoRun: false`로 설정 필수
+- ✅ 사용자가 명시적으로 요청한 경우에만 실행
+- ✅ 실행 전 반드시 변경 내용을 사용자에게 보고
+
+**허용되는 Git 명령어 (자동 실행 가능):**
+```bash
+git status          # 상태 확인
+git diff            # 변경 내용 확인
+git log             # 커밋 히스토리
+git branch          # 브랜치 목록
+```
+
+**사용자 승인 필요한 Git 명령어:**
+```bash
+git add             # 파일 스테이징
+git commit          # 커밋 생성
+git push            # 원격 저장소에 푸시
+git merge           # 브랜치 병합
+git rebase          # 리베이스
+```
+
+**올바른 워크플로우:**
+1. 코드 변경 완료
+2. `npm run lint && npm test && npm run build` 실행
+3. 사용자에게 변경 내용 보고
+4. **사용자 승인 대기**
+5. 승인 후 git 명령어 실행
+
+---
+
+## �📋 프로젝트 개요
 
 **프로젝트명**: AI Briefing Dashboard  
 **목적**: 매일 오전 9시 자동으로 AI 트렌드 브리핑 생성 및 표시  
-**스택**: Next.js 16 (Static Export), TypeScript, Tailwind CSS, OpenAI API  
+**스택**: Next.js 16 (Static Export), TypeScript, Tailwind CSS, OpenAI API
+**Node.js**: v20.9.0 이상 필수 (Next.js 16 요구사항)  
 **배포**: Cloudflare Pages (정적 호스팅)  
 **자동화**: GitHub Actions (일일 데이터 생성)
 
