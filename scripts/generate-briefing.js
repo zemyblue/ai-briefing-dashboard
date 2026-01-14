@@ -145,29 +145,29 @@ async function validateYouTubeLink(url) {
     }
 }
 
-// 비디오 목록 검증 및 필터링
+// 비디오 목록 검증 및 필터링 (병렬 처리)
 async function validateVideoList(videos) {
     if (!videos || !Array.isArray(videos)) return [];
 
-    const validVideos = [];
     console.log("🔍 YouTube 비디오 링크 검증 중...");
 
-    for (const video of videos) {
-        // AI가 만든 썸네일 URL 대신 oEmbed에서 가져온 실제 썸네일을 사용할 수 있음
+    // 병렬로 모든 비디오 검증 요청 시작
+    const validationPromises = videos.map(async (video) => {
         const validation = await validateYouTubeLink(video.link);
-
         if (validation.valid) {
             console.log(`✅ 유효한 비디오: ${video.title}`);
-            // 필요한 경우 실제 데이터로 업데이트
             if (validation.thumbnail_url) video.thumbnail_url = validation.thumbnail_url;
-            if (validation.title) video.title = validation.title; // 제목도 실제 영상 제목으로 업데이트
-            validVideos.push(video);
+            if (validation.title) video.title = validation.title;
+            return video;
         } else {
             console.log(`❌ 유효하지 않은 비디오 (제거됨): ${video.link}`);
+            return null;
         }
-    }
+    });
 
-    return validVideos;
+    // 모든 검증이 끝날 때까지 대기 후 유효한 것만 필터링
+    const results = await Promise.all(validationPromises);
+    return results.filter(Boolean);
 }
 
 async function generateBriefing() {
@@ -176,37 +176,40 @@ async function generateBriefing() {
     const prompt = `
     당신은 20년차 시니어 엔지니어이자 AI 전문가입니다.
     오늘(${today}) 기준으로 최신 AI 트렌드, 뉴스, GitHub 인기 리포지토리를 분석해서 브리핑 정보를 생성해주세요.
+    
+    ★ 중요: 실제 존재하는 데이터만 사용해야 합니다. URL을 모르면 절대 지어내지 말고 비워두세요.
+    검증을 위해 각 항목을 넉넉하게 7~8개씩 생성해주세요. (검증 후 상위 5개만 사용합니다)
 
-    다음 필드를 가진 JSON 객체 하나만 출력하세요. (주석이나 설명 금지, 마크다운 코드 블록 없이 순수 JSON만 출력):
+    다음 필드를 가진 JSON 객체 하나만 출력하세요:
     {
       "date": "${today}",
       "keywords": ["키워드1", "키워드2", "키워드3", "키워드4", "키워드5"],
       "news": [
         {
           "title": "뉴스 제목 (한국어)",
-          "summary": "뉴스 요약 2~3문장 (한국어, 개발자 관점)",
-          "content": "뉴스의 상세 내용, 배경, 기술적 분석 등을 포함한 긴 글 (3~4 문단, 마크다운 형식 아님, 순수 텍스트)",
-          "link": "관련 URL (없으면 #, 유효한 실제 링크 권장)",
-          "tags": ["태그1", "태그2"]
+          "summary": "뉴스 요약",
+          "content": "상세 내용",
+          "link": "실제 뉴스 URL",
+          "tags": ["태그"]
         },
-        ... (5개, 단순 요약이 아닌 심층 분석 내용 포함)
+        ... (8개)
       ],
       "github_repos": [
         {
-          "name": "user/repo",
-          "description": "프로젝트 설명 (한국어)",
-          "reason": "이 프로젝트가 왜 지금 트렌딩인지 설명 (예: OpenAI 새 API 지원, 해커뉴스 1위 등)",
+          "name": "owner/repo",
+          "description": "설명",
+          "reason": "트렌딩 이유",
           "stars": 1000,
-          "language": "Python, etc",
-          "url": "https://github.com/..."
+          "language": "Python",
+          "url": "https://github.com/owner/repo"
         },
-        ... (5개, 실제 존재하는 최신 트렌딩 AI 프로젝트 위주)
+        ... (8개, 'openai/gpt-4' 같은 가짜 레포 금지. 실제 존재하는 레포만.)
       ],
       "youtube_videos": [
         {
-          "title": "영상 제목 (한국어)",
+          "title": "영상 제목",
           "channel": "채널명",
-          "link": "https://www.youtube.com/watch?v=VIDEO_ID (반드시 실제 존재하는 특정 영상의 직접 링크여야 함)",
+          "link": "https://www.youtube.com/watch?v=...",
           "thumbnail_url": "", 
           "views": "조회수"
         },
@@ -226,31 +229,30 @@ async function generateBriefing() {
             // --- 데이터 검증 및 필터링 시작 ---
             console.log("🔍 데이터 유효성 검증 시작...");
 
-            // 1. 뉴스 검증
+            // 1. 뉴스 검증 (병렬 처리)
             if (data.news) {
-                const newsValidationPromises = data.news.map(async (item) =>
-                    (await validateUrl(item.link)) ? item : null
-                );
-                const validatedNews = await Promise.all(newsValidationPromises);
-                data.news = validatedNews.filter(Boolean).slice(0, 5); // 5개만 선택
+                const newsPromises = data.news.map(async (item) => {
+                    if (await validateUrl(item.link)) return item;
+                    return null;
+                });
+                const validNews = (await Promise.all(newsPromises)).filter(Boolean);
+                data.news = validNews.slice(0, 5);
                 console.log(`📰 뉴스: ${data.news.length}개 유효함`);
             }
 
-            // 2. GitHub 검증
+            // 2. GitHub 검증 (병렬 처리)
             if (data.github_repos) {
-                const validRepos = [];
-                for (const repo of data.github_repos) {
-                    if (await validateGitHubRepo(repo.name)) {
-                        validRepos.push(repo);
-                    } else {
-                        console.log(`❌ 가짜 레포 제거됨: ${repo.name}`);
-                    }
-                }
+                const repoPromises = data.github_repos.map(async (repo) => {
+                    if (await validateGitHubRepo(repo.name)) return repo;
+                    console.log(`❌ 가짜 레포 제거됨: ${repo.name}`);
+                    return null;
+                });
+                const validRepos = (await Promise.all(repoPromises)).filter(Boolean);
                 data.github_repos = validRepos.slice(0, 5);
                 console.log(`💻 GitHub: ${data.github_repos.length}개 유효함`);
             }
 
-            // 3. YouTube 검증
+            // 3. YouTube 검증 (병렬 처리된 함수 호출)
             if (data.youtube_videos) {
                 data.youtube_videos = await validateVideoList(data.youtube_videos);
                 if (data.youtube_videos.length > 5) {
