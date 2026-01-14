@@ -1,85 +1,201 @@
-# 🚀 AI Daily Briefing: 설치 및 배포 가이드
+# 🚀 AI Daily Briefing: 설치 가이드
 
-이 프로젝트를 로컬에서 실행하거나, Cloudflare Pages와 같은 정적 호스팅 서비스에 배포하는 방법을 안내합니다.
-
-## 1. 전제 조건 (Prerequisites)
-*   **Node.js** 18 버전 이상
-*   **Git** 설치 완료
-*   **GitHub 계정** 및 레포지토리 생성
-*   **Anthropic API Key** (Claude CLI 사용 시 필요)
-*   **(선택) n8n** (자동화를 위한 도구)
-
-## 2. 프로젝트 설정 (Local Setup)
-
-1.  **패키지 설치**:
-    ```bash
-    npm install
-    ```
-
-2.  **환경 변수 설정**:
-    (Claude CLI 로그인이 되어 있어야 합니다. 터미널에서 `claude login` 수행)
-
-3.  **데이터 초기화**:
-    ```bash
-    node scripts/init-db.js
-    ```
-
-4.  **개발 서버 실행**:
-    ```bash
-    npm run dev
-    ```
+> ⚠️ **중요**: 이 문서는 기본 설치 가이드입니다. **배포 및 자동화 설정**은 [`DEPLOYMENT_GUIDE.md`](./DEPLOYMENT_GUIDE.md)를 참조하세요.
 
 ---
 
-## 3. 정적 호스팅 배포 (Cloudflare Pages)
+## 📋 개요
 
-이 서비스는 매일 새로운 데이터로 업데이트되어야 합니다. 정적 호스팅(Static Hosting)을 사용하려면 **"데이터 갱신 -> Git Push -> 자동 배포"** 파이프라인을 구축해야 합니다.
+이 프로젝트는 AI 기술 관련 최신 뉴스를 매일 자동으로 수집하여 브리핑하는 Next.js 기반 정적 웹사이트입니다.
 
-### 단계 1: GitHub 업로드
-1.  GitHub에 새 Repository를 만듭니다 (예: `ai-briefing-dashboard`).
-2.  로컬 코드를 푸시합니다:
-    ```bash
-    git init
-    git remote add origin https://github.com/YOUR_ID/ai-briefing-dashboard.git
-    git add .
-    git commit -m "Initial commit"
-    git push -u origin main
-    ```
-
-### 단계 2: Cloudflare Pages 연결
-1.  Cloudflare Dashboard에 로그인합니다.
-2.  **Workers & Pages** -> **Create Application** -> **Connect to Git** 선택.
-3.  방금 만든 GitHub 레포지토리를 선택합니다.
-4.  **Build Settings**을 다음과 같이 설정합니다:
-    *   **Framework Preset**: `Next.js (Static Export)`
-    *   **Build Command**: `npm run build`
-    *   **Output Directory**: `out`
-5.  **Save and Deploy** 클릭.
-
-### 단계 3: 자동화 (n8n)
-매일 아침 9시에 최신 뉴스를 받아오고 Cloudflare에 배포되도록 n8n을 설정합니다.
-
-1.  **n8n**에서 새 워크플로우 생성.
-2.  **Schedule Trigger** 노드 추가 (매일 09:00).
-3.  **Execute Command** 노드 추가.
-    *   Command:
-        ```bash
-        /bin/bash /Users/zemyblue/Documents/projects/ai_dashboard/ai-briefing-dashboard/run_daily_briefing.sh
-        ```
-    *   *주의: 이 스크립트 내부에는 `git push` 명령어가 포함되어 있어야 Cloudflare가 변경사항을 감지합니다.*
+### 주요 기능
+- 📰 AI 관련 최신 뉴스 자동 수집
+- 🔍 키워드 트렌드 분석
+- 📊 GitHub 트렌딩 저장소
+- 🎥 YouTube 인기 영상
+- 🤖 Claude AI를 활용한 콘텐츠 생성
 
 ---
 
-## 4. API 등록 및 키 관리 (API Strategy)
+## 1️⃣ 로컬 개발 환경 설정
 
-현재 이 프로젝트는 로컬 **Claude CLI**를 사용하므로 별도의 API Key를 코드에 박아넣을 필요가 없습니다. 하지만 추후 Vercel/Cloudflare Functions와 같은 **서버리스(Serverless)** 환경으로 완전히 이전하려면 다음 API가 필요합니다.
+### 전제 조건
+- **Node.js** 18 버전 이상
+- **npm** 또는 **yarn**
+- **Git**
 
-1.  **Anthropic API (Claude)**
-    *   [console.anthropic.com](https://console.anthropic.com) 접속 -> API Key 발급
-    *   `.env.local` 파일에 `ANTHROPIC_API_KEY=sk-...` 추가.
+### 설치 단계
 
-2.  **Tavily API (검색)**
-    *   [tavily.com](https://tavily.com) 접속 -> API Key 발급
-    *   `.env.local` 파일에 `TAVILY_API_KEY=tvly-...` 추가.
+```bash
+# 1. 저장소 클론 (또는 다운로드)
+git clone https://github.com/YOUR_USERNAME/ai-briefing-dashboard.git
+cd ai-briefing-dashboard
 
-이렇게 설정하면 `run_daily_briefing.sh` 대신 Next.js API Route(`src/app/api/cron/route.ts`)를 호출하는 것만으로 업데이트가 가능해집니다.
+# 2. 패키지 설치
+npm install
+
+# 3. 데이터베이스 초기화
+node scripts/init-db.js
+
+# 4. 개발 서버 실행
+npm run dev
+```
+
+개발 서버가 실행되면 브라우저에서 `http://localhost:3000`으로 접속할 수 있습니다.
+
+---
+
+## 2️⃣ 프로젝트 구조
+
+```
+ai-briefing-dashboard/
+├── .github/
+│   └── workflows/
+│       └── daily-briefing.yml    # GitHub Actions 워크플로우
+├── public/
+│   └── data/
+│       └── briefing.json         # 브리핑 데이터
+├── scripts/
+│   ├── init-db.js                # DB 초기화
+│   └── generate-briefing.js      # 브리핑 생성
+├── src/
+│   ├── app/                      # Next.js App Router
+│   ├── components/               # React 컴포넌트
+│   └── lib/                      # 유틸리티 함수
+├── briefings.db                  # SQLite 데이터베이스
+├── next.config.js                # Next.js 설정
+└── package.json
+```
+
+---
+
+## 3️⃣ 주요 명령어
+
+### 개발
+
+```bash
+# 개발 서버 실행
+npm run dev
+
+# 타입 체크
+npm run type-check
+
+# 린트
+npm run lint
+```
+
+### 빌드 및 배포
+
+```bash
+# 정적 사이트 빌드 (out 디렉토리 생성)
+npm run build
+
+# 빌드된 사이트 미리보기
+npx serve out
+```
+
+### 데이터 생성
+
+```bash
+# 브리핑 데이터 수동 생성
+node scripts/generate-briefing.js
+
+# 데이터베이스 초기화
+node scripts/init-db.js
+```
+
+---
+
+## 4️⃣ 배포 및 자동화
+
+### 로컬에서 빌드 → Cloudflare Pages 배포
+
+자세한 배포 가이드는 **[`DEPLOYMENT_GUIDE.md`](./DEPLOYMENT_GUIDE.md)**를 참조하세요.
+
+이 가이드에서는 다음 내용을 다룹니다:
+1. ✅ GitHub 레포지토리 설정
+2. ✅ GitHub Actions 워크플로우 설정
+3. ✅ Cloudflare Pages 연동
+4. ✅ n8n을 통한 자동화 (호스팅 서비스)
+5. ✅ 매일 자동 업데이트 설정
+
+### n8n 자동화 설정
+
+n8n을 사용한 자동화 설정은 **[`N8N_SETUP.md`](./N8N_SETUP.md)**를 참조하세요.
+
+---
+
+## 5️⃣ 환경 변수 (선택사항)
+
+프로젝트는 기본적으로 환경 변수 없이 작동하지만, GitHub Actions에서 자동화를 위해서는 다음 환경 변수가 필요합니다:
+
+| 변수명 | 설명 | 필수 여부 |
+|--------|------|-----------|
+| `ANTHROPIC_API_KEY` | Claude API 키 | GitHub Actions에서 필수 |
+| `CLOUDFLARE_API_TOKEN` | Cloudflare API 토큰 | 배포 시 필수 |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare 계정 ID | 배포 시 필수 |
+
+> 💡 **로컬 개발 시**: Claude CLI가 설치되어 있다면 `claude login`으로 인증 후 사용 가능
+
+---
+
+## 6️⃣ 문제 해결
+
+### 개발 서버가 시작되지 않음
+
+```bash
+# node_modules 삭제 후 재설치
+rm -rf node_modules package-lock.json
+npm install
+```
+
+### 데이터베이스 오류
+
+```bash
+# 데이터베이스 재초기화
+rm briefings.db
+node scripts/init-db.js
+```
+
+### 빌드 오류
+
+```bash
+# Next.js 캐시 삭제
+rm -rf .next out
+npm run build
+```
+
+---
+
+## 7️⃣ 기술 스택
+
+- **프레임워크**: Next.js 14 (App Router)
+- **언어**: TypeScript, JavaScript
+- **스타일링**: CSS Modules
+- **데이터베이스**: SQLite
+- **AI**: Claude (Anthropic)
+- **배포**: Cloudflare Pages
+- **자동화**: GitHub Actions, n8n
+
+---
+
+## 8️⃣ 다음 단계
+
+1. ✅ 로컬 개발 환경 설정 완료
+2. 📖 [`DEPLOYMENT_GUIDE.md`](./DEPLOYMENT_GUIDE.md) 읽기
+3. 🚀 Cloudflare Pages에 배포
+4. 🤖 n8n으로 자동화 설정
+5. 🎉 매일 아침 최신 AI 브리핑 받기!
+
+---
+
+## 📞 도움이 필요하신가요?
+
+- 배포 관련: [`DEPLOYMENT_GUIDE.md`](./DEPLOYMENT_GUIDE.md)
+- n8n 설정: [`N8N_SETUP.md`](./N8N_SETUP.md)
+- 아키텍처: [`ARCHITECTURE_PROPOSAL.md`](./ARCHITECTURE_PROPOSAL.md)
+
+---
+
+**Happy Coding! 🎉**
+

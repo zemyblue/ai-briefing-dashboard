@@ -1,36 +1,186 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤖 AI Daily Briefing Dashboard
 
-## Getting Started
+매일 아침 최신 AI 기술 뉴스를 자동으로 수집하여 브리핑하는 Next.js 기반 웹 대시보드입니다.
 
-First, run the development server:
+![AI Daily Briefing](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+
+---
+
+## ✨ 주요 기능
+
+- 📰 **AI 뉴스 자동 수집**: Claude AI를 활용한 최신 AI 기술 뉴스 큐레이션
+- 🔍 **키워드 트렌드**: 오늘의 주요 AI 키워드 분석
+- 📊 **GitHub 트렌딩**: AI 관련 인기 오픈소스 프로젝트
+- 🎥 **YouTube 트렌딩**: AI 기술 관련 인기 영상
+- 🤖 **완전 자동화**: n8n + GitHub Actions를 통한 매일 자동 업데이트
+- ⚡ **정적 호스팅**: Cloudflare Pages를 통한 빠른 배포
+
+---
+
+## 🚀 빠른 시작
+
+### 로컬 개발 환경
 
 ```bash
+# 저장소 클론
+git clone https://github.com/YOUR_USERNAME/ai-briefing-dashboard.git
+cd ai-briefing-dashboard
+
+# 패키지 설치
+npm install
+
+# 데이터베이스 초기화
+node scripts/init-db.js
+
+# 개발 서버 실행
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 결과를 확인하세요.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 문서
 
-## Learn More
+프로젝트 설정 및 배포에 대한 자세한 내용은 다음 문서를 참조하세요:
 
-To learn more about Next.js, take a look at the following resources:
+| 문서 | 설명 |
+|------|------|
+| **[HOWTOINSTALL.md](./HOWTOINSTALL.md)** | 로컬 개발 환경 설정 및 기본 사용법 |
+| **[DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)** | Cloudflare Pages 배포 가이드 |
+| **[ARCHITECTURE_PROPOSAL.md](./ARCHITECTURE_PROPOSAL.md)** | 시스템 아키텍처 및 설계 문서 |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏗️ 아키텍처
 
-## Deploy on Vercel
+```
+┌─────────────────────────────────────────────┐
+│  GitHub Actions (매일 오전 9시 자동 실행)    │
+│  1. 브리핑 데이터 생성 (Claude API)          │
+│  2. 날짜별 JSON 파일 저장                    │
+│  3. latest.json, dates.json 업데이트         │
+│  4. Git Push                                │
+└──────────────────┬──────────────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────────────┐
+│  GitHub Repository (Public)                 │
+│  public/data/                               │
+│    ├── latest.json         (최신 브리핑)     │
+│    ├── dates.json          (날짜 목록)       │
+│    └── 2026/01/14.json     (날짜별 브리핑)   │
+└──────────────────┬──────────────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────────────┐
+│  Cloudflare Pages (1회 배포)                │
+│  - 코드 변경 시에만 재배포                   │
+│  - 런타임에 GitHub Raw에서 JSON 로드         │
+└─────────────────────────────────────────────┘
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ 기술 스택
+
+### Frontend
+- **Next.js 14** (App Router)
+- **TypeScript**
+- **CSS Modules**
+
+### Backend & Data
+- **SQLite** (로컬 데이터베이스)
+- **Claude AI** (Anthropic) - 콘텐츠 생성
+- **GitHub API** - 트렌딩 저장소
+- **YouTube Data API** - 인기 영상
+
+### DevOps & Automation
+- **GitHub Actions** - CI/CD 및 일일 데이터 생성
+- **Cloudflare Pages** - 정적 호스팅
+
+---
+
+## 📦 프로젝트 구조
+
+```
+ai-briefing-dashboard/
+├── .github/
+│   └── workflows/
+│       └── daily-briefing.yml    # GitHub Actions 워크플로우
+├── public/
+│   └── data/
+│       └── briefing.json         # 브리핑 데이터
+├── scripts/
+│   ├── init-db.js                # DB 초기화
+│   └── generate-briefing.js      # 브리핑 생성
+├── src/
+│   ├── app/                      # Next.js App Router
+│   │   ├── page.tsx              # 메인 페이지
+│   │   └── layout.tsx            # 레이아웃
+│   ├── components/               # React 컴포넌트
+│   │   ├── BriefingCard.tsx
+│   │   ├── KeywordCloud.tsx
+│   │   └── ...
+│   └── lib/                      # 유틸리티 함수
+│       └── db.js                 # 데이터베이스 헬퍼
+├── DEPLOYMENT_GUIDE.md           # 배포 가이드
+├── N8N_SETUP.md                  # n8n 설정 가이드
+├── HOWTOINSTALL.md               # 설치 가이드
+└── README.md                     # 이 파일
+```
+
+---
+
+## 🔄 자동화 플로우
+
+1. **GitHub Actions (매일 오전 9시)**: Schedule Trigger 실행
+2. **데이터 생성**: 
+   - Claude AI로 브리핑 데이터 생성
+   - 날짜별 JSON 파일 저장 (`2026/01/14.json`)
+   - `latest.json` 업데이트
+   - `dates.json` 업데이트 (날짜 목록)
+3. **Git Push**: GitHub Repository에 데이터 커밋
+4. **사용자 방문**: 
+   - Cloudflare Pages 사이트 접속
+   - JavaScript가 GitHub Raw에서 최신 JSON 로드
+   - 최신 브리핑 확인! 🎉
+
+---
+
+## 🌐 배포
+
+이 프로젝트는 **Cloudflare Pages**에 배포하도록 설계되었습니다.
+
+자세한 배포 방법은 **[DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)**를 참조하세요.
+
+---
+
+## 🤝 기여
+
+기여는 언제나 환영합니다! 다음 단계를 따라주세요:
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 라이선스
+
+이 프로젝트는 MIT 라이선스 하에 배포됩니다.
+
+---
+
+## 📞 문의
+
+질문이나 제안사항이 있으시면 이슈를 생성해주세요.
+
+---
+
+**Made with ❤️ and AI**
+

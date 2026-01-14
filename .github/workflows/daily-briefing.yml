@@ -1,0 +1,110 @@
+name: Daily Briefing Update
+
+on:
+  # 매일 한국 시간 오전 9시 자동 실행 (UTC 00:00)
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # 수동 실행 가능
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: '18'
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Initialize database
+        run: node scripts/init-db.js
+      
+      - name: Generate briefing data
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          echo "🤖 Generating daily briefing..."
+          node scripts/generate-briefing.js
+          
+          # 생성된 데이터 확인
+          if [ -f "public/data/briefing.json" ]; then
+            echo "✅ Briefing data generated successfully"
+            ls -lh public/data/briefing.json
+          else
+            echo "❌ Failed to generate briefing data"
+            exit 1
+          fi
+      
+      - name: Organize data files
+        run: |
+          # 한국 시간 기준 날짜
+          DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)
+          YEAR=$(TZ=Asia/Seoul date +%Y)
+          MONTH=$(TZ=Asia/Seoul date +%m)
+          DAY=$(TZ=Asia/Seoul date +%d)
+          
+          echo "📅 Processing date: $DATE"
+          
+          # 디렉토리 생성
+          mkdir -p public/data/$YEAR/$MONTH
+          
+          # 날짜별 파일 저장
+          cp public/data/briefing.json public/data/$YEAR/$MONTH/$DAY.json
+          echo "✅ Created: public/data/$YEAR/$MONTH/$DAY.json"
+          
+          # latest.json 업데이트
+          cp public/data/briefing.json public/data/latest.json
+          echo "✅ Updated: public/data/latest.json"
+          
+          # dates.json 생성 (모든 날짜 목록)
+          echo "📝 Generating dates.json..."
+          echo '{"dates":[' > public/data/dates.json
+          find public/data -type f -name "*.json" -path "*/[0-9][0-9][0-9][0-9]/[0-9][0-9]/*.json" | \
+            sed 's|public/data/\([0-9]\{4\}\)/\([0-9]\{2\}\)/\([0-9]\{2\}\)\.json|\1-\2-\3|' | \
+            sort -r | \
+            sed 's/.*/"&"/' | \
+            paste -sd ',' - >> public/data/dates.json
+          echo ']}' >> public/data/dates.json
+          
+          # 파일 크기 확인
+          echo "📊 File sizes:"
+          ls -lh public/data/latest.json
+          ls -lh public/data/dates.json
+          ls -lh public/data/$YEAR/$MONTH/$DAY.json
+          
+          # dates.json 내용 미리보기
+          echo "📋 dates.json preview:"
+          head -n 5 public/data/dates.json
+      
+      - name: Commit and push
+        run: |
+          DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)
+          
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add public/data/
+          
+          # 변경사항이 있는지 확인
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            git commit -m "chore: update daily briefing [$DATE]"
+            git push
+            echo "✅ Successfully pushed to GitHub"
+            echo "📅 Date: $DATE"
+            echo "🔗 Data URL: https://raw.githubusercontent.com/${{ github.repository }}/main/public/data/latest.json"
+          fi
