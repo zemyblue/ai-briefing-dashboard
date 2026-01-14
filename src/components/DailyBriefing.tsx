@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Sparkles, Newspaper, Github, ExternalLink, Hash, Calendar, Star, GitBranch, Cpu, Youtube, PlayCircle, X, ChevronRight } from 'lucide-react';
+import { Sparkles, Newspaper, Github, ExternalLink, Calendar, Star, Cpu, Youtube, PlayCircle, X, ChevronRight } from 'lucide-react';
 
 
 interface NewsItem {
@@ -50,7 +50,7 @@ export default function DailyBriefing({ date, keywords, news, github_repos, yout
       if (videoId) {
         return `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`;
       }
-    } catch (e) {
+    } catch {
       // invalid url
     }
     return null;
@@ -94,7 +94,7 @@ export default function DailyBriefing({ date, keywords, news, github_repos, yout
           <section className="bg-slate-900/40 rounded-3xl p-6 border border-slate-800/50 backdrop-blur-sm">
             <div className="flex items-center gap-2 mb-6">
               <Sparkles className="w-4 h-4 text-yellow-400" />
-              <h2 className="text-sm font-bold tracking-wider uppercase text-slate-400">Today's Keywords</h2>
+              <h2 className="text-sm font-bold tracking-wider uppercase text-slate-400">Today&apos;s Keywords</h2>
             </div>
             <div className="flex flex-wrap gap-2">
               {keywords.map((keyword, i) => (

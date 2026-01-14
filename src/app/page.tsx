@@ -7,7 +7,7 @@ import DailyBriefing from '@/components/DailyBriefing';
 const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/zemyblue/ai-briefing-dashboard/main/public/data';
 
 export default function Home() {
-  const [data, setData] = useState<any>(null);
+  const [data, setData] = useState<unknown>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
@@ -59,6 +59,6 @@ export default function Home() {
     );
   }
 
-  return <DailyBriefing {...data} />;
+  return <DailyBriefing {...(data as Record<string, unknown>)} />;
 }
 
