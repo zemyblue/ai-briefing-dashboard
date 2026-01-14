@@ -30,7 +30,7 @@ interface RepoItem {
   reason?: string; // 트렌딩 이유
 }
 
-interface DailyBriefingProps {
+export interface DailyBriefingProps {
   date: string;
   keywords: string[];
   news: NewsItem[];

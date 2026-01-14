@@ -1,13 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import DailyBriefing from '@/components/DailyBriefing';
+import DailyBriefing, { DailyBriefingProps } from '@/components/DailyBriefing';
 
 // GitHub Raw URL (Public 레포지토리로 변경 후 수정 필요)
 const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/zemyblue/ai-briefing-dashboard/main/public/data';
 
 export default function Home() {
-  const [data, setData] = useState<unknown>(null);
+  const [data, setData] = useState<DailyBriefingProps | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
@@ -59,6 +59,11 @@ export default function Home() {
     );
   }
 
-  return <DailyBriefing {...(data as Record<string, unknown>)} />;
+
+  if (!data) {
+    return null;
+  }
+
+  return <DailyBriefing {...data} />;
 }
 
