@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 // GitHub Raw URL (Public 레포지토리로 변경 후 수정 필요)
-const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/YOUR_USERNAME/ai-briefing-dashboard/main/public/data';
+const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/zemyblue/ai-briefing-dashboard/main/public/data';
 
 export default function Archive() {
     const [dates, setDates] = useState<string[]>([]);
