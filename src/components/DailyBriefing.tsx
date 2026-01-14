@@ -202,6 +202,7 @@ export default function DailyBriefing({ date, keywords, news, github_repos, yout
                 <a key={i} href={video.link} target="_blank" rel="noopener noreferrer" className="block group relative overflow-hidden rounded-xl bg-slate-900 border border-slate-800 hover:border-red-500/50 transition-all duration-300">
                   <div className="aspect-video bg-slate-800 relative">
                     {thumbnailUrl ? (
+                      // eslint-disable-next-line @next/next/no-img-element
                       <img src={thumbnailUrl} alt={video.title} className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
                     ) : (
                       <div className="flex items-center justify-center w-full h-full bg-slate-800">
