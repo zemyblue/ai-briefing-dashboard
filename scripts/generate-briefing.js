@@ -64,6 +64,57 @@ async function callOpenAI(prompt) {
     }
 }
 
+// YouTube 링크 유효성 검사 (oEmbed API 사용 - API Key 불필요)
+async function validateYouTubeLink(url) {
+    if (!url || !url.includes('youtube.com/watch')) {
+        return false;
+    }
+
+    try {
+        const oembedUrl = `https://www.youtube.com/oembed?url=${encodeURIComponent(url)}&format=json`;
+        const response = await fetch(oembedUrl);
+
+        if (response.status === 200) {
+            // 유효한 비디오인 경우 썸네일 정보 등을 업데이트할 수 있음
+            const data = await response.json();
+            return {
+                valid: true,
+                title: data.title, // 실제 제목으로 교체 가능
+                thumbnail_url: data.thumbnail_url
+            };
+        }
+        return { valid: false };
+    } catch (e) {
+        console.warn(`YouTube 링크 검증 실패: ${url}`, e.message);
+        return { valid: false };
+    }
+}
+
+// 비디오 목록 검증 및 필터링
+async function validateVideoList(videos) {
+    if (!videos || !Array.isArray(videos)) return [];
+
+    const validVideos = [];
+    console.log("🔍 YouTube 비디오 링크 검증 중...");
+
+    for (const video of videos) {
+        // AI가 만든 썸네일 URL 대신 oEmbed에서 가져온 실제 썸네일을 사용할 수 있음
+        const validation = await validateYouTubeLink(video.link);
+
+        if (validation.valid) {
+            console.log(`✅ 유효한 비디오: ${video.title}`);
+            // 필요한 경우 실제 데이터로 업데이트
+            if (validation.thumbnail_url) video.thumbnail_url = validation.thumbnail_url;
+            if (validation.title) video.title = validation.title; // 제목도 실제 영상 제목으로 업데이트
+            validVideos.push(video);
+        } else {
+            console.log(`❌ 유효하지 않은 비디오 (제거됨): ${video.link}`);
+        }
+    }
+
+    return validVideos;
+}
+
 async function generateBriefing() {
     console.log(`📅 ${today} AI 브리핑 생성 시작...`);
 
@@ -104,7 +155,7 @@ async function generateBriefing() {
           "thumbnail_url": "", 
           "views": "조회수"
         },
-        ... (5개, 최근 1개월 이내에 올라온 영상 중, 이전에 다루지 않은 신선한 AI 기술 심층 리뷰나 튜토리얼)
+        ... (10개, 최근 1개월 이내에 올라온 영상 중, 이전에 다루지 않은 신선한 AI 기술 심층 리뷰나 튜토리얼. 검증을 위해 넉넉히 10개를 생성하세요.)
       ]
     }
     
@@ -119,6 +170,19 @@ async function generateBriefing() {
             // Gemini가 마크다운 코드 블록(```json ... ```)을 포함할 수 있으므로 제거
             const cleanJson = jsonString.replace(/```json/g, '').replace(/```/g, '').trim();
             const data = JSON.parse(cleanJson);
+
+            // YouTube 링크 검증 수행
+            if (data.youtube_videos) {
+                // 1. 유효성 검사
+                let validVideos = await validateVideoList(data.youtube_videos);
+
+                // 2. 최대 5개까지만 사용
+                if (validVideos.length > 5) {
+                    validVideos = validVideos.slice(0, 5);
+                }
+
+                data.youtube_videos = validVideos;
+            }
 
             // 1. 파일로 저장
             const outputDir = path.join(__dirname, '../public/data');
