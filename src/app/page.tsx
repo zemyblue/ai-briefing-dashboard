@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import DailyBriefing, { DailyBriefingProps } from '@/components/DailyBriefing';
 
-// GitHub Raw URL (Public 레포지토리로 변경 후 수정 필요)
+// GitHub Raw URL (Public 레포지토리 또는 배포 환경)
 const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/zemyblue/ai-briefing-dashboard/main/public/data';
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
   useEffect(() => {
     // GitHub Raw에서 최신 브리핑 데이터 로드
     fetch(`${GITHUB_RAW_URL}/latest.json`, {
-      cache: 'default'  // 브라우저 기본 캐싱 전략 (Cloudflare CDN 캐싱 활용)
+      cache: 'default'
     })
       .then(res => {
         if (!res.ok) throw new Error('Failed to fetch');
