@@ -64,6 +64,61 @@ async function callOpenAI(prompt) {
     }
 }
 
+// 일반 URL 유효성 검사 (뉴스 등)
+async function validateUrl(url) {
+    if (!url || url.includes('example.com') || url === '#') return false;
+
+    try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 3000); // 3초 타임아웃
+
+        const response = await fetch(url, {
+            method: 'HEAD',
+            signal: controller.signal,
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (compatible; AI-Briefing-Bot/1.0)' // 봇 차단 방지
+            }
+        });
+        clearTimeout(timeoutId);
+
+        return response.ok;
+    } catch (e) {
+        // HEAD 메서드가 막힌 경우 GET으로 재시도 (일부 사이트 대응)
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 3000);
+
+            const response = await fetch(url, {
+                method: 'GET',
+                signal: controller.signal,
+                headers: { 'User-Agent': 'Mozilla/5.0' }
+            });
+            clearTimeout(timeoutId);
+            return response.ok;
+        } catch (e2) {
+            console.warn(`URL 검증 실패: ${url}`);
+            return false;
+        }
+    }
+}
+
+// GitHub 레포지토리 검증
+async function validateGitHubRepo(repoName) {
+    if (!repoName || !repoName.includes('/')) return false;
+
+    try {
+        const response = await fetch(`https://api.github.com/repos/${repoName}`, {
+            headers: {
+                'User-Agent': 'AI-Briefing-Dashboard'
+            }
+        });
+        return response.status === 200;
+    } catch (e) {
+        console.warn(`GitHub 레포 검증 실패: ${repoName}`);
+        return false;
+    }
+}
+
 // YouTube 링크 유효성 검사 (oEmbed API 사용 - API Key 불필요)
 async function validateYouTubeLink(url) {
     if (!url || !url.includes('youtube.com/watch')) {
