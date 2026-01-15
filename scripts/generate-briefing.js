@@ -170,50 +170,189 @@ async function validateVideoList(videos) {
     return results.filter(Boolean);
 }
 
+// GitHub Trending 데이터 가져오기 (실제 API)
+async function fetchGitHubTrending() {
+    try {
+        // GitHub Trending 비공식 API 사용
+        const response = await fetch('https://gh-trending-api.herokuapp.com/repositories?language=&since=daily');
+        if (!response.ok) {
+            console.warn('GitHub Trending API 실패, 대체 방법 시도...');
+            return [];
+        }
+        const repos = await response.json();
+        return repos.slice(0, 8).map(repo => ({
+            name: repo.repositoryName,
+            description: repo.description || 'No description',
+            reason: `오늘 ${repo.starsSince || 0}개의 별을 받으며 트렌딩 중`,
+            stars: repo.totalStars || 0,
+            language: repo.language || 'Unknown',
+            url: repo.url || `https://github.com/${repo.repositoryName}`
+        }));
+    } catch (e) {
+        console.error('GitHub Trending 데이터 수집 실패:', e);
+        return [];
+    }
+}
+
+// HackerNews 최신 AI 관련 뉴스 가져오기
+async function fetchHackerNews() {
+    try {
+        // HackerNews Top Stories API
+        const topStoriesResponse = await fetch('https://hacker-news.firebaseio.com/v0/topstories.json');
+        const topStories = await topStoriesResponse.json();
+
+        // 상위 50개 스토리만 가져오기
+        const storyPromises = topStories.slice(0, 50).map(async (id) => {
+            const storyResponse = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
+            return storyResponse.json();
+        });
+
+        const stories = await Promise.all(storyPromises);
+
+        // AI/ML 관련 키워드 필터링
+        const aiKeywords = ['ai', 'ml', 'machine learning', 'deep learning', 'gpt', 'llm', 'neural', 'chatgpt', 'openai', 'artificial intelligence', 'transformer', 'model'];
+        const aiStories = stories.filter(story => {
+            if (!story || !story.title) return false;
+            const text = (story.title + ' ' + (story.text || '')).toLowerCase();
+            return aiKeywords.some(keyword => text.includes(keyword));
+        });
+
+        return aiStories.slice(0, 8).map(story => ({
+            title: story.title,
+            link: story.url || `https://news.ycombinator.com/item?id=${story.id}`,
+            source: 'Hacker News',
+            score: story.score || 0
+        }));
+    } catch (e) {
+        console.error('HackerNews 데이터 수집 실패:', e);
+        return [];
+    }
+}
+
+// YouTube AI 관련 최신 영상 가져오기 (RSS 사용)
+async function fetchYouTubeVideos() {
+    try {
+        // 유명 AI 채널의 최신 영상 (RSS 사용)
+        const channels = [
+            'UCYO_jab_esuFRV4b17AJtAw',  // 3Blue1Brown
+            'UCbfYPyITQ-7l4upoX8nvctg',  // Two Minute Papers
+            'UCUHW94eEFW7hkUMVaZz4eDg',  // Siraj Raval
+        ];
+
+        const videoPromises = channels.map(async (channelId) => {
+            try {
+                const response = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`);
+                const xml = await response.text();
+
+                // XML 파싱 (간단한 정규식 사용)
+                const videoMatches = [...xml.matchAll(/<entry>[\s\S]*?<\/entry>/g)];
+                const videos = videoMatches.slice(0, 3).map(match => {
+                    const entry = match[0];
+                    const videoId = entry.match(/<yt:videoId>(.*?)<\/yt:videoId>/)?.[1];
+                    const title = entry.match(/<title>(.*?)<\/title>/)?.[1];
+                    const channelName = entry.match(/<name>(.*?)<\/name>/)?.[1];
+                    const published = entry.match(/<published>(.*?)<\/published>/)?.[1];
+
+                    return {
+                        title: title || 'Unknown Title',
+                        channel: channelName || 'Unknown Channel',
+                        link: videoId ? `https://www.youtube.com/watch?v=${videoId}` : '',
+                        thumbnail_url: videoId ? `https://img.youtube.com/vi/${videoId}/mqdefault.jpg` : '',
+                        published: published || ''
+                    };
+                }).filter(v => v.link);
+
+                return videos;
+            } catch (e) {
+                console.warn(`채널 ${channelId} RSS 수집 실패`);
+                return [];
+            }
+        });
+
+        const allVideos = (await Promise.all(videoPromises)).flat();
+        return allVideos.slice(0, 8);
+    } catch (e) {
+        console.error('YouTube 데이터 수집 실패:', e);
+        return [];
+    }
+}
+
 async function generateBriefing() {
     console.log(`📅 ${today} AI 브리핑 생성 시작...`);
 
-    const prompt = `
-    당신은 20년차 시니어 엔지니어이자 AI 전문가입니다.
-    오늘(${today}) 기준으로 최신 AI 트렌드, 뉴스, GitHub 인기 리포지토리를 분석해서 브리핑 정보를 생성해주세요.
-    
-    ★ 중요: 실제 존재하는 데이터만 사용해야 합니다. URL을 모르면 절대 지어내지 말고 비워두세요.
-    검증을 위해 각 항목을 넉넉하게 7~8개씩 생성해주세요. (검증 후 상위 5개만 사용합니다)
+    // 1단계: 실제 데이터 수집
+    console.log('📡 실제 데이터 수집 중...');
+    const [githubRepos, hackerNewsStories, youtubeVideos] = await Promise.all([
+        fetchGitHubTrending(),
+        fetchHackerNews(),
+        fetchYouTubeVideos()
+    ]);
 
-    다음 필드를 가진 JSON 객체 하나만 출력하세요:
+    console.log(`✅ GitHub 트렌딩: ${githubRepos.length}개`);
+    console.log(`✅ HackerNews: ${hackerNewsStories.length}개`);
+    console.log(`✅ YouTube: ${youtubeVideos.length}개`);
+
+    // 데이터가 너무 적으면 경고
+    if (githubRepos.length === 0 && hackerNewsStories.length === 0 && youtubeVideos.length === 0) {
+        console.error('❌ 수집된 데이터가 없습니다. 네트워크를 확인하세요.');
+        process.exit(1);
+    }
+
+    // 2단계: AI에게 실제 데이터를 기반으로 분석 및 한국어 요약 요청
+    const prompt = `
+    당신은 20년차 시니어 개발자이자 AI 전문가입니다.
+    아래는 오늘(${today}) 수집한 실제 AI 관련 데이터입니다.
+
+    === GitHub 트렌딩 레포지토리 ===
+    ${JSON.stringify(githubRepos, null, 2)}
+
+    === Hacker News AI 뉴스 ===
+    ${JSON.stringify(hackerNewsStories, null, 2)}
+
+    === YouTube AI 영상 ===
+    ${JSON.stringify(youtubeVideos, null, 2)}
+
+    위 데이터를 분석하여 아래 JSON 형식으로 브리핑을 생성해주세요:
+
+    **중요 규칙:**
+    1. 위에 제공된 실제 데이터만 사용하세요. 절대 새로운 URL이나 데이터를 만들지 마세요.
+    2. 뉴스는 HackerNews 데이터를 기반으로 한국어 제목, 요약, 상세 내용을 작성하세요.
+    3. GitHub 레포는 제공된 데이터를 그대로 사용하되, reason을 한국어로 번역하세요.
+    4. YouTube 영상은 제공된 데이터를 그대로 사용하세요.
+    5. keywords는 오늘의 주요 AI 트렌드 키워드 5개를 추출하세요.
+    6. 각 항목은 최대 5개까지만 선택하세요 (중요도 순).
+
+    출력 형식 (JSON만 출력):
     {
       "date": "${today}",
       "keywords": ["키워드1", "키워드2", "키워드3", "키워드4", "키워드5"],
       "news": [
         {
-          "title": "뉴스 제목 (한국어)",
-          "summary": "뉴스 요약",
-          "content": "상세 내용",
-          "link": "실제 뉴스 URL",
-          "tags": ["태그"]
-        },
-        ... (8개)
+          "title": "한국어 제목",
+          "summary": "1-2문장 요약",
+          "content": "3-4문장 상세 설명",
+          "link": "위에서 제공된 실제 URL",
+          "tags": ["AI", "관련태그"]
+        }
       ],
       "github_repos": [
         {
-          "name": "owner/repo",
-          "description": "설명",
-          "reason": "트렌딩 이유",
-          "stars": 1000,
-          "language": "Python",
-          "url": "https://github.com/owner/repo"
-        },
-        ... (8개, 'openai/gpt-4' 같은 가짜 레포 금지. 실제 존재하는 레포만.)
+          "name": "위 데이터의 name",
+          "description": "위 데이터의 description",
+          "reason": "한국어로 번역된 트렌딩 이유",
+          "stars": 위_데이터의_stars,
+          "language": "위 데이터의 language",
+          "url": "위 데이터의 url"
+        }
       ],
       "youtube_videos": [
         {
-          "title": "영상 제목",
-          "channel": "채널명",
-          "link": "https://www.youtube.com/watch?v=...",
-          "thumbnail_url": "", 
-          "views": "조회수"
-        },
-        ... (8개)
+          "title": "위 데이터의 title",
+          "channel": "위 데이터의 channel",
+          "link": "위 데이터의 link",
+          "thumbnail_url": "위 데이터의 thumbnail_url",
+          "views": ""
+        }
       ]
     }
     `;
@@ -222,47 +361,52 @@ async function generateBriefing() {
 
     if (jsonString) {
         try {
-            // Gemini가 마크다운 코드 블록(```json ... ```)을 포함할 수 있으므로 제거
             const cleanJson = jsonString.replace(/```json/g, '').replace(/```/g, '').trim();
             const data = JSON.parse(cleanJson);
 
-            // --- 데이터 검증 및 필터링 시작 ---
-            console.log("🔍 데이터 유효성 검증 시작...");
+            // --- 최종 검증 (실제 URL인지 확인) ---
+            console.log("🔍 최종 데이터 검증 중...");
 
-            // 1. 뉴스 검증 (병렬 처리)
-            if (data.news) {
+            // 뉴스 링크 재검증
+            if (data.news && data.news.length > 0) {
                 const newsPromises = data.news.map(async (item) => {
-                    if (await validateUrl(item.link)) return item;
+                    // example.com이나 가짜 URL 차단
+                    if (!item.link || item.link.includes('example.com') || item.link === '#') {
+                        return null;
+                    }
+                    // 실제 URL 검증
+                    if (await validateUrl(item.link)) {
+                        return item;
+                    }
                     return null;
                 });
                 const validNews = (await Promise.all(newsPromises)).filter(Boolean);
                 data.news = validNews.slice(0, 5);
-                console.log(`📰 뉴스: ${data.news.length}개 유효함`);
+                console.log(`📰 뉴스: ${data.news.length}개 검증 완료`);
             }
 
-            // 2. GitHub 검증 (병렬 처리)
-            if (data.github_repos) {
+            // GitHub 레포 재검증
+            if (data.github_repos && data.github_repos.length > 0) {
                 const repoPromises = data.github_repos.map(async (repo) => {
-                    if (await validateGitHubRepo(repo.name)) return repo;
-                    console.log(`❌ 가짜 레포 제거됨: ${repo.name}`);
+                    if (await validateGitHubRepo(repo.name)) {
+                        return repo;
+                    }
+                    console.log(`❌ 유효하지 않은 레포: ${repo.name}`);
                     return null;
                 });
                 const validRepos = (await Promise.all(repoPromises)).filter(Boolean);
                 data.github_repos = validRepos.slice(0, 5);
-                console.log(`💻 GitHub: ${data.github_repos.length}개 유효함`);
+                console.log(`💻 GitHub: ${data.github_repos.length}개 검증 완료`);
             }
 
-            // 3. YouTube 검증 (병렬 처리된 함수 호출)
-            if (data.youtube_videos) {
+            // YouTube 검증
+            if (data.youtube_videos && data.youtube_videos.length > 0) {
                 data.youtube_videos = await validateVideoList(data.youtube_videos);
-                if (data.youtube_videos.length > 5) {
-                    data.youtube_videos = data.youtube_videos.slice(0, 5);
-                }
-                console.log(`📺 YouTube: ${data.youtube_videos.length}개 유효함`);
+                data.youtube_videos = data.youtube_videos.slice(0, 5);
+                console.log(`📺 YouTube: ${data.youtube_videos.length}개 검증 완료`);
             }
-            // --- 데이터 검증 끝 ---
 
-            // 1. 파일로 저장
+            // 파일로 저장
             const outputDir = path.join(__dirname, '../public/data');
             if (!fs.existsSync(outputDir)) {
                 fs.mkdirSync(outputDir, { recursive: true });
@@ -271,7 +415,7 @@ async function generateBriefing() {
             fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
             console.log(`✅ 브리핑 데이터 파일 생성 완료: ${outputPath}`);
 
-            // 2. DB에 저장
+            // DB에 저장
             saveBriefing(today, data);
 
             // 미리보기 출력
@@ -284,9 +428,11 @@ async function generateBriefing() {
         } catch (e) {
             console.error("JSON 파싱 실패:", e);
             console.log("원본 응답:", jsonString);
+            process.exit(1);
         }
     } else {
         console.log("❌ OpenAI로부터 응답을 받지 못했습니다.");
+        process.exit(1);
     }
 }
 

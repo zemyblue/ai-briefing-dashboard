@@ -1,0 +1,50 @@
+name: Auto Approve Briefing PR
+
+on:
+  pull_request:
+    types: [opened, labeled]
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  auto-approve:
+    runs-on: ubuntu-latest
+    # 3중 보안 검증:
+    # 1. auto-briefing 라벨이 있어야 함
+    # 2. GitHub Actions Bot이 만든 PR이어야 함
+    # 3. briefing/ 브랜치에서 시작된 PR이어야 함
+    if: |
+      contains(github.event.pull_request.labels.*.name, 'auto-briefing') &&
+      github.event.pull_request.user.login == 'github-actions[bot]' &&
+      startsWith(github.event.pull_request.head.ref, 'briefing/')
+
+    steps:
+      - name: Verify PR is safe to approve
+        run: |
+          echo "🔍 Verifying PR safety..."
+          echo "PR #${{ github.event.pull_request.number }}"
+          echo "Created by: ${{ github.event.pull_request.user.login }}"
+          echo "Branch: ${{ github.event.pull_request.head.ref }}"
+          echo "Title: ${{ github.event.pull_request.title }}"
+
+          # 브랜치 이름이 날짜 패턴인지 확인 (briefing/YYYY-MM-DD)
+          BRANCH="${{ github.event.pull_request.head.ref }}"
+          if [[ ! "$BRANCH" =~ ^briefing/[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+            echo "❌ Invalid branch name pattern. Expected: briefing/YYYY-MM-DD"
+            exit 1
+          fi
+
+          echo "✅ All security checks passed"
+
+      - name: Auto approve
+        uses: hmarr/auto-approve-action@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Log approval
+        run: |
+          echo "✅ Automatically approved PR #${{ github.event.pull_request.number }}"
+          echo "📅 Branch: ${{ github.event.pull_request.head.ref }}"
+          echo "🤖 Created by: ${{ github.event.pull_request.user.login }}"
