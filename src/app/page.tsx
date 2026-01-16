@@ -29,35 +29,34 @@ export default function Home() {
 
   // 브리핑 데이터 로드
   useEffect(() => {
-    setLoading(true);
-    setError(false);
+    const loadBriefing = async () => {
+      setLoading(true);
+      setError(false);
 
-    let dataUrl: string;
-    if (selectedDate) {
-      // 선택된 날짜의 데이터 로드
-      const [year, month, day] = selectedDate.split('-');
-      dataUrl = `${GITHUB_RAW_URL}/${year}/${month}/${day}.json`;
-    } else {
-      // 최신 데이터 로드
-      dataUrl = `${GITHUB_RAW_URL}/latest.json`;
-    }
+      let dataUrl: string;
+      if (selectedDate) {
+        // 선택된 날짜의 데이터 로드
+        const [year, month, day] = selectedDate.split('-');
+        dataUrl = `${GITHUB_RAW_URL}/${year}/${month}/${day}.json`;
+      } else {
+        // 최신 데이터 로드
+        dataUrl = `${GITHUB_RAW_URL}/latest.json`;
+      }
 
-    fetch(dataUrl, {
-      cache: 'default'
-    })
-      .then(res => {
+      try {
+        const res = await fetch(dataUrl, { cache: 'default' });
         if (!res.ok) throw new Error('Failed to fetch');
-        return res.json();
-      })
-      .then(briefingData => {
+        const briefingData = await res.json();
         setData(briefingData);
         setLoading(false);
-      })
-      .catch(err => {
+      } catch (err) {
         console.error('Failed to load briefing:', err);
         setError(true);
         setLoading(false);
-      });
+      }
+    };
+
+    loadBriefing();
   }, [selectedDate]);
 
   if (loading) {
