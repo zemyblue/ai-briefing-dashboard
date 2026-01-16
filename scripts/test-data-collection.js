@@ -86,9 +86,18 @@ async function fetchGitHubTrending() {
             const fallbackData = await fallbackResponse.json();
             const fallbackRepos = fallbackData.items || [];
 
+            if (fallbackRepos.length === 0) {
+                console.warn('Fallback GitHub API returned no repositories');
+                return [];
+            }
+
             // README 내용을 병렬로 가져오기
             const reposWithReadme = await Promise.all(
                 fallbackRepos.slice(0, 8).map(async (repo) => {
+                    if (!repo || !repo.full_name) {
+                        console.warn('Invalid repo object in fallback:', repo);
+                        return null;
+                    }
                     const readme = await fetchGitHubReadme(repo.full_name);
                     return {
                         name: repo.full_name,
@@ -111,15 +120,24 @@ async function fetchGitHubTrending() {
                 })
             );
 
-            return reposWithReadme;
+            return reposWithReadme.filter(Boolean);
         }
 
         const data = await response.json();
         const repos = data.items || [];
 
+        if (repos.length === 0) {
+            console.warn('GitHub API returned no repositories');
+            return [];
+        }
+
         // README 내용을 병렬로 가져오기
         const reposWithReadme = await Promise.all(
             repos.slice(0, 8).map(async (repo) => {
+                if (!repo || !repo.full_name) {
+                    console.warn('Invalid repo object:', repo);
+                    return null;
+                }
                 const readme = await fetchGitHubReadme(repo.full_name);
                 return {
                     name: repo.full_name,
@@ -142,7 +160,7 @@ async function fetchGitHubTrending() {
             })
         );
 
-        return reposWithReadme;
+        return reposWithReadme.filter(Boolean);
     } catch (e) {
         console.error('GitHub Trending 데이터 수집 실패:', e);
         return [];
