@@ -109,6 +109,9 @@ jobs:
             exit 0
           fi
 
+          # 원격에 같은 이름의 브랜치가 있으면 삭제
+          git push origin --delete "$BRANCH_NAME" 2>/dev/null || true
+
           # 새 브랜치 생성 및 체크아웃
           git checkout -b "$BRANCH_NAME"
 

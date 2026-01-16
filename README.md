@@ -34,11 +34,30 @@ npm install
 # 데이터베이스 초기화
 node scripts/init-db.js
 
+# (선택) 데이터 수집 테스트 (OpenAI API 키 불필요)
+npm run test:data
+
 # 개발 서버 실행
 npm run dev
 ```
 
 브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 결과를 확인하세요.
+
+### 데이터 수집 테스트
+
+OpenAI API 키 없이 실제 데이터 수집(GitHub, HackerNews, YouTube)이 잘 작동하는지 테스트할 수 있습니다:
+
+```bash
+npm run test:data
+```
+
+이 명령어는:
+- GitHub Trending API에서 최신 인기 레포지토리 수집
+- HackerNews에서 AI 관련 뉴스 수집
+- YouTube RSS에서 AI 채널의 최신 영상 수집
+- 수집된 데이터를 `test-data-collection.json`에 저장
+
+테스트 결과는 터미널에 표시되며, 각 데이터 소스에서 정상적으로 데이터를 가져오는지 확인할 수 있습니다.
 
 ---
 
