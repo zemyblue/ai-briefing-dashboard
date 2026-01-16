@@ -1,143 +1,83 @@
 {
-  "date": "2026년 1월 15일 목요일",
+  "date": "2026년 1월 16일 금요일",
   "keywords": [
-    "Generative AI",
-    "자율주행",
-    "AI 윤리",
-    "AI 칩",
-    "대화형 AI"
+    "AI 협업",
+    "오픈소스",
+    "AI 에이전트",
+    "보안 취약점",
+    "브라우저 인프라"
   ],
   "news": [
     {
-      "title": "Generative AI의 새로운 가능성",
-      "summary": "Generative AI 기술이 최근 다양한 산업에서 혁신을 이끌고 있습니다. 특히, 콘텐츠 생성과 디자인 분야에서의 활용도가 급격히 증가하고 있습니다.",
-      "content": "Generative AI는 사용자 맞춤형 콘텐츠를 생성하는 데 있어 큰 잠재력을 보여주고 있습니다. 최근 연구에서는 AI가 예술, 음악, 글쓰기 등 여러 분야에서 인간의 창의력을 보완할 수 있는 방법을 모색하고 있습니다. 예를 들어, OpenAI의 최신 모델은 기존의 한계를 뛰어넘어 더욱 정교한 결과물을 생성할 수 있게 되었습니다. 이러한 기술은 광고, 영화 제작, 게임 개발 등 다양한 분야에 영향을 미치고 있으며, 기업들이 AI를 통한 혁신을 추구하는 데 있어 중요한 요소로 자리 잡고 있습니다.",
-      "link": "https://example.com/generative-ai",
+      "title": "오픈워크 – 클로드 코워크의 오픈소스 대안",
+      "summary": "OpenWork는 협업을 위한 오픈소스 플랫폼으로, 클로드 코워크의 대안으로 주목받고 있습니다.",
+      "content": "이 프로젝트는 개발자들이 협업할 수 있는 다양한 도구를 제공하며, 커뮤니티의 기여를 통해 지속적으로 발전할 계획입니다. 이를 통해 사용자들은 클라우드 기반의 툴을 활용하여 효율적으로 작업할 수 있게 됩니다.",
+      "link": "https://github.com/different-ai/openwork",
       "tags": [
         "AI",
-        "Generative AI",
-        "기술"
+        "오픈소스",
+        "협업"
       ]
     },
     {
-      "title": "AI와 자율주행차의 미래",
-      "summary": "자율주행차 기술이 AI의 발전과 함께 새로운 국면을迎고 있습니다. 최근 몇 가지 주요 기업들이 자율주행차의 상용화를 위한 테스트를 시작했습니다.",
-      "content": "자율주행차는 AI 기술의 발전과 밀접한 관계가 있습니다. 최근 기업들이 자율주행차의 실제 도로 테스트를 강화하면서, AI의 정확성과 안전성을 높이기 위한 다양한 솔루션이 개발되고 있습니다. 특히, 센서 데이터 처리와 인공지능의 결합을 통해 실시간으로 주행 환경을 분석하고 의사 결정을 내리는 기술이 주목받고 있습니다. 이러한 발전은 교통사고를 줄이고, 교통 체증을 완화하는 데 기여할 것으로 기대되고 있습니다.",
-      "link": "https://example.com/autonomous-driving",
+      "title": "왜 시니어 엔지니어는 나쁜 프로젝트를 실패하게 두는가",
+      "summary": "시니어 엔지니어들이 나쁜 프로젝트를 실패하도록 내버려 두는 이유에 대해 논의합니다.",
+      "content": "이 글에서는 시니어 엔지니어들이 자원 낭비를 줄이기 위해 의도적으로 나쁜 프로젝트를 실패하게 두는 전략을 설명합니다. 이는 팀 전체의 생산성과 장기적인 목표 달성을 위해 필요한 접근일 수 있습니다.",
+      "link": "https://lalitm.com/post/why-senior-engineers-let-bad-projects-fail/",
       "tags": [
-        "자율주행",
         "AI",
-        "차량"
+        "프로젝트 관리",
+        "엔지니어링"
       ]
     },
     {
-      "title": "AI 윤리 문제에 대한 새로운 접근",
-      "summary": "AI의 윤리에 대한 논의가 더욱 중요해지고 있습니다. 최근 다수의 연구자들과 기업들이 AI 윤리에 대한 가이드라인을 제정하고 있습니다.",
-      "content": "AI 기술의 발전은 윤리적 문제를 동반하고 있습니다. 특히, 데이터의 편향성, 개인정보 보호, AI의 결정 과정의 투명성 등이 주요 이슈로 부각되고 있습니다. 최근 몇몇 기술 기업들은 AI 윤리를 위한 내부 가이드라인을 설정하고, 이를 바탕으로 AI 시스템을 개발하고 있습니다. 이러한 노력은 기술의 발전을 지속 가능하게 하고, 사회적 신뢰를 구축하는 데 중요한 역할을 할 것입니다.",
-      "link": "https://example.com/ai-ethics",
+      "title": "공급망 취약점, 핵심 AWS GitHub 레포를 타격하고 AWS 콘솔 위협",
+      "summary": "최근 발견된 공급망 취약점이 AWS의 핵심 GitHub 레포지토리를 공격했습니다.",
+      "content": "이 취약점은 코드 빌드 프로세스를 통해 AWS 콘솔에 대한 접근을 위협하며, 보안 문제를 심각하게 할 수 있습니다. 개발자와 기업들은 이러한 취약점을 신속히 해결하기 위한 조치를 취해야 합니다.",
+      "link": "https://www.wiz.io/blog/wiz-research-codebreach-vulnerability-aws-codebuild",
       "tags": [
-        "AI 윤리",
-        "사회적 책임"
-      ]
-    },
-    {
-      "title": "AI 칩 기술의 발전",
-      "summary": "AI 칩의 성능 향상이 AI 연구와 응용에 큰 영향을 미치고 있습니다. 많은 기업들이 더욱 효율적인 AI 칩 개발에 투자하고 있습니다.",
-      "content": "AI 칩 기술은 AI 모델의 학습 속도와 성능을 크게 향상시키고 있습니다. 최근 출시된 새로운 AI 전용 칩들은 이전 세대에 비해 처리 능력이 획기적으로 향상되어, 대규모 데이터셋을 빠르게 처리할 수 있게 해줍니다. 이러한 발전은 AI 연구자들이 더 복잡한 모델을 실험할 수 있는 환경을 제공하며, 실시간 AI 응용 프로그램의 발전에도 기여하고 있습니다. 앞으로 AI 칩 기술이 AI의 미래를 어떻게 변화시킬지 기대가 됩니다.",
-      "link": "https://example.com/ai-chips",
-      "tags": [
-        "AI 칩",
-        "기술 발전"
-      ]
-    },
-    {
-      "title": "대화형 AI의 새로운 지평",
-      "summary": "대화형 AI 기술이 비즈니스 커뮤니케이션의 혁신을 이끌고 있습니다. 고객 서비스와 마케팅 분야에서의 활용이 증가하고 있습니다.",
-      "content": "대화형 AI는 다양한 산업에서 고객과의 상호작용 방식을 변화시키고 있습니다. 특히, 챗봇과 음성 인식 기술이 결합되어, 고객 서비스의 효율성을 높이고 있습니다. 최근의 연구 결과는 대화형 AI가 고객 요구를 보다 정확하게 이해하고 대응할 수 있도록 하는 방법을 보여주고 있습니다. 이에 따라 많은 기업들이 대화형 AI를 통해 고객 경험을 개선하고, 운영 비용을 절감할 수 있는 기회를 모색하고 있습니다.",
-      "link": "https://example.com/conversational-ai",
-      "tags": [
-        "대화형 AI",
-        "고객 서비스"
+        "AI",
+        "보안",
+        "AWS"
       ]
     }
   ],
-  "github_repos": [
-    {
-      "name": "openai/gpt-4",
-      "description": "OpenAI의 최신 대화형 AI 모델인 GPT-4 프로젝트입니다.",
-      "reason": "GPT-4는 이전 모델보다 더 정교한 대화 능력을 제공하며, 다양한 언어적 과제를 수행할 수 있어 현재 많은 관심을 받고 있습니다.",
-      "stars": 15000,
-      "language": "Python",
-      "url": "https://github.com/openai/gpt-4"
-    },
-    {
-      "name": "google-research/bert",
-      "description": "구글의 BERT 모델은 자연어 처리의 혁신을 가져온 프로젝트입니다.",
-      "reason": "BERT 모델은 다양한 NLP 태스크에서 뛰어난 성능을 보여주어, 연구자들 사이에서 큰 인기를 끌고 있습니다.",
-      "stars": 12000,
-      "language": "Python",
-      "url": "https://github.com/google-research/bert"
-    },
-    {
-      "name": "huggingface/transformers",
-      "description": "Hugging Face의 Transformers 라이브러리는 다양한 NLP 모델을 활용할 수 있게 해줍니다.",
-      "reason": "AI 모델의 접근성을 높이는 데 기여하며, 현재 가장 많이 사용되는 NLP 라이브러리 중 하나입니다.",
-      "stars": 40000,
-      "language": "Python",
-      "url": "https://github.com/huggingface/transformers"
-    },
-    {
-      "name": "NVIDIA/DeepLearningExamples",
-      "description": "NVIDIA의 다양한 딥러닝 예제와 모델을 제공합니다.",
-      "reason": "NVIDIA의 최신 GPU 기술과 함께 최적화된 학습 예제를 통해 AI 연구자들에게 유용한 자료가 되고 있습니다.",
-      "stars": 8000,
-      "language": "Python",
-      "url": "https://github.com/NVIDIA/DeepLearningExamples"
-    },
-    {
-      "name": "facebookresearch/detectron2",
-      "description": "Facebook의 Detectron2는 객체 탐지 및 분할을 위한 라이브러리입니다.",
-      "reason": "최신 연구 결과를 반영한 객체 탐지 모델을 쉽게 사용할 수 있어, 많은 연구자들 사이에서 인기를 끌고 있습니다.",
-      "stars": 18000,
-      "language": "Python",
-      "url": "https://github.com/facebookresearch/detectron2"
-    }
-  ],
+  "github_repos": [],
   "youtube_videos": [
     {
-      "title": "최신 AI 모델의 작동 원리",
-      "channel": "AI Tech",
-      "link": "https://www.youtube.com/watch?v=abcd1234",
-      "thumbnail_url": "",
-      "views": "15000"
+      "title": "The Secret Equation Behind Hyper-Realistic Clothing",
+      "channel": "Two Minute Papers",
+      "link": "https://www.youtube.com/watch?v=Wibbnn3hV4U",
+      "thumbnail_url": "https://i.ytimg.com/vi/Wibbnn3hV4U/hqdefault.jpg",
+      "views": ""
     },
     {
-      "title": "Generative AI를 이용한 예술 창작",
-      "channel": "Art & AI",
-      "link": "https://www.youtube.com/watch?v=efgh5678",
-      "thumbnail_url": "",
-      "views": "20000"
+      "title": "This New Physics Engine Is 45x Faster!",
+      "channel": "Two Minute Papers",
+      "link": "https://www.youtube.com/watch?v=2c8o65JiPQY",
+      "thumbnail_url": "https://i.ytimg.com/vi/2c8o65JiPQY/hqdefault.jpg",
+      "views": ""
     },
     {
-      "title": "자율주행차의 AI 기술 분석",
-      "channel": "Tech World",
-      "link": "https://www.youtube.com/watch?v=ijkl9012",
-      "thumbnail_url": "",
-      "views": "18000"
+      "title": "We Just Turned Down Millions of Dollars. Here Is Why.",
+      "channel": "Two Minute Papers",
+      "link": "https://www.youtube.com/watch?v=SWGBN1KvG6c",
+      "thumbnail_url": "https://i.ytimg.com/vi/SWGBN1KvG6c/hqdefault.jpg",
+      "views": ""
     },
     {
-      "title": "AI 윤리를 고려한 개발 방법",
-      "channel": "Ethics in AI",
-      "link": "https://www.youtube.com/watch?v=mnoq3456",
-      "thumbnail_url": "",
-      "views": "12000"
+      "title": "An Argument The Moon is a PLANET!",
+      "channel": "minutephysics",
+      "link": "https://www.youtube.com/watch?v=xgFKxFX3IwY",
+      "thumbnail_url": "https://i.ytimg.com/vi/xgFKxFX3IwY/hqdefault.jpg",
+      "views": ""
     },
     {
-      "title": "대화형 AI 구현하기",
-      "channel": "Dev Tutorials",
-      "link": "https://www.youtube.com/watch?v=pqrs7890",
-      "thumbnail_url": "",
-      "views": "25000"
+      "title": "The TROJAN Test",
+      "channel": "minutephysics",
+      "link": "https://www.youtube.com/watch?v=_DYZF-piKKU",
+      "thumbnail_url": "https://i.ytimg.com/vi/_DYZF-piKKU/hqdefault.jpg",
+      "views": ""
     }
   ]
 }
