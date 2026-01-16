@@ -36,9 +36,12 @@ export interface DailyBriefingProps {
   news: NewsItem[];
   github_repos: RepoItem[];
   youtube_videos: VideoItem[];
+  availableDates?: string[];
+  selectedDate?: string | null;
+  onDateChange?: (date: string | null) => void;
 }
 
-export default function DailyBriefing({ date, keywords, news, github_repos, youtube_videos }: DailyBriefingProps) {
+export default function DailyBriefing({ date, keywords, news, github_repos, youtube_videos, availableDates = [], selectedDate, onDateChange }: DailyBriefingProps) {
   const [selectedNews, setSelectedNews] = useState<NewsItem | null>(null);
 
   // 유튜브 URL에서 썸네일 추출하는 헬퍼 함수
@@ -67,9 +70,23 @@ export default function DailyBriefing({ date, keywords, news, github_repos, yout
 
         <div className="relative z-10 flex flex-col md:flex-row justify-between items-start md:items-end gap-6 border-b border-slate-800 pb-8">
           <div>
-            <div className="flex items-center gap-2 text-purple-400 mb-2 font-medium tracking-wide text-sm uppercase">
+            <div className="flex items-center gap-3 text-purple-400 mb-2 font-medium tracking-wide text-sm uppercase">
               <Calendar className="w-4 h-4" />
               <span>{date}</span>
+              {availableDates.length > 0 && onDateChange && (
+                <select
+                  value={selectedDate || ''}
+                  onChange={(e) => onDateChange(e.target.value || null)}
+                  className="ml-2 px-3 py-1 rounded-lg bg-slate-800 border border-slate-700 text-slate-300 text-xs font-medium hover:border-purple-500/50 transition-all cursor-pointer focus:outline-none focus:ring-2 focus:ring-purple-500/50"
+                >
+                  <option value="">최신</option>
+                  {availableDates.map((dateOption) => (
+                    <option key={dateOption} value={dateOption}>
+                      {dateOption}
+                    </option>
+                  ))}
+                </select>
+              )}
             </div>
             <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-slate-500 tracking-tight">
               AI Trend Briefing

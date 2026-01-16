@@ -64,6 +64,34 @@ async function callOpenAI(prompt) {
     }
 }
 
+// GitHub 레포지토리 README 가져오기
+async function fetchGitHubReadme(repoName) {
+    if (!repoName || !repoName.includes('/')) return null;
+
+    try {
+        const response = await fetch(`https://api.github.com/repos/${repoName}/readme`, {
+            headers: {
+                'User-Agent': 'AI-Briefing-Dashboard',
+                'Accept': 'application/vnd.github.v3.raw'
+            }
+        });
+
+        if (response.ok) {
+            const readme = await response.text();
+            const excerpt = readme.substring(0, 1000);
+            const cleaned = excerpt
+                .replace(/^#{1,6}\s+/gm, '')
+                .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+                .replace(/!\[.*?\]\(.*?\)/g, '')
+                .trim();
+            return cleaned.substring(0, 500) + '...';
+        }
+        return null;
+    } catch (e) {
+        return null;
+    }
+}
+
 // 일반 URL 유효성 검사 (뉴스 등)
 async function validateUrl(url) {
     if (!url || url.includes('example.com') || url === '#') return false;
@@ -170,24 +198,78 @@ async function validateVideoList(videos) {
     return results.filter(Boolean);
 }
 
-// GitHub Trending 데이터 가져오기 (실제 API)
+// GitHub Trending 데이터 가져오기 (공식 API 사용)
 async function fetchGitHubTrending() {
     try {
-        // GitHub Trending 비공식 API 사용
-        const response = await fetch('https://gh-trending-api.herokuapp.com/repositories?language=&since=daily');
+        // GitHub 공식 검색 API로 최근 업데이트된 인기 레포 조회
+        // 최근 1주일 이내 푸시된 레포 중 별이 많은 순으로 정렬
+        const weekAgo = new Date();
+        weekAgo.setDate(weekAgo.getDate() - 7);
+        const dateStr = weekAgo.toISOString().split('T')[0];
+
+        // AI 관련 키워드로 검색하여 더 관련성 높은 결과 가져오기
+        const query = `pushed:>${dateStr} stars:>500 topic:ai OR topic:machine-learning OR topic:llm OR topic:gpt`;
+        const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=15`;
+
+        const response = await fetch(url, {
+            headers: {
+                'User-Agent': 'AI-Briefing-Dashboard',
+                'Accept': 'application/vnd.github.v3+json'
+            }
+        });
+
         if (!response.ok) {
-            console.warn('GitHub Trending API 실패, 대체 방법 시도...');
-            return [];
+            console.warn('GitHub API 실패, 대체 검색 시도...', response.status);
+            // 대체: AI 키워드 없이 일반 trending
+            const fallbackQuery = `pushed:>${dateStr} stars:>1000`;
+            const fallbackUrl = `https://api.github.com/search/repositories?q=${encodeURIComponent(fallbackQuery)}&sort=stars&order=desc&per_page=15`;
+            const fallbackResponse = await fetch(fallbackUrl, {
+                headers: {
+                    'User-Agent': 'AI-Briefing-Dashboard',
+                    'Accept': 'application/vnd.github.v3+json'
+                }
+            });
+            if (!fallbackResponse.ok) return [];
+            const fallbackData = await fallbackResponse.json();
+            const fallbackRepos = fallbackData.items || [];
+
+            // README 내용 추가
+            const reposWithReadme = await Promise.all(
+                fallbackRepos.slice(0, 8).map(async (repo) => {
+                    const readme = await fetchGitHubReadme(repo.full_name);
+                    return {
+                        name: repo.full_name,
+                        description: repo.description || 'No description',
+                        reason: `${repo.stargazers_count.toLocaleString()}개의 별을 받은 인기 프로젝트`,
+                        stars: repo.stargazers_count || 0,
+                        language: repo.language || 'Unknown',
+                        url: repo.html_url,
+                        readme_excerpt: readme
+                    };
+                })
+            );
+            return reposWithReadme;
         }
-        const repos = await response.json();
-        return repos.slice(0, 8).map(repo => ({
-            name: repo.repositoryName,
-            description: repo.description || 'No description',
-            reason: `오늘 ${repo.starsSince || 0}개의 별을 받으며 트렌딩 중`,
-            stars: repo.totalStars || 0,
-            language: repo.language || 'Unknown',
-            url: repo.url || `https://github.com/${repo.repositoryName}`
-        }));
+
+        const data = await response.json();
+        const repos = data.items || [];
+
+        // README 내용 추가
+        const reposWithReadme = await Promise.all(
+            repos.slice(0, 8).map(async (repo) => {
+                const readme = await fetchGitHubReadme(repo.full_name);
+                return {
+                    name: repo.full_name,
+                    description: repo.description || 'No description',
+                    reason: `${repo.stargazers_count.toLocaleString()}개의 별을 받은 AI 프로젝트`,
+                    stars: repo.stargazers_count || 0,
+                    language: repo.language || 'Unknown',
+                    url: repo.html_url,
+                    readme_excerpt: readme
+                };
+            })
+        );
+        return reposWithReadme;
     } catch (e) {
         console.error('GitHub Trending 데이터 수집 실패:', e);
         return [];
@@ -201,8 +283,8 @@ async function fetchHackerNews() {
         const topStoriesResponse = await fetch('https://hacker-news.firebaseio.com/v0/topstories.json');
         const topStories = await topStoriesResponse.json();
 
-        // 상위 50개 스토리만 가져오기
-        const storyPromises = topStories.slice(0, 50).map(async (id) => {
+        // 상위 100개 스토리 가져오기 (더 많은 AI 관련 뉴스 확보)
+        const storyPromises = topStories.slice(0, 100).map(async (id) => {
             const storyResponse = await fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`);
             return storyResponse.json();
         });
@@ -217,12 +299,29 @@ async function fetchHackerNews() {
             return aiKeywords.some(keyword => text.includes(keyword));
         });
 
-        return aiStories.slice(0, 8).map(story => ({
-            title: story.title,
-            link: story.url || `https://news.ycombinator.com/item?id=${story.id}`,
-            source: 'Hacker News',
-            score: story.score || 0
-        }));
+        return aiStories.slice(0, 15).map(story => {
+            // text가 있으면 HTML 태그 제거하고 본문 추가
+            let storyText = '';
+            if (story.text) {
+                storyText = story.text
+                    .replace(/<[^>]*>/g, '')
+                    .replace(/&#x27;/g, "'")
+                    .replace(/&quot;/g, '"')
+                    .replace(/&amp;/g, '&')
+                    .replace(/&lt;/g, '<')
+                    .replace(/&gt;/g, '>')
+                    .trim();
+                storyText = storyText.substring(0, 2000) + (storyText.length > 2000 ? '...' : '');
+            }
+
+            return {
+                title: story.title,
+                link: story.url || `https://news.ycombinator.com/item?id=${story.id}`,
+                source: 'Hacker News',
+                score: story.score || 0,
+                text: storyText || null
+            };
+        });
     } catch (e) {
         console.error('HackerNews 데이터 수집 실패:', e);
         return [];
@@ -253,12 +352,28 @@ async function fetchYouTubeVideos() {
                     const channelName = entry.match(/<name>(.*?)<\/name>/)?.[1];
                     const published = entry.match(/<published>(.*?)<\/published>/)?.[1];
 
+                    // description 추출
+                    const descriptionMatch = entry.match(/<media:description>([\s\S]*?)<\/media:description>/);
+                    let description = '';
+                    if (descriptionMatch && descriptionMatch[1]) {
+                        description = descriptionMatch[1]
+                            .replace(/<[^>]*>/g, '')
+                            .replace(/&#x27;/g, "'")
+                            .replace(/&quot;/g, '"')
+                            .replace(/&amp;/g, '&')
+                            .replace(/&lt;/g, '<')
+                            .replace(/&gt;/g, '>')
+                            .trim();
+                        description = description.substring(0, 500) + (description.length > 500 ? '...' : '');
+                    }
+
                     return {
                         title: title || 'Unknown Title',
                         channel: channelName || 'Unknown Channel',
                         link: videoId ? `https://www.youtube.com/watch?v=${videoId}` : '',
                         thumbnail_url: videoId ? `https://img.youtube.com/vi/${videoId}/mqdefault.jpg` : '',
-                        published: published || ''
+                        published: published || '',
+                        description: description || null
                     };
                 }).filter(v => v.link);
 

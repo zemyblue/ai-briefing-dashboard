@@ -10,10 +10,39 @@ export default function Home() {
   const [data, setData] = useState<DailyBriefingProps | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
+  const [availableDates, setAvailableDates] = useState<string[]>([]);
+  const [selectedDate, setSelectedDate] = useState<string | null>(null);
 
+  // 사용 가능한 날짜 목록 로드
   useEffect(() => {
-    // GitHub Raw에서 최신 브리핑 데이터 로드
-    fetch(`${GITHUB_RAW_URL}/latest.json`, {
+    fetch(`${GITHUB_RAW_URL}/dates.json`, {
+      cache: 'default'
+    })
+      .then(res => res.json())
+      .then(datesData => {
+        setAvailableDates(datesData.dates || []);
+      })
+      .catch(err => {
+        console.error('Failed to load dates:', err);
+      });
+  }, []);
+
+  // 브리핑 데이터 로드
+  useEffect(() => {
+    setLoading(true);
+    setError(false);
+
+    let dataUrl: string;
+    if (selectedDate) {
+      // 선택된 날짜의 데이터 로드
+      const [year, month, day] = selectedDate.split('-');
+      dataUrl = `${GITHUB_RAW_URL}/${year}/${month}/${day}.json`;
+    } else {
+      // 최신 데이터 로드
+      dataUrl = `${GITHUB_RAW_URL}/latest.json`;
+    }
+
+    fetch(dataUrl, {
       cache: 'default'
     })
       .then(res => {
@@ -29,7 +58,7 @@ export default function Home() {
         setError(true);
         setLoading(false);
       });
-  }, []);
+  }, [selectedDate]);
 
   if (loading) {
     return (
@@ -64,6 +93,15 @@ export default function Home() {
     return null;
   }
 
-  return <DailyBriefing {...data} />;
+  return (
+    <div>
+      <DailyBriefing
+        {...data}
+        availableDates={availableDates}
+        selectedDate={selectedDate}
+        onDateChange={setSelectedDate}
+      />
+    </div>
+  );
 }
 

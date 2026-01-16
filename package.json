@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "echo 'No tests yet' && exit 0"
+    "test": "echo 'No tests yet' && exit 0",
+    "test:data": "node scripts/test-data-collection.js",
+    "generate": "node scripts/generate-briefing.js"
   },
   "dependencies": {
     "better-sqlite3": "^12.6.0",
