@@ -294,6 +294,47 @@ async function fetchGitHubTrending() {
     }
 }
 
+// HTML 엔티티 디코딩 함수
+function decodeHTMLEntities(text) {
+    // HTML 엔티티 매핑
+    const entities = {
+        '&amp;': '&',
+        '&lt;': '<',
+        '&gt;': '>',
+        '&quot;': '"',
+        '&#34;': '"',
+        '&#39;': "'",
+        '&#x27;': "'",
+        '&apos;': "'",
+        '&nbsp;': ' ',
+        '&ndash;': '-',
+        '&mdash;': '--',
+        '&hellip;': '...',
+        '&lsquo;': "'",
+        '&rsquo;': "'",
+        '&ldquo;': '"',
+        '&rdquo;': '"',
+    };
+
+    // 명명된 엔티티 변환
+    let decoded = text;
+    for (const [entity, char] of Object.entries(entities)) {
+        decoded = decoded.replace(new RegExp(entity, 'g'), char);
+    }
+
+    // 숫자 엔티티 변환 (&#123; 형식)
+    decoded = decoded.replace(/&#(\d+);/g, (_match, dec) => {
+        return String.fromCharCode(dec);
+    });
+
+    // 16진수 엔티티 변환 (&#x7B; 형식)
+    decoded = decoded.replace(/&#x([0-9A-Fa-f]+);/g, (_match, hex) => {
+        return String.fromCharCode(parseInt(hex, 16));
+    });
+
+    return decoded;
+}
+
 // HackerNews 최신 AI 관련 뉴스 가져오기
 async function fetchHackerNews() {
     try {
@@ -321,15 +362,12 @@ async function fetchHackerNews() {
             // text가 있으면 HTML 태그 제거하고 본문 추가
             let storyText = '';
             if (story.text) {
-                storyText = story.text
-                    .replace(/<[^>]*>/g, '')
-                    .replace(/&#x27;/g, "'")
-                    .replace(/&quot;/g, '"')
-                    .replace(/&amp;/g, '&')
-                    .replace(/&lt;/g, '<')
-                    .replace(/&gt;/g, '>')
-                    .trim();
-                storyText = storyText.substring(0, 2000) + (storyText.length > 2000 ? '...' : '');
+                // HTML 태그 제거
+                const withoutTags = story.text.replace(/<[^>]*>/g, '');
+                // HTML 엔티티 디코딩
+                const decoded = decodeHTMLEntities(withoutTags);
+                storyText = decoded.trim().substring(0, 2000);
+                if (decoded.length > 2000) storyText += '...';
             }
 
             return {
