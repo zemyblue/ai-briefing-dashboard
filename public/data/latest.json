@@ -1,75 +1,145 @@
 {
-  "date": "2026년 1월 18일 일요일",
+  "date": "2026년 1월 19일 월요일",
   "keywords": [
-    "AI",
-    "오픈소스",
-    "개발",
-    "코드베이스",
-    "로컬-퍼스트"
+    "AI 에이전트",
+    "자율 가상 머신",
+    "CLI 도구",
+    "자연어 처리",
+    "코드베이스"
   ],
   "news": [
     {
-      "title": "Show HN: ChunkHound, 대규모 코드베이스 이해를 위한 로컬 우선 도구",
-      "summary": "ChunkHound는 로컬 우선 코드베이스 인텔리전스를 제공하여 심층적인 통찰력을 즉시 얻을 수 있도록 돕습니다.",
-      "content": "이 도구는 작은 저장소에서부터 기업의 모노레포에 이르기까지 적시의 문서를 생성하고 관리하는 데 필요한 모든 기능을 갖추고 있습니다. 오픈소스이며, 다양한 AI 모델과 호환됩니다.",
-      "link": "https://github.com/chunkhound/chunkhound",
+      "title": "Show HN: Lume 0.2 – 자동 설정으로 macOS VM 생성 및 실행",
+      "summary": "Lume는 Apple Silicon에서 macOS 및 Linux VM을 실행하기 위한 오픈 소스 CLI입니다.",
+      "content": "이 버전에서는 사용자가 키보드를 사용하지 않고도 VM을 완전히 구성할 수 있는 기능이 추가되었습니다. HTTP API를 통해 CI 파이프라인에서 VM을 관리할 수 있는 기능도 포함되어 있습니다.",
+      "link": "https://cua.ai/docs/lume/guide/getting-started/introduction",
       "tags": [
         "AI",
-        "오픈소스",
-        "코드 베이스"
+        "가상 머신",
+        "CLI 도구"
       ]
     },
     {
-      "title": "OpenAI, 2027년 중반까지 자금이 고갈될 가능성",
-      "summary": "OpenAI의 재정 상황이 저조하다는 분석 결과가 나왔습니다.",
-      "content": "한 분석가의 보고서에 따르면, OpenAI는 2027년 중반까지 자금이 고갈될 수 있다는 우려가 제기되었습니다. 이는 AI 산업에 큰 영향을 미칠 수 있습니다.",
-      "link": "https://www.tomshardware.com/tech-industry/big-tech/openai-could-reportedly-run-out-of-cash-by-mid-2027-nyt-analyst-paints-grim-picture-after-examining-companys-finances",
+      "title": "Show HN: Figma-use – AI 에이전트를 위한 Figma 제어 CLI",
+      "summary": "Figma-use는 AI 에이전트가 Figma에서 디자인할 수 있도록 돕는 CLI입니다.",
+      "content": "이 도구는 100가지 명령어를 통해 Figma에서 모양, 텍스트, 프레임 등을 생성하고 수정할 수 있게 해줍니다. AI가 실제로 디자인을 할 수 있도록 하는 혁신적인 접근 방식입니다.",
+      "link": "https://github.com/dannote/figma-use",
       "tags": [
         "AI",
-        "OpenAI",
-        "재정"
+        "디자인",
+        "Figma"
+      ]
+    },
+    {
+      "title": "Show HN: GibRAM - 메모리 내에서의 GraphRAG 런타임",
+      "summary": "GibRAM은 규제가 많은 문서에서 관련 기사를 더 잘 검색할 수 있도록 설계된 실험적인 런타임입니다.",
+      "content": "이 프로젝트는 메모리를 주요 제약 사항으로 삼아 문서 세트에 대한 요약이나 대화형 쿼리를 위해 설계되었습니다. 영구적인 저장소 없이도 단기간에 분석할 수 있는 장점을 제공합니다.",
+      "link": "https://github.com/gibram-io/gibram",
+      "tags": [
+        "AI",
+        "검색",
+        "GraphRAG"
+      ]
+    },
+    {
+      "title": "Show HN: ChunkHound - 대규모 코드베이스 이해를 위한 로컬 우선 도구",
+      "summary": "ChunkHound는 코드베이스에 대한 심층 통찰을 제공하는 도구입니다.",
+      "content": "이 도구는 작은 리포지토리에서 대규모 모노레포에 이르기까지 사용 가능하며, 무료 및 오픈 소스입니다. 사용자에게 최신 문서를 생성하고 요구 사항에 맞게 조정할 수 있는 기능을 제공합니다.",
+      "link": "https://github.com/chunkhound/chunkhound",
+      "tags": [
+        "AI",
+        "코드",
+        "개발"
+      ]
+    },
+    {
+      "title": "Show HN: Beats - 웹 기반 드럼 머신",
+      "summary": "Beats는 사용자가 비트를 실험하고 저장할 수 있도록 돕는 웹 기반 도구입니다.",
+      "content": "이 도구는 사용자가 드럼 패턴을 공유하고 기본 사운드를 실험할 수 있게 해줍니다. 사용자 친화적인 인터페이스로 누구나 쉽게 사용할 수 있습니다.",
+      "link": "https://beats.lasagna.pizza",
+      "tags": [
+        "AI",
+        "음악",
+        "드럼"
       ]
     }
   ],
   "github_repos": [
     {
       "name": "freeCodeCamp/freeCodeCamp",
-      "description": "freeCodeCamp.org의 오픈소스 코드베이스 및 커리큘럼. 수학, 프로그래밍, 컴퓨터 과학을 무료로 배울 수 있습니다.",
-      "reason": "435,993개의 별을 받은 인기 프로젝트",
-      "stars": 435993,
+      "description": "freeCodeCamp.org의 오픈 소스 코드베이스 및 커리큘럼. 수학, 프로그래밍 및 컴퓨터 과학을 무료로 배울 수 있습니다.",
+      "reason": "436,036개의 별을 받은 인기 프로젝트",
+      "stars": 436036,
       "language": "TypeScript",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp"
     },
     {
+      "name": "sindresorhus/awesome",
+      "description": "😎 모든 종류의 흥미로운 주제에 대한 멋진 리스트",
+      "reason": "430,456개의 별을 받은 인기 프로젝트",
+      "stars": 430456,
+      "language": "Unknown",
+      "url": "https://github.com/sindresorhus/awesome"
+    },
+    {
       "name": "kamranahmedse/developer-roadmap",
-      "description": "개발자가 경력을 쌓는 데 도움이 되는 인터랙티브 로드맵, 가이드 및 교육 콘텐츠.",
-      "reason": "347,409개의 별을 받은 인기 프로젝트",
-      "stars": 347409,
+      "description": "개발자가 경력을 성장시키기 위한 인터랙티브 로드맵, 가이드 및 교육 콘텐츠.",
+      "reason": "347,456개의 별을 받은 인기 프로젝트",
+      "stars": 347456,
       "language": "TypeScript",
       "url": "https://github.com/kamranahmedse/developer-roadmap"
     },
     {
       "name": "vinta/awesome-python",
-      "description": "훌륭한 Python 프레임워크, 라이브러리, 소프트웨어 및 리소스에 대한 의견이 담긴 목록.",
-      "reason": "278,696개의 별을 받은 인기 프로젝트",
-      "stars": 278696,
+      "description": "훌륭한 Python 프레임워크, 라이브러리, 소프트웨어 및 리소스에 대한 의견이 반영된 목록.",
+      "reason": "278,855개의 별을 받은 인기 프로젝트",
+      "stars": 278855,
       "language": "Python",
       "url": "https://github.com/vinta/awesome-python"
+    },
+    {
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "description": "자신의 서버에서 호스팅할 수 있는 무료 소프트웨어 네트워크 서비스 및 웹 애플리케이션 목록.",
+      "reason": "268,864개의 별을 받은 인기 프로젝트",
+      "stars": 268864,
+      "language": "Unknown",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted"
     }
   ],
   "youtube_videos": [
+    {
+      "title": "The ladybug clock puzzle",
+      "channel": "3Blue1Brown",
+      "link": "https://www.youtube.com/watch?v=t3jZ2xGOvYg",
+      "thumbnail_url": "https://i.ytimg.com/vi/t3jZ2xGOvYg/hqdefault.jpg",
+      "views": ""
+    },
+    {
+      "title": "Why Laplace transforms are so useful",
+      "channel": "3Blue1Brown",
+      "link": "https://www.youtube.com/watch?v=FE-hM1kRK4Y",
+      "thumbnail_url": "https://i.ytimg.com/vi/FE-hM1kRK4Y/hqdefault.jpg",
+      "views": ""
+    },
+    {
+      "title": "The dynamics of e^(πi)",
+      "channel": "3Blue1Brown",
+      "link": "https://www.youtube.com/watch?v=bnjKwiUg-kw",
+      "thumbnail_url": "https://i.ytimg.com/vi/bnjKwiUg-kw/hqdefault.jpg",
+      "views": ""
+    },
+    {
+      "title": "This Fluid Simulation Should Not Be Possible",
+      "channel": "Two Minute Papers",
+      "link": "https://www.youtube.com/watch?v=O7q52WxYZN8",
+      "thumbnail_url": "https://i.ytimg.com/vi/O7q52WxYZN8/hqdefault.jpg",
+      "views": ""
+    },
     {
       "title": "The Secret Equation Behind Hyper-Realistic Clothing",
       "channel": "Two Minute Papers",
       "link": "https://www.youtube.com/watch?v=Wibbnn3hV4U",
       "thumbnail_url": "https://i.ytimg.com/vi/Wibbnn3hV4U/hqdefault.jpg",
-      "views": ""
-    },
-    {
-      "title": "This New Physics Engine Is 45x Faster!",
-      "channel": "Two Minute Papers",
-      "link": "https://www.youtube.com/watch?v=2c8o65JiPQY",
-      "thumbnail_url": "https://i.ytimg.com/vi/2c8o65JiPQY/hqdefault.jpg",
       "views": ""
     }
   ]
