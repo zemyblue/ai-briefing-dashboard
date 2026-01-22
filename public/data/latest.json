@@ -1,116 +1,102 @@
 {
-  "date": "2026년 1월 21일 수요일",
+  "date": "2026년 1월 22일 목요일",
   "keywords": [
-    "AI 에이전트",
-    "오픈소스",
-    "웹 개발",
-    "자체 호스팅",
-    "프로그래밍 교육"
+    "ML 프레임워크",
+    "자율주행",
+    "차트 시각화",
+    "LLM",
+    "클라우드 비용"
   ],
   "news": [
     {
-      "title": "어떤 AI가 가장 잘 거짓말을 할까?",
-      "summary": "존 내쉬가 설계한 게임 이론의 고전이 AI와 함께 재조명되고 있다.",
-      "content": "AI의 행동을 게임 이론의 관점에서 분석하는 새로운 실험이 소개되었다. 이 실험은 AI의 전략적 선택과 거짓말을 비교하여 AI가 어떻게 상대방에게 영향을 미칠 수 있는지를 탐구한다.",
-      "link": "https://so-long-sucker.vercel.app/",
+      "title": "Show HN: ChartGPU – WebGPU 기반 차트 라이브러리 (1M 포인트에서 60fps)",
+      "summary": "ChartGPU는 100K 데이터 포인트를 초과할 때 느려지는 기존 차트 라이브러리의 한계를 극복하기 위해 개발된 라이브러리입니다.",
+      "content": "이 라이브러리는 모든 계산을 GPU에서 수행하므로 1M 포인트를 60fps로 부드럽게 렌더링할 수 있습니다. 차트 종류로는 선, 영역, 막대, 산점도, 파이, 캔들스틱 차트가 지원됩니다. GitHub에서 MIT 라이센스로 제공되며, npm을 통해 설치할 수 있습니다.",
+      "link": "https://github.com/ChartGPU/ChartGPU",
       "tags": [
         "AI",
-        "게임 이론"
+        "데이터 시각화"
       ]
     },
     {
-      "title": "AI 코딩 에이전트의 전기 사용량",
-      "summary": "AI 코딩 에이전트의 전기 사용량에 대한 분석이 진행되었다.",
-      "content": "AI 에이전트가 코드를 작성하는 데 필요한 전기 사용량에 대한 연구 결과가 발표되었다. 이 연구는 AI 기술의 환경적 영향을 고려하는 데 중요한 계기가 될 것이다.",
-      "link": "https://www.simonpcouch.com/blog/2026-01-20-cc-impact/",
+      "title": "Without benchmarking LLMs, you're likely overpaying",
+      "summary": "LLM을 벤치마킹하지 않으면 과도한 비용을 지불할 수 있다는 주장을 다룹니다.",
+      "content": "이 글에서는 LLM의 성능을 측정하고 최적의 비용을 찾는 것이 얼마나 중요한지를 설명하며, 특히 기업의 비용 절감에 도움이 되는 방법을 제안합니다.",
+      "link": "https://karllorey.com/posts/without-benchmarking-llms-youre-overpaying",
       "tags": [
         "AI",
-        "환경"
+        "비용 관리"
       ]
     },
     {
-      "title": "AI/ML의 트렌드를 추적하는 TopicRadar",
-      "summary": "AI와 머신러닝 관련 최신 동향을 추적할 수 있는 도구가 개발되었다.",
-      "content": "TopicRadar는 HackerNews, GitHub, arXiv 등에서 AI와 ML의 트렌드를 한 곳에서 확인할 수 있도록 도와주는 플랫폼이다. 사용자 맞춤형 주제 추적 기능도 제공하여 관심 있는 분야의 정보를 쉽게 얻을 수 있다.",
-      "link": "https://apify.com/mick-johnson/topic-radar",
+      "title": "Show HN: Retain – 모든 AI 코딩 대화를 위한 통합 지식 베이스",
+      "summary": "Retain은 여러 AI 도구에서의 대화를 통합하여 관리하는 애플리케이션입니다.",
+      "content": "이 애플리케이션은 Claude Code, Claude.ai, ChatGPT, Codex CLI의 대화를 통합하고, 전체 텍스트 검색 기능을 제공합니다. 모든 데이터는 로컬 SQLite 데이터베이스에 저장되며, 사용자 프라이버시를 중요시합니다.",
+      "link": "https://github.com/BayramAnnakov/retain",
       "tags": [
         "AI",
-        "도구"
+        "코딩"
       ]
     },
     {
-      "title": "Mastra 1.0, 오픈소스 JavaScript 에이전트 프레임워크 공개",
-      "summary": "Gatsby 개발팀에서 만든 Mastra 1.0이 안정 버전으로 출시되었다.",
-      "content": "Mastra는 멀티 에이전트 워크플로우를 구성하고 평가를 수행할 수 있는 오픈소스 TypeScript 프레임워크이다. 이 프레임워크는 여러 회사에서 프로덕션 환경에서 사용되고 있으며, 기능이 지속적으로 업데이트되고 있다.",
-      "link": "https://github.com/mastra-ai/mastra",
+      "title": "Show HN: TerabyteDeals – 스토리지 가격 비교 도구",
+      "summary": "TerabyteDeals는 하드 드라이브 및 SSD의 가격을 TB당 가격으로 비교하는 도구입니다.",
+      "content": "이 도구는 Amazon의 가격 정보를 수집하고 TB당 가격을 계산하여 드라이브 유형, 인터페이스, 형태, 용량별로 필터링할 수 있는 정렬 가능한 테이블을 제공합니다. 사용자가 쉽게 스토리지 가격을 비교할 수 있도록 돕는 간단한 도구입니다.",
+      "link": "https://terabytedeals.com",
       "tags": [
         "AI",
-        "오픈소스"
+        "비교 도구"
       ]
     }
   ],
   "github_repos": [
     {
       "name": "freeCodeCamp/freeCodeCamp",
-      "description": "freeCodeCamp.org의 오픈소스 코드베이스 및 커리큘럼. 수학, 프로그래밍 및 컴퓨터 과학을 무료로 배울 수 있습니다.",
-      "reason": "436,105개의 별을 받은 인기 프로젝트",
-      "stars": 436105,
+      "description": "freeCodeCamp.org의 오픈 소스 코드베이스와 커리큘럼. 무료로 수학, 프로그래밍 및 컴퓨터 과학을 배워보세요.",
+      "reason": "436,146개의 별을 받은 인기 프로젝트",
+      "stars": 436146,
       "language": "TypeScript",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp"
     },
     {
       "name": "kamranahmedse/developer-roadmap",
-      "description": "개발자가 경력을 성장시키는 데 도움을 주는 인터랙티브 로드맵, 가이드 및 교육 자료.",
-      "reason": "347,606개의 별을 받은 인기 프로젝트",
-      "stars": 347606,
+      "description": "개발자가 경력을 쌓는 데 도움이 되는 인터랙티브한 로드맵, 가이드 및 기타 교육 콘텐츠.",
+      "reason": "347,674개의 별을 받은 인기 프로젝트",
+      "stars": 347674,
       "language": "TypeScript",
       "url": "https://github.com/kamranahmedse/developer-roadmap"
     },
     {
       "name": "vinta/awesome-python",
-      "description": "훌륭한 Python 프레임워크, 라이브러리, 소프트웨어 및 자원의 의견이 반영된 목록.",
-      "reason": "279,165개의 별을 받은 인기 프로젝트",
-      "stars": 279165,
+      "description": "멋진 Python 프레임워크, 라이브러리, 소프트웨어 및 리소스의 의견이 반영된 목록.",
+      "reason": "279,298개의 별을 받은 인기 프로젝트",
+      "stars": 279298,
       "language": "Python",
       "url": "https://github.com/vinta/awesome-python"
     },
     {
-      "name": "awesome-selfhosted/awesome-selfhosted",
-      "description": "자신의 서버에서 호스팅할 수 있는 무료 소프트웨어 네트워크 서비스 및 웹 애플리케이션 목록.",
-      "reason": "269,192개의 별을 받은 인기 프로젝트",
-      "stars": 269192,
-      "language": "Unknown",
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted"
-    },
-    {
       "name": "facebook/react",
       "description": "웹 및 네이티브 사용자 인터페이스를 위한 라이브러리.",
-      "reason": "242,401개의 별을 받은 인기 프로젝트",
-      "stars": 242401,
+      "reason": "242,423개의 별을 받은 인기 프로젝트",
+      "stars": 242423,
       "language": "JavaScript",
       "url": "https://github.com/facebook/react"
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "description": "모두를 위한 오픈 소스 머신러닝 프레임워크.",
+      "reason": "193,430개의 별을 받은 인기 프로젝트",
+      "stars": 193430,
+      "language": "C++",
+      "url": "https://github.com/tensorflow/tensorflow"
     }
   ],
   "youtube_videos": [
-    {
-      "title": "The ladybug clock puzzle",
-      "channel": "3Blue1Brown",
-      "link": "https://www.youtube.com/watch?v=t3jZ2xGOvYg",
-      "thumbnail_url": "https://i.ytimg.com/vi/t3jZ2xGOvYg/hqdefault.jpg",
-      "views": ""
-    },
     {
       "title": "Why Laplace transforms are so useful",
       "channel": "3Blue1Brown",
       "link": "https://www.youtube.com/watch?v=FE-hM1kRK4Y",
       "thumbnail_url": "https://i.ytimg.com/vi/FE-hM1kRK4Y/hqdefault.jpg",
-      "views": ""
-    },
-    {
-      "title": "The dynamics of e^(πi)",
-      "channel": "3Blue1Brown",
-      "link": "https://www.youtube.com/watch?v=bnjKwiUg-kw",
-      "thumbnail_url": "https://i.ytimg.com/vi/bnjKwiUg-kw/hqdefault.jpg",
       "views": ""
     },
     {
@@ -125,6 +111,13 @@
       "channel": "Two Minute Papers",
       "link": "https://www.youtube.com/watch?v=Wibbnn3hV4U",
       "thumbnail_url": "https://i.ytimg.com/vi/Wibbnn3hV4U/hqdefault.jpg",
+      "views": ""
+    },
+    {
+      "title": "This New Physics Engine Is 45x Faster!",
+      "channel": "Two Minute Papers",
+      "link": "https://www.youtube.com/watch?v=2c8o65JiPQY",
+      "thumbnail_url": "https://i.ytimg.com/vi/2c8o65JiPQY/hqdefault.jpg",
       "views": ""
     }
   ]
