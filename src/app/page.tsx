@@ -1,33 +1,59 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import DailyBriefing, { DailyBriefingProps } from '@/components/DailyBriefing';
+import BriefingV1 from '@/components/BriefingV1';
 
-// GitHub Raw URL (Public 레포지토리 또는 배포 환경)
-const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/zemyblue/ai-briefing-dashboard/main/public/data';
+interface NewsItem {
+  title: string;
+  summary: string;
+  content: string;
+  link: string;
+  source: string;
+  og_image?: string | null;
+  tags: string[];
+}
+
+interface VideoItem {
+  title: string;
+  channel: string;
+  link: string;
+  thumbnail: string;
+  description: string;
+}
+
+interface BriefingData {
+  schema_version: number;
+  date: string;
+  keywords: string[];
+  sections: {
+    hype_check: NewsItem[];
+    tech_deep_dive: NewsItem[];
+    watch_this: VideoItem[];
+  };
+}
+
+const DATA_BASE_URL = '/data';
 
 export default function Home() {
-  const [data, setData] = useState<DailyBriefingProps | null>(null);
+  const [data, setData] = useState<BriefingData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [availableDates, setAvailableDates] = useState<string[]>([]);
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
 
-  // 사용 가능한 날짜 목록 로드
   useEffect(() => {
-    fetch(`${GITHUB_RAW_URL}/dates.json`, {
+    fetch(`${DATA_BASE_URL}/dates.json`, {
       cache: 'default'
     })
-      .then(res => res.json())
-      .then(datesData => {
+      .then((res) => res.json())
+      .then((datesData) => {
         setAvailableDates(datesData.dates || []);
       })
-      .catch(err => {
+      .catch((err) => {
         console.error('Failed to load dates:', err);
       });
   }, []);
 
-  // 브리핑 데이터 로드
   useEffect(() => {
     const loadBriefing = async () => {
       setLoading(true);
@@ -35,18 +61,16 @@ export default function Home() {
 
       let dataUrl: string;
       if (selectedDate) {
-        // 선택된 날짜의 데이터 로드
-        const [year, month, day] = selectedDate.split('-');
-        dataUrl = `${GITHUB_RAW_URL}/${year}/${month}/${day}.json`;
+        const [year, month] = selectedDate.split('-');
+        dataUrl = `${DATA_BASE_URL}/${year}/${month}/${selectedDate}.json`;
       } else {
-        // 최신 데이터 로드
-        dataUrl = `${GITHUB_RAW_URL}/latest.json`;
+        dataUrl = `${DATA_BASE_URL}/latest.json`;
       }
 
       try {
         const res = await fetch(dataUrl, { cache: 'default' });
         if (!res.ok) throw new Error('Failed to fetch');
-        const briefingData = await res.json();
+        const briefingData = (await res.json()) as BriefingData;
         setData(briefingData);
         setLoading(false);
       } catch (err) {
@@ -87,20 +111,9 @@ export default function Home() {
     );
   }
 
-
-  if (!data) {
-    return null;
-  }
-
   return (
     <div>
-      <DailyBriefing
-        {...data}
-        availableDates={availableDates}
-        selectedDate={selectedDate}
-        onDateChange={setSelectedDate}
-      />
+      <BriefingV1 briefingData={data} availableDates={availableDates} selectedDate={selectedDate} onDateChange={setSelectedDate} />
     </div>
   );
 }
-
