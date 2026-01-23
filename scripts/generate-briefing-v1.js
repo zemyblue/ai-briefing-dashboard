@@ -27,17 +27,38 @@ const parser = new Parser({
     }
 });
 
-// 랜덤 검색 키워드 리스트 (재미있는 토픽)
 const SEARCH_TOPICS = [
-    'AI Review', 'AI Tool', 'AI Meme', 'Artificial Intelligence funny',
-    'GPT funny moments', 'AI fails', 'AI vs Human', 'AI art',
-    'ChatGPT tricks', 'AI tutorial', 'Machine learning explained'
+    'Gemini 2.5 Flash tutorial',
+    'LLM agents tutorial',
+    'RAG implementation tutorial',
+    'Vector database comparison 2026',
+    'LangGraph tutorial',
+    'Model Context Protocol MCP tutorial',
+    'vLLM deployment guide',
+    'CUDA for AI inference optimization',
+    'OpenAI compatible API self host',
+    'Prompt engineering for developers',
+    'AI coding assistant workflow',
+    'Indie hacker AI SaaS build log'
 ];
 
 // RSS 피드 소스
 const RSS_SOURCES = {
     reddit_chatgpt: 'https://www.reddit.com/r/ChatGPT/top/.rss?t=day',
     reddit_singularity: 'https://www.reddit.com/r/Singularity/top/.rss?t=day',
+
+    arxiv_cs_ai: 'https://rss.arxiv.org/rss/cs.AI',
+    arxiv_cs_lg: 'https://rss.arxiv.org/rss/cs.LG',
+    arxiv_cs_cl: 'https://rss.arxiv.org/rss/cs.CL',
+    openai_news: 'https://openai.com/blog/rss.xml',
+    hf_blog: 'https://huggingface.co/blog/feed.xml',
+    hn_llm: 'https://hnrss.org/newest?q=LLM',
+    hn_llm_best: 'https://hnrss.org/best?q=LLM',
+    hn_rag: 'https://hnrss.org/newest?q=RAG',
+    hn_rag_best: 'https://hnrss.org/best?q=RAG',
+    hn_ai_agents: 'https://hnrss.org/newest?q=AI%20agent',
+    hn_ai_agents_best: 'https://hnrss.org/best?q=AI%20agent',
+
     theverge_ai: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml',
     techcrunch_ai: 'https://techcrunch.com/category/artificial-intelligence/feed/',
     simulated: 'https://simulated.substack.com/feed'
@@ -187,11 +208,9 @@ async function scrapeWebPage(url) {
         const html = await response.text();
         const $ = cheerio.load(html);
 
-        // og:image 추출
         const ogImage = $('meta[property="og:image"]').attr('content') ||
                        $('meta[name="twitter:image"]').attr('content');
 
-        // article body 추출
         let articleBody = '';
         $('article, .article-content, .post-content, .entry-content, main').each((i, el) => {
             const text = $(el).text().trim();
@@ -200,7 +219,6 @@ async function scrapeWebPage(url) {
             }
         });
 
-        // 본문이 없으면 p 태그 모두 합치기
         if (!articleBody) {
             articleBody = $('p').map((i, el) => $(el).text()).get().join('\n\n').trim();
         }
@@ -215,6 +233,61 @@ async function scrapeWebPage(url) {
     }
 }
 
+async function fetchAnthropicNews(limit = 20) {
+    try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 10000);
+
+        const response = await fetch('https://www.anthropic.com/news', {
+            signal: controller.signal,
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (compatible; AI-Briefing-Bot/1.0)'
+            }
+        });
+        clearTimeout(timeoutId);
+
+        if (!response.ok) return [];
+
+        const html = await response.text();
+        const $ = cheerio.load(html);
+
+        const items = [];
+        const seen = new Set();
+
+        $('a[href^="/news/"]').each((_, el) => {
+            if (items.length >= limit) return;
+
+            const href = $(el).attr('href');
+            if (typeof href !== 'string') return;
+            if (seen.has(href)) return;
+            seen.add(href);
+
+            const link = `https://www.anthropic.com${href}`;
+            const title = $(el)
+                .find('h1, h2, h3, h4, h5, h6, [class*="__title"]')
+                .first()
+                .text()
+                .trim();
+            const pubDate = $(el).find('time').first().text().trim();
+            const contentSnippet = $(el).find('p').first().text().trim();
+
+            if (!title) return;
+
+            items.push({
+                source: 'Anthropic News',
+                title,
+                link,
+                pubDate,
+                contentSnippet
+            });
+        });
+
+        return items;
+    } catch {
+        return [];
+    }
+}
+
 /**
  * 모든 RSS 소스에서 뉴스 수집
  */
@@ -223,17 +296,26 @@ async function fetchAllRSSNews() {
 
     const allNews = [];
 
-    // 각 소스에서 RSS 파싱
-    const feedPromises = Object.entries(RSS_SOURCES).map(async ([source, url]) => {
-        const items = await fetchRSSFeed(url);
-        return items.map(item => ({
-            source: getSourceName(source),
-            title: item.title || '',
-            link: item.link || '',
-            pubDate: item.pubDate || '',
-            contentSnippet: item.contentSnippet || item.summary || ''
-        }));
-    });
+    const feedPromises = [
+        ...Object.entries(RSS_SOURCES).map(async ([source, url]) => {
+            const items = await fetchRSSFeed(url);
+            return items.map(item => {
+                const rawContent = item.content || item['content:encoded'] || '';
+                const imgMatch = typeof rawContent === 'string' ? rawContent.match(/<img[^>]+src="([^"]+)"/i) : null;
+                const ogImage = imgMatch?.[1] || null;
+
+                return {
+                    source: getSourceName(source),
+                    title: item.title || '',
+                    link: item.link || '',
+                    pubDate: item.pubDate || '',
+                    contentSnippet: item.contentSnippet || item.summary || '',
+                    ogImage
+                };
+            });
+        }),
+        fetchAnthropicNews()
+    ];
 
     const results = await Promise.all(feedPromises);
     results.forEach(news => allNews.push(...news));
@@ -249,6 +331,17 @@ function getSourceName(source) {
     const names = {
         reddit_chatgpt: 'Reddit r/ChatGPT',
         reddit_singularity: 'Reddit r/Singularity',
+        arxiv_cs_ai: 'arXiv cs.AI',
+        arxiv_cs_lg: 'arXiv cs.LG',
+        arxiv_cs_cl: 'arXiv cs.CL',
+        openai_news: 'OpenAI News',
+        hf_blog: 'Hugging Face Blog',
+        hn_llm: 'Hacker News (LLM)',
+        hn_llm_best: 'Hacker News (LLM)',
+        hn_rag: 'Hacker News (RAG)',
+        hn_rag_best: 'Hacker News (RAG)',
+        hn_ai_agents: 'Hacker News (AI agents)',
+        hn_ai_agents_best: 'Hacker News (AI agents)',
         theverge_ai: 'The Verge AI',
         techcrunch_ai: 'TechCrunch AI',
         simulated: 'Simulated'
@@ -341,18 +434,64 @@ async function generateBriefingV1() {
     console.log(`✅ RSS 뉴스: ${rssNews.length}개`);
     console.log(`✅ YouTube: ${youtubeVideos.length}개`);
 
-    // 테스트용 enrichedNews 생성
-    const enrichedNews = rssNews.slice(0, 5).map(item => ({
+    const isRedditSource = (source) => typeof source === 'string' && source.toLowerCase().includes('reddit');
+
+    const uniqueByLink = (items) => {
+        const seen = new Set();
+        return items.filter((item) => {
+            const link = item?.link;
+            if (typeof link !== 'string' || link.length === 0) return false;
+            if (seen.has(link)) return false;
+            seen.add(link);
+            return true;
+        });
+    };
+
+    const isHackerNewsInternalLink = (link) => {
+        return typeof link === 'string' && link.includes('news.ycombinator.com');
+    };
+
+    const takeBySource = (items, sourceName, limit) => {
+        let filtered = items.filter((item) => item.source === sourceName);
+
+        if (sourceName.startsWith('Hacker News')) {
+            filtered = filtered.filter((item) => !isHackerNewsInternalLink(item.link));
+        }
+
+        return filtered.slice(0, limit);
+    };
+
+    const deepDivePool = rssNews.filter((item) => !isRedditSource(item.source));
+
+    const deepDiveCandidates = uniqueByLink([
+        ...takeBySource(deepDivePool, 'OpenAI News', 8),
+        ...takeBySource(deepDivePool, 'Anthropic News', 8),
+        ...takeBySource(deepDivePool, 'Hugging Face Blog', 8),
+        ...takeBySource(deepDivePool, 'Hacker News (LLM)', 6),
+        ...takeBySource(deepDivePool, 'Hacker News (RAG)', 6),
+        ...takeBySource(deepDivePool, 'Hacker News (AI agents)', 6),
+        ...takeBySource(deepDivePool, 'The Verge AI', 8),
+        ...takeBySource(deepDivePool, 'TechCrunch AI', 8),
+        ...takeBySource(deepDivePool, 'Simulated', 8),
+        ...takeBySource(deepDivePool, 'arXiv cs.AI', 10),
+        ...takeBySource(deepDivePool, 'arXiv cs.LG', 10),
+        ...takeBySource(deepDivePool, 'arXiv cs.CL', 10)
+    ]);
+
+    const hypeCandidates = uniqueByLink(rssNews.filter((item) => isRedditSource(item.source))).slice(0, 25);
+
+    const deepDiveEnriched = await enrichNewsWithCrawling(deepDiveCandidates, 8);
+
+    const enrichedNewsForPrompt = [...deepDiveEnriched, ...hypeCandidates].map(item => ({
         ...item,
         ogImage: item.ogImage,
-        articleBody: item.contentSnippet
+        articleBody: item.articleBody || item.contentSnippet
     }));
 
     console.log(`🔍 수집 완료: RSS ${rssNews.length}개, YouTube ${youtubeVideos.length}개`);
 
 
-    // 데이터가 너무 적으면 경고
-    if (enrichedNews.length === 0 && youtubeVideos.length === 0) {
+    if (enrichedNewsForPrompt.length === 0 && youtubeVideos.length === 0) {
         console.error('❌ 수집된 데이터가 없습니다.');
         process.exit(1);
     }
@@ -371,15 +510,22 @@ async function generateBriefingV1() {
 
 ## 분석 데이터:
 
-=== RSS 뉴스 (${enrichedNews.length}개) ===
-${enrichedNews.map((item, i) => `
-[${i + 1}] 제목: ${item.title}
-소스: ${item.source}
-링크: ${item.link}
-요약: ${item.contentSnippet}
-${item.articleBody ? `본문: ${item.articleBody.substring(0, 500)}...` : ''}
-${item.ogImage ? `이미지: ${item.ogImage}` : ''}
-`).join('\n')}
+=== 글/기사 후보 (Tech Deep Dive) (${deepDiveCandidates.length}개) ===
+ ${deepDiveCandidates.map((item, i) => `
+ [${i + 1}] 제목: ${item.title}
+ 소스: ${item.source}
+ 링크: ${item.link}
+ 요약: ${item.contentSnippet}
+ `).join('\n')}
+
+=== 가벼운 이슈 후보 (Hype Check) (${hypeCandidates.length}개) ===
+ ${hypeCandidates.map((item, i) => `
+ [${i + 1}] 제목: ${item.title}
+ 소스: ${item.source}
+ 링크: ${item.link}
+ 요약: ${item.contentSnippet}
+ `).join('\n')}
+
 
 === YouTube 영상 (${youtubeVideos.length}개) ===
 ${youtubeVideos.map((video, i) => `
@@ -430,14 +576,18 @@ ${youtubeVideos.map((video, i) => `
 }
 
 ## 중요 규칙:
-1. 위에 제공된 실제 데이터만 사용하세요. 절대 새로운 URL 생성 금지
-2. Hype Check: 가장 자극적이고 재미있는 뉴스 (Reddit, TheVerge)
-3. Tech Deep Dive: 진지한 기술 분석 (TechCrunch, Simulated)
-4. Watch This: YouTube 영상
-5. 각 섹션 최대 5개 항목
-6. 한국어로 작성 (헤드라인, 요약, 내용 모두)
-7. JSON만 출력 (추가 설명 불필요)
-`;
+ 1. 위에 제공된 실제 데이터만 사용하세요. 절대 새로운 URL 생성 금지
+ 2. hype_check는 반드시 "가벼운 이슈 후보"의 링크만 사용
+ 3. tech_deep_dive는 반드시 "글/기사 후보"의 링크만 사용 (YouTube 링크 금지)
+ 4. watch_this는 반드시 YouTube 영상 목록의 링크만 사용
+ 5. tech_deep_dive, hype_check 항목의 link는 서로 중복되면 안 됨
+ 6. tech_deep_dive는 가능하면 다음 소스 중 최소 3개 이상 포함: OpenAI News, Anthropic News, Hugging Face Blog, Hacker News
+ 7. hype_check는 더 많이 뽑아도 됩니다 (권장 10~18개)
+ 8. tech_deep_dive는 더 많이 뽑아도 됩니다 (권장 10~18개)
+ 9. watch_this는 더 많이 뽑아도 됩니다 (권장 8~15개)
+ 10. 한국어로 작성 (헤드라인, 요약, 내용 모두)
+ 11. JSON만 출력 (추가 설명 불필요)
+ `;
 
     const jsonString = await callGemini(prompt);
 
@@ -447,8 +597,65 @@ ${youtubeVideos.map((video, i) => `
     }
 
     try {
-        const cleanJson = jsonString.replace(/```json/g, '').replace(/```/g, '').trim();
-        const data = JSON.parse(cleanJson);
+        const stripFences = jsonString.replace(/```json/g, '').replace(/```/g, '').trim();
+        const jsonStart = stripFences.indexOf('{');
+        const jsonEnd = stripFences.lastIndexOf('}');
+        const rawJson = jsonStart >= 0 && jsonEnd >= 0 ? stripFences.slice(jsonStart, jsonEnd + 1) : stripFences;
+
+        const sanitizeJson = (input) => {
+            let out = '';
+            let inString = false;
+            let isEscaped = false;
+
+            for (let i = 0; i < input.length; i++) {
+                const ch = input[i];
+
+                if (isEscaped) {
+                    out += ch;
+                    isEscaped = false;
+                    continue;
+                }
+
+                if (ch === '\\') {
+                    out += ch;
+                    isEscaped = true;
+                    continue;
+                }
+
+                if (inString && (ch === '\n' || ch === '\r')) {
+                    out += ch === '\n' ? '\\n' : '\\r';
+                    continue;
+                }
+
+                if (ch === '"') {
+                    if (!inString) {
+                        inString = true;
+                        out += ch;
+                        continue;
+                    }
+
+                    let j = i + 1;
+                    while (j < input.length && /\s/.test(input[j])) j++;
+                    const next = j < input.length ? input[j] : '';
+                    const isTerminator = next === ',' || next === '}' || next === ']' || next === ':';
+
+                    if (isTerminator) {
+                        inString = false;
+                        out += ch;
+                        continue;
+                    }
+
+                    out += '\\"';
+                    continue;
+                }
+
+                out += ch;
+            }
+
+            return out;
+        };
+
+        const data = JSON.parse(sanitizeJson(rawJson));
 
         console.log("🔍 최종 데이터 검증 중...");
 
@@ -484,18 +691,175 @@ ${youtubeVideos.map((video, i) => `
             };
         };
 
+        const fetchRedditPreviewImage = async (link) => {
+            try {
+                if (typeof link !== 'string') return null;
+                const match = link.match(/\/comments\/([^/\s?#]+)/);
+                const postId = match?.[1];
+                if (!postId) return null;
+
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 8000);
+                const url = `https://www.reddit.com/comments/${postId}.json?raw_json=1`;
+
+                const response = await fetch(url, {
+                    signal: controller.signal,
+                    headers: {
+                        'User-Agent': 'Mozilla/5.0 (compatible; AI-Briefing-Bot/1.0)'
+                    }
+                });
+                clearTimeout(timeoutId);
+
+                if (!response.ok) return null;
+
+                const payload = await response.json();
+                const post = payload?.[0]?.data?.children?.[0]?.data;
+                const imageUrl = post?.preview?.images?.[0]?.source?.url;
+
+                return typeof imageUrl === 'string' ? imageUrl : null;
+            } catch {
+                return null;
+            }
+        };
+
+        const backfillOgImages = async (items, limit) => {
+            const filled = [...items];
+            const max = Math.min(typeof limit === 'number' ? limit : 0, filled.length);
+
+            for (let i = 0; i < max; i++) {
+                const current = filled[i];
+                if (!current || current.og_image) continue;
+                if (typeof current.link !== 'string' || current.link.length === 0) continue;
+
+                if (current.link.includes('reddit.com')) {
+                    const redditImage = await fetchRedditPreviewImage(current.link);
+                    if (redditImage) {
+                        filled[i] = { ...current, og_image: redditImage };
+                        continue;
+                    }
+                }
+
+                const scraped = await scrapeWebPage(current.link);
+                if (scraped?.ogImage && typeof scraped.ogImage === 'string') {
+                    filled[i] = { ...current, og_image: scraped.ogImage };
+                }
+            }
+
+            return filled;
+        };
+
         const rawHypeCheck = rawSections.hype_check || rawSections.hypeCheck || [];
         const rawTechDeepDive = rawSections.tech_deep_dive || rawSections.techDeepDive || [];
         const rawWatchThis = rawSections.watch_this || rawSections.watchThis || [];
+
+        const isYouTubeLink = (link) => {
+            if (typeof link !== 'string') return false;
+            return link.includes('youtube.com') || link.includes('youtu.be');
+        };
+
+        const uniqueByLink = (items) => {
+            const seen = new Set();
+            return items.filter((item) => {
+                const link = item?.link;
+                if (typeof link !== 'string' || link.length === 0) return false;
+                if (seen.has(link)) return false;
+                seen.add(link);
+                return true;
+            });
+        };
+
+        const normalizedHypeCheck = uniqueByLink(
+            (Array.isArray(rawHypeCheck) ? rawHypeCheck : []).filter((item) => isValidLink(item?.link)).map(normalizeNewsItem)
+        )
+            .filter((item) => !isYouTubeLink(item.link))
+            .slice(0, 18);
+
+        const normalizedTechDeepDiveFromModel = uniqueByLink(
+            (Array.isArray(rawTechDeepDive) ? rawTechDeepDive : []).filter((item) => isValidLink(item?.link)).map(normalizeNewsItem)
+        ).filter((item) => !isYouTubeLink(item.link));
+
+        const paperCandidates = Array.isArray(deepDiveCandidates)
+            ? deepDiveCandidates
+                  .filter((item) => typeof item?.link === 'string' && item.link.includes('arxiv.org/abs'))
+                  .map((item) => {
+                      const rawText = typeof item?.contentSnippet === 'string' ? item.contentSnippet : '';
+                      const normalizedText = rawText.replace(/\s+/g, ' ').trim();
+                      const summary = normalizedText.length > 220 ? `${normalizedText.slice(0, 220)}…` : normalizedText;
+                      const content = normalizedText.length > 900 ? `${normalizedText.slice(0, 900)}…` : normalizedText;
+
+                      return {
+                          title: typeof item?.title === 'string' ? item.title : '',
+                          summary,
+                          content,
+                          link: item.link,
+                          source: typeof item?.source === 'string' ? item.source : 'arXiv',
+                          og_image: null,
+                          tags: ['논문', 'arXiv']
+                      };
+                  })
+            : [];
+
+        const modelHasPapers = normalizedTechDeepDiveFromModel.some((item) => item.link.includes('arxiv.org/abs'));
+
+        const MIN_PAPERS_IN_DEEP_DIVE = 3;
+
+        let normalizedTechDeepDive = [];
+        if (!modelHasPapers && paperCandidates.length > 0) {
+            const keepCount = Math.max(0, 18 - MIN_PAPERS_IN_DEEP_DIVE);
+            normalizedTechDeepDive = uniqueByLink([
+                ...normalizedTechDeepDiveFromModel.slice(0, keepCount),
+                ...paperCandidates.slice(0, MIN_PAPERS_IN_DEEP_DIVE)
+            ]).slice(0, 18);
+        } else {
+            normalizedTechDeepDive = uniqueByLink(normalizedTechDeepDiveFromModel).slice(0, 18);
+        }
+
+        const MIN_TECH_DEEP_DIVE_ITEMS = 12;
+        if (normalizedTechDeepDive.length < MIN_TECH_DEEP_DIVE_ITEMS && Array.isArray(deepDiveCandidates)) {
+            const supplement = deepDiveCandidates
+                .filter((item) => typeof item?.link === 'string')
+                .filter((item) => !isYouTubeLink(item.link))
+                .map((item) => {
+                    const rawText = typeof item?.contentSnippet === 'string' ? item.contentSnippet : '';
+                    const normalizedText = rawText.replace(/\s+/g, ' ').trim();
+                    const summary = normalizedText.length > 220 ? `${normalizedText.slice(0, 220)}…` : normalizedText;
+                    const content = normalizedText.length > 900 ? `${normalizedText.slice(0, 900)}…` : normalizedText;
+
+                    return {
+                        title: typeof item?.title === 'string' ? item.title : '',
+                        summary,
+                        content,
+                        link: item.link,
+                        source: typeof item?.source === 'string' ? item.source : '',
+                        og_image: null,
+                        tags: ['Deep', 'Dive']
+                    };
+                });
+
+            normalizedTechDeepDive = uniqueByLink([...normalizedTechDeepDive, ...supplement]).slice(0, 18);
+        }
+
+
+        normalizedTechDeepDive = await backfillOgImages(normalizedTechDeepDive, 10);
+        const normalizedHypeCheckWithImages = await backfillOgImages(normalizedHypeCheck, 6);
+
+        const usedLinks = new Set([...normalizedHypeCheckWithImages, ...normalizedTechDeepDive].map((item) => item.link));
+
+        const normalizedWatchThis = uniqueByLink(
+            (Array.isArray(rawWatchThis) ? rawWatchThis : []).filter((item) => isValidLink(item?.link)).map(normalizeVideoItem)
+        )
+            .filter((item) => isYouTubeLink(item.link))
+            .filter((item) => !usedLinks.has(item.link))
+            .slice(0, 15);
 
         const normalizedData = {
             schema_version: schemaVersion,
             date: dateStr,
             keywords: Array.isArray(data.keywords) ? data.keywords.filter((k) => typeof k === 'string') : [],
             sections: {
-                hype_check: (Array.isArray(rawHypeCheck) ? rawHypeCheck : []).filter((item) => isValidLink(item?.link)).map(normalizeNewsItem),
-                tech_deep_dive: (Array.isArray(rawTechDeepDive) ? rawTechDeepDive : []).filter((item) => isValidLink(item?.link)).map(normalizeNewsItem),
-                watch_this: (Array.isArray(rawWatchThis) ? rawWatchThis : []).filter((item) => isValidLink(item?.link)).map(normalizeVideoItem)
+                hype_check: normalizedHypeCheckWithImages,
+                tech_deep_dive: normalizedTechDeepDive,
+                watch_this: normalizedWatchThis
             }
         };
 
