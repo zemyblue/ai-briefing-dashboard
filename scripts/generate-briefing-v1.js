@@ -233,6 +233,7 @@ async function scrapeWebPage(url) {
     }
 }
 
+
 async function fetchAnthropicNews(limit = 20) {
     try {
         const controller = new AbortController();
@@ -528,12 +529,14 @@ async function generateBriefingV1() {
 
 
 === YouTube 영상 (${youtubeVideos.length}개) ===
-${youtubeVideos.map((video, i) => `
-[${i + 1}] 제목: ${video.title}
-채널: ${video.channel}
-링크: ${video.link}
-썸네일: ${video.thumbnail}
-`).join('\n')}
+ ${youtubeVideos.map((video, i) => `
+ [${i + 1}] 제목: ${video.title}
+ 채널: ${video.channel}
+ 링크: ${video.link}
+ 썸네일: ${video.thumbnail}
+ `).join('\n')}
+
+
 
 ## 출력 형식 (JSON만 출력):
 
@@ -585,9 +588,9 @@ ${youtubeVideos.map((video, i) => `
  7. hype_check는 더 많이 뽑아도 됩니다 (권장 10~18개)
  8. tech_deep_dive는 더 많이 뽑아도 됩니다 (권장 10~18개)
  9. watch_this는 더 많이 뽑아도 됩니다 (권장 8~15개)
- 10. 한국어로 작성 (헤드라인, 요약, 내용 모두)
- 11. JSON만 출력 (추가 설명 불필요)
- `;
+  10. 한국어로 작성 (헤드라인, 요약, 내용 모두)
+  11. JSON만 출력 (추가 설명 불필요)
+  `;
 
     const jsonString = await callGemini(prompt);
 
@@ -690,6 +693,7 @@ ${youtubeVideos.map((video, i) => `
                 description: typeof item?.description === 'string' ? item.description : ''
             };
         };
+
 
         const fetchRedditPreviewImage = async (link) => {
             try {
@@ -851,6 +855,7 @@ ${youtubeVideos.map((video, i) => `
             .filter((item) => isYouTubeLink(item.link))
             .filter((item) => !usedLinks.has(item.link))
             .slice(0, 15);
+
 
         const normalizedData = {
             schema_version: schemaVersion,
