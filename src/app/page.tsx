@@ -32,7 +32,8 @@ interface BriefingData {
   };
 }
 
-const DATA_BASE_URL = '/data';
+const DEFAULT_DATA_BASE_URL = 'https://raw.githubusercontent.com/zemyblue/ai-briefing-dashboard/main/public/data';
+const DATA_BASE_URL = process.env.NEXT_PUBLIC_DATA_BASE_URL || DEFAULT_DATA_BASE_URL;
 
 export default function Home() {
   const [data, setData] = useState<BriefingData | null>(null);
@@ -42,8 +43,10 @@ export default function Home() {
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch(`${DATA_BASE_URL}/dates.json`, {
-      cache: 'default'
+    const cacheBust = String(Math.floor(Date.now() / 60000));
+
+    fetch(`${DATA_BASE_URL}/dates.json?v=${cacheBust}`, {
+      cache: 'no-store'
     })
       .then((res) => res.json())
       .then((datesData) => {
@@ -59,16 +62,18 @@ export default function Home() {
       setLoading(true);
       setError(false);
 
+      const cacheBust = String(Math.floor(Date.now() / 60000));
+
       let dataUrl: string;
       if (selectedDate) {
         const [year, month] = selectedDate.split('-');
-        dataUrl = `${DATA_BASE_URL}/${year}/${month}/${selectedDate}.json`;
+        dataUrl = `${DATA_BASE_URL}/${year}/${month}/${selectedDate}.json?v=${cacheBust}`;
       } else {
-        dataUrl = `${DATA_BASE_URL}/latest.json`;
+        dataUrl = `${DATA_BASE_URL}/latest.json?v=${cacheBust}`;
       }
 
       try {
-        const res = await fetch(dataUrl, { cache: 'default' });
+        const res = await fetch(dataUrl, { cache: 'no-store' });
         if (!res.ok) throw new Error('Failed to fetch');
         const briefingData = (await res.json()) as BriefingData;
         setData(briefingData);
