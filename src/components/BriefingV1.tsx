@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, LayoutGroup } from 'framer-motion';
 import { X, Play, Calendar, Sparkles, Youtube, ExternalLink, Tag, ArrowRight, Zap, Layers } from 'lucide-react';
 
 interface NewsItem {
@@ -44,12 +44,14 @@ const BriefingCard = ({
   type,
   variant = 'default',
   onClick,
+  isModalOpen = false,
   className = ''
 }: {
   item: NewsItem;
   type: 'hype' | 'deep';
   variant?: 'default' | 'hero';
   onClick: () => void;
+  isModalOpen?: boolean;
   className?: string;
 }) => {
   const isDeep = type === 'deep';
@@ -58,11 +60,11 @@ const BriefingCard = ({
 
   return (
     <motion.button
-      layoutId={`card-${item.title}`}
+      layoutId={`card-${encodeURIComponent(item.link)}`}
       onClick={onClick}
-      whileHover={{ scale: 1.02, y: -2 }}
+      whileHover={!isModalOpen ? { scale: 1.02, y: -2 } : undefined}
       whileTap={{ scale: 0.98 }}
-      className={`group relative w-full text-left overflow-hidden rounded-2xl border transition-all duration-300 flex flex-col
+      className={`group relative w-full text-left overflow-hidden rounded-2xl border transition-colors duration-300 flex flex-col will-change-transform
         ${isDeep
           ? 'bg-slate-900/60 border-purple-500/30 hover:border-purple-400/60'
           : 'bg-slate-900/40 border-white/10 hover:border-white/20 hover:bg-slate-800/40'
@@ -146,12 +148,12 @@ const BriefingCard = ({
   );
 };
 
-const CompactRow = ({ item, onClick }: { item: NewsItem; onClick: () => void }) => (
+const CompactRow = ({ item, onClick, isModalOpen = false }: { item: NewsItem; onClick: () => void; isModalOpen?: boolean }) => (
   <motion.button
-    layoutId={`card-${item.title}`}
+    layoutId={`card-${encodeURIComponent(item.link)}`}
     onClick={onClick}
-    whileHover={{ x: 4 }}
-    className="w-full text-left p-4 rounded-xl bg-slate-900/40 border border-white/5 hover:border-purple-500/30 hover:bg-slate-800/60 transition-all group shrink-0"
+    whileHover={!isModalOpen ? { x: 4 } : undefined}
+    className="w-full text-left p-4 rounded-xl bg-slate-900/40 border border-white/5 hover:border-purple-500/30 hover:bg-slate-800/60 transition-colors duration-200 group shrink-0 will-change-transform"
   >
     <div className="flex justify-between items-start gap-3">
       <div>
@@ -170,13 +172,13 @@ const CompactRow = ({ item, onClick }: { item: NewsItem; onClick: () => void }) 
   </motion.button>
 );
 
-const VideoCard = ({ video, onClick }: { video: VideoItem; onClick: () => void }) => (
+const VideoCard = ({ video, onClick, isModalOpen = false }: { video: VideoItem; onClick: () => void; isModalOpen?: boolean }) => (
   <motion.button
-    layoutId={`video-${video.title}`}
+    layoutId={`video-${encodeURIComponent(video.link)}`}
     onClick={onClick}
-    whileHover={{ scale: 1.02 }}
+    whileHover={!isModalOpen ? { scale: 1.02 } : undefined}
     whileTap={{ scale: 0.98 }}
-    className="group relative w-full aspect-video rounded-2xl overflow-hidden border border-white/10 bg-slate-900/50 hover:border-red-500/50 transition-all"
+    className="group relative w-full aspect-video rounded-2xl overflow-hidden border border-white/10 bg-slate-900/50 hover:border-red-500/50 transition-colors duration-300 will-change-transform"
   >
     <img 
       src={video.thumbnail} 
@@ -228,7 +230,11 @@ const PostcardModal = ({
       />
       
       <motion.div
-        layoutId={isVideo ? `video-${item.title}` : `card-${item.title}`}
+        layoutId={isVideo ? `video-${encodeURIComponent(item.link)}` : `card-${encodeURIComponent(item.link)}`}
+        transition={{
+          layout: { duration: 0.22, ease: [0.22, 1, 0.36, 1] },
+          opacity: { duration: 0.15 }
+        }}
         className="relative w-full max-w-4xl bg-slate-900 border border-white/10 rounded-3xl overflow-hidden shadow-2xl shadow-purple-500/10 flex flex-col md:flex-row max-h-[85vh]"
         onClick={(e) => e.stopPropagation()}
       >
@@ -317,7 +323,26 @@ export default function BriefingV1({ briefingData, availableDates = [], selected
   const { date, keywords, sections } = briefingData;
   const [selectedItem, setSelectedItem] = useState<NewsItem | VideoItem | null>(null);
 
+  useEffect(() => {
+    if (!selectedItem) return;
+
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+    const prevOverflow = document.body.style.overflow;
+    const prevPaddingRight = document.body.style.paddingRight;
+
+    document.body.style.overflow = 'hidden';
+    if (scrollbarWidth > 0) {
+      document.body.style.paddingRight = `${scrollbarWidth}px`;
+    }
+
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      document.body.style.paddingRight = prevPaddingRight;
+    };
+  }, [selectedItem]);
+
   return (
+    <LayoutGroup>
     <div className="min-h-screen bg-slate-950 text-slate-100 p-4 md:p-8 lg:p-12 font-sans selection:bg-purple-500/30">
       <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
         <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-purple-900/20 rounded-full blur-[120px] opacity-40 mix-blend-screen" />
@@ -377,6 +402,7 @@ export default function BriefingV1({ briefingData, availableDates = [], selected
                     type="deep" 
                     variant="hero"
                     onClick={() => setSelectedItem(sections.tech_deep_dive[0])}
+                    isModalOpen={!!selectedItem}
                     className="min-h-[280px] md:min-h-[320px]" 
                   />
                 )}
@@ -388,6 +414,7 @@ export default function BriefingV1({ briefingData, availableDates = [], selected
                       item={item} 
                       type="deep" 
                       onClick={() => setSelectedItem(item)}
+                      isModalOpen={!!selectedItem}
                     />
                   ))}
                 </div>
@@ -406,6 +433,7 @@ export default function BriefingV1({ briefingData, availableDates = [], selected
                         key={i + 3} 
                         item={item} 
                         onClick={() => setSelectedItem(item)} 
+                        isModalOpen={!!selectedItem}
                       />
                     ))
                   ) : (
@@ -432,6 +460,7 @@ export default function BriefingV1({ briefingData, availableDates = [], selected
                   item={item} 
                   type="hype" 
                   onClick={() => setSelectedItem(item)} 
+                  isModalOpen={!!selectedItem}
                 />
               ))}
             </div>
@@ -449,6 +478,7 @@ export default function BriefingV1({ briefingData, availableDates = [], selected
                   key={i} 
                   video={video} 
                   onClick={() => setSelectedItem(video)} 
+                  isModalOpen={!!selectedItem}
                 />
               ))}
             </div>
@@ -463,7 +493,7 @@ export default function BriefingV1({ briefingData, availableDates = [], selected
         </footer>
       </div>
 
-      <AnimatePresence>
+      <AnimatePresence initial={false}>
         {selectedItem && (
           <PostcardModal 
             item={selectedItem} 
@@ -472,5 +502,6 @@ export default function BriefingV1({ briefingData, availableDates = [], selected
         )}
       </AnimatePresence>
     </div>
+    </LayoutGroup>
   );
 }
