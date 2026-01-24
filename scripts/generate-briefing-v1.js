@@ -2,6 +2,9 @@ require('dotenv').config();
 
 const fs = require('fs');
 const path = require('path');
+
+const HISTORY_DAYS = Number.parseInt(process.env.HISTORY_DAYS || '14', 10);
+
 const Parser = require('rss-parser');
 const cheerio = require('cheerio');
 
@@ -292,6 +295,103 @@ async function fetchAnthropicNews(limit = 20) {
 /**
  * 모든 RSS 소스에서 뉴스 수집
  */
+function formatKstDate(date) {
+    return new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Asia/Seoul',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+    }).format(date);
+}
+
+function getRecentKstDates(days) {
+    const out = [];
+    for (let i = 0; i < days; i++) {
+        const d = new Date();
+        d.setDate(d.getDate() - i);
+        out.push(formatKstDate(d));
+    }
+    return out;
+}
+
+function readJsonFile(filePath) {
+    try {
+        return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    } catch {
+        return null;
+    }
+}
+
+function buildHistoryIndex(days) {
+    const baseDir = path.join(__dirname, '../public/data');
+    const datesFile = path.join(baseDir, 'dates.json');
+    const datesPayload = readJsonFile(datesFile);
+    const dates = Array.isArray(datesPayload?.dates) ? datesPayload.dates : [];
+
+    const targetDates = dates.length > 0 ? dates.slice(0, days) : getRecentKstDates(days);
+
+    const seenLinks = new Set();
+    const seenYouTubeIds = new Set();
+
+    const collectFromNews = (items) => {
+        if (!Array.isArray(items)) return;
+        for (const it of items) {
+            const link = it?.link;
+            if (typeof link === 'string' && link.length > 0) {
+                seenLinks.add(link);
+                const m = link.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([A-Za-z0-9_-]{6,})/);
+                if (m?.[1]) seenYouTubeIds.add(m[1]);
+            }
+        }
+    };
+
+    const collectFromVideos = (items) => {
+        if (!Array.isArray(items)) return;
+        for (const it of items) {
+            const videoId = it?.videoId;
+            if (typeof videoId === 'string' && videoId.length > 0) {
+                seenYouTubeIds.add(videoId);
+            }
+            const link = it?.link;
+            if (typeof link === 'string' && link.length > 0) {
+                const m = link.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([A-Za-z0-9_-]{6,})/);
+                if (m?.[1]) seenYouTubeIds.add(m[1]);
+            }
+        }
+    };
+
+    for (const dateStr of targetDates) {
+        const [year, month] = dateStr.split('-');
+        const filePath = path.join(baseDir, year, month, `${dateStr}.json`);
+        const payload = readJsonFile(filePath);
+        if (!payload?.sections) continue;
+
+        collectFromNews(payload.sections.hype_check);
+        collectFromNews(payload.sections.tech_deep_dive);
+        collectFromVideos(payload.sections.watch_this);
+    }
+
+    return { seenLinks, seenYouTubeIds };
+}
+
+function parsePubDate(pubDate) {
+    if (typeof pubDate !== 'string' || pubDate.trim().length === 0) return null;
+    const parsed = new Date(pubDate);
+    return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function filterByRecentDays(items, days) {
+    const now = new Date();
+    const threshold = new Date(now);
+    threshold.setDate(threshold.getDate() - days);
+
+    return items.filter((item) => {
+        const d = parsePubDate(item?.pubDate);
+        if (!d) return true;
+        return d >= threshold;
+    });
+}
+
 async function fetchAllRSSNews() {
     console.log('📡 RSS 뉴스 수집 중...');
 
@@ -427,15 +527,42 @@ async function generateBriefingV1() {
     // 1단계: 데이터 수집 (테스트용 - AI 없이)
     console.log('📡 데이터 수집 중...');
 
-    const [rssNews, youtubeVideos] = await Promise.all([
+    const [rssNews, youtubeVideosRaw] = await Promise.all([
         fetchAllRSSNews(),
         searchYouTubeVideos()
     ]);
 
-    console.log(`✅ RSS 뉴스: ${rssNews.length}개`);
-    console.log(`✅ YouTube: ${youtubeVideos.length}개`);
+    const { seenLinks, seenYouTubeIds } = buildHistoryIndex(HISTORY_DAYS);
+
+    const rssNewsDeduped = rssNews.filter((item) => {
+        return typeof item?.link === 'string' && item.link.length > 0 && !seenLinks.has(item.link);
+    });
+
+    const rssNewsForSelection = rssNewsDeduped.length >= 30 ? rssNewsDeduped : rssNews;
+
+    const youtubeUnique = (() => {
+        const out = [];
+        const seen = new Set();
+        for (const v of youtubeVideosRaw) {
+            if (!v?.videoId || seen.has(v.videoId)) continue;
+            seen.add(v.videoId);
+            out.push(v);
+        }
+        return out;
+    })();
+
+    const youtubeDeduped = youtubeUnique.filter((v) => !seenYouTubeIds.has(v.videoId));
+    const youtubeVideos = youtubeDeduped.length > 0 ? youtubeDeduped : youtubeUnique;
+
+    console.log(`✅ RSS 뉴스: ${rssNewsForSelection.length}개 (최근 ${HISTORY_DAYS}일 중복 제거 적용)`);
+    console.log(`✅ YouTube: ${youtubeVideos.length}개 (최근 ${HISTORY_DAYS}일 중복 제거 적용)`);
 
     const isRedditSource = (source) => typeof source === 'string' && source.toLowerCase().includes('reddit');
+    const kstYesterday = (() => {
+        const d = new Date();
+        d.setDate(d.getDate() - 1);
+        return formatKstDate(d);
+    })();
 
     const uniqueByLink = (items) => {
         const seen = new Set();
@@ -459,10 +586,31 @@ async function generateBriefingV1() {
             filtered = filtered.filter((item) => !isHackerNewsInternalLink(item.link));
         }
 
+        if (sourceName === 'OpenAI News' || sourceName === 'Anthropic News') {
+            filtered = filterByRecentDays(filtered, 7);
+
+            filtered.sort((a, b) => {
+                const aDate = parsePubDate(a?.pubDate);
+                const bDate = parsePubDate(b?.pubDate);
+
+                const aKst = aDate ? formatKstDate(aDate) : '';
+                const bKst = bDate ? formatKstDate(bDate) : '';
+
+                const aBoost = aKst === kstYesterday ? 1 : 0;
+                const bBoost = bKst === kstYesterday ? 1 : 0;
+
+                if (aBoost !== bBoost) return bBoost - aBoost;
+
+                const aTime = aDate ? aDate.getTime() : 0;
+                const bTime = bDate ? bDate.getTime() : 0;
+                return bTime - aTime;
+            });
+        }
+
         return filtered.slice(0, limit);
     };
 
-    const deepDivePool = rssNews.filter((item) => !isRedditSource(item.source));
+    const deepDivePool = rssNewsForSelection.filter((item) => !isRedditSource(item.source));
 
     const deepDiveCandidates = uniqueByLink([
         ...takeBySource(deepDivePool, 'OpenAI News', 8),
@@ -479,7 +627,7 @@ async function generateBriefingV1() {
         ...takeBySource(deepDivePool, 'arXiv cs.CL', 10)
     ]);
 
-    const hypeCandidates = uniqueByLink(rssNews.filter((item) => isRedditSource(item.source))).slice(0, 25);
+    const hypeCandidates = uniqueByLink(rssNewsForSelection.filter((item) => isRedditSource(item.source))).slice(0, 25);
 
     const deepDiveEnriched = await enrichNewsWithCrawling(deepDiveCandidates, 8);
 
