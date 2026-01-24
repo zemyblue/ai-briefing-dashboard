@@ -4,6 +4,7 @@ This file guides agentic coding assistants working in this repo.
 
 ## 0) Golden Rules
 
+- **답변은 한글로 작성합니다.**
 - **Do not run `git commit` / `git push` unless the user explicitly asks.**
 - Prefer **small, focused patches**. Don’t refactor unrelated code.
 - **No secrets in git**: never commit `.env` or any credentials.
