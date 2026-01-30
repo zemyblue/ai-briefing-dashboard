@@ -738,6 +738,7 @@ async function generateBriefingV1() {
  9. watch_this는 더 많이 뽑아도 됩니다 (권장 8~15개)
   10. 한국어로 작성 (헤드라인, 요약, 내용 모두)
   11. JSON만 출력 (추가 설명 불필요)
+  12. JSON 문자열 내 특수문자는 반드시 올바르게 이스케이프하세요: " → \", \ → \\, 줄바꿈 → \n (예: "설명: \"AI\" 모델")
   `;
 
     const jsonString = await callGemini(prompt);
@@ -768,8 +769,20 @@ async function generateBriefingV1() {
                 }
 
                 if (ch === '\\') {
-                    out += ch;
-                    isEscaped = true;
+                    // 다음 문자 확인
+                    const nextChar = i + 1 < input.length ? input[i + 1] : '';
+
+                    // JSON에서 유효한 이스케이프 시퀀스: ", \, /, b, f, n, r, t, u
+                    const validEscapes = ['"', '\\', '/', 'b', 'f', 'n', 'r', 't', 'u'];
+
+                    if (inString && !validEscapes.includes(nextChar)) {
+                        // 문자열 내에서 유효하지 않은 이스케이프: 백슬래시를 이중 이스케이프
+                        out += '\\\\';
+                    } else {
+                        // 유효한 이스케이프이거나 문자열 밖: 그대로 출력
+                        out += ch;
+                        isEscaped = true;
+                    }
                     continue;
                 }
 
