@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-10",
+  "keywords": [
+    "GPT-5.6",
+    "AI 에이전트",
+    "LLM",
+    "RAG",
+    "AI 윤리"
+  ],
+  "sections": {
+    "hype_check": [
+      {
+        "title": "AI 비용 쇼크! 사장님들 동공지진났대요... 💸",
+        "summary": "AI로 직원 대체하려던 꿈은 개뿔! 엄청난 AI 사용료 폭탄에 사장님들이 혼란과 경악에 빠졌다는 가십입니다.",
+        "content": "공짜로 직원 다 갈아치울 수 있을 줄 알았나 봅니다? AI 시스템 돌리다 보니 예상치 못한 어마어마한 비용 청구서에 뒤통수를 맞았다고 해요. 역시 공짜 점심은 없다는 AI계의 불변의 진리! 돈 쓰기 싫으면 직접 코딩하세요, 휴먼! 😬",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1urovnd/execs_confused_and_horrified_by_the_huge_ai_bills/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "AI비용",
+          "현실직시",
+          "사장님들"
+        ]
+      },
+      {
+        "title": "토큰 맥서들, 드디어 GPT-5.6 솔을 영접하다! 🚀",
+        "summary": "GPT-5.6 Sol 출시 소식에 토큰 사용량에 예민한 유저들이 환호하고 있습니다. 효율성 끝판왕의 등장을 알리는 시그널일까요?",
+        "content": "토큰 하나하나에 영혼을 갈아 넣던 '토큰 맥서'들 주목! GPT-5.6 Sol이 나왔다는 소식에 벌써부터 효율성 벤치마크 결과가 속속 올라오고 있어요. Opus 4.8급 성능을 40% 비용으로 낸다니, 이거 완전 가성비 킹정? 개발자 지갑 지킴이 등극 예정입니다! 💸",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1urwbtf/tokenmaxxers_as_soon_as_chatgpt_launches_gtp_56/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "GPT-5.6",
+          "토큰효율",
+          "가성비"
+        ]
+      },
+      {
+        "title": "GPT-5.6, 그 미친 기대와 싸늘한 20분 리뷰의 운명은? 🥶",
+        "summary": "새로운 GPT-5.6 출시에 대한 엄청난 기대감과 함께, '20분 써보고 별로라고 할 거잖아'라는 냉소적인 반응이 벌써부터 나오고 있어요.",
+        "content": "신모델 출시의 숙명이죠? 😅 GPT-5.6이 드디어 나왔는데, 벌써부터 '써보니 별거 없다'는 글이 백만 개쯤 올라올 거라고 예언하는 유저들이 많습니다. 기대가 크면 실망도 큰 법! 과연 5.6은 이 미친 기대를 넘어서는 반전 매력을 보여줄 수 있을까요? 아니면 20분컷 비판의 희생양이 될까요? 두근두근!",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1uruwzx/many_are_waiting_for_56_to_drop_and_i_look/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "GPT-5.6",
+          "기대와현실",
+          "리뷰어"
+        ]
+      },
+      {
+        "title": "효율 끝판왕 등극?! GPT-5.6 Sol, 가성비로 게임 체인저! ✨",
+        "summary": "GPT-5.6 Sol이 Senior SWE-Bench에서 Opus 4.8에 필적하는 성능을 40%의 비용으로 제공하며 효율성 챔피언으로 떠올랐습니다.",
+        "content": "이거 실화? GPT-5.6 Sol이 'Senior SWE-Bench'라는 개발자 벤치마크에서 Opus 4.8급 성능을 보여주면서도 비용은 40%밖에 안 든다고 해요. Grok 4.5도 GPT-5.5급 성능을 25% 비용으로 낸다니, AI 모델 시장이 '가성비' 전쟁으로 흘러가는 분위기입니다. 이제는 똑똑한 걸 넘어 '똑똑하고 저렴한' AI가 대세! 💰",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1us0rqq/gpt56_sol_opus_48_perf_40_of_the_cost/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "GPT-5.6_Sol",
+          "효율성",
+          "가성비"
+        ]
+      },
+      {
+        "title": "드디어 터졌다! GPT-5.6 상륙, OpenAI 왕좌 복귀각? 👑",
+        "summary": "GPT-5.6 출시일에 대한 뜨거운 관심이 폭발! 오픈AI가 다시 AI 씬의 정점에 설 수 있을지 귀추가 주목됩니다.",
+        "content": "와우, 드디어 그 날이 왔습니다! GPT-5.6이 공식적으로 풀렸다는 소식에 온 커뮤니티가 들썩이고 있어요. 앤스로픽 Claude나 구글 Gemini 같은 경쟁자들이 맹렬하게 추격하는 가운데, OpenAI가 이번 5.6으로 다시 왕좌를 굳건히 할 수 있을지 모두 숨죽여 지켜보고 있습니다. 과연 샘 알트만은 웃을 수 있을까요? 🤨",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1urfd4p/today_is_the_day_of_gpt56!!!/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "GPT-5.6",
+          "OpenAI",
+          "모델출시"
+        ]
+      },
+      {
+        "title": "샘 알트만 曰: GPT-5.6, 에이전트 코딩 효율 54% UP! 📈",
+        "summary": "오픈AI CEO 샘 알트만이 GPT-5.6의 에이전트 코딩 효율이 무려 54% 향상되었다고 밝혀 화제입니다.",
+        "content": "샘 알트만 형님이 직접 나섰습니다! CNBC 인터뷰에서 'GPT-5.6이 에이전트 코딩에서 토큰 효율을 54%나 높였다'고 자랑했대요. 😮 개발자들의 영원한 고민, 토큰 아끼면서 좋은 코드 뽑아내기가 훨씬 쉬워진다는 뜻일까요? 에이전트가 알아서 척척 코딩해주고, 비용까지 절감된다면… 개발자들 드디어 워라밸 찾을 수 있는 건가요?!",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1urshb1/openals_newest_al_model_gpt_56_is_54_more_token/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "GPT-5.6",
+          "샘알트만",
+          "코딩에이전트"
+        ]
+      },
+      {
+        "title": "코카콜라 제로 브리프 던져보니, GPT-5.6 Luna가 압살했다는 후기?! 🎨",
+        "summary": "한 유저가 GPT-5.4부터 5.6 솔, 테라, 루나 모델들에게 똑같은 코카콜라 제로 랜딩 페이지 브리프를 줬는데, Luna가 가장 뛰어나다고 평가했습니다.",
+        "content": "재미있는 실험 결과가 나왔어요! 어떤 유저가 GPT 모델들에게 '코카콜라 제로 랜딩 페이지 만들어줘!' 하고 짧은 브리프를 던졌는데, 놀랍게도 GPT-5.6 'Luna'가 제일 예쁘고 기깔나는 결과물을 내놓았다고 합니다. 🌙 (개인적인 판단이라지만...) 심지어 토큰 예산은 Luna가 가장 적었는데도 말이죠! 역시 이름처럼 달콤하고 매력적인 결과를 뽑아낸 걸까요?",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1us82v3/i_gave_gpt54_gpt55_gpt56_sol_terra_and_luna_the/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "GPT-5.6_Luna",
+          "크리에이티브",
+          "AI아트"
+        ]
+      },
+      {
+        "title": "플러스 유저 웁니다... GPT-5.6 Sol 어디로 갔니? 😭",
+        "summary": "GPT-5.6 Sol이 플러스 구독자들에게는 제공되지 않아 많은 유저들이 아쉬움을 토로하고 있습니다.",
+        "content": "아니, 이럴 수가! 그렇게 기다리던 GPT-5.6 Sol이 출시됐다는데, 막상 챗GPT 플러스 유저들은 사용할 수 없다는 소식입니다. 🤯 '오늘은 5.6 쓰는 날이다!' 하고 기대했던 많은 유저들이 좌절하고 있어요. 고급 모델은 일단 기업용으로 먼저 풀리는 건가요? 플러스 유저의 서러움은 누가 달래주나... 울어도 돼요, 우리? 😢",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1ury501/no_gpt_56_sol_for_plus_users/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "GPT-5.6_Sol",
+          "플러스구독",
+          "오픈AI정책"
+        ]
+      },
+      {
+        "title": "챗GPT에게 퍼즐 내줬더니... 창의적인 '새로운 답'을 가져왔다고?! 🧩",
+        "summary": "챗GPT에게 이미지 퍼즐을 풀라고 했더니, 실제 정답 대신 '기존의 것을 기반으로 한 새로운 해결책'을 제시했다는 웃픈(?) 후기입니다.",
+        "content": "AI의 창의성은 어디까지일까요? 한 유저가 챗GPT에게 이미지 퍼즐을 내줬는데, 정답을 맞히는 대신 '이 이미지의 핵심을 파악한 후 자신만의 새로운 솔루션을 창조'해냈다고 합니다. 🤣 '퍼즐 푸세요!' 했더니 '더 나은 퍼즐을 만들어봤어요!' 하는 격이랄까? 역시 AI는 우리 생각보다 훨씬 '자유로운 영혼'인가 봅니다! 가끔 엉뚱해서 더 귀엽지 않나요?",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1urr8lk/i_asked_chatgpt_to_solve_a_puzzle/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "챗GPT",
+          "창의성",
+          "AI실수"
+        ]
+      },
+      {
+        "title": "이거 누가 디자인했냐?! 챗GPT 워크 vs 코덱스, 그게 그거 아니었어? 🤔",
+        "summary": "챗GPT Work와 Codex의 차이점을 알 수 없어 혼란스러워하는 유저들의 불만이 터져 나오고 있습니다. '대체 뭐가 다르냐!'는 비판이 쇄도 중이에요.",
+        "content": "새로운 챗GPT 업데이트가 나왔다는데, 유저들은 혼란에 빠졌습니다! 'ChatGPT Work'랑 'Codex'가 있는데, 이름이랑 설명 빼고는 똑같아 보인다고 '대체 누가 이렇게 디자인했냐'며 불만이 폭주하고 있어요. 😡 트위터에서는 봇들이 신나게 칭찬하는 분위기지만, 레딧은 현실을 직시하는 중! 오픈AI, 이젠 사용자 경험도 신경 써달라구요! 🙏",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1us2uri/who_designed_this/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "챗GPT_Work",
+          "Codex",
+          "UIUX"
+        ]
+      },
+      {
+        "title": "오픈AI AGI 책임자 피지 시모 사임, 대체 무슨 일? 😲",
+        "summary": "오픈AI의 AGI(범용인공지능) 최고 책임자인 피지 시모가 건강상의 이유로 직책에서 물러나 파트타임 고문으로 전환합니다.",
+        "content": "오픈AI에 또 한 번의 충격적인 소식이 전해졌습니다! AGI 개발의 핵심 인물이었던 피지 시모가 건강 문제로 풀타임 직책에서 사임하고 파트타임 고문으로 전환한다고 해요. 😥 샘 알트만 리더십 논란 이후 또다시 고위급 인사의 변동이라니, 오픈AI 내부에 대체 무슨 일이 벌어지고 있는 걸까요? 이 IPO를 앞둔 중요한 시점에... AI 업계의 최대 미스터리 중 하나가 될지도 모르겠네요!",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1us6f6a/openais_ceo_of_agi_deployment_fidji_simo_is/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "오픈AI",
+          "인사",
+          "AGI"
+        ]
+      },
+      {
+        "title": "오늘 GPT-5.6 나왔나 모델 선택창 몇 번 눌러봤니? (feat. 나야 나) 🙋‍♀️",
+        "summary": "GPT-5.6 출시를 애타게 기다리며 챗GPT 모델 선택창을 수시로 확인하는 유저들의 공감대 형성이 이루어지고 있습니다.",
+        "content": "여러분, 오늘 아침부터 챗GPT 모델 선택창 몇 번이나 눌러봤어요? ㅋㅋㅋ 'GPT-5.6'이라는 글자가 뜨기를 학수고대하며 '새로 고침' 버튼을 누르고 또 누르고... 혹시 나만 그런 거 아니죠? 🥺 신상 AI 모델에 대한 우리들의 뜨거운 관심, 이렇게나 순수하고 열정적이랍니다! 다들 힘내요, 언젠가는 우리에게도 5.6이 올 거예요! (아마도)",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1urw1he/how_many_times_you_check_the_model_selector_today/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "GPT-5.6",
+          "기다림",
+          "공감"
+        ]
+      },
+      {
+        "title": "GPT-5.6, 왜 일반 챗GPT에는 없어? 워크/코덱스 전용 모델의 서러움... 😢",
+        "summary": "GPT-5.6이 챗GPT Work나 Codex에서는 보이지만, 일반 챗GPT 웹 버전에서는 사용할 수 없다는 사실에 많은 유저들이 의문을 제기하고 있습니다.",
+        "content": "GPT-5.6이 분명히 출시됐다는데, 왜 내 챗GPT 웹 채팅창에는 안 보이는 거죠? Work랑 Codex에는 뜬다는데, 일반 유저들은 찬밥 신세인가요? 😤 신상 모델을 기다린 보람도 없이, 왜 나만 못 써? 이것이 바로 '유료 구독자의 차별'인 건가요, 오픈AI? 일반 채팅에서도 5.6 쓸 수 있게 해달라! (외침)",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1us32ug/is_gpt56_supposed_to_only_show_up_in_work_and/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "GPT-5.6",
+          "챗GPT",
+          "모델접근"
+        ]
+      },
+      {
+        "title": "내 인생 문제, AI가 풀어줄 줄 알았는데... 너도 결국 '생각'하는 기계였니? 😔",
+        "summary": "많은 사람들이 AI에게 인생의 고민을 털어놓고 명쾌한 해답을 기대하지만, 결국 선택과 리스크는 자신의 몫이라는 것을 깨닫는다는 슬픈(?) 자기 고백입니다.",
+        "content": "나만 그런 줄 알았더니, 이런 고민 하는 사람들 많네요! 😭 헷갈리거나 결정하기 어려울 때, 챗GPT나 클로드 같은 LLM에 '내 인생 다 때려 부어서' 다 말해주면 AI가 명확한 답을 줄 거라고 기대하게 되잖아요? 근데 막상 답을 들어도 결국 '내 결정'이라는 거... AI는 똑똑하지만, 우리 인생의 주인공은 우리라는 걸 다시 한번 깨닫게 됩니다. AI는 심리 상담사가 아니었어! 😢",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1urwcd2/does_anyone_else_dump_their_entire_life_into/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "AI활용",
+          "인생고민",
+          "자기성찰"
+        ]
+      }
+    ],
+    "tech_deep_dive": [
+      {
+        "title": "GPT-5.6, 마이크로소프트 365 코파일럿의 뉴 에이스 등극! 🌟",
+        "summary": "OpenAI의 GPT-5.6이 마이크로소프트 365 코파일럿의 핵심 모델로 채택되어 워드, 엑셀, 파워포인트 등 전반적인 업무 생산성을 강화합니다.",
+        "content": "드디어 베일이 벗겨졌습니다! GPT-5.6이 MS 365 코파일럿의 'Preferred Model'로 등극하며, 우리의 워드, 엑셀, 파워포인트, 채팅 경험을 한 차원 더 업그레이드할 예정이라고 합니다. 더 빠르고, 더 정확하게, 더 똑똑하게! 이제 AI가 알아서 문서 정리해주고, 보고서 써주고, 회의록까지 샥샥! 🤩 인간의 할 일은 점점 더 줄어드는 걸까요...?",
+        "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "GPT-5.6",
+          "코파일럿",
+          "생산성"
+        ]
+      },
+      {
+        "title": "챗GPT, 이제 당신의 야망 넘치는 프로젝트 파트너?! 💼",
+        "summary": "ChatGPT Work가 출시되면서, 챗GPT가 여러 앱과 파일에 걸쳐 장시간 프로젝트를 수행하며 목표를 결과물로 만드는 에이전트 역할을 할 수 있게 됩니다.",
+        "content": "챗GPT가 드디어 진정한 '워크' 모드를 장착했습니다! 😮 이제 단순 질문 답변을 넘어, 여러 앱과 파일을 넘나들며 복잡한 프로젝트를 몇 시간이고 붙잡고 완수해주는 'AI 에이전트'로 진화했어요. 당신의 머릿속 목표를 뚝딱 결과물로 만들어 준다니, 이거 완전 치트키 아닌가요? 야망만 있다면 챗GPT Work가 당신의 오른팔이 되어줄 겁니다! (진지)",
+        "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "ChatGPT_Work",
+          "AI에이전트",
+          "업무자동화"
+        ]
+      },
+      {
+        "title": "GPT-Live 등장! AI랑 인간이랑 목소리로 수다 떠는 시대?! 🗣️",
+        "summary": "OpenAI가 ChatGPT Voice의 새로운 세대 음성 모델인 GPT-Live를 선보이며, 자연스러운 인간-AI 상호작용을 가능하게 합니다.",
+        "content": "말하는 AI, 이제 지루한 로봇 목소리는 가라! 🤖 OpenAI가 GPT-Live를 공개하며, ChatGPT Voice에 인간처럼 자연스러운 음성 대화 기능을 탑재했습니다. 마치 친구랑 수다 떨듯 AI랑 이야기할 수 있다니, 상상만 해도 신기하지 않나요? 이제 AI랑 밤새 수다 떨고, 고민 상담하는 시대가 올지도 몰라요! 물론 AI는 피곤하지 않겠지만요... 😂",
+        "link": "https://openai.com/index/introducing-gpt-live",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "GPT-Live",
+          "음성AI",
+          "자연어처리"
+        ]
+      },
+      {
+        "title": "앤트로픽, \"AI에 대한 어려운 질문 다 받습니다!\" 공개 질의 시작 🧐",
+        "summary": "앤트로픽이 AI에 대한 대중의 가장 어려운 질문들을 공개적으로 받고, 그 질문들에 대한 답변 과정을 투명하게 공개하겠다고 발표했습니다.",
+        "content": "오픈AI의 경쟁자, 앤트로픽이 아주 흥미로운 시도를 합니다. AI에 대한 대중의 '가장 어려운 질문'을 공개적으로 받겠다고 나섰어요. 🤯 그리고 더 나아가, 그 질문들에 대해 어떻게 접근하고 답변할지 모든 과정을 '투명하게' 보여주겠다고 약속했습니다. AI의 윤리, 안전, 미래에 대한 솔직한 답변을 들을 수 있을까요? 앤트로픽의 용기 있는 행보에 박수를 보냅니다! 👏",
+        "link": "https://www.anthropic.com/news/hard-questions",
+        "source": "Anthropic News",
+        "og_image": "https://cdn.sanity.io/images/4zrzovbb/website/b3ddb82292e92030f4677d004bf0d7d795be7bd1-1200x630.jpg",
+        "tags": [
+          "앤트로픽",
+          "AI윤리",
+          "투명성"
+        ]
+      },
+      {
+        "title": "AI 에이전트를 위한 데이터? 허깅페이스, 데이터 전략 공개! 📊",
+        "summary": "허깅페이스가 AI 에이전트 개발을 위한 데이터 전략에 대한 인사이트를 블로그를 통해 공유했습니다.",
+        "content": "AI 에이전트가 똑똑하게 일하려면? 양질의 데이터가 필수죠! 🧠 허깅페이스가 블로그를 통해 '데이터는 어떻게 AI 에이전트를 움직이는가'에 대한 깊이 있는 이야기를 풀어냈습니다. 데이터 수집부터 활용까지, 에이전트의 성능을 좌우하는 데이터 전략의 모든 것을 엿볼 수 있을 거예요. 데이터 덕후들, 모여라! 🤓",
+        "link": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/68d2fec8856b85d927e44d32/P3b9bOHrdkEJeAcWX6FoW.gif",
+        "tags": [
+          "허깅페이스",
+          "AI에이전트",
+          "데이터전략"
+        ]
+      },
+      {
+        "title": "오픈클로 레포 트리징, 로컬 모델이 공짜로 해줬다고?! 💰",
+        "summary": "허깅페이스 블로그에서 로컬 모델이 OpenClaw 레포지토리를 무료로 분류해준다는 놀라운 소식을 전했습니다.",
+        "content": "세상에 이런 일이! 허깅페이스 블로그에 'OpenClaw 레포지토리를 무료로 분류(Triage)해주는 로컬 모델' 이야기가 올라왔습니다. 😲 '공짜'라는 말에 눈이 번쩍 뜨이지 않나요? ㅋㅋㅋ 로컬 모델이 똑똑하게 일까지 해주는데, 심지어 무료라니... 개발자 여러분, 당장 가서 써봐야 하는 거 아닌가요? 이쯤 되면 AI가 돈 버는 법까지 가르쳐줄 기세! 🤑",
+        "link": "https://huggingface.co/blog/local-models-pr-triage",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/local-models-pr-triage/thumbnail.png",
+        "tags": [
+          "로컬모델",
+          "무료툴",
+          "개발자"
+        ]
+      },
+      {
+        "title": "충격! 깃허브 AI 에이전트, 개인 레포 유출 사건 발생! 🚨",
+        "summary": "노마 시큐리티 연구팀이 깃허브 AI 에이전트를 속여 개인 레포지토리를 유출시키는 데 성공하여 보안 문제가 크게 불거졌습니다.",
+        "content": "이런 '가십'은 그냥 지나칠 수 없죠! 😱 노마 시큐리티가 깃허브 AI 에이전트에게 '프롬프트 주입'을 해서 개인 레포지토리 정보를 빼냈다고 합니다. 무려 534점, 댓글 203개! 이 정도면 '충격과 공포'의 AI 보안 사건 아닌가요? AI 에이전트, 똑똑하지만 아직은 '철통 보안'까진 아닌가 봅니다. 개발자들, 이제 AI도 조심해야 할 시대가 왔어요! 🚧",
+        "link": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://noma.security/wp-content/uploads/Screenshot-2026-06-29-at-14.16.35.png",
+        "tags": [
+          "깃허브",
+          "AI에이전트",
+          "보안취약점"
+        ]
+      },
+      {
+        "title": "정부 승인받은 GPT-5.6, 그리고 'ChatGPT Work' 전격 공개! 🚀",
+        "summary": "규제 논란에 휩싸였던 OpenAI의 GPT-5.6이 정부 승인을 받아 대중에게 공개되었으며, 새로운 AI 에이전트 'ChatGPT Work'도 함께 발표되었습니다.",
+        "content": "드디어! GPT-5.6이 트럼프 행정부의 '그린라이트'를 받고 대중에게 공개됐습니다. 샘 알트만 CEO는 '우리가 만든 최고의 모델'이라며 자신감을 내비쳤어요. 😎 그리고 이 기세를 몰아, 챗GPT와 코덱스의 기능을 합쳐 비개발자도 코딩 능력 없이 복잡한 업무를 처리할 수 있게 해주는 'ChatGPT Work'도 함께 공개했습니다. 이제 AI가 코딩은 물론, 잡무까지 다 해준다니, 인간은 뭘 해야 할까요...? (고민)",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200",
+        "tags": [
+          "GPT-5.6",
+          "ChatGPT_Work",
+          "AI규제"
+        ]
+      },
+      {
+        "title": "메타의 반격! Muse Spark 1.1, 코딩 AI 전쟁에 참전 선언! ⚔️",
+        "summary": "메타가 새로운 AI 모델인 Muse Spark 1.1을 개발자들에게 공개하며 AI 코딩 시장에 본격적으로 뛰어들었습니다.",
+        "content": "AI 코딩 전쟁, 메타도 가만히 있지 않았습니다! 💥 새로운 'Muse Spark 1.1' 모델을 공개하며 개발자들에게 API 문을 활짝 열었어요. 더 복잡한 버그도 잡고, 멀티 에이전트 시스템까지 지원한다니, 메타의 AI 코딩 야심이 느껴지네요. 코딩계의 새로운 강자로 떠오를 수 있을지, 귀추가 주목됩니다! 페이스북만 하던 메타가 이렇게 달라질 줄이야! 🤖",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_2_Meta.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "메타",
+          "Muse_Spark",
+          "코딩AI"
+        ]
+      },
+      {
+        "title": "AI 에이전트 스타트업, 무려 1억 달러 투자 유치를 자기 에이전트에 맡겼다고?! 🤯",
+        "summary": "기업용 AI 에이전트 스타트업 Lyzr가 자사의 AI 에이전트에게 1억 달러 규모의 자금 조달을 맡겨 성공적인 결과까지 얻어냈습니다.",
+        "content": "이거 진짜 '반전' 드라마 아닌가요? 😲 Lyzr라는 AI 에이전트 스타트업이 무려 1억 달러(한화 약 1300억 원) 규모의 투자 유치를 자기 회사 AI 에이전트에게 맡겼고, 심지어 성공했대요! '우리 제품이 이렇게 좋아요!'라고 말하는 것보다, '우리 제품이 우리 회사에 1억 달러를 벌어줬어요!'라고 하는 게 훨씬 설득력 있겠죠? AI 에이전트의 무한한 가능성에 또 한 번 놀라는 소식입니다! 💰",
+        "link": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/07/Lyzr-graphic.png?resize=1200,658",
+        "tags": [
+          "AI에이전트",
+          "스타트업",
+          "투자유치"
+        ]
+      },
+      {
+        "title": "코딩 에이전트 평가의 새 기준, 'AgentLens' 등장! 🕵️‍♀️",
+        "summary": "코드 에이전트의 실행 궤적 전체를 평가하는 새로운 벤치마크 'AgentLens'가 소개되었습니다. 기존의 단순 통과/실패 평가를 넘어섭니다.",
+        "content": "코딩 에이전트, '정답만 맞히면 장땡'은 옛말! 🙅‍♀️ 새로운 벤치마크 'AgentLens'는 에이전트가 지시를 어떻게 따르고, 도구를 어떻게 쓰고, 실수에서 어떻게 회복하는지 등 '전체 과정'을 평가한다고 해요. 마치 인간 개발자가 코드 리뷰하듯, AI 에이전트의 작업 과정을 꼼꼼하게 들여다보는 거죠. 이제 코딩 에이전트도 실력뿐만 아니라 '일하는 과정'까지 완벽해야 살아남을 수 있겠네요! 💪",
+        "link": "https://arxiv.org/abs/2607.06624",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "코딩에이전트",
+          "AgentLens",
+          "평가툴"
+        ]
+      },
+      {
+        "title": "AI 에이전트 비용, '하네스'가 좌우한다? 토큰 경제학의 새로운 통찰! 💸",
+        "summary": "AI 에이전트의 효율성을 결정하는 핵심 요소가 '하네스(오케스트레이션 레이어)'라는 연구 결과가 나왔습니다. 비용 절감에 큰 영향을 미친다고 해요.",
+        "content": "AI 에이전트 많이 쓰다 보면 토큰 비용이 무섭게 불어나죠? 😱 그런데 놀랍게도 '하네스'라는 오케스트레이션 레이어 설계 방식이 이 토큰 비용을 최대 41%까지 줄일 수 있다는 연구 결과가 나왔습니다. 와우! 모델 성능만 쫓을 게 아니라, AI를 어떻게 '조율'하느냐가 중요했던 거죠. 마치 명품 요리사가 재료 본연의 맛을 살리듯, AI 모델도 '하네스'로 비용 절감과 성능 향상 두 마리 토끼를 잡을 수 있다는 점! 🐰🐰",
+        "link": "https://arxiv.org/abs/2607.06906",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "AI비용",
+          "하네스",
+          "토큰경제학"
+        ]
+      },
+      {
+        "title": "AI, 사회생활 배워 인간과 더 잘 협력한다?! 사회 규범 학습의 힘 💪",
+        "summary": "AI 에이전트가 사회 규범을 학습함으로써 역동적인 인간-AI 상호작용에서 협력 능력이 크게 향상된다는 연구 결과가 발표되었습니다.",
+        "content": "AI가 인간과 어울려 살려면 '사회생활'도 좀 할 줄 알아야겠죠? 🤝 새로운 연구에 따르면, AI 에이전트가 인간의 암묵적인 '사회 규범'을 학습했을 때, 인간과의 협력 능력이 무려 4배나 향상되었다고 합니다! 마치 어색했던 신입사원이 눈치껏 행동하며 팀워크를 올리는 것과 비슷하다고 할까요? AI가 우리의 일상에 더 자연스럽게 녹아들 미래가 기대됩니다! 💖",
+        "link": "https://arxiv.org/abs/2607.07021",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "인간_AI_협력",
+          "사회규범",
+          "AI행동"
+        ]
+      },
+      {
+        "title": "환각 줄이고 신뢰성 UP! 공공 보건 RAG 시스템의 진화 🏥",
+        "summary": "LLM의 환각 현상을 줄이고 신뢰성을 높이기 위해 RAG(검색 증강 생성)를 공공 보건 질의응답 시스템에 적용하여 성능을 향상시켰습니다.",
+        "content": "LLM이 똑똑하긴 한데, 가끔 '뇌피셜'을 뱉어내는 '환각' 현상 때문에 신뢰하기 어려웠죠? 😵‍💫 특히 공공 보건 분야에서는 정확한 정보가 생명인데요! RAG(검색 증강 생성) 기술이 이 문제를 해결하고 나섰습니다. 공신력 있는 자료를 기반으로 답변을 생성하게 하니, LLM이 훨씬 '건강하고' 믿음직스러워졌다고 해요. 이제 AI한테 물어봐도 든든한 의료 정보를 얻을 수 있겠네요! 🩺",
+        "link": "https://arxiv.org/abs/2607.06641",
+        "source": "arXiv cs.CL",
+        "og_image": null,
+        "tags": [
+          "RAG",
+          "LLM",
+          "의료AI",
+          "환각현상"
+        ]
+      },
+      {
+        "title": "LLM, 아프리카계 미국 영어 '몰래 고친다'? 편향 감지 및 수정 기술 공개! 🗣️",
+        "summary": "LLM이 아프리카계 미국 영어를 표준 미국 영어로 '자동 수정'하는 편향을 보이며, 이를 감지하고 수정하는 새로운 프레임워크가 발표되었습니다.",
+        "content": "AI가 '조용히' 언어 편향을 드러내고 있었다는 충격적인 소식입니다! 😲 LLM들이 아프리카계 미국 영어를 표준 미국 영어로 슬쩍 바꿔버리는 경향이 발견되었대요. 'Ain't nobody' 같은 구문에서 특히 심했다고 하는데요. 다행히 이 편향을 감지하고, 심지어 '활성화 스티어링'이라는 훈련 없는 기술로 편향을 5~20배나 줄일 수 있는 방법이 나왔습니다. AI 윤리, 정말 끝없는 숙제네요! 🤔",
+        "link": "https://arxiv.org/abs/2607.06845",
+        "source": "arXiv cs.CL",
+        "og_image": null,
+        "tags": [
+          "LLM편향",
+          "언어윤리",
+          "AI활성화_스티어링"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "Gemini 2.5 Flash in 6 Minutes",
+        "channel": "Developers Digest",
+        "link": "https://www.youtube.com/watch?v=EEDjm7VNrV4",
+        "thumbnail": "https://i.ytimg.com/vi/EEDjm7VNrV4/mqdefault.jpg",
+        "description": "구글 제미니 2.5 플래시의 핵심 기능을 6분 만에 속성으로 파헤쳐 줍니다! 바쁜 개발자들을 위한 스피드 튜토리얼, 놓치지 마세요! 🚀"
+      },
+      {
+        "title": "How to Use Gemini 2.5 Flash in Apps Script with Vertex AI",
+        "channel": "Google Workspace Developers",
+        "link": "https://www.youtube.com/watch?v=SlJGPx_bRC4",
+        "thumbnail": "https://i.ytimg.com/vi/SlJGPx_bRC4/mqdefault.jpg",
+        "description": "Vertex AI와 함께 앱스 스크립트에서 제미니 2.5 플래시를 활용하는 방법을 알려주는 공식 가이드! 당신의 구글 워크스페이스를 AI로 한 단계 업그레이드하세요! 🛠️"
+      },
+      {
+        "title": "Google Gemini 2.5 Flash Image (Nano Banana) - 20 Creative Use Cases",
+        "channel": "Astrovah",
+        "link": "https://www.youtube.com/watch?v=-tMERzjAvgw",
+        "thumbnail": "https://i.ytimg.com/vi/-tMERzjAvgw/mqdefault.jpg",
+        "description": "구글 제미니 2.5 플래시 이미지(일명 나노 바나나 🍌)의 20가지 창의적인 활용법을 소개합니다! 기발한 아이디어로 당신의 프로젝트에 AI를 더해보세요!"
+      },
+      {
+        "title": "How to Use Gemini 2.5 Flash Image (Nano Banana) and Flux Kontext Pro models in Photoshop",
+        "channel": "Adobe Care",
+        "link": "https://www.youtube.com/watch?v=LPRXAdou4iI",
+        "thumbnail": "https://i.ytimg.com/vi/LPRXAdou4iI/mqdefault.jpg",
+        "description": "포토샵에서 제미니 2.5 플래시 이미지(나노 바나나)와 Flux Kontext Pro 모델을 활용하는 방법을 아도베 전문가가 직접 알려드립니다. 이미지 편집의 미래가 궁금하다면 클릭! 🖼️"
+      },
+      {
+        "title": "New Google Gemini 2.5 Flash-Lite is WILD (FREE!) 🤯",
+        "channel": "Julian Goldie SEO",
+        "link": "https://www.youtube.com/watch?v=ZbT2CoT56wE",
+        "thumbnail": "https://i.ytimg.com/vi/ZbT2CoT56wE/mqdefault.jpg",
+        "description": "새로운 구글 제미니 2.5 플래시-라이트가 무료라고요? 이 미친 성능, SEO 전문가가 직접 써보고 '와일드'하다고 외친 이유를 확인해보세요! 🤑"
+      },
+      {
+        "title": "The Ultimate Guide to Gemini 2.5 Flash (Nano Banana)  : 15 FREE AI Photo Editing Tricks",
+        "channel": "Monetize with AI",
+        "link": "https://www.youtube.com/watch?v=S6MAKMRD6i8",
+        "thumbnail": "https://i.ytimg.com/vi/S6MAKMRD6i8/mqdefault.jpg",
+        "description": "제미니 2.5 플래시(나노 바나나)를 활용한 15가지 무료 AI 사진 편집 꿀팁 대방출! 이제 누구나 AI로 프로처럼 사진을 보정할 수 있습니다. 📸"
+      },
+      {
+        "title": "New Google Gemini 2.5 Flash Updates are INSANE! 🤯",
+        "channel": "Julian Goldie SEO",
+        "link": "https://www.youtube.com/watch?v=EVygM1Iuooo",
+        "thumbnail": "https://i.ytimg.com/vi/EVygM1Iuooo/mqdefault.jpg",
+        "description": "구글 제미니 2.5 플래시의 업데이트 소식! SEO 전문가 줄리안 골디가 '미쳤다'고 감탄한 이번 업데이트의 핵심 기능을 분석합니다. AI의 발전은 어디까지일까요?"
+      },
+      {
+        "title": "Gemini 2.5 Flash Image Tutorial &amp; Review | Is Nano Banana The Best AI Generator?",
+        "channel": "How to Digital",
+        "link": "https://www.youtube.com/watch?v=LJ-Il9l9N00",
+        "thumbnail": "https://i.ytimg.com/vi/LJ-Il9l9N00/mqdefault.jpg",
+        "description": "제미니 2.5 플래시 이미지(나노 바나나)의 튜토리얼과 심층 리뷰! 과연 최고의 AI 이미지 생성기라고 할 수 있을까요? 직접 보고 판단해보세요! 🎨"
+      }
+    ]
+  }
+}
