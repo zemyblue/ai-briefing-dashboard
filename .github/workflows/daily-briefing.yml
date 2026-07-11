@@ -113,4 +113,11 @@ jobs:
 
           echo "✅ Pull Request created: $PR_URL"
 
-          gh pr merge "$PR_URL" --auto --squash --delete-branch
+          # 즉시 머지 시도 (PR이 clean status면 성공)
+          # 실패 시 (status check 대기 중 등) auto-merge로 fallback
+          if gh pr merge "$PR_URL" --squash --delete-branch 2>/dev/null; then
+            echo "✅ Pull Request merged immediately"
+          else
+            echo "⏳ Immediate merge failed, enabling auto-merge..."
+            gh pr merge "$PR_URL" --auto --squash --delete-branch
+          fi
