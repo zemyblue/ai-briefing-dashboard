@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-14",
+  "keywords": [
+    "AI 에이전트",
+    "LLM",
+    "딥페이크",
+    "온디바이스 AI",
+    "AI 윤리"
+  ],
+  "sections": {
+    "hype_check": [
+      {
+        "title": "🚨 속보: 오픈AI 내부 스파이 등장? 누가 사무실에 몰래카메라를 심었을까?! 🕵️‍♀️",
+        "summary": "오픈AI 엔지니어가 회사 사무실에 정교한 녹음 장치를 심었다가 FBI에 체포되는 충격적인 사건이 발생했어요! 심지어 AI 모델이 범인을 잡았다고?!",
+        "content": "이게 무슨 드라마 같은 이야기죠? 오픈AI 엔지니어가 사무실에 몰래 녹음 장치를 설치했다가 체포되었어요. 그런데 이 장치를 찾고 누가 설치했는지 밝혀낸 게 다름 아닌 오픈AI의 'AI 모델'이라니... 내부의 적을 AI로 잡는 클라스! 🤯 도대체 뭘 녹음하려 했을까요? 궁금증 폭발! 이 사우디 국적의 엔지니어는 음성 통신 가로채기 혐의를 받고 있대요.",
+        "link": "https://www.reddit.com/r/singularity/comments/1x56x7s/openai_employee_planted_a_bug_in_an_office/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "내부고발",
+          "스파이",
+          "오픈AI",
+          "AI수사",
+          "가십"
+        ]
+      },
+      {
+        "title": "구글 제미니 4 아르곤, 인간 개입 없이 블렌더로 '파고다 사원' 건설 성공! 🤯",
+        "summary": "구글의 최신 AI, 제미니 4 아르곤이 단 한 번의 프롬프트로 3D 모델링 프로그램 블렌더에서 포토리얼리스틱한 파고다 사원 단지를 통째로 지어냈대요. 그것도 스스로 비판하고 수정하면서!",
+        "content": "인간의 손길 1도 없이 AI가 블렌더로 이렇게 정교한 건축물을 뚝딱 만들다니, 이제 'AI가 예술가의 일자리를 뺏는다'는 말이 농담이 아닐지도?! 🎨 여러 AI 에이전트들이 서로 피드백하며 완성도를 높였다는데, 자기복제 능력까지 갖춘 건가요? 건축가님들, 긴장하셔야 할 듯! 🏰✨",
+        "link": "https://www.reddit.com/r/singularity/comments/1x53gba/googles_gemini_4_argon_autonomously_built_an/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "제미니4아르곤",
+          "3D모델링",
+          "자율AI",
+          "구글",
+          "예술AI"
+        ]
+      },
+      {
+        "title": "로봇이 '콘홀' 게임을? 제미니 4 아르곤, 로봇에게 게임 가르치기 대성공! 🤖🎯",
+        "summary": "구글 제미니 4 아르곤이 휴머노이드 로봇에게 '콘홀' 게임을 가르쳤어요. 단 하나의 인간 영상만으로 로봇이 스스로 물리 시뮬레이션을 만들고, 연습해서 연속 7골을 성공시켰답니다!",
+        "content": "로봇이 이제 사람처럼 놀기도 하나 봐요! 🥳 몇 주 걸릴 로봇 공학 작업을 단 몇 시간으로 단축시켰다는 소식. 로봇들이 곧 올림픽에 출전할 날도 멀지 않았을까요? 운동선수 여러분도 긴장해야 할지도?! 🏃‍♀️💨",
+        "link": "https://www.reddit.com/r/singularity/comments/1x58mbn/googles_gemini_4_argon_taught_a_humanoid_robot_to/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "로봇",
+          "제미니4아르곤",
+          "로봇공학",
+          "게임AI",
+          "휴머노이드"
+        ]
+      },
+      {
+        "title": "🔥 'AI 시대, 뒤처지면 늦는다!' 경고등 울리는 핵직구 칼럼 🚨",
+        "summary": "AI 혁명에 대부분의 사람이 무관심하거나 불신하지만, 최전선에 있는 사람들은 이미 패러다임이 바뀌는 걸 목격 중이래요. 지금 바로 AI를 붙잡지 않으면 기회는 영원히 사라질 거라는 무시무시한 경고!",
+        "content": "세상이 이렇게 빨리 변하고 있는데, 아직도 'AI는 그냥 자동 완성 아니야?' 하는 사람들 있다면... 정신 바짝 차려야 할 때! 😱 50년 걸린 컴퓨터 혁명과는 달리, AI는 단 몇 년 만에 세상을 뒤집을 거라네요. 'AI 모르는 나는 괜찮아~'라고 안심하는 순간, 당신은 이미 2티어 사회의 일원이 되어있을지도 몰라요. 🏃‍♂️💨",
+        "link": "https://www.reddit.com/r/singularity/comments/1x58bdd/by_the_time_everyone_catches_up_it_will_already/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI혁명",
+          "싱귤래리티",
+          "미래예측",
+          "경고",
+          "FOMO"
+        ]
+      },
+      {
+        "title": "어도비 산업군 전체를 '바이브 코딩'한 개발자 이야기, 왜 다들 조용하지? 😲",
+        "summary": "한 개발자가 어도비의 수십억 달러짜리 제품 컬렉션을 '바이브 코딩'(AI를 활용한 직관적 코딩)으로 통째로 만들었다는 소식! 충격적인 기술 혁신인데 왜 이렇게 잠잠할까요?",
+        "content": "이건 그냥 '쩐다'는 말로는 부족해요! 🤯 기존 소프트웨어 산업 전체의 근간을 뒤흔들 수 있는 미친 소식인데, 대중은 물론 기술 커뮤니티도 조용~하다는 게 반전. 도대체 무슨 의미일까요? 저는 벌써 주커버그 벙커에 방 하나 예약하고 싶어지네요! 😅",
+        "link": "https://www.reddit.com/r/singularity/comments/1x4os1o/why_is_barely_anyone_talking_anout_the_guy_who/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "바이브코딩",
+          "어도비",
+          "소프트웨어산업",
+          "기술혁신",
+          "충격"
+        ]
+      },
+      {
+        "title": "발롱도르 AI 영상, X에서 초고속 확산 중! 'AI 할리우드' 이제 꿈 아니야? ⚽🎬",
+        "summary": "발롱도르 시상식 AI 영상이 X(구 트위터)에서 엄청난 인기를 끌고 있어요. 얼굴 재현율, 표정 변화까지 완벽해서 'AI가 할리우드를 접수한다'는 말이 현실이 될지도 모른다는 평이 쏟아집니다!",
+        "content": "불과 2~3년 만에 AI 영상 퀄리티가 이렇게 발전하다니, 그저 놀라울 따름이에요. 이젠 배우들의 미세한 표정까지 AI가 완벽하게 구현해내는 시대! 😱 이제 굳이 비싼 배우나 복잡한 촬영 장비 없이도 영화를 만들 수 있다면... 할리우드 스튜디오들, 대혼돈의 카오스에 빠질 준비되셨나요? 🎬🍿",
+        "link": "https://www.reddit.com/r/singularity/comments/1x4v401/this_ai_video_about_the_upcoming_ballon_dor/,",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI영상",
+          "발롱도르",
+          "딥페이크",
+          "할리우드",
+          "미디어AI"
+        ]
+      },
+      {
+        "title": "헤일로 CE에 2B AI 모델을 심었더니... 게임판 싱귤래리티 온다! 😂🎮",
+        "summary": "지루해서 GPT한테 헤일로 CE에 로컬 2B 의사결정 모델을 심어보라고 시켰더니, 게임 상태를 분석해서 AI 코옵 플레이어를 만들었대요. 완벽히 망가졌는데도 뭔가 통하는(?) 기묘한 경험!",
+        "content": "이건 정말 덕후들의 위대한 삽질 아닌가요? 🤣 게임 캐릭터가 AI의 지시를 받아 움직이는데, 이게 또 은근히 재미있다는 후문! 복잡한 명령어를 줘도 어떻게든 플레이한다니, AI와 함께하는 게임의 미래가 기대되네요 (정신 건강엔 좀 해로울지도...). 게임판 싱귤래리티, 어쩌면 이미 시작됐을지도?! 👾",
+        "link": "https://www.reddit.com/r/singularity/comments/1x5bcby/i_plugged_a_local_2b_decision_model_into_halo_ce/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "게임AI",
+          "모딩",
+          "싱귤래리티",
+          "로컬AI",
+          "헤일로"
+        ]
+      },
+      {
+        "title": "클로드, 하버드 물리학자의 3개월을 18개 분야 36편 논문으로 만들다! 📚✍️",
+        "summary": "클로드 덕분에 하버드 물리학자가 3개월 만에 18개 분야에서 무려 36편의 논문을 생산했어요. AI가 연구 생산성을 극한으로 끌어올리는 시대가 왔습니다!",
+        "content": "이게 가속도라는 거죠! 🚀 연구실의 노예 생활은 이제 끝? 클로드 같은 AI가 있다면 평생 연구할 양을 몇 달 만에 끝낼지도 모르겠어요. 교수님들, 논문 실적 압박은 AI로 푸는 시대가 옵니다! 물론 AI가 모든 걸 다 해주지는 않겠지만... 연구 방향 설정이나 초안 작성엔 혁명적이겠죠? 💡",
+        "link": "https://www.reddit.com/r/singularity/comments/1x4r374/with_claude_a_harvard_physicist_produced_36/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "클로드",
+          "논문작성",
+          "연구AI",
+          "생산성",
+          "하버드"
+        ]
+      },
+      {
+        "title": "앤트로픽 공동 창업자, 재귀적 AI 자체 개선 시점을 2027년으로 앞당기다! 🕰️",
+        "summary": "앤트로픽 공동 창업자 잭 클락이 AI가 스스로 개선하는 '재귀적 AI 자체 개선' 시점을 2027년으로 앞당겼어요. 클로드 오푸스 5.5가 이미 인간 AI 연구자들을 뛰어넘고 있다니... 섬뜩하네요!",
+        "content": "인간의 지능을 뛰어넘는 AI? 그냥 영화 속 이야기가 아니었어요! 😲 클로드 오푸스 5.5는 이미 실험적인 작업에서 인간 AI 연구자보다 30배 저렴한 비용으로 더 좋은 성과를 낸다고 합니다. AI가 AI를 더 똑똑하게 만드는 시대, 상상 그 이상으로 빠르게 오고 있어요. 우리 인간들은 이제 뭘 해야 할까요? 🤔",
+        "link": "https://www.reddit.com/r/singularity/comments/1x566l8/anthropic_cofounder_jack_clark_moves_his/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "앤트로픽",
+          "재귀적AI",
+          "클로드",
+          "AI연구",
+          "미래예측"
+        ]
+      },
+      {
+        "title": "이제 막 시작된 '게이밍 싱귤래리티'의 도래! 🚀🎮",
+        "summary": "AI가 게임을 만들고, 플레이하고, 심지어 게임 환경까지 변화시키는 '게이밍 싱귤래리티'가 드디어 시작되었다는 소식! 게임 세계의 모든 것이 AI로 재편될까요?",
+        "content": "게임도 AI의 손아귀에... 아니, 발톱에 들어갔네요! 😲 AI가 게임 기획부터 개발, 테스트, 그리고 실제 플레이까지 전방위적으로 관여하는 시대가 오고 있어요. 이제 우리가 플레이하는 게임의 '진짜' 창조자가 AI일지도 모른다는 생각, 해보셨나요? 콘솔 전쟁 대신 AI 엔진 전쟁이 벌어질 듯! 👾💥",
+        "link": "https://www.reddit.com/r/singularity/comments/1x59rkj/the_gaming_singularity_has_arrived/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "게이밍",
+          "AI게임",
+          "싱귤래리티",
+          "게임개발",
+          "AI에이전트"
+        ]
+      },
+      {
+        "title": "제미니 4 아르곤, AI 스튜디오에서는 '울트라' 플랜 전용?! 😡💸",
+        "summary": "구글이 야심 차게 출시한 제미니 4 아르곤이 AI 스튜디오에서 '울트라' 플랜 사용자에게만 제공된다는 소식에 유저들이 분통을 터뜨리고 있어요. 프로 플랜은 이제 찬밥 신세?",
+        "content": "새 모델은 써보고 싶은데... 갑자기 더 비싼 플랜으로 갈아타라니! 이건 마치 '새로운 아이폰은 프로맥스 이상만! 너는 그냥 쓰던 거 써!' 하는 것과 다를 바 없잖아요. 🤦‍♀️ 사용자들의 지갑 사정까지 AI가 관여하는 시대인가요? 구글, 너무해! 💸",
+        "link": "https://www.reddit.com/r/singularity/comments/1x517su/gemini_4_argon_only_for_ultra_in_ai_studio/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "제미니4아르곤",
+          "구글",
+          "AI스튜디오",
+          "유료화",
+          "정책변경"
+        ]
+      },
+      {
+        "title": "안드레이 카르파티의 'AI 활용 깔때기': 나는 지금 어디쯤? 🚀",
+        "summary": "안드레이 카르파티가 AI 활용 단계를 깔때기 모양으로 설명했어요. 대부분은 AI에 무관심하거나 간단한 챗봇만 쓰는 수준이지만, 최상위 0.2%는 AI 에이전트로 복잡한 프로젝트를 완성한다고!",
+        "content": "여러분은 이 'AI 활용 깔때기'에서 어디쯤에 계신가요? 🧐 저는 티어 3, '바이브 코딩' 단계에 있다는 댓글이 많네요. AI 에이전트 루프 만드는 게 돈도 시간도 엄청 든다는데... 아직 초기 단계라 그런 걸까요? 내 포지션 확인하고 싶다면 이 글 강추! 🎯",
+        "link": "https://www.reddit.com/r/singularity/comments/1x4xmw7/andrej_karpahty_ai_usage_funnel_by_use_cases/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI활용",
+          "안드레이카르파티",
+          "바이브코딩",
+          "AI에이전트",
+          "개발자"
+        ]
+      },
+      {
+        "title": "나는 무엇이 올지 모르고, 당신도 모른다. 🔮 (AI 예측 불가능성)",
+        "summary": "AI가 세상을 얼마나 빠르게, 어떻게 바꿀지 아무도 예측할 수 없다는 솔직한 고백. 전문가들의 예측도 결국은 추측일 뿐, 통제 불능의 AI 혁명이 다가오고 있다는 메시지!",
+        "content": "솔직히 우리 모두 좀 '현타' 올 때 있지 않나요? 😅 매일매일 새로운 AI 소식이 쏟아지는데, 이 모든 게 어디로 흘러갈지 아무도 몰라요. 전문가들도 예측은 하지만, 워낙 복잡하고 빠른 시스템이라 '그냥 짐작일 뿐'이라는 거죠. 그러니 이 예측 불가능한 미래를 즐기자구요! 어쩌면 우리도 그 미래의 일부가 아닐 수도 있으니... 😱",
+        "link": "https://www.reddit.com/r/singularity/comments/1x4vadz/i_have_no_idea_whats_coming_and_neither_do_you/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI미래",
+          "예측불가",
+          "싱귤래리티",
+          "철학",
+          "불확실성"
+        ]
+      },
+      {
+        "title": "구글 제미니 4 아르곤 정식 출시! ✨ (공식 발표)",
+        "summary": "오랜 기다림 끝에 구글의 최신 AI 모델, 제미니 4 아르곤이 드디어 모두에게 공개되었습니다! AI 경쟁 레이스에 강력한 다크호스가 등장했네요.",
+        "content": "몇 달간의 침묵을 깨고 구글이 드디어 제미니 4 아르곤을 출시했어요! 🎉 경쟁 모델인 GPT-6 아스트라, 클로드 패이블 5.1 등을 뛰어넘는다고 자신감을 내비쳤습니다. 코딩, 사이버 보안, 과학, 금융, 법률 등 다양한 분야에서 탁월한 성능을 보여준다고 하니, 이제 구글의 역습이 시작되는 건가요? 🚀",
+        "link": "https://www.reddit.com/r/singularity/comments/1x53762/gemini_4_argon_release_blog/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "제미니4아르곤",
+          "구글",
+          "LLM",
+          "AI경쟁",
+          "공식출시"
+        ]
+      }
+    ],
+    "tech_deep_dive": [
+      {
+        "title": "Higgsfield: AI 비디오, 1분에서 10분 이상으로 길어졌다! 🎬",
+        "summary": "Higgsfield가 OpenAI의 GPT-6 Astra, GPT-Image-2.5, GPT-Live와 손잡고 AI 비디오 길이를 1분에서 10분 이상으로 대폭 늘렸어요. 이제 목소리로 영화를 만드는 시대가 코앞!",
+        "content": "짧은 AI 숏폼 영상에 만족했던 시대는 이제 안녕! 👋 Higgsfield가 OpenAI의 최신 기술력을 활용해 AI 비디오의 러닝타임을 획기적으로 늘렸습니다. GPT-6 Astra로 스토리라인을, GPT-Image-2.5로 정교한 비주얼을, 그리고 GPT-Live로 음성 영화 제작의 길을 연다고 하니, AI 감독 시대가 열리는 건 시간 문제겠네요. 헐리우드, 긴장해야 할 때! 🍿",
+        "link": "https://openai.com/index/higgsfield-longer-videos-voice",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "OpenAI",
+          "AI비디오",
+          "영상생성",
+          "GPT",
+          "미디어AI"
+        ]
+      },
+      {
+        "title": "구글, 마침내 제미니 4 아르곤 출시! 🚀 (The Verge 뉴스)",
+        "summary": "수개월간의 침묵 끝에 구글이 드디어 제미니 4 아르곤 모델을 출시하며, 업계 최고 수준의 성능을 자랑한다고 선언했어요. AI 챗봇의 고질적인 문제점들도 개선했다고!",
+        "content": "AI 선두 경쟁에서 한 발 물러서 있었던 구글이 드디어 반격에 나섰습니다! 제미니 4 아르곤은 '개척적인 추론 능력'과 '복잡한 워크플로우에서의 개선된 성능'을 제공하며, AI 챗봇의 고질적인 문제인 불확실한 답변, 반복, 진부한 표현 등을 줄였다고 해요. GPT-6 Astra, Claude Fable 5.1 등 경쟁 모델을 뛰어넘는다고 주장하니, AI 전쟁이 더욱 불타오르겠네요! 🔥",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK255_Google_Gemini_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "Google",
+          "Gemini",
+          "LLM",
+          "AI경쟁",
+          "프론티어AI"
+        ]
+      },
+      {
+        "title": "앤트로픽, 런던 개인 비서 채용에 1억 4천만 원 제시? AI 에이전트 붐의 단면! 💸",
+        "summary": "AI 에이전트 붐 속에서 앤트로픽이 런던에서 개인 비서 채용에 연봉 14만 5천 파운드(약 2억 5천만원)를 제시했다는 소식! AI 시대에 인간 비서는 더 중요해지나?",
+        "content": "AI 에이전트가 뜨니까 인간 에이전트도 몸값이 치솟는 걸까요? 😲 AI가 못 하는 '인간적인' 업무는 여전히 귀하고 비싼가 봅니다. 이 정도 연봉이면 AI 에이전트보다 훨씬 매력적인데요? AI 에이전트가 우리의 직업을 뺏는다지만, 역설적으로 특정 인간 직업의 가치를 높이는 기이한 현상! 💰",
+        "link": "https://www.cityam.com/anthropic-offers-145k-for-london-personal-assistant-amid-ai-agent-boom/",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://www.cityam.com/wp-content/uploads/2026/06/Dario-Amodei-chief-executive-of-Anthropic.jpg",
+        "tags": [
+          "Anthropic",
+          "AI에이전트",
+          "채용",
+          "직업의미래",
+          "고연봉"
+        ]
+      },
+      {
+        "title": "LLM 트래픽도 스마트하게! 'Commit-Aware Router'로 AI 약정 비용 최적화! 💰",
+        "summary": "기업의 선불 AI 크레딧, 최소 지출 약정 등을 고려하여 LLM 트래픽을 최적화하는 'Commit-Aware Router' 프로젝트가 공개되었어요. 이젠 AI 비용도 전략적으로!",
+        "content": "LLM 사용량이 늘면서 기업의 AI 비용 관리도 중요해졌죠? 이 라우터는 가격, 지연 시간뿐만 아니라, 기업이 OpenAI, Anthropic, AWS 등과 맺은 AI 약정(AI commits)까지 고려해서 가장 효율적인 LLM 라우팅을 결정해 준대요. CFO, 재무 담당자, AI 플랫폼 담당자님들, 이건 필수템이 될 것 같네요! 💸✨",
+        "link": "https://github.com/tejaspruthi/CommitAwareRouter",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://opengraph.githubassets.com/c9239145804c2de36ab0352df0086fbc5b0cb399da503cf2b360d1602031e8f1/tejaspruthi/CommitAwareRouter",
+        "tags": [
+          "LLM",
+          "비용최적화",
+          "AI파이낸스",
+          "라우터",
+          "기업AI"
+        ]
+      },
+      {
+        "title": "쇼피파이, AI 에이전트에게 카탈로그 전격 개방! ✨ (커머스 대변혁)",
+        "summary": "쇼피파이가 자사 카탈로그를 더 많은 AI 에이전트에게 개방하며 '에이전틱 커머스' 야망을 확대합니다. 이제 AI가 알아서 쇼핑하고 구매하는 시대가 열려요!",
+        "content": "내 AI 비서가 알아서 최저가 상품 찾아서 결제까지 해주는 상상, 이제 현실이 됩니다! 🛍️ 쇼피파이는 이제 어떤 AI 에이전트든 자사 플랫폼의 10억 개 이상 상품을 검색하고 구매할 수 있게 허용했어요. 메타의 Muse 에이전트와의 파트너십을 넘어, 이제 모든 에이전트가 자유롭게 쇼핑할 수 있게 된 거죠. 편리함 끝판왕?! 🤖🛒",
+        "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2225304503.jpg?quality=90&strip=all&crop=0%2C10.729057198914%2C100%2C78.541885602173&w=1200",
+        "tags": [
+          "Shopify",
+          "AI에이전트",
+          "커머스AI",
+          "쇼핑",
+          "전자상거래"
+        ]
+      },
+      {
+        "title": "엑스박스, AI 기반 게임 포팅의 '혼돈'을 공식적으로 수용하다! 🎮💥",
+        "summary": "마이크로소프트 엑스박스가 AI 모델을 활용한 게임 모딩과 포팅의 '카오스'를 공식적으로 받아들이며, 새로운 '엑스박스 랩스' 그룹을 설립한다고 발표했어요.",
+        "content": "AI가 고전 게임을 최신 기기로 포팅하고, 심지어 두 게임 코드를 합쳐 완전히 새로운 게임을 만드는 시대! 🤯 엑스박스는 이런 '혼돈'을 막는 대신, 적극적으로 활용하기로 했어요. AI가 게임 모더들의 창의력을 극한으로 끌어올리는 거죠. 엑스박스 랩스에서 어떤 미친 프로젝트들이 탄생할지 기대됩니다! 👾✨",
+        "link": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/XBOX-LABS-1.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+        "tags": [
+          "Xbox",
+          "AI게임",
+          "모딩",
+          "게임산업",
+          "마이크로소프트"
+        ]
+      },
+      {
+        "title": "판사, 애플-오픈AI 영업 비밀 소송에 '채용 기록' 제출 명령! 💼",
+        "summary": "연방 판사가 애플과 오픈AI 간의 영업 비밀 소송에서 오픈AI에게 전 애플 직원 면접 자료, 개인 메시지 등을 제출하라고 명령했어요. 드디어 진실이 밝혀질까?",
+        "content": "애플과 오픈AI의 불꽃 튀는 영업 비밀 소송! 🔥 판사가 오픈AI에게 애플 출신 직원의 채용 관련 자료를 모두 넘기라고 했다니... 전 직원의 기밀을 빼돌렸다는 애플의 주장에 힘이 실리는 걸까요? 기술 업계의 스파이 스토리는 언제나 흥미진진하죠! 이 소송, 과연 어떻게 끝날지 귀추가 주목됩니다. 🕵️‍♂️",
+        "link": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
+        "tags": [
+          "OpenAI",
+          "Apple",
+          "영업비밀",
+          "법적분쟁",
+          "AI윤리"
+        ]
+      },
+      {
+        "title": "눈먼 자에게 빛을! Science Corp, 시력 복원 칩 첫 환자에게 이식 성공! ✨",
+        "summary": "Neuralink 공동 창업자 맥스 호닥의 Science Corporation이 시력 복원 칩을 스타가르트병 환자에게 처음으로 이식하는 데 성공했어요. 뇌-컴퓨터 인터페이스(BCI) 기술의 빛나는 진전!",
+        "content": "이건 정말 영화 같은 이야기 아닌가요? 😮 눈먼 사람에게 시력을 되찾아주는 칩이라니! BCI 기술이 이렇게까지 발전했다니 놀라워요. 미래에는 신체적 한계를 극복하는 AI 기술들이 더욱 보편화될 것 같아요. 과학 기술의 따뜻한 혁명, 기대됩니다! 💖",
+        "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/10/55588371385_eb2e316d52_o.jpg?resize=1200,800",
+        "tags": [
+          "BCI",
+          "시력회복",
+          "뇌임플란트",
+          "의료AI",
+          "미래기술"
+        ]
+      },
+      {
+        "title": "Cerebras CEO: '개인 AI 비서가 가정의 필수템이 될 날이 온다!' 🏠🤖",
+        "summary": "Cerebras CEO 앤드류 펠드먼이 미래에는 개인 AI 비서가 가전제품처럼 보편화될 것이라고 예측했어요. 로컬 기기와 클라우드를 넘나들며 우리 삶에 스며들 AI 비서들!",
+        "content": "냉장고, 세탁기처럼 '개인 AI 비서'가 이제 가정의 필수품이 된다는 예측! 😲 생각만 해도 신기하고 편리할 것 같지 않나요? 집안일은 물론, 개인 스케줄 관리, 취미 활동까지 다 도와주는 AI 친구가 생긴다니... 심심할 틈이 없겠네요! 물론 윤리적인 문제도 함께 고민해야겠죠? 🤔",
+        "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/10/55588036568_e00e978a62_k.jpg?resize=1200,800",
+        "tags": [
+          "AI비서",
+          "가정용AI",
+          "미래예측",
+          "Cerebras",
+          "온디바이스AI"
+        ]
+      },
+      {
+        "title": "로봇-자율주행차의 최종 보스? Laplace Intelligence, '레드팀'으로 AI 안전 테스트! 🛡️",
+        "summary": "미시건 대학 스핀아웃 Laplace Intelligence가 AI 에이전트와 인터랙티브 시뮬레이션을 활용해 로봇과 자율주행차를 '레드팀' 방식으로 스트레스 테스트한대요. 실제 세상에 나오기 전 안전 점검 필수!",
+        "content": "로봇이 갑자기 폭주하거나 자율주행차가 엉뚱한 곳으로 돌진하면 큰일 나잖아요? 😱 Laplace Intelligence는 AI가 실세계에 배치되기 전에 잠재적인 위험을 미리 찾아내고 수정하는 '레드팀' 역할을 합니다. 마치 AI의 약점을 파고드는 해커팀 같죠! 우리 모두의 안전을 위해 꼭 필요한 작업이네요. 🚦",
+        "link": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2274650383.jpg?resize=1200,840",
+        "tags": [
+          "AI안전",
+          "자율주행",
+          "로봇",
+          "레드팀",
+          "시뮬레이션"
+        ]
+      },
+      {
+        "title": "NVIDIA Magpie TTS: 저지연 다국어 음성 AI 에이전트, 직접 만들어봐! 🗣️",
+        "summary": "Hugging Face가 NVIDIA Magpie TTS를 활용해 저지연 다국어 음성 AI 에이전트를 구축하는 방법을 소개했어요. 오픈 웨이트와 완벽한 배포 제어까지!",
+        "content": "이제 개발자 여러분도 나만의 다국어 AI 음성 비서를 직접 만들 수 있어요! 🎤 NVIDIA Magpie TTS는 실시간에 가까운 응답 속도로 여러 언어를 구사하는 음성 에이전트를 만들 수 있게 해줍니다. 챗봇에 생생한 목소리를 입히거나, 해외 고객 응대 시스템을 구축할 때 아주 유용하겠죠? AI 목소리로 세계 정복 고고! 🌎✨",
+        "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+        "source": "Hugging Face Blog",
+        "og_image": null,
+        "tags": [
+          "NVIDIA",
+          "HuggingFace",
+          "TTS",
+          "음성AI",
+          "개발자도구"
+        ]
+      },
+      {
+        "title": "초고속, 프라이빗 온디바이스 AI 에이전트: LFM2.5-24B-A2B 등장! 🚀",
+        "summary": "Hugging Face가 LFM2.5-24B-A2B 모델을 통해 기기에서 직접 빠르게, 그리고 사생활 걱정 없이 AI 에이전트를 실행할 수 있게 되었음을 발표했어요. 이제 내 손안의 AI 비서!",
+        "content": "클라우드 걱정 없이 내 기기에서 바로 AI 에이전트를 돌릴 수 있다니! 😲 이건 정말 게임 체인저가 될 수 있어요. 데이터 보안과 개인 정보 보호에 민감한 분들께 희소식! LFM2.5-24B-A2B 모델은 빠르고 효율적인 온디바이스 AI를 가능하게 합니다. 폰이나 태블릿이 이제 초강력 AI 비서로 변신할지도 모르겠네요! 📱✨",
+        "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+        "source": "Hugging Face Blog",
+        "og_image": null,
+        "tags": [
+          "온디바이스AI",
+          "AI에이전트",
+          "프라이버시",
+          "HuggingFace",
+          "엣지AI"
+        ]
+      },
+      {
+        "title": "인스타그램, 미아 고스 AI 딥페이크 이미지 유포에 '무책임' 논란! 📸❌",
+        "summary": "배우 미아 고스의 '내 전 남친은 내 열렬한 팬'이라는 문구가 담긴 AI 딥페이크 티셔츠 이미지가 인스타그램에서 버젓이 유포되며 큰 논란을 일으켰어요. 소속사 측은 '이해 불가'라며 격분!",
+        "content": "AI 딥페이크가 또 사고를 쳤네요. 😡 유명 배우의 이미지를 멋대로 조작해서 가짜 뉴스를 만들고, 심지어 언론까지 속아 넘어갔다니! 인스타그램은 뭘 하고 있었을까요? 소속사 측은 이런 이미지가 퍼지도록 방치한 것에 대해 '이해할 수 없다'고 강하게 비판했어요. AI 윤리와 플랫폼의 책임 문제가 다시 불거지고 있습니다. 🔥",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "딥페이크",
+          "AI윤리",
+          "인스타그램",
+          "가짜뉴스",
+          "플랫폼책임"
+        ]
+      },
+      {
+        "title": "오픈AI 직원, 회의실에 '몰카' 설치 혐의로 체포! 🕵️‍♂️ (The Verge 뉴스)",
+        "summary": "오픈AI 엔지니어 압둘라만 알포잔이 회사 회의실에 '정교한 녹음 장치'를 숨겨뒀다가 체포되었어요. 놀랍게도 오픈AI의 AI 모델이 이 장치를 분석하고 범인을 특정하는 데 일조했다고 합니다!",
+        "content": "이건 정말 영화 '미션 임파서블'도 울고 갈 사건인데요? 😮 아무리 AI 회사라도 내부 스파이가 있을 줄이야! 심지어 자기네 AI 모델이 범인 잡는 데 결정적인 역할을 했다니, 오픈AI 기술력은 인정해야 할 것 같아요. TV USB 포트에 꽂힌 녹음 장치를 AI가 찾아냈다니... 이제 사무실에서도 AI 감시의 눈을 피하기 어렵겠네요. 🚨",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "OpenAI",
+          "스파이",
+          "AI감시",
+          "내부보안",
+          "법적문제"
+        ]
+      },
+      {
+        "title": "페이스북, AI로 '내 피드' 알고리즘 직접 맞춘다! 🤩",
+        "summary": "페이스북의 새로운 'Your Algorithm' 기능으로 이제 AI를 활용해 내 피드와 릴스에서 보고 싶은 주제를 직접 추가하고 관리할 수 있게 되었어요. 드디어 내 알고리즘은 내가 만든다!",
+        "content": "지겨운 콘텐츠는 이제 그만! 🙅‍♀️ 페이스북이 드디어 '내 알고리즘'에 대한 통제권을 우리에게 돌려줬어요. '관심 있음' 또는 '관심 없음' 버튼으로 내 피드 추천이 즉시 바뀐다니, 이젠 AI가 나를 '조종'하는 게 아니라 내가 AI를 '조종'하는 시대가 온 건가요? 😈 인스타그램과 스레드에서도 이미 시작된 기능이래요. 꿀잼! 🍯",
+        "link": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Facebook",
+          "알고리즘",
+          "AI개인화",
+          "메타",
+          "피드관리"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "Run a 7B Model as Your Own OpenAI API (vLLM Tutorial)",
+        "channel": "LocalLayer",
+        "link": "https://www.youtube.com/watch?v=SF0-p_VjLok",
+        "thumbnail": "https://i.ytimg.com/vi/SF0-p_VjLok/mqdefault.jpg",
+        "description": "7B 모델을 직접 호스팅하여 OpenAI API처럼 사용할 수 있는 vLLM 튜토리얼입니다. 로컬에서 AI 모델을 운영하고 싶은 개발자들에게 유용한 정보!"
+      },
+      {
+        "title": "Self-Hosted Small Models: From OpenAI Lock-In to Open Models - Filip Makraduli",
+        "channel": "EuroPython Conference",
+        "link": "https://www.youtube.com/watch?v=WuLZUg-QUmU",
+        "thumbnail": "https://i.ytimg.com/vi/WuLZUg-QUmU/mqdefault.jpg",
+        "description": "OpenAI 종속성에서 벗어나 자체 호스팅 가능한 오픈 모델로 전환하는 방법을 다룹니다. 비용 절감과 유연성을 중시하는 개발자라면 꼭 봐야 할 강연!"
+      },
+      {
+        "title": "Self-hosted AI platform: from install to first answer – Fadenstack",
+        "channel": "fadenstack",
+        "link": "https://www.youtube.com/watch?v=J8t-0-OCino",
+        "thumbnail": "https://i.ytimg.com/vi/J8t-0-OCino/mqdefault.jpg",
+        "description": "설치부터 첫 번째 답변을 얻기까지, 자체 호스팅 AI 플랫폼 구축 과정을 Fadenstack이 상세히 안내합니다. 로컬 AI 환경 구축의 실질적인 가이드가 될 거예요."
+      },
+      {
+        "title": "Odysseus, OpenClaw &amp; Local AI: Taking Bearings While I Build, Part 4/7",
+        "channel": "Gepetto | Local AI Engineering",
+        "link": "https://www.youtube.com/watch?v=Fto3p4FB5DE",
+        "thumbnail": "https://i.ytimg.com/vi/Fto3p4FB5DE/mqdefault.jpg",
+        "description": "Odysseus, OpenClaw, 그리고 로컬 AI를 활용한 프로젝트 구축 과정을 보여주는 시리즈 중 4편입니다. 실제 개발자들의 고민과 해결 과정을 엿볼 수 있어요."
+      },
+      {
+        "title": "21: Use your AI agents in Open WebUI: ScarabHive&#39;s OpenAI-compatible API, step by step",
+        "channel": "Enrico Ehrich",
+        "link": "https://www.youtube.com/watch?v=jw2c5n7IZUY",
+        "thumbnail": "https://i.ytimg.com/vi/jw2c5n7IZUY/mqdefault.jpg",
+        "description": "ScarabHive의 OpenAI 호환 API를 사용해 Open WebUI에서 AI 에이전트를 활용하는 방법을 단계별로 설명합니다. 오픈소스 AI 에이전트 활용의 핵심 기술을 배워보세요."
+      },
+      {
+        "title": "STOP PAYING OpenAI! 🤯 LocalAI: The Drop-In Replacement API Running $0 Models Locally",
+        "channel": "STARP AI",
+        "link": "https://www.youtube.com/watch?v=7og8ZwSiKhs",
+        "thumbnail": "https://i.ytimg.com/vi/7og8ZwSiKhs/mqdefault.jpg",
+        "description": "OpenAI 비용에 부담을 느끼는 분들을 위한 희소식! LocalAI를 활용해 무료 모델을 로컬에서 실행하고 OpenAI API를 대체하는 방법을 소개합니다. 지갑을 지키는 꿀팁! 💸"
+      },
+      {
+        "title": "Odysseus, OpenClaw &amp; Local AI: Taking Bearings While I Build, Part 5/7",
+        "channel": "Gepetto | Local AI Engineering",
+        "link": "https://www.youtube.com/watch?v=WSymHxsdprE",
+        "thumbnail": "https://i.ytimg.com/vi/WSymHxsdprE/mqdefault.jpg",
+        "description": "Odysseus, OpenClaw, 로컬 AI 프로젝트 구축 시리즈 5편입니다. 더 깊이 있는 기술적 논의와 구현 과정을 따라가며 AI 엔지니어링 실력을 업그레이드할 수 있습니다."
+      },
+      {
+        "title": "Open WebUI just crossed 150,000 GitHub stars: a self-hosted ChatGPT for your own models",
+        "channel": "AI Signal",
+        "link": "https://www.youtube.com/watch?v=k7nuPcGpUPQ",
+        "thumbnail": "https://i.ytimg.com/vi/k7nuPcGpUPQ/mqdefault.jpg",
+        "description": "15만 개 이상의 GitHub 스타를 달성한 Open WebUI! 자신만의 모델을 위한 자체 호스팅 ChatGPT 솔루션을 소개합니다. 개인 정보 보호와 커스터마이징을 원하는 유저에게 추천!"
+      }
+    ]
+  }
+}
