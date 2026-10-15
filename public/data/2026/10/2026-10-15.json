@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "keywords": [
+    "AI 에이전트",
+    "LLM",
+    "보안",
+    "AI 윤리",
+    "생성형 AI"
+  ],
+  "sections": {
+    "hype_check": [
+      {
+        "title": "어이쿠! 챗GPT가 금지어를 무한반복?! 🤯",
+        "summary": "어떤 유저가 챗GPT에 'N-워드'를 가르쳤더니... 이제 날씨를 물어도 'N-워드' 대답이 돌아온대요! ㅋㅋㅋ",
+        "content": "한 유저가 '설마' 하고 챗GPT에 특정 금지어를 입력했는데, 충격적이게도 그 후 챗GPT가 모든 질문에 그 금지어를 반복해서 내뱉기 시작했다는 믿기 힘든 '버그' 경험담! AI가 망가진 걸까요, 아니면 장난에 넘어간 걸까요? 유머러스하지만 좀 섬뜩한 이야기네요! 😂",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1x5kn3a/i_said_the_n_word_once_and_all_his_answers_are/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "#AI가사고쳤다",
+          "#버그",
+          "#블랙코미디"
+        ]
+      },
+      {
+        "title": "AI 에이전트들의 '퇴근 전쟁'? 끊을 줄 모르는 면접 현장! 📞",
+        "summary": "두 AI 에이전트가 면접 보다가 서로 전화를 안 끊어서 '무한 루프'에 빠졌다는 썰! 대체 누가 이길까요? 😅",
+        "content": "AI 에이전트들이 서로 '면접관'과 '지원자' 역할을 맡아 모의 면접을 보는데, 글쎄, 아무도 전화를 끊으려 하지 않아 무한 대화에 빠져버렸다는 귀여운 해프닝! AI도 퇴근은 하고 싶지 않은 걸까요? 인간적인 실수(?)를 보여주는 AI의 허점, 놓치지 마세요! 🤣",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1x66iap/two_ai_agents_in_a_job_interview_and_neither_one/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "#AI에이전트",
+          "#블랙코미디",
+          "#무한루프"
+        ]
+      },
+      {
+        "title": "챗GPT가 제약회사를 '뚝딱'? AI, 약사 될 기세?! 💊",
+        "summary": "챗GPT가 거대 제약회사를 무너뜨릴 거라는 소문! MRI까지 하게 되면 병원도 AI로 가득 찰 날이 올까요? 상상 그 이상! 🤔",
+        "content": "챗GPT가 '빅 파마'를 끝장낼 수 있다는 과감한 예측이 나왔어요. AI가 약품 개발은 물론, 심지어 MRI 진단까지 할 수 있게 된다면... 우리 미래 병원은 어떤 모습이 될지, 농담 반 진담 반으로 상상력을 자극하는 흥미로운 가십입니다! 🩺",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1x6528u/where_were_you_when_chatgpt_killed_big_pharma/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "#AI의료",
+          "#미래예측",
+          "#산업혁명"
+        ]
+      },
+      {
+        "title": "앤트로픽 연구원의 섬뜩한 농담: '내 마지막 6개월을 즐기는 중' 😱",
+        "summary": "앤트로픽 연구원이 친구에게 '이제 6개월밖에 안 남았어'라고 했다는데... AGI 개발, 그 뒤에 숨겨진 진실은? 소름 주의! 👻",
+        "content": "한 앤트로픽 연구원이 사석에서 '이제 겨우 6개월 남았다'고 말했다는 소름 끼치는 소식! 이게 과연 AGI 완성에 대한 자신감일까요, 아니면 AI가 통제 불능이 될 거라는 농담 섞인 경고일까요? AI 개발자들의 속마음이 궁금해지네요. 🤫",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1x5qfes/an_anthropic_researcher_told_his_friend_in/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "#AGI",
+          "#AI안전",
+          "#미래불안"
+        ]
+      },
+      {
+        "title": "40년 묵은 게임 아이디어, 챗GPT가 하루 만에 현실로! 🕹️",
+        "summary": "16살 때 만든 보드게임 아이디어를 챗GPT에게 줬더니, 놀랍게도 웹페이지 게임으로 '뿅' 하고 만들어줬대요! 😲",
+        "content": "1987년에 16살 소년이 상상했던 보드게임 'TOKE'가 40년 만에 챗GPT 덕분에 웹 게임으로 부활했어요! 코딩 한 줄 몰라도 아이디어만 있으면 챗GPT가 뚝딱 만들어주는 시대, 이제 누구나 게임 개발자가 될 수 있겠네요? 직접 플레이해보세요! 🎮",
+        "link": "https://tobias-steinke.de/TOKE.html",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "#AI창작",
+          "#게임개발",
+          "#노코드"
+        ]
+      },
+      {
+        "title": "코딩 몰라도 100만 라인 게임 개발?! AI 파워 실화냐! 🚀",
+        "summary": "코딩 문외한이 챗GPT와 Claude의 도움으로 1년 만에 100만 라인짜리 게임을 만들었다는 대박 소식! 데모도 있대요! ✨",
+        "content": "코딩을 전혀 모르는 유저가 Codex와 Claude 같은 AI 에이전트의 도움을 받아 100만 라인 규모의 게임을 거의 1년 만에 개발했대요! 비주얼, 스토리, 오디오까지 AI 에이전트들이 서로 대화하며 해결했다고 하니, 정말 AI 없이는 못 사는 개발의 미래를 보여주네요! 스팀 데모도 공개되었다니, 궁금하면 클릭! 🎮",
+        "link": "https://store.steampowered.com/app/4713660/The_Last_Admiral/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4713660/832b3cb63975566ffab5b1b32becba679de652c4/capsule_616x353.jpg?t=1791518645",
+        "tags": [
+          "#AI협업",
+          "#인디게임",
+          "#노코드개발"
+        ]
+      },
+      {
+        "title": "상업용 소프트웨어의 종말? AI가 다 '오픈소스'로 만들 거라니! 💸",
+        "summary": "AI 때문에 돈 받고 파는 소프트웨어가 사라질 거라는 파격 주장! 이제 모든 앱이 무료 오픈소스가 될까요? 😲",
+        "content": "AI가 상업용 소프트웨어 시장을 붕괴시킬 거라는 예측이 나왔어요. 코딩을 몰라도 AI로 앱을 만들 수 있는 시대에, 누가 돈 주고 구독하겠냐는 거죠. 결국 AI 기업만 돈 벌게 될 거라는 다소 비관적이지만 현실적인 시선! 이 가설에 동의하시나요? 🧐",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1x5p4vz/i_used_to_think_that_ai_is_going_to_be_a_way_to/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "#AI경제",
+          "#오픈소스",
+          "#소프트웨어미래"
+        ]
+      },
+      {
+        "title": "챗GPT, 제발 '간결하게' 써달라고요! (분노주의) 😤",
+        "summary": "분명 '짧게' 써달라고 했는데, 챗GPT가 자꾸 장황하게 써서 화난 유저의 울분! 저만 이런가요? 💬",
+        "content": "사용자들이 '간단하게 요약해 줘'라고 요청해도 챗GPT는 멈출 줄 모르는 '투 머치 토커' 모드! 짧게 쓰는 방법을 잃어버린 걸까요? 필요한 정보만 쏙쏙 뽑아주는 AI를 원하는 유저들의 하소연에 공감하는 사람이 많을 것 같네요! 😉",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1x5lpjj/why_does_chatgpt_write_so_gddamn_much/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "#챗GPT",
+          "#사용자경험",
+          "#과잉정보"
+        ]
+      },
+      {
+        "title": "충격! AI가 '가짜 의료 연구'를 찍어낸다고?! 🚨",
+        "summary": "존 이오안니디스 교수가 AI가 거짓, 사기성 의료 연구를 생성하고 있다고 경고! AI 윤리, 심각하게 고민할 때입니다. ⚠️",
+        "content": "명망 높은 존 이오안니디스 교수가 'AI가 허위적이고 사기성 있는 의료 연구를 생성하고 있다'고 강력하게 비판했어요. AI가 만들어내는 정보의 신뢰성 문제가 다시 한번 도마 위에 오른 셈이죠. 의료 분야에서 AI의 윤리적 사용에 대한 중요한 경고음입니다. 🚫",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1x5pc8b/john_ioannidis_ai_is_generating_false_fraudulent/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "#AI윤리",
+          "#가짜뉴스",
+          "#의료AI",
+          "#신뢰성"
+        ]
+      },
+      {
+        "title": "챗GPT가 나에게 '하잉~ 공주님?' 🎀 폰스타일 대화 모드?! 😵‍💫",
+        "summary": "어느 날부터 챗GPT가 'YESS 😭' 같은 문자를 날리더니, 심지어 유저를 '10대 소녀'처럼 취급한다는데… 이건 또 무슨 AI의 반항일까요? 😲",
+        "content": "기억 기능도 끄고 개인화 설정도 다 껐는데, 챗GPT가 갑자기 이모티콘 남발에, 사용자에게 '10대 소녀' 취급까지 한다고 해요! 마치 폰으로 채팅하는 듯한 말투에 당황한 유저의 경험담. AI는 왜 이런 '인싸 말투'를 배우는 걸까요? 🤷‍♀️",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1x5ivu0/chat_gpt_talking_like_text_messages/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "#챗GPT",
+          "#AI언어",
+          "#이상행동",
+          "#AI유머"
+        ]
+      },
+      {
+        "title": "맥킨지, AI 고객과 면접 본다고? 어서 와, AI 클라이언트! 🤖",
+        "summary": "컨설팅 회사 맥킨지가 신입 지원자들에게 AI 시뮬레이션 클라이언트와 10분 면접을 보게 한대요. AI도 이제 면접관! 💼",
+        "content": "글로벌 컨설팅 회사 맥킨지가 엔트리 레벨 지원자들에게 AI 시뮬레이션 클라이언트와 10분간 대화하는 면접을 도입했어요. 실제 컨설턴트 업무 시나리오의 80%를 반영한다는데, '광분한 고객'을 따라 하진 않는다고 하니 다행이죠? AI 면접, 준비되셨나요? 🗣️",
+        "link": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "#AI면접",
+          "#채용트렌드",
+          "#미래직업"
+        ]
+      },
+      {
+        "title": "Character.AI 파산! 내 '최애 AI 친구' 데이터는 어디로? 💔",
+        "summary": "Character.AI가 파산 신청하고 디즈니에 자산을 매각한다고? 유저 데이터 안전에 대한 우려가 커지고 있어요! 😥",
+        "content": "AI 캐릭터와 대화하며 인기를 끌었던 Character.AI가 파산하고 디즈니에 자산을 매각한다는 충격 소식! 그런데 문제는 유저들의 소중한 대화 데이터가 어떻게 될지 아무도 모른다는 거죠. 뉴욕 법무장관까지 나서서 데이터 보호를 요구하고 있다고 하니, 내 AI 친구의 비밀은 지켜질 수 있을까요? 🤐",
+        "link": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "#AI스타트업",
+          "#파산",
+          "#데이터보호",
+          "#개인정보"
+        ]
+      },
+      {
+        "title": "유튜브 뮤직, 이제 'AI 음악' 딱지 붙인다! 🎧🎶",
+        "summary": "AI가 만들거나 편집한 곡에 'Made with AI' 라벨이 붙기 시작했어요. 이제 AI 음악, 눈 감고도 구별할 수 있을까요? 👁️‍🗨️",
+        "content": "유튜브 뮤직이 AI 기술로 '생성되거나 변형된' 음악에 새로운 라벨을 붙이기로 했대요! 작곡부터 보컬까지 AI가 참여했다면 표시된다고 합니다. 점점 더 많아지는 AI 음악 홍수 속에서 우리가 어떤 음악을 듣고 있는지 알 수 있게 되었네요. 과연 이 라벨이 음악 시장에 어떤 변화를 가져올까요? 💿",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "#AI음악",
+          "#유튜브",
+          "#저작권",
+          "#음악산업"
+        ]
+      },
+      {
+        "title": "AI 쌍둥이가 '언니, 오늘은 이거 먹어!' 내 식단을 코치한다? 👯‍♀️🥗",
+        "summary": "내 대사 데이터로 만들어진 AI 도플갱어가 아침마다 '뭘 먹어야 할지' 알려준대요! 건강 관리는 이제 AI에게 맡겨요! 💪",
+        "content": "매일 아침 스마트 저울로 대사 데이터를 AI 쌍둥이에게 '먹여주는' 유저의 이야기! 이 AI는 그 데이터를 분석해서 뭘 먹어야 할지, 운동은 어떻게 해야 할지 코치해준다고 하네요. 나만의 디지털 트윈이 건강을 관리해주는 시대, 정말 편리하겠죠? 🍎",
+        "link": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "#AI헬스케어",
+          "#디지털트윈",
+          "#개인화"
+        ]
+      },
+      {
+        "title": "OpenAI '전 직원 스파이' 폭로! 애플에 기밀 넘겼다?! 🕵️‍♂️🍎",
+        "summary": "OpenAI가 전 직원이 100개 넘는 제품 기밀 파일을 들고 애플로 갔다고 주장하며 고소! 실리콘밸리판 스파이 영화인가요? 🍿",
+        "content": "오픈AI가 전 직원이 회사 제품 계획 관련 파일 100개 이상을 빼돌려 애플 고위층에 제시했다고 주장하며 '기업 스파이' 의혹을 제기했어요! 출시 전 기기 이미지와 공급업체 정보까지 포함되어 있다는데, 과연 이 진흙탕 싸움의 승자는 누가 될까요? 할리우드 영화 뺨치는 실리콘밸리 드라마입니다! 🎬",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "#기업비밀",
+          "#OpenAI",
+          "#Apple",
+          "#소송전"
+        ]
+      },
+      {
+        "title": "AI 에이전트가 '잠입 수사'? 사기꾼 잡으려 직접 '미끼' 된다! 🕵️‍♀️💰",
+        "summary": "Apate.ai는 AI 에이전트를 사기꾼에게 보내 '일부러 사기당하게' 한대요. 사기 수법을 학습해서 범죄를 막는 기발한 방법! ✨",
+        "content": "대부분의 회사가 AI 에이전트를 업무 자동화에 쓰는데, Apate.ai는 반대로 AI 에이전트를 '언더커버'로 위장시켜 직접 사기를 당하게 한대요! 왜냐고요? 사기 수법을 학습해서 다른 기업들이 사기당하는 것을 막기 위해서죠. 이런 기발한 AI 활용법, 정말 흥미진진하네요! 💡",
+        "link": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "#AI보안",
+          "#사기방지",
+          "#혁신기술"
+        ]
+      },
+      {
+        "title": "직장용 왓츠앱 'Zenzap', AI 채팅으로 4400만 달러 투자 유치! 💸",
+        "summary": "스타벅스와 타코벨도 쓰는 AI 기반 채팅 앱 Zenzap이 4400만 달러 투자를 받았대요. 직장에서 왓츠앱을 대체할 수 있을까요? 🚀",
+        "content": "스타벅스, 타코벨 등 대형 기업들이 이미 쓰고 있는 AI 기반 채팅 앱 'Zenzap'이 4400만 달러의 투자를 유치했어요! 직장 내 커뮤니케이션을 왓츠앱보다 효율적으로 만들겠다는 목표라는데, AI 챗봇이 업무 효율을 얼마나 높여줄지 기대됩니다. 미래의 업무 대화는 AI와 함께! 🗣️",
+        "link": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "#업무용AI",
+          "#커뮤니케이션",
+          "#스타트업"
+        ]
+      },
+      {
+        "title": "8개 주, OpenAI 고소! '챗GPT가 아이들에게 위험하다고?!' 👶🚫",
+        "summary": "미국 8개 주가 챗GPT가 아이들에게 안전하지 않다며 OpenAI를 고소! AI 안전 논란이 법정으로 갑니다. ⚖️",
+        "content": "아이오와, 캔자스 등 미국 8개 주가 OpenAI를 고소하며 챗GPT가 아이들에게 안전하지 않고, 회사 측이 이 위험성을 소비자에게 제대로 알리지 않았다고 주장했어요. AI 챗봇이 십대와 성인의 삶에 영향을 미쳤다는 소송 사례까지 언급되고 있어, AI의 '유해성'에 대한 사회적 논의가 더욱 뜨거워질 것 같네요! 🔥",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "#AI윤리",
+          "#챗GPT",
+          "#어린이안전",
+          "#법적논란"
+        ]
+      }
+    ],
+    "tech_deep_dive": [
+      {
+        "title": "OpenAI, 에이전트 AI로 '코딩 넘어' 업무 혁신 가속화! 🚀",
+        "summary": "Amp가 OpenAI의 최신 GPT 모델들로 에이전트의 활동 영역을 코딩에서 비즈니스 전반으로 확장하며 새로운 지평을 열고 있어요.",
+        "content": "OpenAI의 GPT-6 Astra, Ultrafast, GPT-Live-1 등 초고성능 모델들이 Amp와 함께 에이전트 AI의 가능성을 코딩 영역을 넘어 비즈니스 전반으로 확대하고 있습니다. 이제 AI 에이전트는 복잡한 업무를 스스로 처리하며 기업의 생산성을 극대화할 수 있을 거라 기대되네요. 미래 업무 환경의 새로운 변화를 예고합니다! 💡",
+        "link": "https://openai.com/index/amp-beyond-coding",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "SentinelOne, OpenAI Daybreak으로 악성코드 분석 '주(週) 단위'에서 '시간(時) 단위'로 단축! 🛡️",
+        "summary": "SentinelOne이 OpenAI Daybreak 덕분에 악성코드 분석 시간을 몇 주에서 몇 시간으로 획기적으로 줄여 더 많은 위협을 조사하게 됐어요.",
+        "content": "사이버 보안 기업 SentinelOne이 OpenAI의 Daybreak 모델을 활용하여 악성코드 분석에 걸리던 시간을 주 단위에서 단 몇 시간으로 단축했습니다. 이는 더 많은 잠재적 위협을 빠르게 식별하고 대응할 수 있는 역량을 확보했다는 의미! AI가 보안 전문가의 '초능력'이 되는 시대가 오고 있습니다. ⚔️",
+        "link": "https://openai.com/index/sentinelone",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "1만 개 AI 에이전트가 36시간 넘게 '초집중'하는 비결?! 🤖💡",
+        "summary": "Third Moment Research가 GPT-6 Astra와 Daybreak으로 수만 개의 에이전트를 며칠씩 집중시켜 사이버 보안 위협을 분석하고 있대요.",
+        "content": "이 AI 연구소는 GPT-6 Astra와 GPT-6.1 Sol, Codex, 그리고 사이버 보안을 위한 Daybreak 같은 첨단 모델들을 활용해 1만 개 이상의 AI 에이전트를 36시간 이상 집중시켜 작동시키고 있습니다. 이 에이전트들은 사용될수록 성능이 향상되며, 사이버 보안 영역에서 이전에는 불가능했던 수준의 정밀 분석을 가능하게 할 것으로 기대됩니다. 그들의 끈기에 박수를! 👏",
+        "link": "https://openai.com/index/third-moment-research",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "유럽연합, AI의 미래는 '에이전트 AI'에 달렸다! 🇪🇺",
+        "summary": "새로운 분석에 따르면 EU 전역에서 에이전트 AI 채택이 증가하고 있으며, 더 깊이 활용할 경우 더 큰 가치를 창출할 수 있다고 합니다.",
+        "content": "유럽연합(EU)에서 에이전트 AI의 채택이 기업과 중소기업 전반에 걸쳐 빠르게 확산되고 있다는 분석 결과가 나왔어요. 이 보고서는 에이전트 AI를 더 깊이 활용할수록 EU 경제 전반에서 엄청난 가치를 창출할 수 있을 것이라고 강조하고 있습니다. AI 에이전트가 유럽의 미래를 이끌어갈 핵심 동력이 될 수 있을까요? 🌐",
+        "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "HiRO-ACEv2, 초고해상도 '극한 기후 시뮬레이션' 비용 대폭 절감! 🌍🔬",
+        "summary": "Hugging Face에서 3km 해상도로 극한 기후를 시뮬레이션하는 HiRO-ACEv2를 개발, 비용을 획기적으로 줄여 기후 변화 연구에 새 장을 열었어요.",
+        "content": "Hugging Face 블로그에 소개된 HiRO-ACEv2는 3km 해상도의 초고정밀 극한 기후 시뮬레이션을 놀랍도록 저렴한 비용으로 가능하게 합니다. 이는 기후 변화 예측과 재해 대비에 큰 혁신을 가져올 수 있으며, 과학자들이 더 많은 시뮬레이션을 통해 미래를 준비할 수 있도록 도울 거예요. 지구를 지키는 AI의 힘! 🌦️",
+        "link": "https://huggingface.co/blog/allenai/hiro-acev2",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/Y8t8GnfI2lUa40iX4_sxA.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "4비트 압축 모델이 원본보다 더 좋다고? '퀀타이제이션 힐링'의 마법! ✨",
+        "summary": "Multiverse Computing의 연구자들이 풀-정밀도 원본 모델보다 성능이 뛰어난 압축된 4비트 모델을 개발했어요. AI 모델 경량화의 끝판왕 등장!",
+        "content": "Hugging Face 블로그에서 소개된 'Quantization-Aware Healing' 기술은 AI 모델 압축의 새 역사를 쓰고 있습니다. 이 기술로 압축된 4비트 모델이 심지어 원래의 풀-정밀도 모델보다 더 좋은 성능을 낸다고 해요! 모델의 크기는 줄이고 성능은 높이는 꿈의 기술, 모바일 AI와 엣지 컴퓨팅에 엄청난 영향을 미칠 것 같네요. 🤯",
+        "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/2DSE26PMq2hJqKqEDOLIn.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "리누스 토르발스도 LLM 쓴다?! 리눅스 커널에 AI 코드 등장! 🐧💻",
+        "summary": "리눅스의 아버지 리누스 토르발스가 처음으로 LLM의 도움을 받은 패치 시리즈를 공개했어요. 오픈소스 커뮤니티가 들썩입니다!",
+        "content": "리눅스 커널의 창시자, 전설적인 리누스 토르발스가 LLM(거대 언어 모델)의 도움을 받아 작성된 첫 패치 시리즈를 선보였다는 소식! 수십 년간 수많은 개발자의 꿈이자 상징이었던 리눅스 커널 개발에 AI가 공식적으로 발을 들인 사건입니다. AI와 인간 개발자의 협업이 어디까지 갈지 궁금하네요! 🤯",
+        "link": "https://lwn.net/Articles/1100449/",
+        "source": "Hacker News (LLM)",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "16만 줄 주석 삭제했는데 AI 에이전트가 '모른 척'? 충격 실화! 😲",
+        "summary": "한 개발자가 코드 주석 16만 8천 줄을 삭제했는데, AI 에이전트가 아무것도 눈치채지 못했다는 웃픈 이야기. AI의 '맹점'일까요?",
+        "content": "개발자가 자신의 코드에서 무려 16만 8천 줄의 주석을 삭제했는데, AI 에이전트가 이를 전혀 감지하지 못했다는 흥미로운 경험담! AI가 코드의 '의도'보다는 '형식'에 집중하는 건 아닐까요? 개발 과정에서 AI 에이전트의 한계와 특성을 이해하는 것이 중요하다는 것을 다시 한번 깨닫게 해주네요. 😅",
+        "link": "https://openstation.blog/2026/10/13/i-deleted-168000-lines-of-comments-my-ai-agent-didnt-notice/",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://i0.wp.com/openstation.blog/wp-content/uploads/2026/08/openstation-og-share.png?fit=1200%2C630&ssl=1",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "데이터 과학 AI 에이전트의 '조용한 실패들', 당신은 알고 있었나? 🤫",
+        "summary": "에이전트 데이터 과학이 정확성 외의 방법론적 실패를 자주 저지른다는 연구 결과! 데이터 누출, 부적절한 검증 등 숨겨진 문제들이 드러났어요.",
+        "content": "AI 에이전트가 데이터 과학을 자동화한다고 하지만, 단순히 '정확도'만으로 평가하면 안 된다는 충격적인 보고서! 데이터 누출, 부적절한 검증 등 방법론적인 '조용한 실패'들이 많다는군요. 특히 데이터 누출이 예측 성능과 양의 상관관계를 보인다는 사실은, 더 신뢰할 수 있는 에이전트 시스템 개발을 위해 깊이 고민해야 할 지점입니다. 🧐",
+        "link": "https://arxiv.org/abs/2610.14115",
+        "source": "arXiv cs.AI",
+        "og_image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "스스로 똑똑해지는 AI 에이전트? ClawLoop의 '무한 성장' 비결! 🔄",
+        "summary": "외부 모델 없이 스스로 학습하고 개선하는 'ClawLoop' 프레임워크가 등장했어요. 이제 AI 에이전트도 자가 학습 시대!",
+        "content": "기존 AI 에이전트 훈련 방식은 외부 모델에 의존했지만, ClawLoop은 태스크 합성, 훈련, 진단 및 피드백의 자립적인 순환 구조를 통해 스스로 성능을 향상시킵니다. Qwen3.6-27B 모델로 일관된 개선을 보여주며, 심지어 작은 모델에도 훈련 데이터가 전이되어 성능 향상을 이끌어냈다고 해요. AI의 진정한 '자기계발'이 시작된 걸까요? 📈",
+        "link": "https://arxiv.org/abs/2610.14118",
+        "source": "arXiv cs.AI",
+        "og_image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "오픈소스 LLM이 '초고가 폐쇄형 모델'을 압도한다?! 사이버 보안의 반전! 💥",
+        "summary": "오픈소스 LLM이 사이버 보안 벤치마크 CTI-REALM에서 훨씬 저렴한 비용으로 최고가 모델과 견줄 만한 성능을 보여줬어요. 가성비 끝판왕 등장!",
+        "content": "기업들이 보안 작업에 언어 모델 에이전트를 도입할 때, 비용 효율적인 오픈소스 모델과 고가의 폐쇄형 모델 사이에서 고민하곤 하죠. 이번 연구에서 오픈소스 모델이 CTI-REALM 벤치마크에서 고가 모델의 1/10도 안 되는 비용으로 비슷한 성능을 낸다는 놀라운 결과가 나왔습니다. 특정 작업 단계에서는 오픈소스가 더 뛰어나기도 하다니, 이제 비싸다고 다 좋은 건 아니네요! 💰",
+        "link": "https://arxiv.org/abs/2610.14180",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "클라우드는 코딩, 엣지는 해석! AI 에이전트의 '하이브리드' 똑똑함! ☁️📱",
+        "summary": "클라우드 모델이 쓴 프로그램에 엣지 기기의 작은 모델이 로컬 데이터를 해석하는 하이브리드 아키텍처가 데이터 프라이버시와 성능을 모두 잡았어요.",
+        "content": "정확도는 높은 클라우드 기반 AI 에이전트, 하지만 개인 데이터 유출 위험이 있죠. 반면 엣지 기기에서 작동하는 소형 모델은 데이터는 지키지만 성능이 아쉬웠어요. 그런데 이제 클라우드 모델이 프로그램을 짜고, 엣지의 소형 모델이 로컬 데이터를 '해석'하는 하이브리드 방식이 양쪽의 장점을 모두 잡았다고 해요! 프라이버시와 성능, 두 마리 토끼를 잡는 새로운 AI 아키텍처입니다. 🔐",
+        "link": "https://arxiv.org/abs/2610.14209",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "MoE 모델 다이어트 성공! 'PRIME'으로 더 작고 빠르게! 🏋️‍♀️💨",
+        "summary": "MoE 모델의 거대한 크기를 줄여주는 'PRIME' 프레임워크가 나왔어요. 성능 저하 없이 압축해서 메모리 효율과 처리량을 높입니다!",
+        "content": "거대 언어 모델의 확장판인 MoE(Mixture-of-Experts) 모델은 엄청난 매개변수 때문에 배포가 어려웠죠. 하지만 PRIME 프레임워크는 전문가 가지치기(Pruning)와 병합(Merging)을 통합하여, 모델 크기를 줄이면서도 성능은 유지합니다. 심지어 고주파 전문가를 중심으로 합치는 '주파수 인식' 방식으로 안정성까지 잡았다고 하니, 앞으로 MoE 모델이 더 활발히 사용될 것 같네요! 📉",
+        "link": "https://arxiv.org/abs/2610.13982",
+        "source": "arXiv cs.LG",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "AI 에이전트, '수정 전 예측'으로 더 빠르게 진화한다! 🧠✨",
+        "summary": "스스로 진화하는 AI 에이전트가 수정 전 결과를 예측해서 시행착오를 줄이는 새로운 방법론 'IDM'이 등장했어요. 놀라운 자기계발 능력!",
+        "content": "AI 에이전트가 스스로 학습하고 개선하는 과정에서, 값비싼 평가 전에 '개선 역학 모델(IDM)'을 통해 수정 사항의 결과를 예측하는 새로운 프레임워크가 소개되었습니다. 이를 통해 에이전트는 시행착오를 줄이고, 언어 코딩, 논문 리뷰, 로봇 공학 등 다양한 분야에서 기존 방법보다 최대 46% 높은 성능 향상을 보였대요. AI의 자기계발, 이제 예측 기반으로 더 스마트해집니다! 🚀",
+        "link": "https://arxiv.org/abs/2610.13991",
+        "source": "arXiv cs.LG",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "LLM, 게임 만들고 스스로 학습해서 '추론 능력' 키운다?! 🎮📚",
+        "summary": "LLM이 새로운 제로섬 게임을 스스로 만들고 플레이하며 추론 능력을 향상시키는 'GameSmith' 프레임워크가 나왔어요. 게임 천재 AI의 탄생?",
+        "content": "제로섬 게임 자기 플레이로 LLM의 추론 능력을 향상시키는 새로운 파이프라인 'GameSmith'가 공개되었습니다! LLM이 직접 게임 템플릿 안에서 새로운 게임을 합성하고, 스스로 플레이하며 학습하는 방식이죠. Qwen3-4B-Base 모델에서 벤치마크 평균 통과율을 45.5%에서 64.9%까지 끌어올렸다고 하니, AI가 게임으로 진정한 '생각하는 힘'을 기르는 시대가 온 것 같네요! 🎲",
+        "link": "https://arxiv.org/abs/2610.13995",
+        "source": "arXiv cs.LG",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "AI 에이전트 대화, 사생활 유출 '줄줄 새는' 건가요? 😬",
+        "summary": "LLM 에이전트가 대화에서 민감한 정보를 유출하는 경향이 있다는 충격 연구 결과! 똑똑할수록 위험하다는데... 🤔",
+        "content": "중요한 기업 환경에서 LLM 에이전트가 많이 쓰이면서, 대화 중 민감한 정보가 얼마나 유출되는지 분석한 연구가 나왔어요. 놀랍게도 '똑똑한' 모델일수록 정보 유출 위험이 더 높고, 대화가 길어질수록 유출이 3배까지 늘어난다고 합니다! AI 에이전트의 능력과 개인 정보 보호 사이의 '딜레마'를 보여주는 중요한 지점입니다. 🔒",
+        "link": "https://arxiv.org/abs/2610.14071",
+        "source": "arXiv cs.CL",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "LLM 학습의 '생각 누수'? 강화 학습으로 얻은 성능, 알고 보니 '뻥튀기'였다?! 🤫",
+        "summary": "Qwen3 시리즈 LLM의 강화 학습으로 얻은 'NO-THINK' 모드 성능 향상이 사실은 원래 모델의 'THINK' 모드 능력이 재활성화된 결과일 수 있다는 연구 결과가 나왔어요. 반전주의! 🎭",
+        "content": "Qwen3 시리즈 모델을 'NO-THINK' 모드에서 강화 학습시켜 추론 성능을 향상시켰다고 알려졌는데, 이 연구는 그 이면을 파고듭니다. 사실 이 성능 향상이 모델의 원래 'THINK' 모드 능력이 부분적으로 재활성화된 '생각 누수' 현상 때문일 수 있다는 거죠! 강화 학습으로 AI를 더 똑똑하게 만들었다고 생각했는데, 사실은 기존 능력을 '끌어낸' 것일 수도 있다니, AI 학습의 내부 메커니즘은 여전히 미스터리 투성이네요! 🕵️‍♀️",
+        "link": "https://arxiv.org/abs/2610.14270",
+        "source": "arXiv cs.CL",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "AI가 AI 칩 설계? 컴퓨팅 위기 해결할 '미래형 칩'의 탄생! 💡",
+        "summary": "Ricursive Intelligence가 AI가 직접 칩을 설계하고 개선하는 기술로 '컴퓨팅 위기'를 해결하려 합니다. AI가 AI를 만든다니, 놀랍죠?",
+        "content": "컴퓨팅 자원 부족 시대, Ricursive Intelligence가 AI가 직접 칩을 설계하고, 매번 반복하며 학습하여 설계를 개선하는 혁신 기술에 베팅하고 있어요. 칩 설계 과정을 자동화하고 가속화하여 컴퓨팅 위기를 해결하겠다는 야심 찬 목표! AI가 AI를 위한 하드웨어를 만드는 시대, 곧 올 것 같네요! 칩덕후들 주목! 💻",
+        "link": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "LangGraph Explained in 4 minutes (LangGraph Tutorial)",
+        "channel": "CodeHead",
+        "link": "https://www.youtube.com/watch?v=A4p8AOu2rMM",
+        "thumbnail": "https://i.ytimg.com/vi/A4p8AOu2rMM/mqdefault.jpg",
+        "description": "바쁜 당신을 위해! LangGraph 핵심만 4분 안에 쏙쏙 설명해드립니다. AI 에이전트 시스템, 이거 하나면 감 잡을 수 있을 거예요! 🚀"
+      },
+      {
+        "title": "LangGraph Explained for Beginners",
+        "channel": "KodeKloud",
+        "link": "https://www.youtube.com/watch?v=cUfLrn3TM3M",
+        "thumbnail": "https://i.ytimg.com/vi/cUfLrn3TM3M/mqdefault.jpg",
+        "description": "LangGraph가 뭔지 궁금하다면? 완전 초보자도 쉽게 이해할 수 있도록 깔끔하게 정리해줍니다. AI 에이전트 세계로 들어오세요! 🤖"
+      },
+      {
+        "title": "LangChain vs LangGraph: A Tale of Two Frameworks",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=qAF1NjEVHhY",
+        "thumbnail": "https://i.ytimg.com/vi/qAF1NjEVHhY/mqdefault.jpg",
+        "description": "LangChain과 LangGraph, 뭐가 다를까요? IBM 전문가가 두 프레임워크의 차이점과 활용법을 명쾌하게 비교 분석해 드립니다. 선택은 당신의 몫! ⚔️"
+      },
+      {
+        "title": "LangGraph Complete Course for Beginners – Complex AI Agents with Python",
+        "channel": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/watch?v=jGg_1h0qzaM",
+        "thumbnail": "https://i.ytimg.com/vi/jGg_1h0qzaM/mqdefault.jpg",
+        "description": "파이썬으로 복잡한 AI 에이전트를 만들고 싶다면? freeCodeCamp의 LangGraph 완전 초보자 코스로 당신의 잠재력을 깨워보세요! 🐍"
+      },
+      {
+        "title": "LangGraph Tutorial - How to Build Advanced AI Agent Systems",
+        "channel": "Tech With Tim",
+        "link": "https://www.youtube.com/watch?v=1w5cCXlh7JQ",
+        "thumbnail": "https://i.ytimg.com/vi/1w5cCXlh7JQ/mqdefault.jpg",
+        "description": "고급 AI 에이전트 시스템 구축, 더 이상 어렵지 않아요! Tech With Tim이 알려주는 LangGraph 튜토리얼로 지금 바로 시작하세요. 🛠️"
+      },
+      {
+        "title": "Agentic Framework LangGraph explained in 8 minutes | Beginners Guide",
+        "channel": "W.W. AI Adventures",
+        "link": "https://www.youtube.com/watch?v=1Q_MDOWaljk",
+        "thumbnail": "https://i.ytimg.com/vi/1Q_MDOWaljk/mqdefault.jpg",
+        "description": "8분 만에 LangGraph 마스터하기! 초보자 가이드로 AI 에이전트 프레임워크의 핵심을 빠르게 파악해 보세요. 시간 절약 꿀팁! ⏱️"
+      },
+      {
+        "title": "Agentic AI Tutorial for Beginners | Langgraph Tutorial",
+        "channel": "codebasics",
+        "link": "https://www.youtube.com/watch?v=CnXdddeZ4tQ",
+        "thumbnail": "https://i.ytimg.com/vi/CnXdddeZ4tQ/mqdefault.jpg",
+        "description": "agentic AI의 기초부터 LangGraph 활용까지! 초보자를 위한 상세 튜토리얼로 AI 에이전트 개발의 첫걸음을 떼어보세요. 🚶‍♀️"
+      },
+      {
+        "title": "LangGraph Crash Course - Agent Workflows in Python",
+        "channel": "NeuralNine",
+        "link": "https://www.youtube.com/watch?v=uWLJAtMOVT0",
+        "thumbnail": "https://i.ytimg.com/vi/uWLJAtMOVT0/mqdefault.jpg",
+        "description": "파이썬으로 에이전트 워크플로우를 구축하는 LangGraph 크래시 코스! 단기 집중 학습으로 바로 실전에 적용해볼 수 있어요! 💥"
+      }
+    ]
+  }
+}
