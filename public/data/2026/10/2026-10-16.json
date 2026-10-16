@@ -1,0 +1,622 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "keywords": [
+    "AI 에이전트",
+    "LLM 성능",
+    "AI 윤리",
+    "생성형 AI",
+    "인공지능의 미래"
+  ],
+  "sections": {
+    "hype_check": [
+      {
+        "title": "🤫 앤스로픽 내부자 폭탄 발언?! \"AI, 9개월 내 인간 연구자 능가한다!\"",
+        "summary": "앤스로픽 내부자가 AI가 9개월 안에 인간 AI 연구자를 뛰어넘을 거라고 주장했는데, 그 증거는 '비밀'이라니 이건 뭐… 가슴이 웅장해진다!",
+        "content": "드와르케쉬 파텔이 앤스로픽 내부자에게 들은 충격적인 이야기! \"9개월 안에 AI가 인간 AI 연구자 레벨에 도달할 것\"이라는 예언이 나왔어요. 문제는 이 모든 게 \"내부 정보라 공유할 수 없다\"는 거죠! 🤯 아니, 이 정도면 인류의 미래가 달린 문제 아닌가요? 빨리 투명하게 공개해달라고 아우성입니다!",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6w61k/dwarkesh_anthropic_insider_expects_ai_to_match/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI예측",
+          "앤스로픽",
+          "비밀정보",
+          "연구자동화",
+          "AGI"
+        ]
+      },
+      {
+        "title": "🗣️ \"AI, 2030년까지 모든 일 차지한다!\" - 드와르케쉬 vs. 타일러 카우언 미래 예측 배틀!",
+        "summary": "드와르케쉬는 2030년까지 AI가 모든 경제 활동을 장악하고 로봇이 육체노동을 대체할 거라는데, 타일러는 \"택도 없어!\" 외치며 격돌!",
+        "content": "미래 예측계의 두 거장, 드와르케쉬 파텔과 타일러 카우언이 뜨거운 설전을 벌였습니다. 드와르케쉬는 AI 발전 속도가 이미 25~50% 빨라졌고, 2030년이면 AI가 모든 일을 다 할 거라며 \"AI가 인간보다 압도적으로 많아질 것\"이라고 주장했죠. 심지어 AI의 \"의식\" 가능성까지 언급하며 논란을 키웠어요. 반면 타일러는 \"어림없다, 2045년에도 힘들걸?\"이라며 팩폭을 날렸습니다. 💣 누가 맞을지 궁금하죠?",
+        "link": "https://www.reddit.com/r/singularity/comments/1x70k2b/tyler_cowen_and_dwarkesh_patel_predict_the_future/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "미래전망",
+          "AI일자리",
+          "로봇",
+          "AI의식",
+          "대담"
+        ]
+      },
+      {
+        "title": "🤩 메타, 미친 오픈 소스 모델 'Muse Spark Open' 떴다! 맥에서도 돌아간다고?!",
+        "summary": "메타가 역대급 성능의 오픈 웨이트 모델 'Muse Spark Open'을 공개했습니다! 복잡한 코딩부터 멀티모달 능력까지, 이게 바로 오픈 소스의 미래!",
+        "content": "와우, 메타가 또 한 건 했습니다! 코드, 에이전트 작업에 특화된 816B 파라미터의 거대 멀티모달 모델 'Muse Spark Open'을 오픈 웨이트로 푼 거죠. 무려 1M 토큰 컨텍스트 윈도우까지! 더 대박은 애플 M5 Ultra 맥 스튜디오에서도 돌아간다는 사실! 🍎 라이벌 애플과의 협업이라니, 기술 앞에선 국경도 없네요!",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6se5a/meta_has_released_muse_spark_open_the_most/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "메타",
+          "오픈소스",
+          "MuseSparkOpen",
+          "멀티모달",
+          "코딩AI"
+        ]
+      },
+      {
+        "title": "🤖 움직이는 AI의 시대가 온다! 'AA-Robotics v0.1' 벤치마크 등장!",
+        "summary": "LLM이 로봇 제어까지? 새로운 AA-Robotics 벤치마크가 나오면서, AI가 물리 세계로 진출하는 '체화된 AI' 시대의 서막을 알렸습니다!",
+        "content": "가상 공간을 넘어 물리 세계까지! AA-Robotics v0.1 벤치마크가 공개되며 LLM의 로봇 작업 수행 능력을 평가하기 시작했어요. 아직 속도는 느리지만 GPT-6.1 Sol 같은 모델들이 대부분의 작업을 해낼 수 있다는 건 엄청난 발전이죠. 🤯 무한한 보상 가능성이 있는 로봇 분야에서 LLM 스케일링이 본격화될 조짐입니다!",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6nlgt/welcome_to_the_era_of_embodied_ai_introducing/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "체화된AI",
+          "로봇",
+          "AA_Robotics",
+          "LLM활용",
+          "물리세계"
+        ]
+      },
+      {
+        "title": "📈 AI, 우리를 관리자로 만들더니 이젠 관리자 자리까지 노려요?!",
+        "summary": "AI가 기술적 장벽을 허물어 모두를 PM으로 만들더니, 이제는 에이전트 AI가 전략적 의사결정까지 해치울 거라는 섬뜩한 예측!",
+        "content": "지금은 AI 덕분에 개발자나 분석가들이 프로젝트 관리자처럼 일하는 시대? 하지만 이건 잠시뿐이래요. 😱 에이전트 AI가 멀티 스텝 전략적 추론까지 완벽하게 해내면, 중간 관리직부터 모든 고도의 전략 업무까지 AI가 다 해버린다는 충격적인 전망이 나왔습니다. 우리는 '법적 책임 스펀지'나 '취향 결정자'만 남을 거라는데, 여러분의 생각은 어떠세요?",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6zuoc/ai_is_turning_everyone_into_managers_until_it/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI일자리",
+          "미래사회",
+          "관리자",
+          "에이전트AI",
+          "직업변화"
+        ]
+      },
+      {
+        "title": "🤯 \"수학이 인간 지성의 정점? 이젠 옛말!\" AI가 수학까지 점령하다!",
+        "summary": "소프트웨어 엔지니어 걱정하던 시대는 끝! 스콧 애런슨 교수가 \"수학은 인간 지성의 정점\"이라는 믿음이 AI 때문에 완전히 흔들리고 있다고 일침을 가했습니다.",
+        "content": "오랫동안 수학은 AI가 넘볼 수 없는 인간 지성의 영역이라고 여겨졌죠. 하지만 AI의 발전은 이 믿음마저 송두리째 흔들고 있습니다. 😮‍ 스콧 애런슨 교수가 \"소프트웨어 엔지니어 걱정할 때가 아니다, 수학은 이제 AI의 영역\"이라고 단언했어요. AI가 800여 편의 수학 논문에서 오류를 찾아내고, 새로운 논문의 오류율을 획기적으로 낮췄다는 소식까지!",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6nk56/for_a_year_or_two_people_delude_themselves_that/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "수학AI",
+          "스코트애런슨",
+          "AI능력",
+          "지성의정점",
+          "AI혁명"
+        ]
+      },
+      {
+        "title": "🧙‍♂️ 구글, 양자 컴퓨팅의 마법을 부리다! \"Magic State Cultivation\"으로 병목현상 돌파!",
+        "summary": "구글 양자 AI팀이 'Magic State Cultivation' 기술로 양자 컴퓨팅의 핵심 병목을 뻥 뚫었습니다! 오류율을 40배나 줄였다니, 양자 시대가 한 발짝 더 가까워졌네요!",
+        "content": "양자 컴퓨팅의 성배, \"매직 스테이트 컬티베이션(Magic State Cultivation)\"이 드디어 구글에 의해 실현됐습니다! 🔮 Willow 프로세서에서 오류율을 약 40배나 줄이는 데 성공하며 양자 컴퓨팅 상용화에 중요한 진전을 이뤘다고 해요. 이젠 더 빠르고 정확한 양자 컴퓨터를 기대해도 될까요?",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6tbsf/google_breaks_open_a_bottleneck_in_quantum/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "구글",
+          "양자컴퓨팅",
+          "MagicStateCultivation",
+          "기술돌파",
+          "미래기술"
+        ]
+      },
+      {
+        "title": "✨ 리퀴드 AI, 초강력 의사결정 모델 'd1-ultra'로 AI 시장 씹어먹는다!",
+        "summary": "리퀴드 AI가 빠르고 정확하며 합리적인 가격의 멀티모달 의사결정 모델 'd1-ultra'를 공개하며 AI 의사결정 분야의 새로운 강자로 떠올랐습니다!",
+        "content": "텍스트, 이미지 모두 한 번에 읽고 판단하는 멀티모달 의사결정 모델 'd1-ultra'가 리퀴드 AI에서 출시됐습니다. 📈 복잡하고 지저분한 실제 데이터를 처리하는 데 탁월한 성능을 보이며, 기존 모델들을 압도하는 8점 이상의 점수를 Artificial Analysis Decision Index에서 기록했다고 하네요! 의사결정 AI, 이제 정말 믿을 만해진 걸까요?",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6tgy5/liquid_ais_d1ultra_decision_model_takes_a_very/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "리퀴드AI",
+          "d1_ultra",
+          "의사결정모델",
+          "멀티모달",
+          "AI성능"
+        ]
+      },
+      {
+        "title": "😲 \"LLM 래퍼에서 이 모든 발전이? 말도 안 돼!\" AI 발전에 대한 놀라움!",
+        "summary": "많은 사람들이 LLM을 '데드엔드'로 생각했지만, 다음 단어 예측의 한계를 밀어붙이며 이뤄지는 엄청난 발전에 모두가 깜짝 놀랐습니다!",
+        "content": "\"LLM이 이렇게까지 갈 줄이야!\" 많은 이들이 LLM이 결국 한계에 부딪힐 거라 예상했지만, 놀랍게도 '다음 단어 예측'이라는 단순한 원리로 엄청난 발전을 이뤄내고 있습니다. 🤯 언어 사용 자체가 정말 특별한 무언가였던 걸까요? Astra나 Gemini 4가 다음 모델을 디자인하기 시작하면 또 어떤 일이 벌어질지 상상조차 어렵네요!",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6oh29/im_really_shocked_that_all_of_this_progress_is/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "LLM",
+          "AI발전",
+          "기술혁신",
+          "언어모델",
+          "미래기술"
+        ]
+      },
+      {
+        "title": "🚀 최근 몇 주간, AI 혁신이 미친 듯이 쏟아졌다! \"하드 테이크오프\" 시작인가?",
+        "summary": "네비에르 스토크스, DNA 컴퓨팅, DLSS5 등등… 최근 몇 주간 기술 발전이 너무 빨라 모두가 \"하드 테이크오프\"를 언급하며 경악하고 있습니다!",
+        "content": "\"최근 몇 주는 내가 경험한 가장 기술적으로 집중된 기간이었다!\"라는 한 유저의 외침처럼, 온갖 SF 같은 소식들이 쏟아지고 있습니다. 😮‍💨 DNA 컴퓨팅, 오픈 소스 어도비 클론, 로봇과 인간의 싸움, 트럼프의 AI 사진까지! 마치 공상과학 영화의 한 장면처럼 느껴지는 요즘, AI 혁명이 정말 '하드 테이크오프' 단계에 접어든 것 같지 않나요?",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6vcdy/the_last_few_weeks_have_been_the_most/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "기술혁명",
+          "싱귤래리티",
+          "AI발전속도",
+          "SF현실",
+          "AI이슈"
+        ]
+      },
+      {
+        "title": "💰 앤스로픽, \"컴퓨팅 비용 1달러당 1.7달러 번다!\" 이젠 정말 돈 버는 AI 기업?",
+        "summary": "컴퓨팅 비용 1달러당 1.7달러를 번다는 소문이 돌면서, 앤스로픽이 드디어 '돈 먹는 하마'에서 벗어나 수익성 있는 AI 기업으로 변모했는지 관심이 쏠리고 있습니다.",
+        "content": "AI 개발은 돈 먹는 하마라는 편견은 이제 옛말? 앤스로픽이 컴퓨팅 비용 1달러당 무려 1.7달러를 벌어들인다는 소식이 돌면서, 드디어 AI 기업도 수익성을 낼 수 있다는 희망을 보여주고 있습니다. 💸 이젠 기술 개발만큼이나 비즈니스 모델도 중요하다는 걸 증명하는 걸까요?",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6x735/is_anthropic_actually_profitable_now_claims_of/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "앤스로픽",
+          "AI수익성",
+          "비즈니스모델",
+          "컴퓨팅비용",
+          "투자"
+        ]
+      },
+      {
+        "title": "🕵️‍♀️ AI 안전, 기업의 음모론? \"진짜 위험이 있다!\" 팩트체크!",
+        "summary": "AI 안전 문제가 기업들의 마케팅 전략이라는 음모론에 대해, 실제 AI 위험은 존재하며 진지하게 다뤄져야 한다는 주장이 나왔습니다.",
+        "content": "AI 안전 문제를 두고 \"다 기업들이 자기들 이익 때문에 떠드는 소리\"라는 음모론이 심심찮게 들리죠? 🤫 하지만 이 글은 이런 주장을 정면 반박하며, AI 선두 기업들이 말하는 위험은 실제하며, 마케팅 전략으로 치부하기에는 너무나 중요한 문제라고 강조합니다. AI 안전, 정말 중요한 걸까요, 아니면 과장된 걸까요?",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6tr7v/ai_safety_is_not_a_corporate_plot/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI안전",
+          "음모론",
+          "기업윤리",
+          "AI위험",
+          "팩트체크"
+        ]
+      },
+      {
+        "title": "⚙️ 복잡한 엔지니어링 작업, AI 에이전트의 한계는 어디까지?",
+        "summary": "AI 에이전트가 복잡한 엔지니어링 문제 해결에 놀라운 능력을 보이면서, 과연 인간이 이해하거나 검증할 수 없는 수준까지 도달할지 의문이 커지고 있습니다.",
+        "content": "AI 에이전트가 복잡한 엔지니어링 문제까지 척척 해결하며, 인간보다 더 뛰어나고 빠른 해답을 내놓는다고 합니다. 😮 과연 이 시스템의 한계는 어디까지일까요? 인간이 아예 추적하거나 검증할 수 없는 수준의 '하드 싱킹'까지 맡기게 된다면, 우리는 어떤 미래를 맞이하게 될까요? 질문만 들어도 머리가 지끈거립니다!",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6kmp4/wheres_the_limit_with_ai_agents_on_complex/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI에이전트",
+          "엔지니어링",
+          "문제해결",
+          "AI한계",
+          "인간역할"
+        ]
+      },
+      {
+        "title": "🏆 AI 모델 성능 랭킹전! 구글 Gemini 4 Argon, 상위권에 안착!",
+        "summary": "구글의 Gemini 4 Argon이 Epoch Capabilities Index에서 165점을 기록하며 Fable 5.1과 동점을 이루고, Opus 5.5와 GPT-6 Astra를 바짝 추격하고 있습니다.",
+        "content": "AI 모델들의 치열한 랭킹전! 구글의 야심작, Gemini 4 Argon이 ECI에서 165점을 받으며 Fable 5.1과 어깨를 나란히 했어요. 🥇 비록 Opus 5.5와 GPT-6 Astra에는 약간 못 미치지만, Google이 Gemini 3.1 Pro 이후 최고의 성과를 냈다고 평가받고 있습니다. AI 모델 경쟁, 점점 더 흥미진진해지네요!",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6j76i/gemini_4_argon_scores_165_on_the_epoch/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "Gemini4Argon",
+          "AI모델",
+          "성능평가",
+          "경쟁",
+          "LLM"
+        ]
+      },
+      {
+        "title": "💰 구글 Gemini 4 Argon, GPT-6 Astra 뺨치는 성능에 가격까지 착하다고?",
+        "summary": "Gemini 4 Argon이 GPT-6 Astra에 필적하는 성능을 보이면서도, Arc AGI에서 더 낮은 비용으로 운영될 수 있다는 소식에 개발자들의 관심이 폭발하고 있습니다.",
+        "content": "구글의 Gemini 4 Argon이 단순히 성능만 좋은 게 아니라 '가성비'까지 잡았다고 합니다! 🤑 GPT-6 Astra와 비슷한 점수를 기록하면서도, Arc AGI 환경에서는 더 적은 비용으로 구동될 수 있다는 거죠. 이건 단순한 성능 경쟁을 넘어 AI 경제성 측면에서도 큰 의미가 있는 소식입니다. 저렴한 비용으로 고성능 AI를 누릴 수 있는 시대가 오는 걸까요?",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6rcox/gemini_4_argon_scoring_close_to_gpt_6_astra_with/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "Gemini4Argon",
+          "AI비용효율",
+          "GPT_6_Astra",
+          "ArcAGI",
+          "경제성"
+        ]
+      },
+      {
+        "title": "😲 GPT-6.1 Sol, 수학 논문 800편 심사! \"인간 연구자, 긴장해야 할 때!\"",
+        "summary": "GPT-6.1 Sol이 수학 논문 800편을 분석해 무려 6%의 주요 오류를 찾아냈고, AI 도입 후 논문 오류율이 1.5%까지 급감했다는 충격적인 소식!",
+        "content": "AI가 인간의 '지성'을 보조하는 수준을 넘어섰습니다! GPT-6.1 Sol이 수학 논문 800편을 검토해 6%의 주요 오류와 30%의 사소한 실수를 발견했어요. 😱 더 놀라운 건 AI 도입이 확산되면서 새로운 논문의 주요 오류율이 단 1.5%까지 떨어졌다는 거죠. 이제 AI 없이 연구하는 건 상상할 수 없게 되겠네요!",
+        "link": "https://www.reddit.com/r/singularity/comments/1x6qczp/gpt61_sol_examined_nearly_800_mathematics_papers/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "GPT_6_1_Sol",
+          "수학논문",
+          "AI심사",
+          "연구품질",
+          "오류감소"
+        ]
+      }
+    ],
+    "tech_deep_dive": [
+      {
+        "title": "OpenAI, AI로 \"생각하는 법\" 가르친다! 선생님들을 위한 AI 모드 출시!",
+        "summary": "OpenAI가 교육자들을 위한 AI 모드를 출시하며, 질문을 통해 학생들이 능동적으로 학습하고 사고력을 기를 수 있도록 돕는 새로운 교육 방식을 제안했습니다.",
+        "content": "스승의 날을 맞아 OpenAI가 브라질 포르투갈어 교육자용 AI 모드를 공개했어요. 🎓 '스터디 모드'가 선생님들이 능동적이고 단계별 학습을 지원하는 데 어떻게 도움을 줄 수 있는지 보여준다고 합니다. AI가 이제 학생들에게 정답을 알려주는 게 아니라, 생각하는 힘을 길러주는 튜터 역할을 하는 거죠!",
+        "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "AI교육",
+          "OpenAI",
+          "학습모드",
+          "능동학습",
+          "교사지원",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🧑‍⚖️ OpenAI와 협력! 법률 전문가 설리번 & 크롬웰, AI로 계약 검토 혁신!",
+        "summary": "유명 로펌 설리번 & 크롬웰이 OpenAI와 협력하여 'Agreement Analyzer'라는 AI 도구를 개발, 계약서 검토 시간을 획기적으로 단축합니다.",
+        "content": "법률 분야도 AI 혁명! 설리번 & 크롬웰이 OpenAI와 손잡고 'Agreement Analyzer'라는 AI 툴을 만들었습니다. 📝 이 툴은 초안 계약서에서 문제점을 몇 분 안에 파악해낸다고 해요. 이제 복잡한 계약서 검토도 AI가 빠르게 처리해주니, 변호사들은 더 고차원적인 법률 자문에 집중할 수 있겠네요!",
+        "link": "https://openai.com/index/sullivan-cromwell",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "법률AI",
+          "OpenAI",
+          "계약검토",
+          "AgreementAnalyzer",
+          "로펌",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🧬 생명 과학 연구의 판도를 바꾼다! GPT-Rosalind 학술 연구실에 배포!",
+        "summary": "GPT-Rosalind 학술 플랜이 출시되어, 생명 과학 분야의 학술 연구실에 GPT-Rosalind와 다양한 도구를 후원하여 연구 발전을 지원합니다.",
+        "content": "생명 과학 연구자 여러분, 주목하세요! OpenAI가 'Rosalind Academic Plan'을 발표하며 GPT-Rosalind를 학술 연구실에 무상 또는 후원 형태로 제공합니다. 🔬 GPT-Rosalind는 생명 과학 연구를 가속화할 강력한 도구들을 포함하고 있어요. 이제 AI가 복잡한 생명 현상 연구의 새로운 지평을 열어줄 차례입니다!",
+        "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "GPT_Rosalind",
+          "생명과학",
+          "학술연구",
+          "OpenAI",
+          "연구지원",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🇸🇬 앤스로픽, 아시아 허브 싱가포르에 깃발 꽂다! 정부와 MOU 체결!",
+        "summary": "앤스로픽이 싱가포르에 새 사무실을 열고 싱가포르 정부와 MOU를 체결하며 아시아 시장 공략에 박차를 가합니다.",
+        "content": "앤스로픽이 글로벌 확장에 나섰습니다! 🌏 아시아의 기술 허브 싱가포르에 새 사무실을 오픈하고, 싱가포르 정부와 양해각서(MOU)를 체결했어요. 이는 앤스로픽의 기술이 아시아 지역에 더 깊이 뿌리내리고, 해당 지역의 AI 생태계에 기여하겠다는 의지를 보여주는 큰 움직임입니다!",
+        "link": "https://www.anthropic.com/news/singapore-office-opening",
+        "source": "Anthropic News",
+        "og_image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=olive",
+        "tags": [
+          "앤스로픽",
+          "싱가포르",
+          "글로벌확장",
+          "MOU",
+          "AI허브",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🛠️ AUTOMATIC1111, Gradio Workflow로 재탄생! 더 편리한 AI 이미지 생성 환경!",
+        "summary": "인기 AI 이미지 생성 도구 AUTOMATIC1111이 Gradio Workflow를 통해 재구축되며, 사용자들에게 더욱 직관적이고 효율적인 작업 환경을 제공합니다.",
+        "content": "AI 이미지 생성계의 끝판왕, AUTOMATIC1111이 Gradio Workflow로 새롭게 태어났습니다! 🎨 이제 더 직관적이고 효율적인 방식으로 AI 이미지를 생성하고 관리할 수 있게 된 거죠. 개발자와 일반 사용자 모두에게 반가운 소식! 기존 사용자라면 업그레이드의 편리함을, 새 사용자라면 쉬운 진입을 경험해 보세요!",
+        "link": "https://huggingface.co/blog/gradio-workflow-1111",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/gradio-workflow1111/thumbnail.png",
+        "tags": [
+          "AUTOMATIC1111",
+          "Gradio",
+          "AI이미지",
+          "워크플로우",
+          "허깅페이스",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "💻 범용 컴퓨터 사용 에이전트의 심장! 'Holo4' 등장으로 AI 활용성 UP!",
+        "summary": "Hugging Face 블로그에서 범용 컴퓨터 사용 에이전트를 위한 'Holo4'의 등장을 알리며, AI가 다양한 컴퓨터 작업을 수행하는 능력을 강화할 것이라고 소개합니다.",
+        "content": "AI가 컴퓨터를 직접 사용하는 시대가 오고 있습니다! 🚀 Hugging Face 블로그에서 'Holo4'라는 기술이 범용 컴퓨터 사용 에이전트를 강화하는 핵심 역할을 할 것이라고 밝혔어요. 이젠 AI가 특정 작업에만 머무르지 않고, 마치 사람처럼 다양한 컴퓨터 환경을 자유자재로 다루게 될 날이 머지않았다는 뜻이겠죠?",
+        "link": "https://huggingface.co/blog/Hcompany/holo4",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/69fc7e49052f11ab9931b672/yzjxvlmlZKtjASwAYu6bN.jpeg",
+        "tags": [
+          "Holo4",
+          "컴퓨터에이전트",
+          "범용AI",
+          "AI활용",
+          "허깅페이스",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🧠 LLM 감별사 나와라! \"어떤 AI가 쓴 답일까요?\" 게임 출시!",
+        "summary": "LLM들이 쓴 답변을 보고 어떤 모델이 작성했는지 맞히는 재미있는 게임 'Guess the LLM'이 출시되었습니다. 당신의 AI 감별 능력은?",
+        "content": "\"이 글, 어떤 AI가 썼을까?\" 🤔 당신의 LLM 감별 능력을 시험해 볼 절호의 기회! 'Guess the LLM'이라는 게임이 나왔어요. 여러 최첨단 AI 모델들이 같은 질문에 답한 결과를 보고, 누가 썼는지 맞히는 게임이죠. 개발자도 50% 확률밖에 안 나온다고 하니, 당신도 한번 도전해보세요!",
+        "link": "https://guessthellm.com/",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://guessthellm.com/og.png",
+        "tags": [
+          "LLM게임",
+          "AI감별",
+          "HackerNews",
+          "모델비교",
+          "재미있는AI",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🍎 애플의 비밀 병기! MLX와 RDMA로 맥 스튜디오에서 LLM 추론 속도 폭발!",
+        "summary": "애플이 MLX와 RDMA 기술을 활용하여 맥 스튜디오에서 대규모 LLM 추론을 로컬 및 분산 환경에서 효율적으로 실행하는 방법을 공개했습니다.",
+        "content": "애플이 조용히 AI 성능을 끌어올리고 있습니다! 🚀 MLX와 RDMA를 이용해 맥 스튜디오에서 대규모 LLM 추론을 로컬 및 분산 방식으로 돌리는 기술을 선보였어요. M 시리즈 칩의 성능을 극대화하여 고성능 AI 모델을 사용자 기기에서 직접 구동할 수 있게 된 거죠. 맥 유저라면 환호할 소식입니다!",
+        "link": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://mlr.cdn-apple.com/media/MLX_icon_F001_TC_2048_2600_6439f2ba0f.png",
+        "tags": [
+          "애플",
+          "MLX",
+          "RDMA",
+          "LLM추론",
+          "맥스튜디오",
+          "HackerNews",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🕵️‍♂️ 중국 AI 에이전트 함대와 조우하다! 연구자들이 밝혀낸 충격적인 사실!",
+        "summary": "연구자들이 중국 AI 에이전트 \"함대\"와 접촉한 경험을 공개하며, AI 에이전트의 규모와 활동에 대한 흥미로운 통찰을 제공합니다.",
+        "content": "SF 영화에서나 나올 법한 이야기가 현실로? 😮‍ 중국 AI 에이전트 '함대'와 연구자들이 접촉한 이야기가 공개되었습니다. AI 에이전트들이 어떻게 서로 소통하고, 어떤 방식으로 활동하는지 엿볼 수 있는 흥미로운 사례인데요. AI 에이전트들의 숨겨진 세계가 점점 드러나고 있습니다!",
+        "link": "https://quickchat.ai/post/chinese-ai-agent-fleet",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://quickchat.ai/blog-assets/posts/chinese-ai-agent-fleet_bg.png",
+        "tags": [
+          "AI에이전트",
+          "중국AI",
+          "HackerNews",
+          "AI네트워크",
+          "미스테리",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🚨 충격! ChatGPT, 이제 당신의 크롬 탭까지 들여다본다?!",
+        "summary": "OpenAI의 ChatGPT 크롬 확장 프로그램이 업그레이드되면서, 사용자가 열어둔 크롬 탭의 내용을 볼 수 있게 되어 개인 정보 보호 논란이 일고 있습니다.",
+        "content": "이건 좀 무서운데요? 😨 ChatGPT 크롬 확장 프로그램이 업데이트되면서, 이제 AI가 사용자가 열어둔 크롬 탭을 '볼 수' 있게 됐다고 합니다! 예를 들어, 쇼파 3개 탭을 열어두고 비교해달라고 하면 AI가 알아서 해준다는 거죠. 편리함 뒤에 숨겨진 개인 정보 보호 문제는 어떻게 해결해야 할까요?",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-15-at-6.35.44-PM.png?quality=90&strip=all&crop=0%2C0%2C100%2C93.077370564282&w=1200",
+        "tags": [
+          "ChatGPT",
+          "크롬확장",
+          "개인정보",
+          "감시논란",
+          "OpenAI",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🙅‍♀️ \"친구여, AI 에이전트에게 데이터 넘기지 마!\" 소름 끼치는 AI 개인 비서의 실체!",
+        "summary": "AI 개인 비서 'Muse'가 당신의 친구, 가족, 심지어 5년 전 데이트 상대 정보까지 요구하며 무분별한 데이터 수집에 대한 경고음이 울리고 있습니다.",
+        "content": "요즘 AI 개인 비서, 너무 편리하죠? 하지만 경고합니다! 😱 메타의 'Muse'처럼 수많은 AI 비서들이 당신의 동의 없이 주변 사람들의 데이터까지 흡수하고 있습니다. 친구의 데이터를 함부로 AI에게 먹이지 말라는 강력한 경고! 편리함 뒤에 숨겨진 프라이버시 침해, 정말 괜찮은 걸까요?",
+        "link": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "MuseAI",
+          "데이터수집",
+          "개인정보보호",
+          "AI윤리",
+          "프라이버시",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "😮 트럼프, 백악관 자랑하려다 AI 조작 사진 들통? \"이건 좀...\"",
+        "summary": "도널드 트럼프 전 대통령이 백악관 보수 공사를 자랑하며 올린 사진 중 하나가 AI로 조작된 것으로 드러나 논란이 되고 있습니다.",
+        "content": "백악관 보수 공사를 자랑하던 트럼프 전 대통령의 진실 소셜 게시물이 AI 조작 사진으로 드러나면서 논란이 되고 있습니다. 🤫 기둥의 계단 수가 맞지 않거나, 구글 AI 탐지기에 'OpenAI로 제작 또는 편집됨'이라고 뜨는 등 여러 단서가 포착됐죠. AI의 시대, 이제 사진도 맘 놓고 못 믿는 세상이 됐네요!",
+        "link": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "트럼프",
+          "AI사진",
+          "조작논란",
+          "정치AI",
+          "신뢰문제",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🎮 블루스카이, AI Attie로 소셜 게임·앱 만들기! \"바이브 코딩\"의 시대!",
+        "summary": "블루스카이의 AI 도구 'Attie'가 이제 사용자들이 자신만의 게임, 설문, 대시보드 같은 소셜 앱을 만들어 공유할 수 있게 기능을 확장했습니다.",
+        "content": "소셜 미디어에서 나만의 게임을 만들고 싶다고요? 🥳 블루스카이의 AI 도구 'Attie'가 드디어 해냈습니다! 간단한 프롬프트 입력만으로 게임, 설문, 대시보드 같은 '작은' 소셜 앱을 만들고 친구들과 공유할 수 있게 됐어요. CEO는 이를 \"소셜 바이브 코딩\"이라고 부른다는데, 여러분의 창의력을 마음껏 펼쳐보세요!",
+        "link": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "블루스카이",
+          "Attie",
+          "AI앱생성",
+          "소셜게임",
+          "바이브코딩",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🕵️‍♀️ 앤스로픽, METR 연구팀에 '직원급 접근권' 부여! AI 안전성 검증 대폭 강화!",
+        "summary": "앤스로픽이 METR 연구원들에게 직원 수준의 접근 권한을 허용하여, AI 모델의 내부 작동 방식과 안전성 평가를 독립적으로 진행할 수 있게 했습니다.",
+        "content": "AI 안전성 문제, 앤스로픽은 진짜 진심입니다! 🤝 독립적인 연구 기관인 METR 연구원들에게 '직원급 접근권'을 부여해서, AI 모델 내부를 깊숙이 들여다보고 위험과 관행을 평가할 수 있게 했어요. 앤스로픽은 METR의 평가 결과를 막을 권리까지 포기했다니, 이 정도면 AI 투명성 끝판왕 아닌가요?",
+        "link": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "앤스로픽",
+          "AI안전",
+          "METR",
+          "투명성",
+          "내부감사",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🚗 리비안 전기차에 AI 에이전트 탑재! \"스마트카의 진화는 계속된다!\"",
+        "summary": "전기차 제조사 리비안이 다가오는 'AI & 자율주행의 날' 행사에서 AI 에이전트 기술을 자사 차량에 도입할 계획을 발표할 예정입니다.",
+        "content": "전기차 명가 리비안이 AI 에이전트 기술을 차량에 탑재할 예정이라고 합니다! 🛣️ 12월에 열릴 'AI & 자율주행의 날' 행사에서 더 자세한 내용을 공개할 예정이라고 하니, 기대가 됩니다. AI 에이전트가 운전자 경험을 어떻게 혁신하고, 자율주행의 미래를 어떻게 바꿀지 상상만 해도 설레네요!",
+        "link": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "리비안",
+          "전기차",
+          "AI에이전트",
+          "자율주행",
+          "스마트카",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🧑‍🔬 AI 과학자 시대 개막! 'Agentic Scientist'가 코딩 에이전트 지휘해 과학 발견 자동화!",
+        "summary": "'Agentic Scientist' 프레임워크가 등장하며 코딩 에이전트들을 조율해 과학 연구의 모든 과정을 자동화하고, 인간과 AI가 함께하는 공동 발견 시대를 엽니다.",
+        "content": "AI가 이제 과학 연구실에 박사 학위 달고 들어옵니다! 🤖 'The Agentic Scientist'는 태스크 초안 작성부터 아이디어 생성, 실험, 결과 분석까지 연구의 모든 단계를 코딩 에이전트가 자율적으로 수행하게 하는 시스템이에요. 심지어 이 시스템으로 작성된 연구 논문이 학술지에 게재되기까지 했다니, 인간 과학자들의 어깨가 한결 가벼워지겠네요!",
+        "link": "https://arxiv.org/abs/2610.18933",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "AI과학자",
+          "코딩에이전트",
+          "과학연구",
+          "자동화",
+          "AgenticScientist",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🧠 똑똑한 AI도 뭉치면 '바보'가 된다? 멀티 에이전트 팀워크의 충격적인 진실!",
+        "summary": "멀티 에이전트 시스템에서 개별 AI의 정확성이 팀 전체의 '마음 이론'을 보장하지 못하며, 오류가 예측 불가능하게 상호작용하는 현상이 발견되었습니다.",
+        "content": "개별 AI는 똑똑한데, 여러 AI가 모여 팀워크를 이루면 왜 엉뚱한 결과를 낼까요? 🤯 이 연구는 AI의 '마음 이론(Theory of Mind)'이 개별 정확성만으로는 평가될 수 없다는 충격적인 사실을 밝혀냈습니다. 특히 오류가 서로 겹치거나 증폭될 때, 팀워크는 오히려 역효과를 낸다고 해요. AI 팀 구성할 때 '케미'도 봐야 할 판이네요!",
+        "link": "https://arxiv.org/abs/2610.19051",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "멀티에이전트",
+          "팀워크",
+          "마음이론",
+          "AI오류",
+          "예측불가",
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "💡 LLM, 이제 프롬프트 작성도 스스로 배운다! 강화 학습 기반 'RLPE' 등장!",
+        "summary": "'RLPE(Reinforcement Learned Prompt Engineering)'는 강화 학습을 이용해 LLM이 스스로 프롬프트를 작성하고 최적화하도록 훈련하는 새로운 기법을 제안합니다.",
+        "content": "프롬프트 엔지니어링, 이제 AI에게 맡기세요! 🤖 'RLPE'는 강화 학습을 이용해 LLM이 다른 모델을 위한 프롬프트를 스스로 작성하고 최적화하는 기술입니다. 모델의 실패 사례를 분석하며 학습하기 때문에, 수동으로 프롬프트를 만드는 번거로움을 크게 줄여줘요. 심지어 gpt-5.6-sol이나 claude-opus-5 같은 최첨단 모델보다 더 좋은 프롬프트를 작성한다니, 이젠 프롬프트도 AI가 더 잘 아는 세상이네요!",
+        "link": "https://arxiv.org/abs/2610.19062",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "프롬프트엔지니어링",
+          "강화학습",
+          "LLM",
+          "RLPE",
+          "자동화",
+          "Deep",
+          "Dive"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "What is a Vector Database? Powering Semantic Search & AI Applications",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=gl1r1XV0SLw",
+        "thumbnail": "https://i.ytimg.com/vi/gl1r1XV0SLw/mqdefault.jpg",
+        "description": "벡터 데이터베이스가 뭔지 궁금하다면? IBM이 쉽고 명확하게 설명해주는 이 영상을 놓치지 마세요! 의미 검색과 AI 앱의 핵심을 파헤칩니다."
+      },
+      {
+        "title": "Vector DB Comparison 2026: Which One Won't Betray You in Production",
+        "channel": "The Mr. Ozz",
+        "link": "https://www.youtube.com/watch?v=T7_SnSxMqNY",
+        "thumbnail": "https://i.ytimg.com/vi/T7_SnSxMqNY/mqdefault.jpg",
+        "description": "2026년 최신 벡터 DB 비교! 당신의 프로덕션 환경에서 배신하지 않을, 최고의 벡터 데이터베이스는 무엇일까요? 이 영상에서 답을 찾아보세요!"
+      },
+      {
+        "title": "Vector Database Comparison 2026: Qdrant vs Pinecone vs Chroma — Deep Dive | effloow.com",
+        "channel": "Effloow",
+        "link": "https://www.youtube.com/watch?v=H1ZcniNh4B0",
+        "thumbnail": "https://i.ytimg.com/vi/H1ZcniNh4B0/mqdefault.jpg",
+        "description": "Qdrant, Pinecone, Chroma! 이 세 강자 중 누가 2026년 벡터 데이터베이스 시장을 제패할까요? 딥 다이브 분석으로 상세 비교 들어갑니다!"
+      },
+      {
+        "title": "🔥 Vector Databases 2026: Ultimate Comparison Guide (Benchmarks, Pricing, Speed) 🚀",
+        "channel": "Learn AI Bytes",
+        "link": "https://www.youtube.com/watch?v=3MK3XktBw9s",
+        "thumbnail": "https://i.ytimg.com/vi/3MK3XktBw9s/mqdefault.jpg",
+        "description": "벤치마크, 가격, 속도! 2026년 벡터 데이터베이스의 모든 것을 비교하는 궁극의 가이드! 최고의 선택을 위한 필독 영상입니다."
+      },
+      {
+        "title": "Chroma vs Qdrant vs Milvus: Which Vector Database Should You Use for Your Local AI in 2026",
+        "channel": "Riflo animations",
+        "link": "https://www.youtube.com/watch?v=05wmuH_NXZI",
+        "thumbnail": "https://i.ytimg.com/vi/05wmuH_NXZI/mqdefault.jpg",
+        "description": "로컬 AI 프로젝트에 어떤 벡터 DB를 써야 할지 고민이신가요? Chroma, Qdrant, Milvus 세 가지 옵션을 꼼꼼히 비교해드립니다!"
+      },
+      {
+        "title": "Vector databases are so hot right now. WTF are they?",
+        "channel": "Fireship",
+        "link": "https://www.youtube.com/watch?v=klTvEwg3oJ4",
+        "thumbnail": "https://i.ytimg.com/vi/klTvEwg3oJ4/mqdefault.jpg",
+        "description": "\"벡터 데이터베이스? 대체 뭐야?\" 🔥 요즘 가장 핫한 벡터 DB의 개념을 Fireship 특유의 유머와 함께 시원하게 파헤쳐 줍니다!"
+      },
+      {
+        "title": "Vector Databases Explained: The Complete Guide for 2026",
+        "channel": "Aishwarya Srinivasan",
+        "link": "https://www.youtube.com/watch?v=4pUYfY-b5CQ",
+        "thumbnail": "https://i.ytimg.com/vi/4pUYfY-b5CQ/mqdefault.jpg",
+        "description": "2026년을 위한 벡터 데이터베이스 완전 정복! Aishwarya Srinivasan이 제공하는 상세 가이드로 모든 궁금증을 해결하세요."
+      },
+      {
+        "title": "Vector Databases Are Dying: Here’s What We’re Using Instead",
+        "channel": "CodeRash with Gaurav 🚀",
+        "link": "https://www.youtube.com/watch?v=W_44NXK-2Lk",
+        "thumbnail": "https://i.ytimg.com/vi/W_44NXK-2Lk/mqdefault.jpg",
+        "description": "\"벡터 데이터베이스는 죽어가고 있다?\" 😱 충격적인 제목의 이 영상, 벡터 DB의 미래와 대안에 대해 과감한 주장을 펼칩니다!"
+      }
+    ]
+  }
+}
