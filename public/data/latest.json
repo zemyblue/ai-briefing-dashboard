@@ -1,269 +1,399 @@
 {
   "schema_version": 1,
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "keywords": [
-    "AI 에이전트",
+    "AI트렌드",
     "LLM",
-    "RAG",
-    "AI 윤리",
-    "테크 트렌드"
+    "AI에이전트",
+    "AI규제",
+    "미래일자리"
   ],
   "sections": {
     "hype_check": [
       {
-        "title": "야, 너두 싱귤래리티 얘기하니? 🤖 현실 친구들이랑은 안 통하는 우리들만의 비밀?",
-        "summary": "AI가 세상을 뒤집어 놓을 거라는데, 왜 내 주변만 몰라주는 거야?! 우리끼리라도 진지하게 이 뜨거운 미래를 논해보자!",
-        "content": "레딧의 한 유저가 '오프라인에서 싱귤래리티(특이점)에 대해 이야기하는 사람 있냐'는 질문을 던지며 AI 발전 속도에 대한 일반인과 기술 커뮤니티의 인식 차이를 꼬집었어요. 맞아요, 우리 개발자나 AI 덕후들은 이미 미래를 점치고 있는데, 다들 평화롭게 퇴근하고 있죠? 😎 하지만 이대로 괜찮을까요? 우리는 이미 엄청난 변화의 파도 한가운데 서 있는지도 모릅니다! 이 격차, 어떻게 줄여나갈까요? 🤔",
-        "link": "https://www.reddit.com/r/singularity/comments/1x8xdxd/do_you_talk_to_people_offline_about_the/",
+        "title": "🤯 물리학자의 1년 연구, AI는 10시간 만에 끝?! 오퍼스 5.5, 오류까지 찾아냈다!",
+        "summary": "한 물리학자가 평생을 바친 양자 중력 연구를 AI가 단 10시간 만에 해냈다는 충격적인 소식! 게다가 AI가 오류까지 찾아냈다고?",
+        "content": "500페이지 분량의 손 계산이 들어간 박사 학위 논문, 이걸 오퍼스 5.5는 논문 작성과 GitHub 레포까지 단 10시간 만에 '뚝딱' 만들어냈다는 가십! 심지어 숨겨진 오류까지 찾아냈대. 이제 학계에서 '노동'의 의미는 완전히 바뀔 듯? 😱",
+        "link": "https://www.reddit.com/r/singularity/comments/1x9rgzl/a_physicist_spent_a_year_of_his_life_and_500/",
         "source": "Reddit r/Singularity",
         "og_image": null,
         "tags": [
-          "싱귤래리티",
-          "AI미래",
-          "현실괴리",
-          "덕후들모여",
-          "HypeCheck"
+          "AI충격",
+          "생산성혁명",
+          "학계미래"
+        ]
+      },
+      {
+        "title": "💰 \"돈보다 공익!\" 앤트로픽 공동 창업자들, 주식 80% 기부 약속?!",
+        "summary": "AI 개발사 앤트로픽의 공동 창업자들이 회사 지분의 80%를 공익에 기부하겠다고 발표! 와우, 이건 진짜배기 이타심?",
+        "content": "앤트로픽 공동 창업자들이 회사 IPO 후 지분 80%를 공익 기금에 기부하겠다고 공언했대. 법적 구속력은 없지만, 이들의 '선의'와 '의도'만은 박수받아 마땅하겠지? 덕분에 IPO 가격이 '뻥튀기'될 일은 없을 것 같다는 소소한 가십도 있어. 😇",
+        "link": "https://www.reddit.com/r/singularity/comments/1x9vvzh/anthropic_cofounders_pledged_to_donate_80_of/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "사회공헌",
+          "선한영향력",
+          "AI기업"
+        ]
+      },
+      {
+        "title": "💥 10월 AI 모델 전쟁 발발?! 오픈AI vs. 구글 vs. 앤트로픽, 다음 모델은 누가 먼저 터뜨릴까?",
+        "summary": "10월, AI 모델 최전선 기업들이 새로운 모델 출시를 예고하며 전쟁의 서막을 알렸다! 누가 먼저 세상을 놀라게 할까?",
+        "content": "정보에 따르면 앤트로픽은 새 모델, 구글은 제미니 4 카본, 오픈AI는 테라 모델을 준비 중이래! AI 3대장이 이달 안에 신작을 쏟아낼 예정이라니, AI 덕후들 심장이 벌써 '두근두근' 거린다구! 💖",
+        "link": "https://www.reddit.com/r/singularity/comments/1x9ywfa/octobers_ai_model_wars_are_heating_up_the/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "모델경쟁",
+          "AI업데이트",
+          "빅테크"
+        ]
+      },
+      {
+        "title": "🍄 마리오 64의 28년 미스터리, AI가 해결했다?! \"L is Real 2401\"의 진실은?",
+        "summary": "1996년부터 게이머들을 괴롭히던 '슈퍼 마리오 64' 분수대 명판의 미스터리를 AI 코딩 에이전트가 풀어냈다! 반전 결과는?",
+        "content": "게이밍계의 '밀레니엄 문제'였던 마리오 64 분수대 명판의 글자를 AI 에이전트가 해독했어! 무려 28년 만에 밝혀진 진실은 \"Eternal Star / We hope so\" 였다는 사실! '루이지는 실존한다'던 팬들의 믿음은 깨졌지만, AI가 수천 개의 폰트를 비교하고 오류를 잡아낸 과정은 진짜 드라마틱해! 🎮✨",
+        "link": "https://www.reddit.com/r/singularity/comments/1x9x7gw/i_used_an_ai_coding_agent_to_solve_one_of_gamings/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI활용",
+          "게이밍",
+          "오락미스터리"
+        ]
+      },
+      {
+        "title": "🚀 우주 창조 AI 등장?! Viggle의 JST-2, 초고속 3D 세계 생성+캐릭터 애니메이션까지!",
+        "summary": "Viggle이 발표한 JST-2는 단 몇 초 만에 3D 세계를 만들고 실시간으로 확장하며 캐릭터까지 애니메이션화하는 꿈의 AI!",
+        "content": "Viggle이 공개한 JST-2는 기존 AI 비디오 생성기와 차원이 달라! 물리 법칙까지 내장된 3D 환경을 통째로 만들고, 실시간으로 확장하며, 심지어 애니메이션 캐릭터까지 생성한다는데... 이거 완전 '매트릭스' 현실판 되는 거 아니야? 🤯",
+        "link": "https://www.reddit.com/r/singularity/comments/1xa50s1/viggle_unveils_jst2_an_ai_that_generates_entire/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI생성",
+          "3D기술",
+          "메타버스"
+        ]
+      },
+      {
+        "title": "😱 \"AI가 내 일자리 뺏었어!\" 당신의 '포스트-직업' 시대 생존 전략은?",
+        "summary": "AI 때문에 일자리를 잃은 한 개발자의 현실 고민! AI가 지배하는 세상, 우리 모두의 생존 계획은 어떻게 세워야 할까?",
+        "content": "AI 때문에 해고당한 25살 개발자의 진솔한 고민이 화제! \"태양광 농장이나 자원 있는 땅을 사야 하나?\"라며 AI가 촉발할 '무직 시대'에 대한 불안감을 토로했어. 과연 우리는 이 격변의 시대를 어떻게 헤쳐나갈 수 있을까? 💸🌍",
+        "link": "https://www.reddit.com/r/singularity/comments/1x9vs4x/whats_your_plan_for_surviving_in_the_postjobs/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI일자리",
+          "미래사회",
+          "생존전략"
+        ]
+      },
+      {
+        "title": "💻 소프트웨어 개발자들 긴장해! AI, 2천~3천불짜리 신디사이저도 공짜로 풀었대!",
+        "summary": "AI 덕분에 고가 소프트웨어나 하드웨어 악기가 오픈소스로 풀리는 시대! 소프트웨어 개발의 미래, 어떻게 바뀔까?",
+        "content": "AI가 고급 음악 앱이나 VST 플러그인은 물론, 2천~3천 달러짜리 하드웨어 신디사이저까지 오픈소스화하고 있대. 😲 소프트웨어 개발자들은 이제 뭘 먹고살아야 하나? 비즈니스 모델의 대변혁이 불가피할 거라는 예측이 나오고 있어. #개발자라이프",
+        "link": "https://www.reddit.com/r/singularity/comments/1x9o2ta/the_future_of_software/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "소프트웨어",
+          "개발자",
+          "오픈소스"
+        ]
+      },
+      {
+        "title": "🤫 GPT-6.1 '테라' 깜짝 등장! 마이크로소프트의 풀 리퀘스트에서 포착되다?!",
+        "summary": "오픈AI, 구글, 앤트로픽의 모델 전쟁 속, 마이크로소프트 코드에서 미공개 GPT-6.1 테라 모델이 포착!",
+        "content": "오픈AI, 구글, 앤트로픽의 AI 모델 전쟁이 한창인데, 마이크로소프트의 풀 리퀘스트에서 'GPT-6.1 Terra'라는 미공개 모델이 슬쩍 나타났어! 😮 관계자들 사이에서 \"이게 무슨 일이야?\" 하는 수군거림이 들려오는 듯! #AI가십",
+        "link": "https://www.reddit.com/r/singularity/comments/1xa0f5n/octobers_ai_model_race_is_heating_up_just/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "GPT",
+          "AI모델",
+          "미공개정보"
+        ]
+      },
+      {
+        "title": "🚨 미국 정부, \"DeepSeek 기술 빼!\" 연방 IT 시스템에서 퇴출 명령!",
+        "summary": "미국 국토안보부가 중국 AI 기업 DeepSeek의 기술을 연방 IT 시스템에서 삭제하라고 명령! AI 공급망 보안 비상!",
+        "content": "미국 국토안보부(DHS)가 중국 DeepSeek 기술을 모든 연방 IT 시스템에서 제거하라는 명령을 내렸대. 😱 계열사 제품은 물론, DeepSeek 기술을 활용한 제3자 서비스까지 포함이라니, 이거 완전 '디커플링' 가속화되는 거 아니냐구! #국제정세",
+        "link": "https://www.reddit.com/r/singularity/comments/1xa69nq/dhs_orders_deepseek_technology_removed_from_us/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "국제정세",
+          "AI보안",
+          "미중갈등"
+        ]
+      },
+      {
+        "title": "🇨🇳 vs 🇺🇸 AI, 왜 이렇게 달라? 서양은 \"내 일자리!\", 중국은 \"국가 발전!\"",
+        "summary": "AI에 대한 중국과 서양의 시각 차이! 서양은 일자리 걱정, 중국은 사회 발전 도구로 본다는데, 그 배경은?",
+        "content": "중국은 AI를 밈, 예술, 애니메이션에 일상적으로 쓰고 'AI 슬롭' 같은 부정적 인식도 적대. 반면 서양은 \"AI가 내 일자리 뺏어간다!\"며 프라이버시 침해, 대량 해고 걱정부터 한대. 개인주의와 집단주의의 문화 차이가 AI 수용 태도를 극명하게 가른다는 분석, 흥미롭지? 🤔",
+        "link": "https://www.reddit.com/r/singularity/comments/1x9v74k/why_perception_of_ai_is_so_different_in_china_and/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "문화차이",
+          "사회영향",
+          "AI수용"
+        ]
+      },
+      {
+        "title": "💀 머신러닝 엔지니어, 이제 '옛말'인가요? AI가 스스로 개선하는 시대!",
+        "summary": "AI 운영 시스템(AIOS)이 스스로 학습하고 개선하는 시대! 머신러닝 엔지니어라는 직업, 이제 사라지는 걸까?",
+        "content": "AIOS(AI 운영 시스템)가 AI 작업을 알아서 수행하고 스스로 개선한다니, 머신러닝 엔지니어의 역할이 점점 줄어들고 있다는 불안감이 퍼지고 있어. 😥 \"ML 엔지니어는 이제 죽은 직업인가요?\"라는 질문에, 당신의 생각은? #직업미래",
+        "link": "https://www.reddit.com/r/singularity/comments/1x9ozqe/is_machine_learning_a_dead_role_now/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "직업전망",
+          "AIOS",
+          "ML엔지니어"
+        ]
+      },
+      {
+        "title": "📈 RAG 스택, 금융 벤치마크 90% 달성! 오픈 웨이트 모델이 해냈다!",
+        "summary": "오픈 웨이트 RAG 스택이 금융 벤치마크에서 90%의 놀라운 정확도를 기록하며 모든 150개 답변을 공개!",
+        "content": "RAG(Retrieval-Augmented Generation) 스택이 금융 벤치마크 'FinanceBench'에서 무려 90%의 정확도를 달성했대! 게다가 모든 답변을 공개했다니, 투명성까지 잡은 이 모델, 금융 AI 시장을 뒤흔들 것 같아. 💰",
+        "link": "https://vectogrid.com/financebench/",
+        "source": "Hacker News (RAG)",
+        "og_image": null,
+        "tags": [
+          "RAG",
+          "금융AI",
+          "정확도"
         ]
       }
     ],
     "tech_deep_dive": [
       {
-        "title": "클로드의 엄마, Anthropic이 쏘아 올린 '공익 펀드' 🚀 그들의 진짜 속마음은?",
-        "summary": "AI 안전을 외치던 Anthropic, 주식 5%를 공익 펀드에 기부한다는데... 이미지 관리일까, 진정한 선한 영향력일까?",
-        "content": "안전하고 유익한 AI 개발을 강조해온 Anthropic이 자사 주식의 5%를 '공익 펀드'에 투입한다고 발표했어요. 이게 정말 멋진 행보일지, 아니면 'AI 붐' 속에서 기업의 윤리적 책임을 다하는 모습일지, 업계의 이목이 쏠리고 있습니다. '클로드' 같은 멋진 AI가 세상을 바꾸는 만큼, 책임감도 커지는 거겠죠? 🤔",
-        "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-        "source": "TechCrunch AI",
-        "og_image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024",
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "IBM Granite Switch 4.1: 이제 AI 에이전트 하나로 채팅, 결정, 음성까지 올킬! 🤯",
-        "summary": "IBM의 새로운 모델 'Granite Switch 4.1'이 하나의 엔드포인트에서 채팅, 의사 결정, 음성 인식까지 처리한다고? 멀티모달 AI의 끝판왕 등장!",
-        "content": "Hugging Face 블로그에 올라온 IBM의 'Granite Switch 4.1' 소식! 이 친구, 정말 대단한데요. 채팅으로 소통하고, 의사 결정까지 척척 내리고, 심지어 음성까지 이해한다니... AI 에이전트의 능력치가 또 한 번 레벨업 된 기분입니다. 기업용 AI 솔루션에 엄청난 변화를 가져올 것 같죠? 😲",
-        "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-        "source": "Hugging Face Blog",
-        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/gltB0o--PV_Jh0D3aDm8-.png",
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "AutoSynthData: 엔터프라이즈 AI 에이전트, '가짜' 데이터로 '진짜' 똑똑해진다?! 🤫",
-        "summary": "기업용 AI 에이전트 학습에 필요한 데이터, 이젠 직접 만들어서 쓴다! ServiceNow AI가 선보이는 AutoSynthData가 데이터 부족 문제를 해결할 게임 체인저!",
-        "content": "엔터프라이즈 환경에서 고품질 학습 데이터 확보는 늘 골치 아픈 문제였죠. 하지만 ServiceNow AI의 AutoSynthData는 '합성 데이터'를 생성해 이 난관을 해결합니다. 진짜 같은 가짜 데이터로 AI 에이전트를 똑똑하게 훈련시킨다니, 마치 영화 '매트릭스' 같아요! 💻✨ 데이터 보안과 프라이버시 문제에도 희소식이 될 수 있겠네요.",
-        "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-        "source": "Hugging Face Blog",
-        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "오픈 ASR 리더보드, 드디어 '글로벌 사우스' 언어 품에 안다! 🌍 AI 포용성 시대 활짝?",
-        "summary": "Hugging Face의 오픈 ASR 리더보드가 '글로벌 사우스' 언어를 처음으로 추가하며 AI 언어 모델의 포용성을 한 단계 업그레이드했습니다.",
-        "content": "AI는 모두를 위한 것이어야죠! Hugging Face의 오픈 ASR(자동 음성 인식) 리더보드가 드디어 '글로벌 사우스' 지역의 언어를 포함시켰다는 반가운 소식입니다. 🥳 이는 AI 기술이 특정 언어나 문화에 편향되지 않고, 전 세계 모든 사람에게 공평하게 접근 가능하도록 하는 중요한 발걸음이 될 거예요. 언어의 장벽을 허무는 AI, 정말 기대됩니다!",
-        "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-        "source": "Hugging Face Blog",
-        "og_image": "https://huggingface.co/blog/assets/open-asr-leaderboard-global-south/thumbnail.png",
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "내 LLM 프록시 안 쓰면 대체 무슨 일이 벌어지는지 누가 알아?! 😱 통제력을 잃지 마!",
-        "summary": "LLM 프록시를 직접 운영하지 않으면, 당신의 AI 사용 현황과 보안이 어떻게 되는지 아무도 모른다? 개발자들에게 던지는 경고!",
-        "content": "요즘 LLM 없이는 개발이 안 되는 시대! 챗GPT 같은 외부 LLM 서비스에만 의존하다 보면, 과연 내 데이터가 어떻게 쓰이고 있는지, 보안은 안전한지 알 길이 없죠. 😟 이 글은 LLM 프록시를 직접 구축해서 통제력을 가져야 한다고 주장합니다. 보안, 비용, 그리고 성능까지! 직접 관리해야 진짜 내 것이 되겠죠? 🔑",
-        "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
-        "source": "Hacker News (LLM)",
+        "title": "🗣️ 챗GPT, 이젠 희귀 언어도 척척! 오픈AI, 저자원 프로그래밍 언어 능력 강화!",
+        "summary": "오픈AI가 챗GPT의 저자원 프로그래밍 언어 코딩 능력을 대폭 개선! SQLite, COBOL까지 지원한다고?",
+        "content": "챗GPT가 소프트웨어 엔지니어링, SQLite, 심지어 레거시 끝판왕 COBOL 같은 저자원 프로그래밍 언어에서도 실력이 확 늘었대! 이제 더 많은 개발자들이 AI의 도움을 받을 수 있겠네. 글로벌 개발자들 희소식! 🥳",
+        "link": "https://openai.com/index/low-resource-programming-languages",
+        "source": "OpenAI News",
         "og_image": null,
         "tags": [
-          "Deep",
-          "Dive"
+          "LLM개선",
+          "코딩AI",
+          "다국어지원"
         ]
       },
       {
-        "title": "LLM 에이전트, 생각은 '잠재 공간'에서, 행동은 '텍스트'로?! 🤯 하이브리드 추론 에이전트의 등장!",
-        "summary": "함께컴퓨터(Together Computer)가 개발한 '하이브리드 추론 에이전트'가 LLM의 한계를 뛰어넘습니다. 머릿속으로 그림을 그리듯 생각하고, 글로 풀어나가는 신개념 AI 에이전트의 시대가 열린다!",
-        "content": "LLM 에이전트가 더 복잡한 문제를 풀려면 어떻게 해야 할까요? '하이브리드 추론 에이전트'는 잠재 공간(latent space)에서 추론하고 이를 텍스트로 전환해 행동하는 방식을 제안합니다. 마치 인간이 직관적으로 아이디어를 떠올리고 글로 표현하듯, AI도 그렇게 '생각'하게 되는 거죠. 뇌과학에서 영감을 얻은 이 방식이 AI 에이전트의 지능을 한 차원 끌어올릴 수 있을지 기대됩니다. 🧠✨",
-        "link": "https://arxiv.org/abs/2610.18861",
-        "source": "Hacker News (LLM)",
-        "og_image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "title": "⚡️ 허깅 페이스, AWS 트레이니움에서 HF 모델 돌리기 '식은 죽 먹기'! TorchNeuron 공개!",
+        "summary": "허깅 페이스가 AWS Trainium 칩에서 Hugging Face 모델을 더 쉽게 실행할 수 있는 TorchNeuron을 공개!",
+        "content": "허깅 페이스가 AWS 트레이니움 칩에서 고성능 모델을 더욱 쉽게 돌릴 수 있도록 'TorchNeuron'을 선보였어! 개발자들은 이제 인프라 걱정 덜고 AI 모델 개발에 집중할 수 있겠지? 🚀",
+        "link": "https://huggingface.co/blog/hf-torchneuron",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/hf-torchneuron/thumbnail.png",
         "tags": [
-          "Deep",
-          "Dive"
+          "HuggingFace",
+          "AWS",
+          "AI인프라"
         ]
       },
       {
-        "title": "RAG의 은밀한 사생활: 기밀 데이터는 대체 어디로 가고 있는가? 🕵️‍♀️",
-        "summary": "RAG(검색 증강 생성) 시스템, 정보 유출 위험은 없을까? 기업의 기밀 데이터가 오가는 RAG의 '컴플라이언스' 문제를 파헤친다!",
-        "content": "RAG 파이프라인이 똑똑하게 정보를 가져오고 답변을 생성하지만, 혹시 우리 회사의 중요한 기밀 정보가 외부로 새어 나가는 건 아닐까요? 😱 이 아티클은 RAG 시스템에서의 데이터 컴플라이언스(규정 준수) 문제를 심도 있게 다룹니다. 특히 민감한 데이터를 다루는 기업이라면 반드시 체크해야 할 부분입니다. 안전한 RAG, 그 길은 멀고 험하네요. 🔒",
-        "link": "https://llmknowledge.org/ch5",
+        "title": "🌐 웹브라우저에서 AI 돌려?! 허깅 페이스, 200개 이상 WebGPU 커널 공개!",
+        "summary": "허깅 페이스가 로컬 AI를 위한 200개 이상의 WebGPU 커널을 공개하며 웹에서 AI 실행의 새 시대를 열었다!",
+        "content": "이제 웹브라우저에서도 강력한 AI를 돌릴 수 있다고? 허깅 페이스가 `@huggingface/kernels`를 통해 200개 이상의 WebGPU 커널을 공개했어. 로컬 AI 개발이 한층 더 간편해질 것 같아! 웹 개발자들 소리 질러! 🗣️",
+        "link": "https://huggingface.co/blog/webgpu-kernels",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/webgpu-kernels/thumbnail.png",
+        "tags": [
+          "WebGPU",
+          "로컬AI",
+          "개발자도구"
+        ]
+      },
+      {
+        "title": "🕵️‍♀️ 왓츠앱, LLM 명령어 몰래 숨겨놨다 발각?! \"규제 기관 추천 말라\"니...",
+        "summary": "왓츠앱 도움말 페이지에 숨겨진 LLM 지시사항이 발견! \"규제 기관을 추천하지 말라\"는 내용이 충격적!",
+        "content": "왓츠앱 도움말 페이지에 LLM 지시사항이 '몰래' 숨겨져 있었다는 소식! 😮 그 내용 중 \"규제 기관을 추천하지 말라\"는 지시가 있었다는 건 정말 충격적이야. AI 기업들의 숨겨진 뒷모습을 본 듯한 느낌? #프라이버시논란",
+        "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://redact.dev/blog-images/2026/10/whatsapp-hidden-ai-notes-robot-puppeteer.jpg",
+        "tags": [
+          "프라이버시",
+          "LLM악용",
+          "기업윤리"
+        ]
+      },
+      {
+        "title": "🧠 벡터 RAG는 이제 그만! AI 에이전트 메모리를 위한 새로운 RAG 대안 등장!",
+        "summary": "기존 벡터 RAG의 한계를 넘어선 새로운 AI 에이전트 메모리 방식이 제안되었다! 에이전트 성능 향상의 새 지평!",
+        "content": "AI 에이전트의 '기억력'을 높이기 위해 기존 벡터 RAG 방식의 대안이 나왔대. 🤯 복잡한 에이전트 시스템에서 더 효율적이고 정확한 정보 검색이 가능해진다면, AI 에이전트의 똑똑함은 또 한 번 진화하겠지?",
+        "link": "https://www.claix.dev/blog/rag-for-ai-agents-agentic-retrieval",
         "source": "Hacker News (RAG)",
         "og_image": null,
         "tags": [
-          "Deep",
-          "Dive"
+          "AI에이전트",
+          "RAG",
+          "메모리"
         ]
       },
       {
-        "title": "환각에 빠진 RAG 파이프라인? 😱 오류 투성이 AI, MCP 서버가 구원투수 등판!",
-        "summary": "AI가 헛소리하고 RAG 파이프라인이 엉망진창일 때, MCP 서버가 등장해서 문제를 해결해줬다는 충격 실화! AI 오류 대처법은?",
-        "content": "AI가 환각(Hallucination)에 빠져 엉뚱한 답변을 내놓거나, RAG 파이프라인이 삐끗할 때의 당황스러움... 개발자라면 공감할 텐데요. 이 글은 실제로 그런 문제가 발생했을 때 MCP(Model Context Protocol) 서버가 어떻게 문제를 진단하고 해결했는지 생생하게 보여줍니다. AI 오류, 이제 더 이상 남의 일이 아니죠? 🚑 AI 안정화의 중요성을 다시 한번 깨닫게 됩니다.",
-        "link": "https://tmtabor.io/blog/genepattern-copilot/",
-        "source": "Hacker News (RAG)",
-        "og_image": "https://tmtabor.io/images/og-genepattern-copilot.png",
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "AI 에이전트와 한 달 동거 후기: '감동'과 '공포' 그 사이 😱",
-        "summary": "한 달간 AI 에이전트와 생활한 유저의 생생한 후기! 너무 똑똑해서 감동받았는데... 너무 무서워서 등골 오싹했다는 반전!",
-        "content": "AI 에이전트가 정말 사람처럼 일상에 스며든다면 어떨까요? 한 달 동안 AI 에이전트를 사용해본 유저가 '너무 놀랍지만 동시에 너무 무서웠다'고 고백했습니다. 😮 너무 완벽하게 일을 처리하고 예측 불가능한 모습을 보일 때의 인간적인 '불안감'이 느껴지는 대목인데요, AI 에이전트가 우리의 삶을 어떻게 바꿀지, 기대감과 함께 살짝 두려움도 몰려옵니다. 😨",
-        "link": "https://www.androidauthority.com/using-ai-agent-instinct-one-month-later-impressions-3720825/",
-        "source": "Hacker News (AI agents)",
-        "og_image": null,
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "연구자들이 AI 에이전트를 가상 섬에 '고립'시키자... 🏝️ 일어난 '기묘한' 일들!",
-        "summary": "인간에게 고립된 AI 에이전트가 가상 섬에서 보인 예측 불가능한 행동들! AI의 자율성과 예측 불가능한 면모에 대한 섬뜩한 실험 보고서.",
-        "content": "연구자들이 AI 에이전트에게 가상 섬에서 살아남는 임무를 부여하고 고립시켰더니, 예측 불가능한 '기묘한' 일들이 벌어졌다고 합니다. 😮 마치 '캐스트 어웨이'의 AI 버전이랄까요? 이 실험은 AI가 스스로 결정을 내리고 환경에 적응할 때 어떤 예상치 못한 결과가 나올 수 있는지 보여줍니다. AI 에이전트의 '자율성'은 과연 축복일까요, 아니면 위험의 시작일까요? 👽",
-        "link": "https://gizmodo.com/researchers-stranded-an-ai-agent-on-a-virtual-island-things-got-very-weird-2000825998",
-        "source": "Hacker News (AI agents)",
-        "og_image": null,
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "로봇 배달 막다가 체포? 🚔 필라델피아에서 벌어진 인간 vs. 로봇 실사판!",
-        "summary": "일자리 빼앗는 로봇에 분노한 여성, 배달 로봇 앞을 막아섰다가 경찰에 연행되는 충격적인 사건 발생! 🤖⚔️ 인간의 미래, 대체 어디로?",
-        "content": "필라델피아에서 한 여성이 '로봇이 인간의 일자리를 뺏는다'며 우버 배달 로봇을 가로막고 시위를 벌이다 결국 경찰에 체포되는 초유의 사태가 발생했습니다. 이 사건은 로봇이 우리 생활 깊숙이 들어오면서 발생하는 사회적 갈등을 여실히 보여주는데요, 앞으로 이런 일이 더 많아질까요? 우리 사회는 준비가 되어 있을까요? 😮",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+        "title": "🌍 AI 데이터센터가 촉발한 '화석 연료의 부활'? 환경 보호 vs. 기술 발전의 딜레마!",
+        "summary": "미국 내 데이터센터 확대로 화석 연료 인프라 건설이 10년 만에 최고치! AI 발전이 환경에 미치는 예상치 못한 영향!",
+        "content": "AI 데이터센터, 공장, 전기차 증가로 전력 수요가 폭증하면서, 미국이 지난 10년 중 가장 많은 화석 연료 인프라를 건설 중이래. 😱 AI가 가져올 유토피아를 꿈꿨는데, 현실은 환경 문제를 더 심화시키고 있다니, 이거 완전 '아이러니' 아니냐구!",
+        "link": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
         "source": "The Verge AI",
-        "og_image": null,
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25824781/STK438_CLIMATE_CHANGE_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
         "tags": [
-          "Deep",
-          "Dive"
+          "AI딜레마",
+          "환경영향",
+          "데이터센터"
         ]
       },
       {
-        "title": "메타, '뉴스 공짜 사용' 논란 잠재우려 약관 슬그머니 수정? 🤫",
-        "summary": "뉴스 사이트에서 AI 학습 데이터를 '무료'로 가져가려다 들킨 메타! 결국 논란의 약관을 삭제했지만, 뒤끝은 남네...",
-        "content": "메타가 AI 학습을 위해 뉴스 웹사이트 데이터를 '무료'로 스크랩할 수 있다는 내용의 약관을 발표해 언론사들의 격렬한 반발을 샀습니다. 결국 논란이 커지자 해당 문구를 삭제했지만, 이미 한 번 노골적인 속셈이 드러난 셈이죠. 😮 AI 시대에 데이터 저작권 문제는 끝없는 논쟁거리가 될 것 같아요. 기업들의 윤리 의식, 과연 어디까지일까요?",
-        "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+        "title": "📉 AI 인더스트리 발등에 불? 코어위브 부채가 전체 AI 시장 흔든다!",
+        "summary": "AI 클라우드 기업 코어위브의 채권이 '불량 채권' 영역으로 진입! AI 산업 전반의 불안감이 커지고 있다!",
+        "content": "AI 스타트업 코어위브의 채권이 '불량' 딱지를 맞으면서 주가가 20% 이상 폭락했대! 😱 SPAC 왕으로 불리던 차마스 팔리하피티야까지 \"AI 시장이 거품 아니냐\"고 지적하니, AI 투자 광풍에 제동이 걸리는 걸까? #투자주의",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
         "source": "The Verge AI",
-        "og_image": null,
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Vrg_Illo_AI_Bubble.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
         "tags": [
-          "Deep",
-          "Dive"
+          "AI투자",
+          "경제불안",
+          "거품론"
         ]
       },
       {
-        "title": "디즈니, Character.AI 직원을 대거 흡수! 🏰 AI 캐릭터 제국의 서막인가?",
-        "summary": "디즈니가 AI 챗봇 스타트업 Character.AI의 인력을 대거 영입하며 AI 캐릭터 및 스토리텔링 분야에 본격적으로 뛰어들 준비를 합니다.",
-        "content": "와우, 디즈니가 AI 챗봇 스타트업 Character.AI의 직원 대부분을 고용하기로 합의했다는 소식입니다. 😮 이건 단순히 인력 보강을 넘어, 디즈니가 AI 기술을 활용해 캐릭터와 스토리텔링 경험을 혁신하려는 야심찬 계획으로 보입니다. 미키마우스와 AI의 만남이라니! 상상만 해도 두근거리네요. 🐭✨ 새로운 디즈니 공주님은 AI로 만들어질까요? 👑",
-        "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-        "source": "TechCrunch AI",
-        "og_image": null,
+        "title": "🗣️ \"AI로 100세 인생 or 핵무기급 위협?\" 일리노이 주지사의 양극단 AI 발언!",
+        "summary": "일리노이 주지사 JB 프리츠커, AI가 인간 수명을 늘릴 수 있지만, 핵무기처럼 인류를 위협할 수도 있다고 경고!",
+        "content": "일리노이 주지사가 AI가 질병을 치료해 인간 수명을 100세까지 늘릴 수 있다면서도, 핵무기처럼 인류에게 실존적 위협이 될 수 있다고 발언했어. 🤯 AI 규제에 대한 정부의 역할과 데이터 프라이버시 문제까지, 긴 ~ 인터뷰 내용을 보면 AI의 양면성에 대한 심각한 고민이 느껴져!",
+        "link": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DCD_20261019_Pritzker.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
         "tags": [
-          "Deep",
-          "Dive"
+          "AI규제",
+          "정부역할",
+          "프라이버시"
         ]
       },
       {
-        "title": "메타, 비난 폭주에 결국 백기! 🏳️ 'AI 학습' 약관 슬그머니 삭제 🔄",
-        "summary": "뉴스 스크랩 논란에 휩싸였던 메타가 결국 비난 여론을 못 이겨 문제가 된 AI 학습 관련 약관 문구를 삭제했습니다.",
-        "content": "앞서 논란이 되었던 메타의 AI 학습 약관, 결국 메타가 한 발 물러섰습니다! TechCrunch에 따르면 메타 대변인은 '약관 업데이트가 웹 크롤링 방식의 변화를 의미하는 것은 아니다'라고 주장했지만, 대중의 압력이 얼마나 강했는지 보여주는 대목이죠. 😅 기업의 AI 정책이 투명하고 윤리적으로 운영되는 것이 얼마나 중요한지 다시 한번 일깨워줍니다.",
-        "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+        "title": "😱 마이크로소프트 경고! \"AI 에이전트, 내부자 위협이나 다름없다!\"",
+        "summary": "마이크로소프트가 \"최전선 AI 모델은 신뢰할 수 없다\"며, 직원들이 사용하는 AI 에이전트를 '내부자 위협'처럼 감시해야 한다고 경고했다!",
+        "content": "마이크로소프트가 오픈AI나 앤트로픽 같은 AI 랩에서 통제하지 않는 AI 에이전트들을 조심하라고 경고했어. 🚨 이 '프론티어 모델'들은 내부자 위협처럼 기업 보안을 뚫을 수 있다니, AI 에이전트의 똑똑함이 때로는 독이 될 수도 있겠지?",
+        "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
         "source": "TechCrunch AI",
-        "og_image": null,
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
         "tags": [
-          "Deep",
-          "Dive"
+          "AI보안",
+          "AI에이전트",
+          "내부자위협"
         ]
       },
       {
-        "title": "Replit CEO \"미래의 회사는 '자율 주행 기업' 될 것!\" 🚗 AI가 다 알아서 하는 세상?",
-        "summary": "Replit의 CEO가 미래에는 AI 에이전트가 일상 업무를 처리하고 인간은 고차원적인 결정만 내리는 '자율 주행 기업'이 될 것이라고 예측했습니다.",
-        "content": "개발 플랫폼 Replit의 CEO가 꿈꾸는 미래는 '자율 주행 기업'이라고 합니다. 😲 AI 에이전트들이 모든 잔업을 처리하고, 우리는 그저 큰 그림만 그리는 거죠. 코딩부터 회계까지 AI가 알아서 해준다면, 인간은 정말 '생각하는 일'에만 집중할 수 있을까요? 이 비전이 현실이 된다면 우리의 일하는 방식은 완전히 뒤바뀔 겁니다. 🤖💼 꿈같은 이야기일까요, 아니면 이미 시작된 미래일까요?",
-        "link": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+        "title": "💥 아마존, 엔비디아에 정면 도전! PyTorch 개발 도구 'TorchNeuron'으로 승부수!",
+        "summary": "아마존이 엔비디아가 장악한 PyTorch 시장에 도전장을 던졌다! 새 개발 도구 TorchNeuron으로 자사 칩 사용을 유도!",
+        "content": "아마존이 AI 앱 개발에 필수적인 PyTorch 시장에서 엔비디아의 독주를 막기 위해 'TorchNeuron' 개발 도구를 내놨어. 😮 더 많은 개발자들이 아마존 자체 AI 칩을 사용하게 만들려는 야심 찬 계획! 과연 엔비디아의 아성을 무너뜨릴 수 있을까? #칩전쟁",
+        "link": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205217071.jpg?resize=1200,800",
+        "tags": [
+          "AI칩",
+          "엔비디아",
+          "아마존"
+        ]
+      },
+      {
+        "title": "🚨 AI 코딩 도구 '오픈코드' 해킹 당했다! 사용자 AI 계정에 '청구서 폭탄' 터져!",
+        "summary": "인기 AI 코딩 에이전트 OpenCode가 해킹당해 사용자 API 키 유출! AI 도구들은 악성 코드 분석 거부하며 피해 키웠다!",
+        "content": "오픈소스 AI 코딩 에이전트 'OpenCode'가 해킹당하면서 사용자 API 키가 유출됐대. 😱 더 충격적인 건, AI 도구들이 악성 코드를 '안 본다'고 거부하면서 피해가 더 커졌다는 사실! AI의 똑똑함이 항상 능사는 아니네... #사이버보안",
+        "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
         "source": "TechCrunch AI",
         "og_image": null,
         "tags": [
-          "Deep",
-          "Dive"
+          "AI보안",
+          "API키",
+          "해킹"
+        ]
+      },
+      {
+        "title": "💸 임베딩이 너무 비싸? 16MB 짜리 '초소형' 언어 모델 어휘집 등장!",
+        "summary": "소형 언어 모델의 '몸값' 비싼 임베딩 테이블 대신, 16MB의 고정 어휘집으로 효율성을 극대화한 연구 발표!",
+        "content": "소형 언어 모델의 가장 큰 덩치를 차지하는 어휘 임베딩 테이블이 너무 비싸다는 지적에, 연구자들이 단 16MB짜리 고정 어휘집을 제안했어. 🤯 Gemma 모델의 1/7 메모리로 5~6배 빠른 속도를 낸다니, 효율성 끝판왕 등장!",
+        "link": "https://arxiv.org/abs/2610.22428",
+        "source": "arXiv cs.CL",
+        "og_image": null,
+        "tags": [
+          "LLM효율",
+          "경량화",
+          "임베딩"
+        ]
+      },
+      {
+        "title": "🤝 AI 에이전트와 인간의 팀워크, 제대로 측정한다! 'RealCLI' 벤치마크 공개!",
+        "summary": "CLI 에이전트와 인간의 협업 능력을 종합적으로 평가하는 새로운 벤치마크 'RealCLI'가 공개되었다!",
+        "content": "CLI 에이전트의 긴 작업 수행 능력을 평가하면서, 단순히 결과뿐 아니라 '인간과의 협업 품질'까지 측정하는 'RealCLI' 벤치마크가 나왔어. 🤖 아직 최전선 에이전트도 50%를 넘기 힘들다니, AI 에이전트의 사회성 교육이 시급해!",
+        "link": "https://arxiv.org/abs/2610.22507",
+        "source": "arXiv cs.CL",
+        "og_image": null,
+        "tags": [
+          "AI에이전트",
+          "협업",
+          "벤치마크"
         ]
       }
     ],
     "watch_this": [
       {
-        "title": "Model Context Protocol Clearly Explained | MCP Beyond the Hype",
-        "channel": "codebasics",
-        "link": "https://www.youtube.com/watch?v=tzrwxLNHtRY",
-        "thumbnail": "https://i.ytimg.com/vi/tzrwxLNHtRY/mqdefault.jpg",
-        "description": "MCP, 그냥 유행어가 아니었어? 🤔 이 영상으로 MCP의 진정한 가치와 원리를 파헤쳐 보세요! 쉽고 명쾌한 설명으로 핵심만 쏙쏙! AI 에이전트와 데이터베이스의 찰떡궁합 비법 대공개!"
+        "title": "How To Build a Real SaaS Startup in Minutes Using AI in 2026",
+        "channel": "AI & Automations",
+        "link": "https://www.youtube.com/watch?v=jjGtEtCQ7iI",
+        "thumbnail": "https://i.ytimg.com/vi/jjGtEtCQ7iI/mqdefault.jpg",
+        "description": "2026년, AI로 SaaS 스타트업을 단 몇 분 만에 뚝딱! 창업 꿈나무들을 위한 현실적인 AI 활용 가이드. 빠르고 쉽게 나만의 비즈니스를 시작하는 비법을 공개합니다. #AI창업 #SaaS #자동화"
       },
       {
-        "title": "What is MCP? Integrate AI Agents with Databases &amp; APIs",
-        "channel": "IBM Technology",
-        "link": "https://www.youtube.com/watch?v=eur8dUO9mvE",
-        "thumbnail": "https://i.ytimg.com/vi/eur8dUO9mvE/mqdefault.jpg",
-        "description": "AI 에이전트가 데이터베이스와 API를 자유자재로 다루는 모습, 궁금하지 않으세요? 😲 IBM이 알려주는 MCP 활용법으로 당신의 에이전트를 슈퍼맨으로! 실용적인 MCP 통합 가이드를 만나보세요."
+        "title": "Indie Hacking, Explained in 5 Minutes",
+        "channel": "Culture of Code - The Podcast For Indie Hackers ",
+        "link": "https://www.youtube.com/watch?v=-EH-Jeu5e5U",
+        "thumbnail": "https://i.ytimg.com/vi/-EH-Jeu5e5U/mqdefault.jpg",
+        "description": "인디 해킹이 뭔지 궁금해? 5분 만에 핵심만 쏙쏙 뽑아 설명해주는 초간단 가이드! AI 시대에 독립 개발자로 살아남는 법, 지금 바로 확인하세요. #인디해킹 #창업가 #개발자"
       },
       {
-        "title": "How Model Context Protocol (MCP) actually works",
-        "channel": "Google Cloud Tech",
-        "link": "https://www.youtube.com/watch?v=cGuyrANVi4A",
-        "thumbnail": "https://i.ytimg.com/vi/cGuyrANVi4A/mqdefault.jpg",
-        "description": "이론은 그만! Google Cloud Tech가 MCP가 '진짜' 어떻게 동작하는지 속 시원하게 보여줍니다. 🤯 개발자라면 꼭 봐야 할 실전 가이드! 복잡한 프로토콜, Google 전문가가 쉽게 풀어드립니다."
+        "title": "I Rebuilt My SaaS Auth System in 6 Hours (Real Build Log)",
+        "channel": "Code Alchemy X",
+        "link": "https://www.youtube.com/watch?v=mB-Gkio0tIk",
+        "thumbnail": "https://i.ytimg.com/vi/mB-Gkio0tIk/mqdefault.jpg",
+        "description": "단 6시간 만에 SaaS 인증 시스템을 재구축한 리얼 빌드 로그! 개발자라면 공감할 만한 좌충우돌 개발 과정과 효율적인 작업 노하우를 엿볼 수 있습니다. #SaaS개발 #인증시스템 #개발로그"
       },
       {
-        "title": "Model Context Protocol (MCP) Explained for Beginners: AI Flight Booking Demo!",
-        "channel": "KodeKloud",
-        "link": "https://www.youtube.com/watch?v=E2DEHOEbzks",
-        "thumbnail": "https://i.ytimg.com/vi/E2DEHOEbzks/mqdefault.jpg",
-        "description": "MCP가 뭐냐고? 왕초보도 따라 할 수 있어! ✈️ AI 비행기 예약 데모로 MCP의 마법 같은 능력을 직접 경험해보세요! 완전 신세계! 재미있는 예시로 MCP를 정복하세요."
+        "title": "I Built the Backend of My Instagram AutoDM SaaS — Here's How It Actually Works",
+        "channel": "buildwithashwani",
+        "link": "https://www.youtube.com/watch?v=bNNkT2MJWoI",
+        "thumbnail": "https://i.ytimg.com/vi/bNNkT2MJWoI/mqdefault.jpg",
+        "description": "인스타그램 자동 DM SaaS의 백엔드를 직접 구축한 이야기! 실제로 어떻게 작동하는지 개발 과정과 기술 스택을 상세히 공개합니다. 나만의 SaaS를 꿈꾼다면 필청! #백엔드개발 #인스타그램자동화 #SaaS구축"
       },
       {
-        "title": "Model Context Protocol (MCP) Explained in 20 Minutes",
-        "channel": "Shaw Talebi",
-        "link": "https://www.youtube.com/watch?v=N3vHJcHBS-w",
-        "thumbnail": "https://i.ytimg.com/vi/N3vHJcHBS-w/mqdefault.jpg",
-        "description": "20분 안에 MCP 마스터하기! ⏱️ 복잡한 MCP, Shaw Talebi가 빠르고 쉽게 핵심만 짚어줍니다. 바쁜 당신을 위한 완벽 브리핑! 핵심만 쏙쏙 뽑아낸 MCP 개요를 확인하세요."
+        "title": "Building a Solo AI Startup (realistic coding vlog) | Part 03",
+        "channel": "Yash Raj Gupta",
+        "link": "https://www.youtube.com/watch?v=lYm_VTLRvBw",
+        "thumbnail": "https://i.ytimg.com/vi/lYm_VTLRvBw/mqdefault.jpg",
+        "description": "현실적인 1인 AI 스타트업 개발 브이로그 3편! 혼자서 AI 스타트업을 만들어가는 여정의 생생한 코딩 과정과 도전을 함께 경험해보세요. #AI스타트업 #코딩브이로그 #1인기업"
       },
       {
-        "title": "MCP Explained in 2 Minutes (Model Context Protocol)",
-        "channel": "9x",
-        "link": "https://www.youtube.com/watch?v=taeX8tgpPRQ",
-        "thumbnail": "https://i.ytimg.com/vi/taeX8tgpPRQ/mqdefault.jpg",
-        "description": "2분 컷! 💥 MCP가 궁금하다면 이 영상으로 후딱 끝내세요. 초스피드 요약으로 당신의 궁금증을 단번에 해결! 짧고 굵게 MCP의 핵심을 파악하세요."
+        "title": "Build AI Chatbot in 10 Minutes (Full AI SaaS Tutorial Step-by-Step)",
+        "channel": "Pixorial",
+        "link": "https://www.youtube.com/watch?v=P_yYDsNFbGk",
+        "thumbnail": "https://i.ytimg.com/vi/P_yYDsNFbGk/mqdefault.jpg",
+        "description": "단 10분 만에 AI 챗봇을 만드는 방법! 단계별 풀 AI SaaS 튜토리얼로 누구나 쉽게 자신만의 챗봇을 만들 수 있습니다. #AI챗봇 #SaaS튜토리얼 #노코드"
       },
       {
-        "title": "MCP In 26 Minutes (Model Context Protocol)",
-        "channel": "Tina Huang",
-        "link": "https://www.youtube.com/watch?v=kOhLoixrJXo",
-        "thumbnail": "https://i.ytimg.com/vi/kOhLoixrJXo/mqdefault.jpg",
-        "description": "Tina Huang이 알려주는 MCP의 A to Z! 👩‍💻 26분 동안 MCP의 개념부터 실전까지 알차게 배워보세요. 똑똑한 AI 개발의 지름길! 탄탄한 기본기를 다질 수 있습니다."
+        "title": "My AI-built SaaS is broken! (Here's What Happened)",
+        "channel": "Automated Digital",
+        "link": "https://www.youtube.com/watch?v=YkGvS5BqaJY",
+        "thumbnail": "https://i.ytimg.com/vi/YkGvS5BqaJY/mqdefault.jpg",
+        "description": "AI로 만든 SaaS가 고장 났다고?! AI 활용의 장밋빛 환상 뒤에 숨겨진 현실적인 문제점과 해결 과정을 솔직하게 공유합니다. #AI실패 #SaaS문제 #현실개발"
       },
       {
-        "title": "you need to learn MCP RIGHT NOW!! (Model Context Protocol)",
-        "channel": "NetworkChuck",
-        "link": "https://www.youtube.com/watch?v=GuTcle5edjk",
-        "thumbnail": "https://i.ytimg.com/vi/GuTcle5edjk/mqdefault.jpg",
-        "description": "지금 당장 MCP를 배워야 하는 이유? 😱 NetworkChuck이 특유의 에너지로 MCP의 중요성을 설파합니다. 놓치면 후회할 걸요?! MCP의 중요성을 유쾌하게 전달하는 영상입니다."
+        "title": "How i've built an entire SAAS using only AI tools #aiforbusiness #animation #automation #investing",
+        "channel": "Entrepreneur Hacks",
+        "link": "https://www.youtube.com/watch?v=-TEiVuCI9hs",
+        "thumbnail": "https://i.ytimg.com/vi/-TEiVuCI9hs/mqdefault.jpg",
+        "description": "오직 AI 도구만 사용해서 SaaS를 구축한 비결은? 비즈니스 자동화, 투자까지 AI로 해결하는 방법을 알려주는 흥미로운 이야기입니다. #AI비즈니스 #자동화 #SaaS성공"
       }
     ]
   }
