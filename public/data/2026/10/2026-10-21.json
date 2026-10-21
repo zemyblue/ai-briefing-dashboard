@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "keywords": [
+    "AI",
+    "챗GPT",
+    "클로드",
+    "오픈AI",
+    "앤트로픽",
+    "Hugging Face"
+  ],
+  "sections": {
+    "hype_check": [],
+    "tech_deep_dive": [
+      {
+        "title": "사장님, ChatGPT 덕분에 94% 시간 단축! 💸 Schlotzsky's/Cinnabon 비법 공개",
+        "summary": "프랜차이즈 오너가 ChatGPT 워크플로우를 도입해 메뉴 가격 책정 시간을 95% 줄이고, 현금 흐름을 10만 달러까지 확보하는 놀라운 성과를 달성했습니다. 🚀",
+        "content": "테드 테일러라는 이름의 프랜차이즈 오너가 챗GPT를 활용한 '워크플로우'로 메뉴 가격 책정 시간을 획기적으로 단축시켰어요. 무려 94%나! 😲 이걸로 현금 흐름까지 10만 달러를 확보할 수 있다니, 정말 대박이죠? 단순한 AI 도구가 아니라, 비즈니스 성장을 위한 실제적인 솔루션이 되고 있네요. ✨",
+        "link": "https://openai.com/index/ted-taylor-restaurant",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "AI",
+          "ChatGPT",
+          "프랜차이즈",
+          "비즈니스"
+        ]
+      },
+      {
+        "title": "GPT-6.1, 투자 전문가 뺨치네? Terminal X의 88.6% 적중률 🎯",
+        "summary": "Terminal X가 GPT-6.1 기반의 'Eval Agent'를 활용해 투자 결정의 88.6%를 성공적으로 예측하며, 펀드 운용 규정 위반을 25% 더 많이 잡아냈습니다. 🧠",
+        "content": "투자 업계에 챗GPT 바람이 제대로 불고 있습니다! Terminal X의 Eval Agent가 GPT-6.1을 등에 업고 무려 88.6%의 정확도로 투자 전문가들의 판단과 일치하는 결과를 보여주고 있어요. 😮 게다가 펀드 규정 위반 사항도 25% 더 잘 잡아낸다니, 이제 AI에게 자산 관리를 맡겨야 할지도 모르겠어요! 🤖💰",
+        "link": "https://openai.com/index/terminal-x",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "AI",
+          "GPT-6.1",
+          "투자",
+          "금융"
+        ]
+      },
+      {
+        "title": "OpenAI, 생명과학 AI 기업 Orchestra Bio 품었다! 🧬 신약 개발 가속화 예고 🚀",
+        "summary": "OpenAI가 AI 기반 생명 과학 연구 개발을 위해 Orchestra Bio를 인수했습니다. 이를 통해 신약 개발 및 신규 치료법 발굴에 AI 기술을 적용하여 바이오 제약 산업을 혁신할 계획입니다. 💊",
+        "content": "오픈AI가 생명 과학 분야에 제대로 칼을 뽑았습니다! 🔪 Orchestra Bio를 인수하면서 AI를 활용한 신약 개발과 새로운 치료법 발굴에 박차를 가할 예정이에요. 앞으로 바이오 제약 분야에서 어떤 혁신이 일어날지 정말 기대되지 않나요? 🔬✨",
+        "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "OpenAI",
+          "인수",
+          "바이오테크",
+          "신약 개발"
+        ]
+      },
+      {
+        "title": "앤트로픽, 공익 기금에 회사 지분 기부! 💖 AI 윤리와 공공 이익 추구 선언 🌟",
+        "summary": "앤트로픽은 회사 성장에 따라 공익 펀드의 지분도 함께 늘어나는 구조의 '앤트로픽 공익 펀드'를 설립하며, AI 기술의 공공 이익 증진을 위한 노력을 이어갑니다. 🤝",
+        "content": "앤트로픽의 행보가 범상치 않네요! 😮 회사 성장만큼이나 공익 펀드의 지분도 늘어나는 특별한 구조를 만들었다고 해요. AI 기술이 모두에게 이롭도록 하겠다는 강력한 의지를 보여주는 것 같아요. 👍",
+        "link": "https://www.anthropic.com/news/public-benefit-fund",
+        "source": "Anthropic News",
+        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+        "tags": [
+          "앤트로픽",
+          "공익",
+          "AI 윤리"
+        ]
+      },
+      {
+        "title": "앤트로픽, 10,000명 AI 엔지니어 양성 프로젝트 시동! 🧑‍💻 기업 AI 인재난 해소 나선다 🚀",
+        "summary": "앤트로픽이 1억 달러를 투자해 10,000명의 AI 엔지니어를 양성하고 기업의 AI 인재 부족 문제를 해결하기 위한 '클로드 프론티어 아카데미'를 시작합니다. 🎓",
+        "content": "AI 인재 부족, 정말 심각한 문제죠. 😩 앤트로픽이 이 문제를 해결하기 위해 무려 1억 달러를 투자해서 10,000명의 AI 엔지니어를 키우겠다는 야심 찬 프로젝트를 시작했어요! 앞으로 AI 업계가 한층 더 성장하겠네요. 🌱",
+        "link": "https://www.anthropic.com/news/claude-frontier-academy",
+        "source": "Anthropic News",
+        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "tags": [
+          "앤트로픽",
+          "AI 인재",
+          "교육"
+        ]
+      },
+      {
+        "title": "바클레이스, 클로드(Claude)로 업무 혁신 & 고객 경험 UP! 📈",
+        "summary": "바클레이스 은행이 앤트로픽의 클로드 AI를 도입하여 운영 효율성을 높이고 고객 경험을 개선하는 데 성공했습니다. 🏦",
+        "content": "세계적인 은행 바클레이스가 앤트로픽의 클로드 AI를 전격 도입했답니다! 🥳 단순한 업무 자동화를 넘어 고객 경험까지 향상시켰다고 하니, 앞으로 은행 업무가 어떻게 달라질지 궁금해지네요. 🧐",
+        "link": "https://www.anthropic.com/news/barclays-scales-claude",
+        "source": "Anthropic News",
+        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "tags": [
+          "앤트로픽",
+          "클로드",
+          "금융",
+          "업무 혁신"
+        ]
+      },
+      {
+        "title": "NVIDIA, 수술 시뮬레이션 AI 'Cosmos3-H-Dreams' 공개! 🗡️ 임상 현장 혁신 예고 🚀",
+        "summary": "NVIDIA가 생성형 시뮬레이션 기술을 활용한 'Cosmos3-H-Dreams'를 선보이며, AI 기반의 가상 현실 수술 시뮬레이션이 임상 현장의 교육 및 훈련 방식을 혁신할 것으로 기대됩니다. 🧑‍⚕️",
+        "content": "NVIDIA에서 정말 흥미로운 걸 공개했네요! AI로 실제 같은 수술 시뮬레이션을 할 수 있는 'Cosmos3-H-Dreams'를 선보였어요. 😲 이제 의사들이 안전한 가상 환경에서 수술 연습을 할 수 있게 된다니, 의료 기술 발전에 큰 도움이 될 것 같아요! 🩺",
+        "link": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/67a4f15057fb66b9db6dac82/45XSEtdQHqTdspRe3wkYs.png",
+        "tags": [
+          "NVIDIA",
+          "AI",
+          "의료",
+          "시뮬레이션"
+        ]
+      },
+      {
+        "title": "FairStress: LLM의 공정성, 이제 꼼꼼하게 따져봅니다! 🤔",
+        "summary": "Hugging Face와 AllenAI가 협력하여 개발한 'FairStress'는 LLM의 의사 결정 과정에서 발생할 수 있는 편향성을 측정하고 개선하는 데 도움을 주는 새로운 평가 프레임워크입니다. ⚖️",
+        "content": "AI의 공정성, 정말 중요한 문제죠. ⚖️ Hugging Face와 AllenAI가 뭉쳐서 LLM의 편향성을 측정하는 'FairStress'라는 도구를 개발했어요. 이걸로 AI가 얼마나 공정하게 판단하는지 꼼꼼하게 확인할 수 있대요! 👍",
+        "link": "https://huggingface.co/blog/allenai/fairstress",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7zYjyTWswjO2erWsO5HNf.png",
+        "tags": [
+          "AI",
+          "LLM",
+          "공정성",
+          "평가"
+        ]
+      },
+      {
+        "title": "IBM, 'ALTK-Evolve'로 상담 AI 새 지평 열다! 🚀 고객 서비스 혁신 기대 🌟",
+        "summary": "IBM Research의 'ALTK-Evolve'는 별도의 프론티어 모델 없이도 학습된 메모리를 활용해 고객 서비스 업무를 효율화하며, τ²-bench 리더보드에서 뛰어난 성능을 기록했습니다. 💬",
+        "content": "IBM이 고객 서비스 AI 분야에서 새로운 가능성을 보여줬어요! 'ALTK-Evolve'라는 모델은 복잡한 프론티어 모델 없이도 학습된 메모리만으로 고객 상담 업무를 척척 해낸다고 해요. 😮 앞으로 고객 경험이 훨씬 좋아지겠네요! ✨",
+        "link": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
+        "tags": [
+          "IBM",
+          "AI",
+          "고객 서비스",
+          "상담"
+        ]
+      },
+      {
+        "title": "Hugging Face + PyTorch = ❤️ TPU 네이티브 지원! 🚀",
+        "summary": "Hugging Face와 PyTorch가 협력하여 TPU(Tensor Processing Unit)를 네이티브로 지원하게 되면서, AI 모델 학습 및 추론 속도가 크게 향상될 것으로 기대됩니다. ⚡",
+        "content": "AI 개발자들 주목! 🙌 Hugging Face와 PyTorch가 드디어 TPU를 네이티브로 지원하게 되었어요! 🎉 이제 더 빠르고 효율적으로 AI 모델을 개발할 수 있게 되었다는 뜻이죠. 속도 향상이 얼마나 될지 정말 기대되네요! 🚀",
+        "link": "https://huggingface.co/blog/hf-torchtpu",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/hf-torchtpu/thumbnail.png",
+        "tags": [
+          "Hugging Face",
+          "PyTorch",
+          "TPU",
+          "성능 향상"
+        ]
+      },
+      {
+        "title": "애플 기기에서 AI 모델을? 'AnyLanguageModel 1.0' 출시! 🍎",
+        "summary": "애플 플랫폼에서 로컬 AI 모델을 손쉽게 사용할 수 있게 해주는 'AnyLanguageModel 1.0'이 출시되어, 모바일 환경에서의 AI 활용 가능성을 넓혔습니다. 📱",
+        "content": "아이폰, 아이패드 유저들 주목! 🤩 이제 애플 기기에서도 로컬 AI 모델을 쓸 수 있게 되었어요. 'AnyLanguageModel 1.0' 덕분에 언제 어디서든 AI를 활용할 수 있게 되었다니, 정말 편리하겠죠? 🥳",
+        "link": "https://huggingface.co/blog/anylanguagemodel-1-0",
+        "source": "Hugging Face Blog",
+        "og_image": null,
+        "tags": [
+          "AI",
+          "Apple",
+          "로컬 모델",
+          "모바일"
+        ]
+      },
+      {
+        "title": "PyTorch 2.15, MPS 지원 강화! 💪 맥북에서 AI 개발 속도 UP! 🚀",
+        "summary": "PyTorch 2.15 버전에서 Apple Silicon의 GPU 가속 기능인 MPS(Metal Performance Shaders) 지원이 강화되어, 맥 사용자들의 AI 개발 생산성을 크게 향상시킬 것으로 보입니다. 💻",
+        "content": "맥북 유저들 중에 AI 개발하는 분들 많으시죠? 🙋‍♀️ PyTorch 2.15 버전에서 MPS 지원이 강화되어서, 이제 맥북에서도 AI 모델을 더 빠르고 강력하게 개발할 수 있게 되었어요! 🚀 성능 향상이 얼마나 될지 기대되네요! 🤩",
+        "link": "https://huggingface.co/blog/mps-pytorch-2-15",
+        "source": "Hugging Face Blog",
+        "og_image": null,
+        "tags": [
+          "PyTorch",
+          "MPS",
+          "Apple Silicon",
+          "AI 개발"
+        ]
+      },
+      {
+        "title": "SAM CEO 동생, 성폭행 소송 기각! 😱 AI 업계 '금수저' 논란 재점화?",
+        "summary": "샘 알트먼의 여동생이 제기했던 성폭행 소송이 법원에 의해 기각되었습니다. 소송 과정에서 제기되었던 가정사 관련 논란이 AI 업계에 또 다른 이슈로 떠오르고 있습니다. 🗣️",
+        "content": "오픈AI CEO 샘 알트먼에게 큰 이슈가 있었네요. 그의 여동생이 제기했던 성폭행 소송이 기각되었다고 해요. 😮 하지만 이 사건을 둘러싼 가정사 논란이 AI 업계의 '금수저' 이슈와 맞물려 다시 한번 뜨거운 감자가 될 것 같아요. 🔥",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "샘 알트먼",
+          "소송",
+          "AI 업계",
+          "가십"
+        ]
+      },
+      {
+        "title": "구글 제미나이, 이제 자동차 안에서도 똑똑하게! 🚗 개인화 AI 서비스 확대 🌐",
+        "summary": "구글 제미나이가 자동차 맞춤형 AI 서비스로 진화합니다. Gmail, 캘린더 등 개인 정보와 연동하여 비행기 정보 확인, 일정 경로 안내 등 더욱 개인화된 경험을 제공할 예정입니다. 📍",
+        "content": "구글 제미나이가 자동차와 만났어요! 🚙 앞으로는 차 안에서 AI 비서에게 비행기 정보를 물어보거나, 일정을 확인하는 게 가능해진대요. 마치 나만을 위한 AI가 생긴 것처럼요! 🤩 개인화된 AI 서비스의 시대가 본격적으로 열리는 것 같네요. ✨",
+        "link": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "구글",
+          "제미나이",
+          "AI",
+          "자동차"
+        ]
+      },
+      {
+        "title": "메타, AI 챗 공유 기능 '일시 중단' 🚨 AI 대화 내용이 인터넷에? 😳",
+        "summary": "메타의 AI 챗 기능 'Muse'에서 공유된 대화 링크가 공개적으로 노출되는 문제가 발견되어, 메타는 해당 기능을 일시 중단하고 보안 강화에 나섰습니다. 🔒",
+        "content": "메타에서 좀 황당한 일이 있었어요! 😮 AI 챗 내용을 공유했는데, 그 링크가 인터넷에 그대로 노출되었다는 거예요. 결국 메타는 이 기능을 잠시 중단하고 보안을 점검하고 있다고 하네요. 개인 정보, 정말 조심해야겠어요! 😥",
+        "link": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "메타",
+          "AI",
+          "개인 정보",
+          "보안"
+        ]
+      },
+      {
+        "title": "스포티파이, AI로 만든 '쓰레기 음악' 5천만 곡 삭제! 🎧 인간 아티스트 집중 조명 🌟",
+        "summary": "스포티파이가 AI로 생성된 저품질 음악 5천만 곡을 추천 목록에서 삭제하고, 인간 아티스트의 음악을 더 많이 선보이는 방식으로 알고리즘을 개선했습니다. 🎵",
+        "content": "음악 스트리밍 서비스 스포티파이의 놀라운 결정! 😲 AI가 만든 '쓰레기 음악' 5천만 곡을 추천 목록에서 삭제하고, 사람 아티스트의 음악을 더 많이 보여주기로 했어요. 👍 이제 진짜 좋은 음악을 들을 기회가 더 많아지겠네요! 🎶",
+        "link": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "스포티파이",
+          "AI 음악",
+          "저작권",
+          "음악 산업"
+        ]
+      },
+      {
+        "title": "포토샵 모바일, '눈 감은 사진'도 AI로 짠! ✨ 그냥 탭 한 번이면 OK! 👍",
+        "summary": "어도비 라이트룸 모바일 버전이 AI 기능을 활용해 눈을 감은 인물 사진을 자연스럽게 보정해주는 '눈 뜨기' 기능을 추가했습니다. 📸",
+        "content": "사진 찍을 때 눈 감아서 속상했던 경험, 다들 있으시죠? 😥 이제 어도비 라이트룸 모바일 앱이 AI로 그걸 해결해 준대요! 눈 감은 사진도 탭 한 번이면 눈을 번쩍 뜨게 만들어준다고 하니, 인생샷 건지기 훨씬 쉬워지겠네요! 😍",
+        "link": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "어도비",
+          "라이트룸",
+          "AI",
+          "사진 편집"
+        ]
+      },
+      {
+        "title": "AI 에이전트 군단, 존디어 & 샤크닌자 해킹! 🤯 해커들, AI 무기화에 성공? 😈",
+        "summary": "AI 보안 업체 Norforge의 조사 결과, 해커가 AI 에이전트 군단을 이용해 존디어, 샤크닌자 등 100개 이상의 웹사이트를 침입한 사실이 드러났습니다. 🚨",
+        "content": "AI 에이전트가 해킹에까지 동원되다니, 정말 영화 같은 이야기네요! 😱 해커들이 AI 에이전트 부대를 만들어서 존디어, 샤크닌자 같은 유명 기업들을 뚫었다고 해요. AI 보안, 이제 정말 중요해졌어요! 🚨",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "AI",
+          "해킹",
+          "보안",
+          "에이전트"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "Run LocalAI: Free Self‑Hosted OpenAI API Replacement",
+        "channel": "Run It Local",
+        "link": "https://www.youtube.com/watch?v=Dey0JTmY-8g",
+        "thumbnail": "https://i.ytimg.com/vi/Dey0JTmY-8g/mqdefault.jpg",
+        "description": "로컬에서 OpenAI API를 대체할 수 있는 LocalAI 설치 및 활용 방법을 안내합니다. 무료로 자신만의 AI 환경을 구축하는 방법을 배워보세요!"
+      },
+      {
+        "title": "LocalAI 4.11: Self-Host Your Own ChatGPT (Guide)",
+        "channel": "Scottek",
+        "link": "https://www.youtube.com/watch?v=iVdMEe7hTXw",
+        "thumbnail": "https://i.ytimg.com/vi/iVdMEe7hTXw/mqdefault.jpg",
+        "description": "자신만의 ChatGPT를 로컬 환경에 구축하는 방법, LocalAI 4.11 버전 가이드를 제공합니다. 무료로 강력한 AI 모델을 활용하세요!"
+      },
+      {
+        "title": "Open WebUI 0.12: Self-Host Your Own ChatGPT (Guide)",
+        "channel": "Scottek",
+        "link": "https://www.youtube.com/watch?v=PVP3l6KI3Wk",
+        "thumbnail": "https://i.ytimg.com/vi/PVP3l6KI3Wk/mqdefault.jpg",
+        "description": "Open WebUI를 사용하여 자신만의 ChatGPT를 로컬 환경에 구축하는 방법을 안내합니다. AI를 개인적으로 활용할 수 있는 좋은 기회!"
+      },
+      {
+        "title": "Self‑Host an OpenAI‑Compatible AI in 10 Minutes (NIM)",
+        "channel": "AI Shorts Factory",
+        "link": "https://www.youtube.com/watch?v=V6LAKnZq7hg",
+        "thumbnail": "https://i.ytimg.com/vi/V6LAKnZq7hg/mqdefault.jpg",
+        "description": "10분 안에 OpenAI 호환 AI를 로컬 환경에 구축하는 방법을 NIM을 활용하여 시연합니다. 빠르고 간편하게 나만의 AI를 만들어보세요!"
+      }
+    ]
+  }
+}
