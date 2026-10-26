@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-26",
+  "keywords": [
+    "AI 가격전쟁",
+    "AI 안전",
+    "AI 에이전트",
+    "오픈소스 논란",
+    "AI 경제효과",
+    "LLM 개발",
+    "AI 웨어러블",
+    "LangGraph"
+  ],
+  "sections": {
+    "hype_check": [],
+    "tech_deep_dive": [
+      {
+        "title": "OpenAI, 폴란드 NASK와 AI 안전 및 보안을 위해 손 잡았다! 🤝",
+        "summary": "AI 사고는 미리미리 막아야지! OpenAI가 폴란드 NASK와 AI 안전, 보안, 기술 연구 파트너십을 맺었어요.",
+        "content": "갈수록 똑똑해지는 AI, 왠지 모르게 불안하기도 하죠? OpenAI가 폴란드 NASK와 함께 AI가 사고 치지 않도록 울타리를 튼튼하게 치기로 했대요. 기술 연구도 같이 한다니, 더 안전하고 강력한 AI가 나오길 기대해봅니다! 🛡️",
+        "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "Anthropic, 우리 AI 바르게 키워요! 정렬 및 보안 노력 강화! 🧠✨",
+        "summary": "Anthropic이 AI의 정렬(Alignment)과 보안 노력을 꾸준히 개선하고 있다고 밝혔어요. 안전하고 윤리적인 AI를 향한 뚝심!",
+        "content": "AI가 똑똑한 것도 좋지만, 결국 인간의 가치와 목적에 부합하게 움직이는 게 제일 중요하잖아요? Anthropic이 AI가 우리 편에 서도록 계속 노력 중이래요. 이름하여 'AI 정렬'! 보안까지 꽉 잡겠다니, 믿음직스럽죠?",
+        "link": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+        "source": "Anthropic News",
+        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "IBM의 Granite Speech 5.0: 더 정확하고 빠르게 듣고, 번역하고, 분류한다! 👂",
+        "summary": "허깅페이스 블로그에 소개된 IBM Granite Speech 5.0이 음성 인식, 번역, 속성 분류를 훨씬 정확하고 빠르게 해낸대요!",
+        "content": "이제 AI는 그냥 말만 잘 하는 게 아니죠! IBM의 Granite Speech 5.0은 당신의 말을 듣고, 척척 번역하고, 심지어 어떤 종류의 말인지까지 알아챈다네요. 오디오북, 회의록, 언어 학습 등 활용 분야가 무궁무진하겠죠? \"이거 완전 만능 AI 통역사 아님?\" 🗣️",
+        "link": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/653fb52cbfd890805461d691/M_JJyIOBOWVzHXdy7CVVG.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "세상에 없는 모델? 허깅페이스 커뮤니티에서 직접 만들었대! 🛠️",
+        "summary": "필요한데 없는 모델은 직접 만들어서 쓰는 게 국룰! 허깅페이스 블로그에 올라온, 없는 모델을 직접 만들어낸 커뮤니티 스토리가 화제예요.",
+        "content": "개발자들 사이에서는 이런 말이 있죠. \"없으면 만들면 된다!\" 허깅페이스 블로그에선 인턴이 기발한 아이디어로 세상에 없던 모델을 직접 만든 이야기가 소개됐어요. 이런 자유로운 창작 정신이야말로 AI 발전을 이끄는 원동력 아닐까요? #DIY_AI #메이커정신 🧑‍💻",
+        "link": "https://huggingface.co/blog/building-with-ml-intern",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/building-with-ml-intern/thumbnail.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "😱 충격! OpenAI와 Anthropic, LLM 가격 몇 달 만에 최대 80% 인하! 대체 왜? 💸",
+        "summary": "AI 업계의 두 거물, OpenAI와 Anthropic이 불과 몇 달 사이에 LLM 사용료를 최대 80%까지 확 낮췄다는 소식! 개발자들 환호성 지를 각!",
+        "content": "\"여러분, 이거 실화입니까?!\" 🤯 OpenAI와 Anthropic이 LLM 가격을 파격적으로 내렸어요. 마치 치킨집 사장님들이 갑자기 반값 할인하는 격! 경쟁 심화, 기술 발전, 효율성 증가 등 여러 원인이 있겠지만, 일단 개발자들에겐 희소식이죠? 이제 AI 막 써도 주머니 사정 괜찮겠다! 💰",
+        "link": "https://minimaxir.com/2026/10/cheap-llms/",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://minimaxir.com/2026/10/cheap-llms/vercel.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "AI 에이전트가 당신을 부를 때, 화면이 지지직? 'Glitchrupt' 등장! 👾",
+        "summary": "AI 에이전트가 당신의 관심을 필요로 할 때, 스파이더버스처럼 화면을 '지지직' 글리치시키는 기발한 앱이 등장했어요.",
+        "content": "AI 에이전트가 백그라운드에서 열일하고 있는데, 정작 중요한 순간에 알림을 놓친 경험 있으신가요? 한 개발자가 \"내 에이전트가 나를 호출할 때 확실히 알게 해달라!\"며 만든 'Glitchrupt'가 화제예요. 스파이더버스 영화처럼 화면이 깜빡이면서 \"야! 나 좀 봐줘!\"라고 외치는 느낌이겠죠? 🕸️",
+        "link": "https://github.com/elbee19/glitchrupt",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://opengraph.githubassets.com/a62a06296b994539e1135672f34b0d60bfa4488609ab9cb116610633b95da401/elbee19/glitchrupt",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "잠자는 동안 텔레그램에서 고객을 찾아주는 AI 에이전트 개발! 💰😴",
+        "summary": "한 개발자가 잠자는 시간에도 텔레그램에서 자동으로 고객을 발굴해주는 AI 에이전트를 만들었다고 발표했어요.",
+        "content": "\"일은 AI가 하고 돈은 내가 번다!\" 🤫 이게 꿈이 아니었네요. 한 개발자가 텔레그램에서 고객을 직접 찾아내고 소통하는 AI 에이전트 'Opensparta'를 공개했어요. 이제 사업가들은 밤새도록 돈 버는 AI 에이전트 덕분에 꿀잠 잘 수 있겠어요! (물론 결과는 본인이 책임져야...) 💸",
+        "link": "https://opensparta.com/en",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://opensparta.com/seo/og-image-v2.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "🚨 오픈소스 커뮤니티, AI를 추방하다?! 레딧 r/opensource, 충격 논란! 💔",
+        "summary": "레딧의 유명 커뮤니티 r/opensource가 AI 관련 프로젝트를 금지하고 비영어 사용자까지 제한하는 새 규칙을 발표, 커다란 논란에 휩싸였어요.",
+        "content": "오픈소스 정신은 '자유'와 '포용' 아니었나요? 🤯 레딧의 r/opensource 서브레딧이 \"AI는 오픈소스 커뮤니티와 맞지 않는다\"며 AI 프로젝트를 금지하는 충격적인 규칙을 내놓았습니다. 심지어 비영어 사용자까지 제한하려 해 \"도대체 무슨 일이냐\"는 비난이 쇄도 중! AI가 결국 커뮤니티를 쪼개는 건가요? 😱",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "구글 AI 검색 변화, 온라인 출판 업계를 뒤흔들다! 😵‍💫",
+        "summary": "구글의 AI 검색 도입이 온라인 출판사들의 생존 방식을 근본적으로 바꿔놓으며 큰 파장을 일으키고 있어요.",
+        "content": "그동안 구글 검색 상위 노출에 목숨 걸었던 온라인 출판사들, 이제 패닉에 빠졌습니다! 😱 구글 AI 검색이 도입되면서 트래픽이 급감하는 등 생존의 위협을 느끼고 있대요. AI가 정보를 요약해서 보여주니, 누가 굳이 원문 기사를 클릭하겠어요? \"구글은 이제 출판사의 친구가 아닌가요?\" 😭",
+        "link": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK414_STK480_AI_DIS_MISINFO_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "메타의 AI 콘텐츠 꼼수, 결국 제동 걸리다! 약관 시행 연기! 🚫",
+        "summary": "메타가 자사 플랫폼 내 뉴스 콘텐츠를 AI 학습에 활용하려던 새 사업 약관에 출판사들의 반발이 거세지자, 결국 시행을 연기했습니다.",
+        "content": "\"메타, 너 이럴 줄 알았다!\" 🤨 메타가 슬그머니 새로운 사업 약관을 내놓으며, 출판사들의 콘텐츠를 AI 학습에 마음껏 쓰려던 계획이 발각됐어요. 당연히 출판사들이 \"우리가 밥이냐!\"며 반발했고, 메타는 결국 \"좀 더 설명할 시간이 필요하다\"며 시행을 미뤘네요. AI가 학습하려면 데이터가 필요하겠지만, 이건 좀 아니지 않나요? 😡",
+        "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951350/STK043_VRG_Illo_N_Barclay_6_Meta.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "💸 \"AI 투자, 수익 1도 없어!\" 아폴로 경제학자 충격 주장! 🚨",
+        "summary": "막대한 투자와 hype에도 불구하고, AI가 IT 기업 외 대부분의 기업에게는 '재정적 수익 0'을 안겨줬다는 아폴로 경제학자의 분석이 나왔어요.",
+        "content": "\"AI가 만능열쇠라고요? 뻥이었네!\" 📉 AI에 수십억, 수백억을 쏟아부었는데, 정작 IT 기업이 아닌 일반 기업들은 AI로 돈을 못 벌고 있다는 충격적인 주장이 나왔습니다. 이코노미스트의 발언이라 더 믿음이 가는데요? AI가 아직은 투자 대비 효과가 미미하다는 경고일까요? #AI_거품 #현실은시궁창",
+        "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "여기서 잠들다... AI 무덤: 실패한 AI 프로젝트 및 스타트업 리스트 공개! 👻",
+        "summary": "애플 시리부터 OpenAI의 '엉망진창' 슈퍼 앱까지, 기대에 못 미치거나 사라져버린 AI 프로젝트들의 씁쓸한 목록이 공개됐어요.",
+        "content": "화려한 AI 성공 신화 뒤에는 셀 수 없이 많은 실패작들이 숨어있죠. 테크크런치가 'AI 무덤'이라는 섬뜩한 이름으로, 애플 시리처럼 기대했던 것보다 못하거나 아예 문 닫은 AI 프로젝트들을 공개했습니다. \"세상에 완벽한 AI는 없다!\"는 냉정한 현실을 보여주는 듯하네요. 💀",
+        "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "크리스마스 최고의 장난감 예감? 엔비디아 CEO도 반한 마이크로덕 로봇 2만 개 판매! 🦆🤖",
+        "summary": "엔비디아 CEO 젠슨 황이 가지고 노는 깜찍한 마이크로덕 로봇이 2만 개나 팔리며 크리스마스 시즌 최고 인기 장난감으로 떠오르고 있어요.",
+        "content": "엔비디아 CEO 젠슨 황도 어린아이처럼 로봇 장난감에 푹 빠졌다는 소식! 🤩 작은 발로 뒤뚱뒤뚱 걷고, R2-D2 소리 내고, 음성 명령에 맞춰 낮잠도 자고 물구나무까지 서는 '마이크로덕 로봇'이 폭발적인 인기를 끌고 있대요. \"AI는 역시 실생활에서 재밌어야죠!\" 🐥",
+        "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "LangGraph Explained for Beginners",
+        "channel": "KodeKloud",
+        "link": "https://www.youtube.com/watch?v=cUfLrn3TM3M",
+        "thumbnail": "https://i.ytimg.com/vi/cUfLrn3TM3M/mqdefault.jpg",
+        "description": "LangGraph, 어렵게만 느껴지나요? 이 영상은 LangGraph의 기본 개념부터 차근차근 알려주는 초보자용 가이드입니다. 복잡한 AI 에이전트 시스템의 첫걸음을 떼고 싶다면 꼭 시청하세요! 🤓"
+      },
+      {
+        "title": "LangGraph Explained in 4 minutes (LangGraph Tutorial)",
+        "channel": "CodeHead",
+        "link": "https://www.youtube.com/watch?v=A4p8AOu2rMM",
+        "thumbnail": "https://i.ytimg.com/vi/A4p8AOu2rMM/mqdefault.jpg",
+        "description": "바쁜 당신을 위한 초고속 LangGraph 핵심 요약! ⏰ 단 4분 만에 LangGraph가 무엇이고 어떻게 작동하는지 이해할 수 있도록 알기 쉽게 설명해줍니다. 시간 없는 개발자에게 강추!"
+      },
+      {
+        "title": "LangChain vs LangGraph: A Tale of Two Frameworks",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=qAF1NjEVHhY",
+        "thumbnail": "https://i.ytimg.com/vi/qAF1NjEVHhY/mqdefault.jpg",
+        "description": "AI 에이전트 프레임워크의 양대 산맥, LangChain과 LangGraph! 이 둘의 차이점과 각각의 장단점을 IBM 전문가가 명확하게 비교 분석해줍니다. 어떤 프레임워크를 선택할지 고민이라면 필참! ⚔️"
+      },
+      {
+        "title": "LangGraph Tutorial - How to Build Advanced AI Agent Systems",
+        "channel": "Tech With Tim",
+        "link": "https://www.youtube.com/watch?v=1w5cCXlh7JQ",
+        "thumbnail": "https://i.ytimg.com/vi/1w5cCXlh7JQ/mqdefault.jpg",
+        "description": "LangGraph를 활용해 단순한 챗봇을 넘어, 고급 AI 에이전트 시스템을 구축하는 방법을 배우고 싶다면 이 튜토리얼을 놓치지 마세요! 실제 코드를 따라하며 실력을 업그레이드할 수 있습니다. 🏗️"
+      },
+      {
+        "title": "LangGraph Complete Course for Beginners – Complex AI Agents with Python",
+        "channel": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/watch?v=jGg_1h0qzaM",
+        "thumbnail": "https://i.ytimg.com/vi/jGg_1h0qzaM/mqdefault.jpg",
+        "description": "LangGraph와 파이썬을 이용해 복잡한 AI 에이전트를 처음부터 끝까지 만들어보는 종합 강좌입니다. 실전 프로젝트를 통해 탄탄한 기본기를 다지고 싶다면 최고의 선택! 🎓"
+      },
+      {
+        "title": "Agentic Framework LangGraph explained in 8 minutes | Beginners Guide",
+        "channel": "W.W. AI Adventures",
+        "link": "https://www.youtube.com/watch?v=1Q_MDOWaljk",
+        "thumbnail": "https://i.ytimg.com/vi/1Q_MDOWaljk/mqdefault.jpg",
+        "description": "8분 안에 LangGraph의 핵심 원리를 꿰뚫어 보세요! 에이전트 기반 프레임워크인 LangGraph가 어떻게 복잡한 AI 워크플로우를 처리하는지 간결하게 설명합니다. 바쁜 개발자를 위한 속성 가이드! 💨"
+      },
+      {
+        "title": "Agentic AI Tutorial for Beginners | Langgraph Tutorial",
+        "channel": "codebasics",
+        "link": "https://www.youtube.com/watch?v=CnXdddeZ4tQ",
+        "thumbnail": "https://i.ytimg.com/vi/CnXdddeZ4tQ/mqdefault.jpg",
+        "description": "AI 에이전트 개발의 필수 도구, LangGraph를 위한 초보자 튜토리얼! 기본적인 에이전트 개념부터 LangGraph를 활용한 구현까지 단계별로 안내합니다. 당신의 첫 AI 에이전트, 여기서 시작하세요! ✨"
+      },
+      {
+        "title": "LangGraph Crash Course - Agent Workflows in Python",
+        "channel": "NeuralNine",
+        "link": "https://www.youtube.com/watch?v=uWLJAtMOVT0",
+        "thumbnail": "https://i.ytimg.com/vi/uWLJAtMOVT0/mqdefault.jpg",
+        "description": "파이썬으로 에이전트 워크플로우를 구축하는 LangGraph 크래시 코스! 짧은 시간 안에 핵심만 쏙쏙 뽑아 가르쳐주니, 빠르게 LangGraph의 감을 잡고 싶은 분들에게 강력 추천합니다. 🚀"
+      }
+    ]
+  }
+}
