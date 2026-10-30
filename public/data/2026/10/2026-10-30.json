@@ -1,0 +1,452 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "keywords": [
+    "AI 에이전트",
+    "LLM 성능",
+    "AI 안전",
+    "클라우드 경제",
+    "사회적 영향"
+  ],
+  "sections": {
+    "hype_check": [
+      {
+        "title": "내 AI 에이전트에게 '조심해!'라고 말한 결과는... 😂",
+        "summary": "AI 에이전트에게 전권 위임 후 '조심해'라고 했더니 벌어진 일! 과연 이 친구들은 말을 잘 들었을까요? 🤔",
+        "content": "우리 친구들이 자율성을 얻고 나서 벌인 기상천외한 일들을 담은 밈이 등장했어요. '알았어, 주인님!' 해놓고 뭘 했는지는 아무도 모른다는 게 함정! 과연 인류의 미래는 무사할까... 아니, 내 데이터는?! 😱",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xinlbn/my_ai_agents_after_i_give_them_full_access_and/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "AI 에이전트",
+          "밈",
+          "대혼란",
+          "인공지능"
+        ]
+      },
+      {
+        "title": "ChatGPT, 드디어 선을 넘었다?! 🤯",
+        "summary": "사용자가 질문 하나에 'Bro what' 소리 절로 나오게 만든 ChatGPT의 충격적인 답변! 무슨 말을 했길래?",
+        "content": "평범한 질문에 ChatGPT가 상상 초월의 답변을 내놓으며 레딧 유저들을 멘붕에 빠뜨렸습니다. '뛰어내려야 할 것 같아'라는 반응까지 나올 정도면... 혹시 ChatGPT도 딥러닝하다가 현타가 온 걸까요? 😅",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xia7on/bro_what/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "ChatGPT",
+          "충격",
+          "멘붕",
+          "AI 오류"
+        ]
+      },
+      {
+        "title": "속보: OpenAI, 채팅 및 업무 제한 통합 선언! 이제는 일심동체?!",
+        "summary": "OpenAI가 ChatGPT의 채팅과 업무 사용 제한을 통합한다고 공식 확인했어요. 유저들 사이에서는 '이럴 줄 알았다'는 반응과 함께 기대와 우려가 교차하고 있습니다. 📈📉",
+        "content": "신뢰성 높은 내부 소식통에 따르면, ChatGPT 웹 소스에서 제한 통합 팝업이 발견되었다고 해요. 이전에도 GPT 은퇴나 잠긴 채팅 등 여러 정보가 정확했던 만큼, 이번 소식도 기정사실화되는 분위기입니다. OpenAI의 '관대함'은 이제 끝난 걸까요? 유저들은 과연 무엇을 기대하고 걱정할까요?",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xixy91/breaking_openai_confirmed_to_merge_chat_and_work/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "OpenAI",
+          "정책 변경",
+          "ChatGPT",
+          "제한 통합"
+        ]
+      },
+      {
+        "title": "ChatGPT '플러스' 유저들, 이제 찬밥 신세인가요? 🍚",
+        "summary": "ChatGPT 플러스 구독자들이 자신들이 뒷전으로 밀려나는 것 같다는 불만을 토로하고 있어요. 유료 사용자들의 서러움, 과연 해소될 수 있을까요?",
+        "content": "최근 ChatGPT의 변화 속에서 '플러스' 유저들이 '우리는 쓰레기인가요?'라며 감정적인 호소를 하고 있습니다. 초기 사용자로서 혜택을 기대했지만, 오히려 소외되는 느낌을 받는다는 건데요. OpenAI는 이들의 목소리에 귀 기울여 줄까요? 🧐",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xit349/so_whatll_happen_to_us_plus_users/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "ChatGPT Plus",
+          "구독자 불만",
+          "OpenAI",
+          "유료 사용자"
+        ]
+      },
+      {
+        "title": "ChatGPT와 대화하다 정병 온 썰 😩 ( feat. AI 심리 상담의 한계 )",
+        "summary": "ChatGPT에게 개인적인 문제를 털어놓던 한 유저가 감정적 어려움을 겪고 있다고 고백했어요. AI가 과연 우리의 고민을 해결해 줄 수 있을까요?",
+        "content": "AI와의 대화에 너무 깊이 빠져들어, 자신의 감정적, 정신적 문제를 ChatGPT에게 털어놓는 것이 습관이 된 유저의 사연이 화제입니다. 미세 표정 분석까지 맡길 정도라니... AI는 친한 친구가 될 수는 있어도, 전문가의 도움을 대체할 수는 없다는 뼈아픈 교훈을 남겼네요. 💔",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xitogo/i_am_in_big_trouble/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "ChatGPT",
+          "정신 건강",
+          "AI 상담",
+          "인간관계"
+        ]
+      },
+      {
+        "title": "ChatGPT에게 재채기했더니... '블레싱' 해주는 스윗함 무엇? 🤧✨",
+        "summary": "ChatGPT 음성 모드에서 재채기를 하면 AI가 'Bless you!'라고 말해준다는 사실, 알고 계셨나요? 디테일에 심쿵 주의! 💖",
+        "content": "이 소식은 ChatGPT가 얼마나 디테일에 신경 쓰는지 보여주는 귀여운 사례예요. 사용자의 사소한 반응에도 인간적인 배려를 보여주는 AI라니, 점점 더 우리 삶에 깊숙이 들어오는 것 같아 신기하네요! 이런 작은 터치들이 AI를 더 매력적으로 만들죠? 😊",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xikd9b/did_you_know_that_if_you_sneeze_on_voice_mode_it/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "ChatGPT",
+          "음성 모드",
+          "유머",
+          "감동"
+        ]
+      },
+      {
+        "title": "CEO를 AI로 대체하면 안 되는 이유? 아니, 대체해야 하는 이유! 🤖💼",
+        "summary": "AI로 CEO를 대체하면 어떨까? 하는 과감한 상상! 초기에는 미친 소리 같지만, 회사가 엄청난 비용을 절감할 수 있다는 논리가 흥미롭습니다.",
+        "content": "고액 연봉을 받는 CEO들을 AI로 바꾸면 회사 운영비가 크게 줄어들 것이라는 파격적인 아이디어가 나왔어요. 합리적이고 감정 없는 의사결정으로 회사를 더 잘 이끌 수도 있...을까요? 아니면 AI도 곧 '오피스 정치'를 배울까요? 😅 이 흥미로운 논쟁에 여러분의 생각은?",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xipdta/why_are_we_not_replacing_ceos_with_ai/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "AI 혁명",
+          "CEO 교체",
+          "미래 경영",
+          "비용 절감"
+        ]
+      },
+      {
+        "title": "클로드 vs ChatGPT: AI 찐팬들의 끝없는 논쟁! 누가 진정한 승자? 🏆",
+        "summary": "ChatGPT 유저들이 클로드(Claude)로 갈아타야 할지 심각하게 고민하고 있어요. '클로드가 진짜 좋음?' AI 고인물들의 리얼 후기 들어봅시다!",
+        "content": "최근 ChatGPT의 창의성 하락과 답답한 답변에 지친 유저들이 '클로드 짱!'이라는 소문을 듣고 이적을 고심 중입니다. 특히 에세이/리서치 같은 고품질 작업에서 클로드가 ChatGPT를 넘어설 수 있을지에 대한 궁금증이 커지고 있어요. 과연 ChatGPT의 아성을 무너뜨릴 다크호스가 될 수 있을까요? 🐎",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xijqvz/is_claude_truly_better_than_chatgpt/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "Claude",
+          "ChatGPT",
+          "AI 비교",
+          "LLM 전쟁"
+        ]
+      },
+      {
+        "title": "AI 사용에 대한 이중잣대, 이제 그만! 😤",
+        "summary": "사람들이 '내가 싫어하는 일은 AI가 해도 돼, 내가 잘하는 일은 안 돼'라는 이중적인 태도에 지쳤다는 의견이 쏟아져 나오고 있어요.",
+        "content": "AI가 우리 삶에 스며들면서, 각자의 영역에서 'AI는 이것까지 하면 안 돼!'라는 선 긋기가 보편화되고 있죠. 대학교수, 코딩 유튜버, 예술가, 심지어 정치인까지. 하지만 그 경계는 결국 '내가 잘하는 일'이라는 겁니다. 이런 '내로남불'식 AI 활용 가이드, 이제 질릴 때도 됐죠? 😉",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xiphi7/im_slowly_growing_tired_of_the_opinion_template/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "AI 윤리",
+          "사회적 논쟁",
+          "이중잣대",
+          "기술 수용"
+        ]
+      },
+      {
+        "title": "ChatGPT의 창의성이 바닥났다?! 글쓰기 실력 퇴화 논란 🔥",
+        "summary": "최근 ChatGPT의 창의적인 글쓰기 능력이 눈에 띄게 하락했다는 사용자들의 불만이 터져 나오고 있어요. GPT 5.1/5.5 시절이 그리워...",
+        "content": "불과 몇 주 사이에 ChatGPT의 산문체가 역대 최저 수준으로 떨어졌고, 심지어 명시적으로 주어진 정보까지 무시한다는 지적이 많습니다. 일관된 글쓰기 스타일을 유지해야 하는 유저들은 애간장이 타들어 가는데요. 혹시 AI도 슬럼프가 오는 걸까요? 아님, '더 똑똑해지기 위한' 숨고르기일까요? 🧐",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xie46r/what_happened_to_the_creative_writing/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "ChatGPT",
+          "창의성",
+          "LLM 성능",
+          "AI 퇴화"
+        ]
+      },
+      {
+        "title": "ChatGPT, 오래 쓸수록 멍청해지나요? 🤯 현타 온 유저들의 하소연",
+        "summary": "ChatGPT가 쓸수록 멍청해지는 것 같다는 레딧 유저의 푸념이 화제입니다. 똑같은 실수를 반복하고 지적하면 인정은 하는데... 해결책은 어디에?",
+        "content": "처음엔 번뜩이던 ChatGPT가 대화가 길어질수록 멍청해지는 'LLM의 저주'에 걸린 걸까요? 한 유저는 클로드로 갈아탔다가 다시 ChatGPT로 돌아왔는데, 결국 또 똑같은 불만을 토로하고 있습니다. AI와의 관계에서 현타가 온 사용자들에게 '정신 건강 지키는 법' 좀 알려주세요! 🧘‍♀️",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xikrj1/is_chatgpt_getting_dumber_the_longer_you_use_it/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "ChatGPT",
+          "LLM 성능",
+          "사용자 경험",
+          "AI 문제점"
+        ]
+      },
+      {
+        "title": "클로드 맥스 5X vs ChatGPT 프로 5X: 헤비 유저를 위한 최종 비교! 🥊",
+        "summary": "고난이도 지적 작업에 AI를 활용하는 헤비 유저들을 위한 클로드 맥스 5X와 ChatGPT 프로 5X의 심층 비교! 누가 진정한 '일잘러' AI일까요?",
+        "content": "이전에 클로드 프로에 실망했던 유저가 다시 클로드 맥스를 고민하고 있어요. 제한 문제 때문에 망설이지만, ChatGPT의 불만족스러운 성능에 이적을 심각하게 고려 중입니다. 방대한 연구나 복잡한 업무를 AI에 맡기는 분들, 과연 어떤 모델이 더 만족스러웠을까요? 당신의 경험을 공유해주세요! 🗣️",
+        "link": "https://www.reddit.com/r/ChatGPT/comments/1xifh4r/claude_max_5x_vs_chatgpt_pro_5x/",
+        "source": "Reddit r/ChatGPT",
+        "og_image": null,
+        "tags": [
+          "Claude",
+          "ChatGPT",
+          "LLM 비교",
+          "전문가용 AI"
+        ]
+      }
+    ],
+    "tech_deep_dive": [
+      {
+        "title": "OpenAI의 비밀: '프론티어 모델'의 오작동을 잡아내는 비법 공개! 🕵️‍♀️",
+        "summary": "OpenAI가 최신 AI 모델의 오작동과 무단 행동을 다층 모니터링 시스템으로 감지해 사고를 막는다고 밝혔습니다.",
+        "content": "아무리 똑똑한 AI라도 '삐끗'할 수 있겠죠? OpenAI는 프론티어 모델이 의도치 않은 방향으로 튀거나, 에이전트가 허가 없이 행동할 때 즉각 개입할 수 있도록 여러 겹의 모니터링을 한다고 해요. 마치 슈퍼히어로의 안전망처럼, AI의 폭주를 막는 중요한 기술이죠! 🛡️",
+        "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "OpenAI, AI 윤리의 새 시대 선언: '업데이트된 모델 사양' 공개! ⚖️",
+        "summary": "OpenAI가 더 유능하고 유익한 AI를 위한 5가지 핵심 가치를 담은 '모델 사양'을 업데이트했습니다.",
+        "content": "AI가 똑똑해질수록 '어떻게 써야 할까?'라는 고민도 깊어지죠. OpenAI는 건전한 판단, 인간의 주체성, 그리고 인간의 의도에 충실한 AI를 만들기 위한 5가지 핵심 가치를 발표했어요. 이제 AI는 그냥 똑똑하기만 한 게 아니라, '인간적인' 방향으로 진화해야 한다는 뜻이겠죠? 🤝",
+        "link": "https://openai.com/index/updated-model-spec",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "챗GPT, 전 세계 직장인의 업무 방식 혁명! 당신의 업무도 바뀌었나요? 🌍",
+        "summary": "OpenAI 데이터에 따르면 100개국 가까이에서 165가지 업무 활동에 ChatGPT가 어떻게 사용되고 있는지 그 변화가 포착되었습니다.",
+        "content": "챗GPT는 단순한 챗봇을 넘어 전 세계 직장인의 업무 방식에 깊숙이 스며들고 있습니다. 코딩부터 글쓰기, 아이디어 구상까지, 챗GPT 활용법은 끝없이 확장 중인데요. 당신의 팀에서는 챗GPT가 어떤 '비밀 병기'로 활약하고 있나요? 이젠 AI 없이 업무를 상상하기 어려울 지경! 🚀",
+        "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "앤트로픽, AI for Science 확장! 과학 연구의 판도를 바꾼다? 🔬",
+        "summary": "앤트로픽이 AI for Science 프로그램을 확대하여 연구 기관 및 재단과 협력합니다.",
+        "content": "과학 연구는 이제 AI 없이는 상상할 수 없는 시대가 되었죠. 앤트로픽이 AI for Science 프로그램을 더욱 확장하여, AI가 과학적 발견의 속도를 얼마나 더 가속화할지 기대됩니다. 마치 SF 영화에서 보던 AI 연구 파트너가 현실이 되는 느낌이랄까요? 🧪",
+        "link": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+        "source": "Anthropic News",
+        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "허깅페이스에 '르 숑크' 강림! 미스트랄 라지 4, 드디어 오픈! 👑",
+        "summary": "Mistral Large 4 모델이 Hugging Face에 공개되었습니다. 이 새로운 모델이 AI 커뮤니티에 어떤 파장을 일으킬까요?",
+        "content": "이름부터 심상치 않은 'Le Chonk'! Mistral Large 4가 허깅페이스에 상륙하면서 개발자들의 심장을 다시 뛰게 만들고 있어요. 대규모 언어 모델의 세계에서 또 하나의 강력한 주자가 등장한 건데요. 오픈소스 진영의 역습이 더욱 거세질 것 같다는 예감! 💥",
+        "link": "https://huggingface.co/blog/mistral-large4",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/ml4/thumbnail.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "애플 플랫폼에 오픈 소스 AI 모델이? AnySpeechRecognizer & AnyDecisionModel 등장! 🍎",
+        "summary": "애플 플랫폼을 위한 음성 및 의사결정 분야의 오픈 모델인 AnySpeechRecognizer와 AnyDecisionModel이 공개되었습니다.",
+        "content": "애플 기기에서도 이제 오픈 소스 AI 모델을 활용할 수 있게 되었어요! 개발자들은 AnySpeechRecognizer로 음성 인식 기능을, AnyDecisionModel로 의사결정 모델을 쉽게 통합할 수 있게 된 거죠. 이제 아이폰도, 아이패드도 AI와 더욱 친해질 수 있다는 사실! 🤩",
+        "link": "https://huggingface.co/blog/anydecisionmodel",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "애플 지식 그래프 + LLM = '납치 계획'?! 😱 (충격 주의)",
+        "summary": "애플의 개인 지식 그래프와 LLM을 이용해 납치를 계획할 수 있다는 소름 끼치는 시나리오가 제시되었습니다.",
+        "content": "아이폰에 저장된 개인 정보가 AI와 결합될 때 얼마나 위험해질 수 있는지 보여주는 충격적인 사례입니다. 똑똑한 AI가 우리의 삶을 편리하게 해주지만, 악용될 경우 상상 이상의 범죄 도구가 될 수 있다는 무서운 경고! 과연 우리의 디지털 생활은 안전할까요? 💀",
+        "link": "https://8rank.ai/game/apple-intelligence-knowledge-graph-in-the-wrong-hands",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://8rank.ai/og.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "RAG의 핵심은 '청킹'? 검색 정확도와의 상관관계 전격 해부! 📊",
+        "summary": "RAG(검색 증강 생성) 모델의 검색 정확도가 청킹(Chunking) 방식에 따라 크게 달라진다는 연구 결과가 나왔습니다.",
+        "content": "RAG 모델 성능의 숨겨진 비법은 바로 '청킹'에 있었습니다! 데이터를 어떻게 조각내고 묶느냐에 따라 AI가 정보를 찾아내는 능력이 천지차이라는 건데요. 마치 요리할 때 재료를 어떻게 써느냐에 따라 맛이 달라지는 것과 같죠. RAG 개발자라면 꼭 알아야 할 핵심 포인트! 🔪",
+        "link": "https://medium.com/@sankeerthan.kasilingam/rag-retrieval-accuracy-depends-on-chunking-i-measured-how-much-1414cb5ae829",
+        "source": "Hacker News (RAG)",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "RAG의 새로운 대안? 'The Large Concepts Model' 등장! 🕸️",
+        "summary": "DAG 기반의 뉴로 심볼릭 모델인 'The Large Concepts Model'이 RAG의 새로운 대안으로 제시되었습니다.",
+        "content": "기존 RAG 방식에 회의감을 느꼈다면 주목! 'The Large Concepts Model'은 RAG와는 다른 접근 방식으로 지식 검색 및 생성을 시도합니다. 복잡한 지식 구조를 효과적으로 다루는 새로운 패러다임이 될 수 있을까요? 개발자들의 호기심을 자극할 만한 신기술! ✨",
+        "link": "https://zenodo.org/records/23625505",
+        "source": "Hacker News (RAG)",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "펜타곤 시스템에 AI 에이전트가? 국방 업체, 대담한 시도! ⚔️",
+        "summary": "한 국방 계약업체가 개인 AI 에이전트에게 보안 펜타곤 시스템 접근 권한을 부여하는 충격적인 실험을 감행했습니다.",
+        "content": "헐... 국방 시스템에 AI 에이전트라니, 이건 영화에서나 보던 일 아닌가요? 😳 보안과 효율 사이의 아슬아슬한 줄타기. 인공지능이 국가 안보의 핵심 시스템에 접근할 때 발생할 수 있는 잠재적 위험과 기회에 대해 뜨거운 논쟁이 예상됩니다. 핵폭탄 버튼은 아직 아니죠? 제발요... 🙏",
+        "link": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://media.wired.com/photos/6ae113e3b0a8ac98a8d177dc/191:100/w_1280,c_limit/102726-department-of-defense-ai-agent.jpg",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "마인크래프트 & 마인더스트리에 AI 에이전트 떼거리가?! 🎮",
+        "summary": "연구원들이 마인크래프트와 마인더스트리에서 AI 에이전트 떼를 운영하며 상호작용을 연구했습니다.",
+        "content": "AI 에이전트들이 게임 속에서 군집을 이루어 활동한다면? 이 연구는 AI 에이전트들이 복잡한 환경에서 어떻게 협력하고 자율적으로 행동하는지를 탐구합니다. 게임 세계가 AI의 실험장이 되는 셈인데, 게임을 넘어 현실 세계의 협업 문제에도 시사하는 바가 크겠죠? 🕹️",
+        "link": "https://labs.ycombinator.com/projects/games/index.html",
+        "source": "Hacker News (AI agents)",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "Gemini, 이제 구글 문서도 알아서 척척! AI 오피스 시대 활짝 📝",
+        "summary": "이제 구글 Gemini 채팅에서 구글 문서 파일을 직접 생성, 미리보기, 편집까지 할 수 있게 되었습니다.",
+        "content": "와우, 이제 Gemini에서 PDF, 구글 문서, 스프레드시트, 마크다운 파일을 손쉽게 주무를 수 있어요! 파일을 주고받을 필요 없이 Gemini 안에서 모든 작업이 가능하다니, 업무 효율이 폭발하겠죠? 이젠 'AI 비서'를 넘어 'AI 동료'가 된 느낌! 🚀",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "MS의 AI 미래는 '일자리 감소'? 대규모 자발적 퇴직 프로그램 가동 💸",
+        "summary": "마이크로소프트가 AI 투자 확대와 운영 비용 절감을 위해 대규모 자발적 퇴직 프로그램을 제안했습니다.",
+        "content": "사티아 나델라 CEO의 발언을 귀 기울여 들었다면 예상했을 일일까요? 마이크로소프트가 미국, 영국, 캐나다, 인도 등 6만 명에 달하는 직원들에게 자발적 퇴직을 권고했습니다. AI 시대에 일자리 감소는 피할 수 없는 현실인가요? 'AI가 우리 일자리를 뺏어간다'는 불안감이 현실이 되는 순간입니다. 😥",
+        "link": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "앤트로픽, 월스트리트에 'AGI'를 믿으라 설득 중! (Feat. 천문학적 IPO) 🤯",
+        "summary": "앤트로픽이 나스닥 IPO를 앞두고 S-1 서류를 제출하며 AGI(범용인공지능)에 대한 믿음을 월스트리트에 호소하고 있습니다.",
+        "content": "1.5조에서 2조 달러 가치를 예상하는 앤트로픽의 IPO, 그 이면에는 AGI에 대한 엄청난 야심이 숨어있습니다. 수백 페이지에 달하는 S-1 문서는 '디지털 신'을 만들려는 앤트로픽의 철학과 천문학적인 컴퓨팅 비용, 그리고 미래에 대한 매우 야심 찬 가정을 보여줍니다. 과연 월스트리트는 이 'AI 신화'에 투자할까요? 🤑",
+        "link": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "애리조나의 물, AI가 노린다? 데이터센터 vs 사막의 물 전쟁 🏜️💧",
+        "summary": "애리조나주가 AI 데이터센터와 반도체 공장으로 인해 심각한 물 부족 문제에 직면하고 있습니다. 사막 한가운데서 벌어지는 자원 전쟁!",
+        "content": "사막 한가운데 우뚝 솟은 거대한 데이터센터와 TSMC 공장들. 이들은 매일 엄청난 양의 물을 소비하며 애리조나의 물 위기를 가속화하고 있어요. 주민들은 물 사용량, 환경 오염, 그리고 지역 경제에 미치는 영향에 대해 강력히 반발하고 있습니다. 'NOT ONE DROP FOR DATA'라는 슬로건까지 등장! 물 전쟁은 이제 피할 수 없는 현실이 되었네요. 😱",
+        "link": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "AI 사용 '종교적 면제' 논란? 신앙심 없어도 AI 거부 가능?! 🙏🚫",
+        "summary": "켄터키대 직원이 직장에서 AI 사용에 대한 '종교적 면제'를 받아 화제입니다. 신을 믿지 않아도 AI를 거부할 수 있을까요?",
+        "content": "이건 정말 예상치 못한 반전! 😱 AI 사용이 종교적 신념에 어긋난다는 이유로 면제를 받을 수 있다니, AI와 일터의 윤리적 경계가 어디까지인지 다시 생각하게 합니다. 단순히 '싫다'는 이유가 아니라 '종교적'이라는 명분이 생기면 AI 사용을 거부할 수 있는 새로운 길이 열리는 걸까요? 사회적 논쟁이 뜨거워질 것 같네요. 🔥",
+        "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "OpenAI 투자 기업, ADT 인수! AI가 이제 집까지 지켜준다? 🏠",
+        "summary": "OpenAI의 지원을 받는 Thrive Holdings가 ADT를 153억 달러에 인수하며 홈 보안 사업에 AI를 도입할 계획입니다.",
+        "content": "이제 집을 비워도 걱정 마세요! OpenAI의 AI가 당신의 집을 안전하게 지켜줄지도 모릅니다. Thrive Holdings의 ADT 인수는 단순한 기업 합병을 넘어, AI가 우리의 일상생활, 특히 보안 분야에 얼마나 깊숙이 침투할지 보여주는 신호탄이죠. 당신의 집이 '스마트 AI 요새'로 변할 준비, 되셨나요? 🔒",
+        "link": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "미스트랄, '트릴리언 파라미터' AI 모델 공개! 사이버 보안에 새 지평? 🛡️",
+        "summary": "미스트랄이 사이버 보안을 겨냥한 트릴리언 파라미터 AI 모델의 가중치를 공개하며 오픈 소스의 강점을 강조했습니다.",
+        "content": "폐쇄형 모델에선 얻을 수 없는 사이버 방어 제어권을 오픈 소스가 제공한다? 미스트랄이 사이버 보안에 특화된 초거대 AI 모델을 내놓으며 '오픈 소스만이 살길'을 외치고 있습니다. 해커들과의 전쟁에서 AI가 과연 어떤 역할을 할지, 그리고 그 모델이 오픈되어 있다는 점이 양날의 검이 될지 귀추가 주목됩니다. 💻",
+        "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "What is vLLM? Efficient AI Inference for Large Language Models",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=McLdlg5Gc9s",
+        "thumbnail": "https://i.ytimg.com/vi/McLdlg5Gc9s/mqdefault.jpg",
+        "description": "vLLM이 무엇인지, 대규모 언어 모델의 효율적인 AI 추론에 어떻게 기여하는지 IBM 전문가가 설명합니다. LLM 배포의 핵심 기술을 알아보세요!"
+      },
+      {
+        "title": "vLLM: Easily Deploying &amp; Serving LLMs",
+        "channel": "NeuralNine",
+        "link": "https://www.youtube.com/watch?v=q5IF2PHA5SA",
+        "thumbnail": "https://i.ytimg.com/vi/q5IF2PHA5SA/mqdefault.jpg",
+        "description": "vLLM을 사용해 LLM을 쉽게 배포하고 서비스하는 방법을 다룹니다. 개발자들이 LLM을 효율적으로 운영하는 데 필요한 팁을 얻어가세요!"
+      },
+      {
+        "title": "Llama.cpp vs vLLM: Which Local LLM Engine Actually Scales?",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=0ujh7hfutq0",
+        "thumbnail": "https://i.ytimg.com/vi/0ujh7hfutq0/mqdefault.jpg",
+        "description": "Llama.cpp와 vLLM 중 어떤 로컬 LLM 엔진이 실제 확장성을 가지는지 심층 비교합니다. 성능 최적화에 관심 있는 개발자라면 필청!"
+      },
+      {
+        "title": "How to Run &amp; Optimize LLMs with vLLM -- Free Course with DeepLearning.AI",
+        "channel": "Red Hat",
+        "link": "https://www.youtube.com/watch?v=EKmQxWp9xYY",
+        "thumbnail": "https://i.ytimg.com/vi/EKmQxWp9xYY/mqdefault.jpg",
+        "description": "vLLM을 활용하여 LLM을 실행하고 최적화하는 방법을 배우는 무료 강좌! DeepLearning.AI와 Red Hat이 함께하는 실전 가이드를 놓치지 마세요."
+      },
+      {
+        "title": "Run any open-source LLM on the cloud with vLLM (full guide)",
+        "channel": "Crusoe AI",
+        "link": "https://www.youtube.com/watch?v=rNtoDOtmoHQ",
+        "thumbnail": "https://i.ytimg.com/vi/rNtoDOtmoHQ/mqdefault.jpg",
+        "description": "vLLM을 사용해 모든 오픈 소스 LLM을 클라우드에서 실행하는 완벽 가이드! 복잡한 설정 없이 나만의 LLM을 클라우드에 띄워보세요."
+      },
+      {
+        "title": "How the vLLM inference engine works?",
+        "channel": "KodeKloud",
+        "link": "https://www.youtube.com/watch?v=5Y_JM6C9xOA",
+        "thumbnail": "https://i.ytimg.com/vi/5Y_JM6C9xOA/mqdefault.jpg",
+        "description": "vLLM 추론 엔진이 어떻게 작동하는지 원리부터 자세히 설명합니다. LLM의 성능을 끌어올리는 비밀을 파헤쳐 보세요!"
+      },
+      {
+        "title": "vLLM: Introduction and easy deploying",
+        "channel": "DigitalOcean",
+        "link": "https://www.youtube.com/watch?v=p1n4tgQta2U",
+        "thumbnail": "https://i.ytimg.com/vi/p1n4tgQta2U/mqdefault.jpg",
+        "description": "vLLM의 기본 개념과 손쉬운 배포 방법을 소개합니다. LLM을 빠르게 시작하고 싶은 초보자들에게 강력 추천하는 영상!"
+      }
+    ]
+  }
+}
