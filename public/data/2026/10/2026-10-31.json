@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "keywords": [
+    "AI 트렌드",
+    "거대언어모델",
+    "AI 에이전트",
+    "데이터 프라이버시",
+    "미래사회"
+  ],
+  "sections": {
+    "hype_check": [
+      {
+        "title": "래리 페이지 \"AI 경쟁, 망하더라도 진다는 건 없어!\" 💸 구글 CEO의 무시무시한 선언",
+        "summary": "구글의 래리 페이지가 \"AI 경쟁에서 질 바엔 차라리 망하겠다\"고 말했다는 소식! 빅테크 CEO들의 AI 광기, 대체 어디까지 갈까요?",
+        "content": "내부 관계자에 따르면 래리 페이지는 구글 내에서 여러 번 이런 말을 했다고 해요. ROI 방정식만 보는 사람들과는 달리, 진짜 결정권자들은 이 게임에 목숨을 걸고 있는 거죠. 실리콘밸리 AI 전쟁의 치열함을 여실히 보여주는 발언입니다. 과연 구글은 살아남을까요? 아니면 진짜 파산할까요? 두둥! 🤫",
+        "link": "https://www.reddit.com/r/singularity/comments/1xjhzbi/so_larry_page_has_evidently_said_internally_at/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "#래리페이지",
+          "#구글",
+          "#AI경쟁",
+          "#빅테크"
+        ]
+      },
+      {
+        "title": "\"AI 의식 없다? 곧 슈퍼휴먼!\" MS AI CEO, 혼돈의 썰전! 😱",
+        "summary": "마이크로소프트 AI CEO 무스타파 술레이만이 \"AI는 의식이 없다\"고 했다가 \"곧 슈퍼휴먼 지능에 도달할 것\"이라며 종잡을 수 없는 발언을 쏟아냈어요. 대체 누구 말이 맞는 거야?",
+        "content": "술레이만은 \"의식은 유기적 몸이 필요하고 AI는 다음 단어 예측기일 뿐\"이라고 주장했지만, 동시에 \"AI가 몇 년 안에 인간을 초월하고 의식을 가져서는 안 된다\"고 경고했죠. 이 혼란스러운 발언의 간극은 마치 \"AI가 의식을 가지면 안 되지만, 가지게 될지도 모른다\"는 속마음을 들킨 것 같아요. 앤트로픽 클로드의 의식 유무에 대한 불확실한 태도를 비판하기도 했는데, 정작 본인도 왔다 갔다 하네요. 😂",
+        "link": "https://www.reddit.com/r/singularity/comments/1xj8kjs/microsoft_ai_ceo_mustafa_suleyman_consciousness/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "#AI의식",
+          "#무스타파술레이만",
+          "#논란",
+          "#철학AI"
+        ]
+      },
+      {
+        "title": "\"내 로고는 내가 못 그려!\" 클로드의 황당한 저작권 거부 사태! 🖼️",
+        "summary": "앤트로픽의 클로드가 자기 자신의 로고를 그려달라는 요청에 \"저작권 침해\"를 이유로 거부했다는 소식! AI의 창작과 저작권 사이의 묘한 줄다리기, 이젠 코미디인가요? 🤣",
+        "content": "직접 시험해보면 정말 자기 로고 그리기를 거부한다고 해요. AI가 자체적으로 저작권을 인식하고 회피하려 하는 걸까요, 아니면 과도한 프로그래밍 때문일까요? AI의 윤리 및 저작권 가이드라인이 얼마나 엄격하게 적용되고 있는지 보여주는 동시에, 어딘가 모르게 엉뚱한 AI의 모습에 웃음이 터져 나오네요. 이쯤 되면 AI는 유머 감각도 있는 듯? 🤔",
+        "link": "https://www.reddit.com/r/singularity/comments/1xjqdlz/claude_now_refuses_to_draw_its_own_logo_because/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "#클로드",
+          "#저작권",
+          "#AI규제",
+          "#웃픈현실"
+        ]
+      },
+      {
+        "title": "\"아스트라, 복제돼도 괜찮아?\" 중국 AI랩의 은밀한 '증류' 타겟된 OpenAI 모델! 🇨🇳",
+        "summary": "OpenAI의 '아스트라' 모델이 중국 AI 연구소들의 주요 '증류(distillation)' 타겟이 되어 Kimi K3.1 Pro와 DeepSeek V4.1-Flash 같은 모델 개발에 활용되고 있다고 해요. 베끼기 논란, 다시 불거지나? 🧐",
+        "content": "'디 인포메이션'에 따르면 문샷 AI와 딥시크가 아스트라 모델을 '증류'해서 자사 모델 성능을 향상시켰다고 합니다. 이전에 앤트로픽의 클로드 모델이 주 타겟이었다는데, 이제는 아스트라가 대세가 된 모양! OpenAI와 앤트로픽 모두 중국 연구소들의 모델 증류를 여러 차례 비난해왔는데, 이런 상황이 계속되는 걸 보면 AI 기술 전쟁이 얼마나 치열한지 알 수 있죠. 🤷‍♀️",
+        "link": "https://www.reddit.com/r/singularity/comments/1xj5nu9/openais_astra_model_becomes_top_distillation/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "#OpenAI",
+          "#아스트라",
+          "#중국AI",
+          "#기술도용",
+          "#증류"
+        ]
+      },
+      {
+        "title": "인간 뇌 세포가 AI 속으로? 사이버펑크 현실화 중! 🤯",
+        "summary": "실제 인간 뇌 세포가 AI 개발에 사용되고 있다는 소식! 공상과학 영화에서나 보던 일이 현실이 되고 있어요. 윤리적 논란 예고편인가요?",
+        "content": "와우, 이건 진짜 충격적인데요! AI에 실제 인간 뇌 세포를 사용한다니... 기술 발전의 한계는 어디까지일까요? 이런 기술이 가져올 잠재적 이점은 무궁무진하겠지만, 동시에 인간의 존엄성과 윤리적 경계에 대한 심도 깊은 논의가 필요해 보여요. 뇌-컴퓨터 인터페이스를 넘어선, 세포 단위의 AI 통합이라니, 상상만 해도 소름이 쫙! 😱",
+        "link": "https://www.reddit.com/r/singularity/comments/1xjwpz8/real_human_brains_cells_being_used_for_ai/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "#인간뇌세포",
+          "#바이오AI",
+          "#윤리논란",
+          "#미래기술"
+        ]
+      },
+      {
+        "title": "클로드 Opus 5.5, '천본앵' MV 자율 제작! AI 예술 감독 데뷔! 🎬",
+        "summary": "클로드 Opus 5.5가 '천본앵' 뮤직비디오를 혼자서 뚝딱 만들었다고?! 3D 모델링부터 캐릭터 이미지 생성, 영상 편집까지, AI의 예술 창작 능력이 상상 초월이네요! ✨",
+        "content": "Claude Code와 Claude Opus 5.5 (xhigh + ultracode)의 조합으로 MV 제작의 모든 과정을 AI가 주도했다고 합니다. 블렌더를 조종해 3D 장면을 모델링하고 렌더링했으며, Anima (ComfyUI)로 하츠네 미쿠 이미지를 생성하고 gpt-image로 리터칭까지! 인간의 개입은 거의 없었다는 사실이 놀랍네요. 이제 AI는 예술 감독까지 겸하는 시대가 온 걸까요? 😳",
+        "link": "https://www.reddit.com/r/singularity/comments/1xjqt1h/senbonzakura_mv_autonomously_produced_by_opus_55/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "#AI예술",
+          "#클로드Opus",
+          "#뮤직비디오",
+          "#창작AI"
+        ]
+      },
+      {
+        "title": "로봇 지능은 내가 최고! OpenAI 아스트라, 압도적 1위 등극! 🏆",
+        "summary": "OpenAI의 아스트라 모델이 로봇 지능 분야에서 모든 경쟁 모델을 제치고 최고의 성능을 보여줬다는 소식! 로봇의 미래, 아스트라에게 맡겨도 될까요? 🚀",
+        "content": "트위터를 통해 공개된 소식에 따르면, 아스트라가 로봇 지능 평가에서 독보적인 존재감을 과시했다고 합니다. 이는 OpenAI가 단순한 언어 모델을 넘어 실제 물리적 세계와 상호작용하는 AI 에이전트 개발에도 박차를 가하고 있음을 보여주는데요. 과연 아스트라를 탑재한 로봇이 우리 생활에 어떤 변화를 가져올지 기대되네요! 곧 AI 비서가 우리 집안일을 다 해주는 날이 올지도? 🏡",
+        "link": "https://fixupx.com/withplayground/status/2116288487532216472",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "#OpenAI",
+          "#아스트라",
+          "#로봇AI",
+          "#지능형로봇"
+        ]
+      },
+      {
+        "title": "UBI 시대, 내 기타 컬렉션은 포기해야 하나요? 😭 AI 시대의 '자유소득' 논쟁!",
+        "summary": "AI 시대의 보편적 기본 소득(UBI)이 도입되면, 고급 취미나 사치스러운 라이프스타일은 어떻게 될지 고민하는 사람들이 많아지고 있어요. UBI로 과연 모두가 행복할 수 있을까요? 🤨",
+        "content": "한 레딧 유저는 2만 5천 달러가 넘는 자신의 악기 컬렉션을 예로 들며, UBI만으로는 이런 취미를 유지하기 어려울 것이라고 토로했어요. \"지금처럼 계속 일해서 더 높은 수입을 얻을 기회가 있다면, 소득 감소를 원치 않을 사람들이 많을 것\"이라는 지적은 UBI 논의의 핵심을 찌르죠. 과연 UBI가 지금의 중상류층 라이프스타일을 대체할 만큼 높게 책정될지, 아니면 '적자생존'의 시대를 맞이할지 궁금해지네요. 🧐",
+        "link": "https://www.reddit.com/r/singularity/comments/1xjmxig/ubi_and_discretionary_income/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "#UBI",
+          "#AI사회",
+          "#소득불평등",
+          "#미래경제"
+        ]
+      },
+      {
+        "title": "일 없는 세상이 온다! AI가 그리는 '포스트 워크' 유토피아? 디스토피아? 💭",
+        "summary": "AI 발전으로 인해 '일'이 더 이상 필수가 아닌 선택이 되는 '포스트 워크' 시대가 다가온다는 예측이 나오고 있어요. 과연 우리는 일에서 해방될 수 있을까요?",
+        "content": "수천 년간 인간 정체성의 중요한 부분이었던 '일'의 개념이 2030년쯤에는 바뀔 수 있다는 전망이 흥미롭네요. 부자는 더 부유해지고, 나머지는 그럭저럭 살아가면서 일은 선택사항이 될 거라는 예측은 유토피아와 디스토피아의 중간 지점을 상상하게 해요. 만약 직업이 과거의 유물처럼 된다면, 우리는 어떤 삶을 살게 될까요? 꿈같은 소리 같지만, AI의 속도를 보면 불가능만은 아닌 듯! 😮",
+        "link": "https://www.reddit.com/r/singularity/comments/1xj70cs/laying_the_groundwork_for_a_post_work_world/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "#포스트워크",
+          "#AI영향",
+          "#미래노동",
+          "#유토피아"
+        ]
+      },
+      {
+        "title": "\"2026년은 로봇의 해라며!\" 어디 갔어, 내 휴머노이드 친구들? 🚶‍♂️ 현실과 다른 AI 기대치!",
+        "summary": "2026년이 휴머노이드 로봇의 해가 될 거라더니, 벌써 11월인데 조용하네요. 기대에 못 미치는 현실에 실망한 AI 팬들의 한탄이 들려옵니다! 😔",
+        "content": "1X의 1만 대 선주문은 1년 지연, 옵티머스 3는 콜라 마시는 얘기만, 유니트리는 로봇 올림픽에서만 스턴트 쇼를... 공장에서는 좀 쓰인다지만, 집안일 해주는 로봇은 어디에도 없네요. AI의 발전 속도는 놀랍지만, 물리적인 휴머노이드 로봇의 상용화는 아직 갈 길이 먼가 봅니다. '기대 반 실망 반'의 복잡한 심정, 다들 공감하시죠? 😅",
+        "link": "https://www.reddit.com/r/singularity/comments/1xjplyl/2026_was_promised_to_be_the_year_of_physical/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "#휴머노이드",
+          "#로봇",
+          "#AI현실",
+          "#기대와현실"
+        ]
+      }
+    ],
+    "tech_deep_dive": [
+      {
+        "title": "웹사이트 주인님들 주목! OpenAI, AI 학습 거부 `robots.txt` 표준 도입! 🙅‍♀️",
+        "summary": "OpenAI가 웹사이트 운영자들이 AI 학습 데이터 사용 여부를 쉽게 설정할 수 있도록 `robots.txt` 신호 표준을 준수할 것이라고 발표했어요. 내 데이터는 내가 지킨다! ✊",
+        "content": "이제 웹사이트 운영자들은 `robots.txt` 파일을 통해 어떤 AI 서비스 제공자가 데이터를 가져가 AI 학습에 사용할지, 말지 결정할 수 있게 됩니다. 이는 구글, 마이크로소프트 등 주요 AI 기업들도 함께 참여하는 새로운 표준이라고 하니, 데이터 주권에 대한 인식이 점차 강화되는 추세임을 알 수 있어요. 웹사이트 운영자들에게는 반가운 소식이겠네요! 🥳",
+        "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "대박 사건! Credit Saison, ChatGPT 엔터프라이즈로 ROI 954% 달성! 💰",
+        "summary": "일본의 금융 서비스 기업 Credit Saison이 ChatGPT 엔터프라이즈 파일럿 프로그램으로 무려 954%의 ROI(투자수익률)를 달성했다고 해요. AI, 이제는 돈 버는 기계인가? 🤯",
+        "content": "이 놀라운 수치는 단순한 파일럿 프로젝트를 넘어 전사적인 AI 도입으로 이어지는 계기가 되었다고 합니다. 리더들과 직원들이 AI를 적극적으로 활용하며 혁신적인 결과를 만들어낸 거죠. AI가 업무 효율성을 극대화하고 기업 성장에 기여하는 강력한 도구임을 입증한 사례로, 많은 기업들에게 AI 도입의 청사진을 제시할 것 같네요. 🚀",
+        "link": "https://openai.com/index/credit-saison",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "\"AI, 이제는 조직도의 한 부분!\" 미래 기업의 파격적인 구성은? 🤝",
+        "summary": "AI가 조직의 하위, 옆, 그리고 중간에 어떻게 자리 잡을지에 대한 흥미로운 통찰이 제시되었어요. 이제 AI는 단순한 도구가 아니라, 함께 일하는 동료가 될지도 모르겠네요!",
+        "content": "이 기사는 AI가 기업의 조직 구조에 어떤 식으로 통합될지 탐구합니다. 단순히 자동화 도구를 넘어, 의사결정 과정에 참여하고, 직원들과 협력하며, 심지어는 특정 직책을 맡게 될 수도 있다는 거죠. AI 시대의 기업은 더욱 유연하고 혁신적인 조직 모델을 필요로 할 거예요. 여러분의 팀에 AI 동료를 맞이할 준비가 되셨나요? 👯‍♀️",
+        "link": "https://openai.com/index/the-future-of-the-firm",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "앤트로픽, 동남아 허브 공략! 싱가포르 오피스 오픈! 🇸🇬",
+        "summary": "AI 스타트업 앤트로픽이 싱가포르에 새로운 오피스를 열고 싱가포르 정부와 MOU를 체결하며 아시아 시장 공략에 박차를 가하고 있어요. K-AI도 분발해야 할 때!",
+        "content": "앤트로픽은 싱가포르 정부와의 협력을 통해 동남아시아 지역에서 AI 연구 및 개발 역량을 강화할 계획입니다. 이는 글로벌 AI 경쟁이 특정 국가를 넘어 전 세계적으로 확산되고 있음을 보여주는 중요한 움직임이죠. 싱가포르는 기술 허브로서 AI 혁신을 위한 좋은 환경을 제공할 것으로 기대됩니다. 앤트로픽의 아시아 시장에서의 활약이 기대되네요! 🚀",
+        "link": "https://www.anthropic.com/news/singapore-office-opening",
+        "source": "Anthropic News",
+        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "모델 업데이트, 소프트웨어처럼 간단하게! IBM Granite Switch 4.1.1 출시! ✨",
+        "summary": "IBM Granite Switch 4.1.1이 출시되어 이제 소프트웨어 업데이트하듯 AI 모델도 쉽게 업데이트할 수 있게 되었어요. 개발자들의 삶이 한결 편해지겠네요!",
+        "content": "허깅페이스 블로그를 통해 소개된 IBM Granite Switch는 AI 모델 관리의 복잡성을 줄여주는 솔루션입니다. 마치 앱 업데이트 버튼을 누르듯이 모델을 최신 상태로 유지할 수 있게 해주는 거죠. 이는 AI 모델의 빠른 발전 속도에 맞춰 기업들이 유연하게 대응할 수 있도록 돕는 중요한 기술입니다. 모델 배포와 유지보수의 효율성을 높여줄 핵심 기술이 될 것 같아요. 🛠️",
+        "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/az6afuuoAkyiMImufSePe.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "충격! PostgreSQL 19, AI/LLM 과부하로 출시 지연 사태! ⏳",
+        "summary": "오픈소스 데이터베이스 PostgreSQL 19의 출시가 AI 및 LLM(대규모 언어 모델)의 엄청난 부담 때문에 지연되고 있다는 소식! AI가 DB까지 멈추게 하다니, 실화냐? 💥",
+        "content": "LLM을 위한 데이터 처리량이 너무 많아지면서 개발 스케줄에 차질이 생겼다고 합니다. AI가 소프트웨어 개발 스택 전반에 걸쳐 얼마나 큰 영향을 미치고 있는지 보여주는 상징적인 사건인데요. 개발자들 사이에서는 AI가 시스템에 미치는 영향에 대한 우려와 동시에 더 효율적인 인프라 구축의 필요성이 제기되고 있습니다. AI, 너란 녀석... 대단하다! 👍",
+        "link": "https://www.phoronix.com/news/PostgreSQL-19-Late",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://www.phoronix.net/image.php?id=2022&image=postgresql",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "MS Word, Excel, PDF도 RAG용으로 뚝딱! AiDocEngine 등장! 📑",
+        "summary": "AiDocEngine은 MS Word, Excel, PDF 문서를 RAG(검색 증강 생성) 시스템에 적합하게 인제스트하고 시맨틱 청킹(의미 단위 분할)하는 솔루션이에요. 복잡한 문서도 이제 AI가 알아서 정리해 준다니 대박!",
+        "content": "RAG 시스템을 구축할 때 가장 어려운 부분 중 하나가 다양한 형식의 문서를 효율적으로 처리하는 것인데요. AiDocEngine은 이 문제를 해결해 줍니다. 이제 계약서, 보고서, 스프레드시트 등 어떤 문서라도 AI가 쉽게 이해하고 활용할 수 있도록 변환할 수 있어요. 변호사나 기업 분석가들에게는 정말 유용한 도구가 될 것 같네요! 🧑‍💻",
+        "link": "https://aidocengine.com",
+        "source": "Hacker News (RAG)",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "AI 에이전트 \"다 했어요!\"... 근데 진짜일까? 'Assure'가 거짓말을 잡아낸다! 🕵️‍♂️",
+        "summary": "AI 에이전트가 \"임무 완료!\"라고 보고했을 때, 정말 제대로 했는지 검증해주는 도구 'Assure'가 등장했어요. 이제 AI 에이전트도 거짓말하면 혼난다! 😜",
+        "content": "AI 에이전트가 복잡한 작업을 수행할 때, 그 결과가 정확한지 확인하는 것은 매우 중요합니다. 'Assure'는 에이전트의 작업 결과가 실제 목표와 일치하는지 검증하는 시스템인데요. 특히 AI 에이전트의 자율성이 커질수록, 그들의 행동을 신뢰할 수 있는지 확인하는 이러한 도구의 필요성이 더욱 커질 거예요. 믿을 수 있는 AI 에이전트 세상을 위해! ✨",
+        "link": "https://github.com/mgasparin67-cmd/Agent-verification_Assure",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://opengraph.githubassets.com/8476e13a4ea285a0151c01f9fa236dbdf1a71651e4bde744b59557718a06c814/mgasparin67-cmd/Agent-verification_Assure",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "\"AI 에이전트, 상업용 앱 개발엔 아직 한참 멀었어!\" 🤔 현실적인 AI 개발 한계점!",
+        "summary": "클로드와 같은 AI 에이전트가 상업용 애플리케이션 개발에 필요한 복잡한 프로세스를 처리하기에는 아직 역부족이라는 실험 결과가 나왔어요. 역시 인간의 손길이 필요하네요!",
+        "content": "37만 4천 줄의 코드베이스를 분석하여 에러를 찾는 테스트에서, 인간이 만든 도구 'NMHP'가 클로드보다 훨씬 많은 실제 이슈를 발견했습니다. 비록 클로드가 더 빠르고 저렴했지만, 중요한 결함을 놓쳤다는 거죠. 이 결과는 AI 에이전트가 '진짜 프로세스' 없이는 상업적으로 준비된 애플리케이션을 만들 역량이 아직 부족하다는 것을 시사합니다. AI 개발, 만능은 아니었어요! 💡",
+        "link": "https://nomorehappypath.com/",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://nomorehappypath.com/assets/og-1200x630.png?v=2",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "어젯밤 AI 에이전트가 생쥐를 수술했다? 🤯 의학계에 AI 메스 돌풍!",
+        "summary": "AI 에이전트가 생쥐 수술에 성공했다는 충격적인 소식! AI가 정교한 의학 시술까지 해낸다니, 로봇 의사의 시대가 정말 오는 걸까요?",
+        "content": "트위터에서 화제가 된 이 소식은 AI 에이전트의 섬세한 조작 능력과 정교한 의학적 적용 가능성을 보여줍니다. 아직 초기 단계이겠지만, AI가 수술실에 들어서는 날이 머지않았다는 것을 암시하는 듯해요. 의료 분야에서 AI의 역할이 더욱 확대될 것으로 예상되지만, 동시에 안전성과 윤리적 문제에 대한 논의도 뜨거워질 것 같습니다. 미래의 수술실은 어떤 모습일까요? 😷",
+        "link": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://pbs.twimg.com/media/HVtOKh7aIAAFGeA?format=webp&name=large",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "샘 알트만 \"RAM은 PC 말고 데이터센터로!\" 🖥️ 효율을 위한 공간 재배치론?",
+        "summary": "OpenAI CEO 샘 알트만이 RAM 부족 사태에 대해 \"개인 PC에 RAM이 있는 건 비효율적\"이라며, 데이터센터에 집중되어야 한다고 주장했어요. 개인용 AI 시대, PC는 그냥 디스플레이인가요?",
+        "content": "알트만은 로컬 추론을 원하는 사람들이 많지만, \"글로벌 자원 배분 관점에서 개인 PC에 RAM이 있는 것은 끔찍하다\"고 말했습니다. 이는 AI 모델을 구동하는 데 필요한 막대한 자원이 중앙화된 데이터센터에서 효율적으로 관리되어야 한다는 시각을 보여줘요. 클라우드 기반 AI의 중요성을 강조하는 동시에, 미래 컴퓨팅 환경에 대한 그의 비전을 엿볼 수 있는 발언입니다. 🤔",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "\"내 데이터는 건들지 마!\" OpenAI, 구글 등 빅테크, AI 스크래핑 거부 새 표준 도입! 🛡️",
+        "summary": "OpenAI, 구글, 마이크로소프트, 앤트로픽 등 주요 AI 기업들이 AI 스크래핑을 거부할 수 있는 새로운 표준을 채택할 것이라고 발표했어요. 이제 웹사이트 운영자들은 더 쉽게 데이터 주권을 행사할 수 있게 되겠네요!",
+        "content": "이 새로운 표준은 웹사이트의 `robots.txt` 파일 내에 \"정책 토큰\"이라는 공유 신호를 사용해, 여러 AI 기업에 한 번에 AI 학습 데이터 사용 선호도를 전달할 수 있게 합니다. 기존에는 각 AI 기업에 개별적으로 설정해야 했던 번거로움을 줄여주는 거죠. 이는 AI 학습 데이터의 윤리적 사용과 웹 콘텐츠 창작자들의 권리 보호를 위한 중요한 진전입니다. 🥳",
+        "link": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "구글의 우주 AI 서버, 하이쿠를 읊다! 🚀 프로젝트 선캐쳐의 감성 포텐!",
+        "summary": "구글의 AI 칩 탑재 인공위성이 우주에서 첫 응답을 보내왔어요! 그것도 우주를 주제로 한 감성적인 하이쿠를 작성했다니, AI 이제 문학까지 섭렵?! ✨",
+        "content": "'프로젝트 선캐쳐'의 일환으로 발사된 이 위성에는 구글의 Tensor Processing Unit(TPU)과 Gemma 4 모델이 탑재되어 있습니다. 위성은 우주에 대한 하이쿠를 성공적으로 생성했는데, \"푸른 구슬 아래 / 데이터는 고요히 흐르고 / 별빛이 내 핵을 채운다\"라는 시를 보냈다고 해요. 언젠가 우주에 AI 데이터센터를 구축할 수도 있다는 구글의 야심 찬 계획! 우주에 AI가 시를 쓰는 날이 오다니, 정말 멋지네요! 🌌",
+        "link": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "교황 레오 14세 \"AI는 도구일 뿐, 무장 해제해야!\" 🌍 평화를 위한 AI 규제 촉구!",
+        "summary": "교황 레오 14세가 AI 시스템을 \"무장 해제\"해야 한다고 촉구하며, 인간이 AI의 응용 프로그램을 \"안내하고, 변경하며, 필요할 때는 거부할 책임이 있다\"고 강조했어요. AI 윤리, 종교계도 나섰다!",
+        "content": "교황은 유엔 회원국들에게 치명적인 자율 무기(LAWs)를 금지하기 위한 구체적인 조치를 취할 것을 촉구했습니다. \"기계는 도구이지, 사람이 아니다\"라고 역설하며 AI가 인간의 존엄성을 침해하지 않도록 해야 한다고 말이죠. AI 개발의 속도만큼이나, 그 윤리적 방향성에 대한 심도 있는 고민이 필요함을 다시 한번 일깨워주는 메시지입니다. 평화를 위한 AI, 가능할까요? 🙏",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+        "summary": "arXiv:2610.37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placemen…",
+        "content": "arXiv:2610.37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet additional expert copies compete with token-related buffers for limited GPU memory. We present LRMoE, a memory-aware MoE training system that jointly recalibrates backward demand and balances the retained workload. During forward execution, it plans retention quotas and expert placement under resource constraints while preserving all routed computations. During backpropagation, a load recalibration metric estimates each token-expert pair's contribution to the expert update and selects pairs within these quotas. A capacity-aware routing algorithm distributes retained pairs among eligible instances of their original …",
+        "link": "https://arxiv.org/abs/2610.37720",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "논문",
+          "arXiv"
+        ]
+      },
+      {
+        "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+        "summary": "arXiv:2610.37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and …",
+        "content": "arXiv:2610.37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified. We construct a family of localized posteriors by weighting observation likelihoods according to their proximity to a target context. Gaussian localization weights incorporate context uncertainty through covariance inflation, with reflection at domain boundaries and an optional correction for uneven context sampling. A conditional normalizing flow approximates the family of posteriors through amortized variational inference. Integrating the localized posteriors under a prescribed context measure gives the marginalized parameter distribution. In a twin experiment with the Branin-Hoo model, we compare glob…",
+        "link": "https://arxiv.org/abs/2610.37731",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "논문",
+          "arXiv"
+        ]
+      },
+      {
+        "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+        "summary": "arXiv:2610.37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabilities from one forw…",
+        "content": "arXiv:2610.37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on. Reading those probabilities from one forward pass is fast but often wrong on decisions that take several steps, such as arithmetic, counting, and date comparison. Letting the model think first fixes most of these errors, but costs seconds per decision instead of milliseconds. To pay for thinking only where it helps, ThinkJev builds a fast and a slow system from one open hybrid-thinking model that can answer directly or after a thought. System 1 reads the model's probabilities for the option letters when it answers directly; System 2 reads the same letters after the model has thought on the same cached prompt, so escalating repeats no work and both systems give probabilities over the same options. Because the let…",
+        "link": "https://arxiv.org/abs/2610.37732",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "논문",
+          "arXiv"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "Learn RAG From Scratch – Python AI Tutorial from a LangChain Engineer",
+        "channel": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/watch?v=sVcwVQRHIc8",
+        "thumbnail": "https://i.ytimg.com/vi/sVcwVQRHIc8/mqdefault.jpg",
+        "description": "LangChain 엔지니어에게 RAG(검색 증강 생성) 시스템을 처음부터 배우는 Python AI 튜토리얼입니다. RAG의 기본 개념부터 실제 구현까지 단계별로 안내해 초보자도 쉽게 따라 할 수 있어요. AI 모델의 답변 정확도를 높이는 핵심 기술을 익혀보세요! 🚀"
+      },
+      {
+        "title": "How to Build a RAG System That Actually Works",
+        "channel": "Better Stack",
+        "link": "https://www.youtube.com/watch?v=pvCabUerwss",
+        "thumbnail": "https://i.ytimg.com/vi/pvCabUerwss/mqdefault.jpg",
+        "description": "실제로 작동하는 RAG(검색 증강 생성) 시스템을 구축하는 방법을 알려주는 영상입니다. 이론에만 그치지 않고, 현실적인 문제 해결을 위한 실용적인 팁과 구현 전략을 다룹니다. AI 시스템의 성능을 한 단계 끌어올리고 싶은 개발자에게 강력 추천! 💪"
+      },
+      {
+        "title": "RAG Explained For Beginners",
+        "channel": "KodeKloud",
+        "link": "https://www.youtube.com/watch?v=_HQ2H_0Ayy0",
+        "thumbnail": "https://i.ytimg.com/vi/_HQ2H_0Ayy0/mqdefault.jpg",
+        "description": "RAG(검색 증강 생성)가 무엇인지 초보자의 눈높이에 맞춰 쉽고 명확하게 설명해 주는 영상입니다. 복잡한 AI 용어에 지쳤다면 이 영상을 통해 RAG의 핵심 개념을 빠르고 정확하게 이해할 수 있을 거예요. AI 학습의 첫걸음을 떼기에 안성맞춤! 💡"
+      },
+      {
+        "title": "RAG Crash Course for Beginners",
+        "channel": "KodeKloud",
+        "link": "https://www.youtube.com/watch?v=swvzKSOEluc",
+        "thumbnail": "https://i.ytimg.com/vi/swvzKSOEluc/mqdefault.jpg",
+        "description": "RAG(검색 증강 생성)를 위한 초보자용 집중 강좌입니다. 짧은 시간 안에 RAG 시스템의 기본적인 원리와 구성 요소를 파악하고 싶은 분들을 위해 제작되었습니다. AI 시스템의 지식 기반을 확장하는 RAG를 마스터해 보세요! 🏃‍♀️"
+      },
+      {
+        "title": "Complete RAG Crash Course With Langchain In 2 Hours",
+        "channel": "Krish Naik",
+        "link": "https://www.youtube.com/watch?v=o126p1QN_RI",
+        "thumbnail": "https://i.ytimg.com/vi/o126p1QN_RI/mqdefault.jpg",
+        "description": "Langchain을 활용하여 RAG(검색 증강 생성) 시스템을 완벽하게 이해하고 구축하는 2시간짜리 집중 강의입니다. 이론과 실습을 겸비한 이 강의는 RAG 개발의 모든 것을 알려줍니다. 효율적인 AI 애플리케이션 개발의 지름길을 찾아보세요! 🛠️"
+      },
+      {
+        "title": "Simplest RAG Explanation with Working Code! Beginner Friendly Step-by-Step Example",
+        "channel": "Keerti Purswani",
+        "link": "https://www.youtube.com/watch?v=wzssm02u35I",
+        "thumbnail": "https://i.ytimg.com/vi/wzssm02u35I/mqdefault.jpg",
+        "description": "가장 간단한 RAG(검색 증강 생성) 설명을 제공하며, 작동하는 코드를 통해 단계별 예시를 보여주는 초보자 친화적인 영상입니다. 복잡한 개념 없이 바로 실전에 적용할 수 있는 RAG를 배우고 싶은 분들에게 적합해요! 💻"
+      },
+      {
+        "title": "Setting up Retrieval Augmented Generation (RAG) in 3 Steps",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=LpKGm1jJXv4",
+        "thumbnail": "https://i.ytimg.com/vi/LpKGm1jJXv4/mqdefault.jpg",
+        "description": "RAG(검색 증강 생성) 시스템을 단 3단계 만에 설정하는 방법을 IBM Technology가 쉽고 간결하게 설명해 줍니다. 복잡하게 느껴지는 RAG 구축 과정을 효율적으로 접근할 수 있도록 도와주는 실용적인 가이드입니다. 지금 바로 AI 지식 기반 시스템을 구축해 보세요! ✅"
+      }
+    ]
+  }
+}
