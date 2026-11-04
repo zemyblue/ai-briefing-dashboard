@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "keywords": [
+    "AI 윤리",
+    "초거대 AI",
+    "로봇공학",
+    "LLM 성능",
+    "데이터센터"
+  ],
+  "sections": {
+    "hype_check": [
+      {
+        "title": "샤오미 로봇, 야근했니?🤖 8시간 EV 부품 분류 첫 출근 신고!",
+        "summary": "샤오미 휴머노이드 로봇이 8시간 근무를 완수하며 EV 부품 분류 작업을 해냈대요! 이제 정말 옆자리 동료가 로봇이 될 날이 머지않았나?!",
+        "content": "드디어 로봇이 실전에 투입되기 시작했습니다! 샤오미 휴머노이드 로봇들이 무려 8시간 동안 EV 부품을 분당 1개 속도로 분류하며 첫 임무를 성공적으로 마쳤다고 해요. 이게 단순히 '쇼'가 아니라 진짜 '일'을 해낸 거라니, 우리 일자리... 안전할까요? 🤔 미래에는 로봇 동료가 더 일 잘할까 봐 걱정되는 건 나뿐인가? 😅",
+        "link": "https://www.reddit.com/r/singularity/comments/1xn5g1f/xiaomis_humanoid_robots_spotted_doing_their_first/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "로봇",
+          "휴머노이드",
+          "샤오미",
+          "미래일자리"
+        ]
+      },
+      {
+        "title": "구글: \"AI 안 쓸 학교는 검색도 쓰지 마!\" 🤯 핵폭탄급 발표!",
+        "summary": "구글이 AI 도구를 거부하는 학교는 아예 구글 검색 기능까지 막아버리겠다고 선언했어요! 이거 너무 구글 독점 아닌가요?! 😱",
+        "content": "충격 공지! 구글이 AI 교육 도구를 사용하지 않는 학교는 아예 구글 검색 엔진 접근을 제한하겠다고 밝혔습니다. AI는 이제 선택이 아닌 필수가 되어가는 시대, 교육 현장에선 벌써부터 뜨거운 논쟁이 일고 있어요. AI 거부하면 정보 접근도 차단이라니... 이건 마치 \"내 AI 아니면 다 꺼져!\" 하는 느낌? 😨",
+        "link": "https://www.reddit.com/r/singularity/comments/1xmxcxl/google_will_turn_off_search_for_schools_that/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "구글",
+          "AI교육",
+          "검색엔진",
+          "논쟁"
+        ]
+      },
+      {
+        "title": "😱 비행기 소리만으로 내 위치가 털린다고?! 소름 돋는 AI 스파이 기술!",
+        "summary": "비디오 속 비행기 소리의 도플러 효과만으로 당신의 정확한 위치를 알아내는 기술이 나왔대요! 프라이버시가 또 위협받습니다! 🚨",
+        "content": "와, 이건 진짜 영화에서나 보던 일! 어떤 천재(또는 빌런?)가 비디오에 녹음된 비행기 소리의 도플러 곡선을 분석해서 촬영자의 정확한 위치를 파악하는 기술을 개발했답니다. 내 일상 영상이 순식간에 위치 추적 도구가 될 수 있다니... 📹✨ 이제 비행기 지나갈 땐 숨 참고 영상 찍어야 할 판! 🤫",
+        "link": "https://www.reddit.com/r/singularity/comments/1xn26ml/this_guy_figured_out_how_to_leak_your_exact/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "프라이버시",
+          "AI기술",
+          "위치추적",
+          "보안"
+        ]
+      },
+      {
+        "title": "GPT-6 Astra 똥줄 타겠다! 💥 SKY-001, 빠르고 싸게 CAD 왕좌 노린다!",
+        "summary": "Skyfall AI의 SKY-001 모델이 GPT-6 Astra와 비슷한 CAD 정확도를 내면서도 51배 빠르고 150배 저렴하다고 발표했어요. 가성비 끝판왕 등장인가요?! 🚀",
+        "content": "AI 모델 전쟁에 새로운 강자가 등장했습니다! Skyfall AI의 SKY-001이 GPT-6 Astra에 버금가는 CAD 정확도를 자랑하면서도 무려 51배 빠르고 150배 저렴하게 작동한다고 하네요. 이 정도면 게임 체인저 아니겠어요? 속도와 가성비까지 잡은 이 모델, GPT-6 Astra와의 진검 승부가 기대됩니다! 🥊💸",
+        "link": "https://www.reddit.com/r/singularity/comments/1xmuct5/skyfall_ai_demonstrates_sky001_an_engineering/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "CAD",
+          "GPT-6",
+          "AI모델",
+          "가성비"
+        ]
+      },
+      {
+        "title": "구글 딥마인드 직원들, \"AI 안전? 말하면 해고!\" 🤫 평생 입막음 계약 논란!",
+        "summary": "딥마인드 직원들이 구글 비판을 평생 금지하는 계약 때문에 AI 안전 문제에 대해 공개적으로 말하지 못한다고 폭로했어요. AI 안전은 누가 책임지나요? 🤐",
+        "content": "딥마인드 내부에서 충격적인 폭로가 나왔습니다. 직원들이 구글을 비판하는 것을 평생 금지하는 계약 때문에 AI 안전 문제나 사회적 영향에 대해 자유롭게 의견을 내지 못한다는 건데요. AI 안전을 그렇게 강조하던 데미스 하사비스의 모습과는 사뭇 다른 현실에 많은 이들이 우려를 표하고 있습니다. 과연 진정한 AI 안전은 어떻게 지켜질 수 있을까요? 🧐",
+        "link": "https://www.reddit.com/r/singularity/comments/1xn10sg/deepmind_employees_say_lifetime_restrictions_on/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI안전",
+          "구글",
+          "딥마인드",
+          "기업윤리"
+        ]
+      },
+      {
+        "title": "AGI까지 1% 남았다?! ⏳ AI 종말 시계가 다시 돌아간다!",
+        "summary": "라이프아키텍트닷AI의 AGI 카운트다운 시계가 AGI까지 단 1% 남았다고 표시했대요. 특이점이 온다, 진짜? 😱",
+        "content": "AGI(범용인공지능)가 도래할 날이 머지않았다는 소문이 파다합니다. 라이프아키텍트닷AI 웹사이트의 AGI 카운트다운 시계가 무려 '1% 남음'을 표시했다고 해요. 이게 단순한 과장일까요, 아니면 정말 인류의 다음 진화 단계가 임박했다는 신호일까요? 두근두근, 또는 오싹오싹한 미래가 다가옵니다! 🤯✨",
+        "link": "https://www.reddit.com/r/singularity/comments/1xmp7b1/i_remembered_alans_countdown_it_says_theres_1/",
+        "source": "Reddit r/Singularity",
+        "og_image": "https://preview.redd.it/z5huuistgdzh1.png?width=936&format=png&auto=webp&s=44f091cd78101d5ced48f464e6dc11d115ec55da",
+        "tags": [
+          "AGI",
+          "특이점",
+          "AI미래",
+          "카운트다운"
+        ]
+      },
+      {
+        "title": "클로드 안녕! 👋 레볼루트, AI 코딩 비용 10배 절감 비법은 '셀프 호스팅'?!",
+        "summary": "영국 핀테크 기업 레볼루트가 클로드 대신 자체 호스팅 AI 모델을 사용해 AI 코딩 비용을 무려 10배나 절감했다고 밝혔어요! 역시 돈 버는 건 직접 해야 제맛! 💰",
+        "content": "핀테크 거물 레볼루트가 AI 코딩 비용 절감의 마법을 부렸습니다! 클로드 같은 유료 모델 대신 자체 호스팅 모델(주로 GLM)을 사용하면서 비용을 10배나 줄였다고 해요. 디버깅이나 협업 툴 연동은 여전히 GPT/클로드를 쓰지만, 핵심 코딩은 자체 AI로 해결! 오픈소스와 셀프 호스팅의 힘을 보여주는 사례네요. 다른 기업들도 이 트렌드에 합류할까요? 🤑",
+        "link": "https://www.reddit.com/r/singularity/comments/1xn5piy/british_fintech_revolut_slashes_ai_coding_costs/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI비용",
+          "레볼루트",
+          "셀프호스팅",
+          "오픈소스"
+        ]
+      },
+      {
+        "title": "AI가 AI를 만든다?! 🤖 재귀적 자기 개선(RSI) 시작됐나?",
+        "summary": "AI가 스스로를 개선하는 '재귀적 자기 개선(RSI)' 단계에 진입했는지에 대한 뜨거운 논쟁이 시작됐어요. AI가 진짜 자기 복제를 시작한 걸까요? 😳",
+        "content": "\"AI가 점점 더 똑똑해지는데, 이게 혹시 AI가 스스로를 개선하는 RSI(재귀적 자기 개선)의 시작 아니야?\" 라는 질문이 레딧을 달구고 있습니다. AI가 더 나은 모델을 훈련하기 위한 합성 데이터를 만들고, 심지어 Qwen 3.8의 가중치를 직접 수정하는 사례까지 보고되면서, AI 개발자들이 정말 불안해하고 있어요. AGI만큼이나 정의하기 어려운 RSI, 과연 우리는 그 초입에 서 있을까요? 🤔",
+        "link": "https://www.reddit.com/r/singularity/comments/1xn8oa7/are_we_in_the_first_stages_of_rsi/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "RSI",
+          "AGI",
+          "AI논쟁",
+          "자기개선"
+        ]
+      },
+      {
+        "title": "🤯 LLM이 내 맥북 고장 5초컷! 인간은 못하는 기술 지원의 신세계!",
+        "summary": "맥북 고장으로 몇 시간 헤매던 유저가 클로드에게 로그를 보여주자, 5초 만에 EDID 문제 진단 및 해결책을 제시했다고 해요! LLM은 이제 기술 지원의 구세주! 😇",
+        "content": "맥북 유저분들 주목! M4 맥북이 macOS27 업데이트 후 외장 모니터 문제로 몇 시간을 씨름하던 개발자가 클로드(Claude)에게 증상과 로그를 보여줬대요. 그랬더니 클로드가 5초 만에 EDID 문제를 정확히 진단하고, 심지어 해결책인 EDID 프로필까지 생성해줘서 바로 해결! 😮 인간 기술 지원 상담사도 못 할 일을 LLM이 해냈습니다. 이제 문제 생기면 사람보다 AI를 먼저 찾아야 할 듯? 👍",
+        "link": "https://www.reddit.com/r/singularity/comments/1xmqc97/llms_are_fantastic_tech_supports/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "LLM",
+          "기술지원",
+          "AI활용",
+          "문제해결"
+        ]
+      },
+      {
+        "title": "\"AI는 단순 자동완성\" vs \"AGI 코앞!\" 🔥 끝나지 않는 AI 능력 논쟁!",
+        "summary": "AI를 '고급 자동완성'으로 보는 회의론자들과 'AGI/RSI 임박'을 주장하는 낙관론자들의 치열한 논쟁이 커뮤니티를 달구고 있어요. 당신의 생각은? 🤔",
+        "content": "AI의 능력을 두고 뜨거운 갑론을박이 펼쳐지고 있습니다. \"AI는 결국 똑똑한 자동완성일 뿐, 혁신은 없다!\"고 주장하는 이들과 \"아니야! AI는 스스로 발전하고 있어, AGI/RSI가 코앞이라고!\" 외치는 이들. 특히 최근 클로드 오푸스 5.5 같은 모델들이 놀라운 성능을 보여주면서, 많은 이들이 후자 쪽으로 기울고 있다고 해요. 당신은 AI의 미래를 어떻게 보시나요? 🔮",
+        "link": "https://www.reddit.com/r/singularity/comments/1xmwoy8/the_ai_is_fancy_autocomplete_vs_imminent_rsiagi/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI논쟁",
+          "AGI",
+          "RSI",
+          "AI미래"
+        ]
+      },
+      {
+        "title": "AI가 이제 신약 개발까지?! 💊 분자 탐색에 뛰어든 AI 과학자들!",
+        "summary": "AI R&D 시스템 'Locus'가 신약 개발의 핵심인 분자 탐색 작업을 수행하기 시작했어요. AI가 직접 새로운 약을 찾아낼 날이 머지않았습니다! 🧪",
+        "content": "AI가 이제 생명 과학 분야에도 깊숙이 발을 들이고 있습니다! Locus 같은 자동화된 AI R&D 시스템이 분자 탐색이라는 중요한 신약 개발 초기 단계를 수행하고 있다고 해요. 그동안 해결하기 어려웠던 과학적 기계 학습 과제들을 AI가 직접 풀어나가고 있다니, 미래에는 AI가 노벨상 받는 것도 볼 수 있을지도? 🏆",
+        "link": "https://www.reddit.com/r/singularity/comments/1xn42uj/ais_are_now_performing_molecular_discovery/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "신약개발",
+          "AI과학",
+          "분자탐색",
+          "생명공학"
+        ]
+      },
+      {
+        "title": "샘 알트만 \"AI에 미래 맡기지 마라!\" 🛑 선거날 터진 AI 컨트롤 논란!",
+        "summary": "샘 알트만이 \"인류는 초지능에게 미래를 넘겨줘선 안 되며, 이는 AI 발전의 제약이 되어야 한다\"고 강력하게 주장했어요. AI의 아버지의 뜻은? 😮",
+        "content": "\"AI의 아버지\" 샘 알트만이 선거일 밤, 깜짝 발언을 했습니다. \"인류가 미래의 통제권을 초지능에 넘겨줘선 안 되며, 이 원칙이 AI 발전을 궁극적으로 제약해야 한다\"는 건데요. OpenAI가 강조하는 '인류의 통제권 유지' 원칙을 다시 한번 천명한 셈입니다. 그의 발언이 AI 개발 속도에 어떤 영향을 미칠지 관심이 집중됩니다. 🤔",
+        "link": "https://www.reddit.com/r/singularity/comments/1xnd37z/sam_altman_people_should_not_cede_control_of_the/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "샘알트만",
+          "AI안전",
+          "초지능",
+          "AI윤리"
+        ]
+      },
+      {
+        "title": "상하이 편의점, 로봇이 24시간 운영?! 🏪 AgiBot G2, 인간 알바 압도!",
+        "summary": "상하이의 한 편의점에서 AgiBot G2 휴머노이드 로봇 6대가 24시간 동안 무려 1,730가지 업무를 처리하며 매장을 운영했다고 해요! 이제 편의점도 무인화 시대! 🤖",
+        "content": "상하이의 한 편의점이 미래를 보여줬습니다! AgiBot G2 휴머노이드 로봇 6대가 교대 없이 24시간 내내 매장을 운영하며 물품 진열부터 고객 응대까지, 1,730가지가 넘는 작업을 처리했다고 합니다. 이 정도면 인간 알바생보다 더 효율적일지도... 😮 미래에는 편의점 가서 로봇이랑 대화하게 될 것 같네요!",
+        "link": "https://www.reddit.com/r/singularity/comments/1xnc6br/six_agibot_g2_humanoids_run_a_shanghai/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "휴머노이드",
+          "편의점",
+          "무인화",
+          "로봇운영"
+        ]
+      },
+      {
+        "title": "SF 소설이 왜 우울해졌을까? 🌑 기술 발전 속도와 SF의 상관관계!",
+        "summary": "한 레딧 유저가 기술 발전 속도에 따라 SF 소설의 분위기가 어떻게 변해왔는지 흥미로운 통찰을 제시했어요. 미래가 불확실하면 SF도 어두워진다?! 😥",
+        "content": "기술이 너무 빠르게 발전해서 SF 소설도 점점 어두워지고 있다는 흥미로운 분석이 나왔습니다! 과거에는 기술 발전이 경이로웠지만, 지금은 AI 역량이 분기마다 두 배씩 증가하는 시대. 미래를 예측하기 어려울수록 SF는 디스토피아적이거나 심지어 판타지로 도피한다고 해요. 이 분석, 꽤 설득력 있지 않나요? 🤔 과학 소설의 종말인가, 아니면 새로운 시작인가!",
+        "link": "https://www.reddit.com/r/singularity/comments/1xn3pnn/what_happened_to_science_fiction/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "SF",
+          "기술발전",
+          "미래예측",
+          "디스토피아"
+        ]
+      },
+      {
+        "title": "\"AI는 도둑질이다\" vs \"AI도 배우는 중!\" 🥊 AI 학습 논란 종결될까?",
+        "summary": "\"AI 학습은 표절이다\"라는 주장에 대해, 한 유저가 \"인간이 배우는 것과 다르지 않다\"며 AI 학습의 본질을 설명했어요. AI는 학습인가, 절도인가? 🧐",
+        "content": "\"AI가 기존 데이터를 학습하는 건 결국 도둑질 아니냐?\"는 주장에 대해 흥미로운 반박이 나왔습니다. \"AI 학습은 인간이 학교에서 배우는 것과 다를 바 없다\"는 거죠! AI는 단순히 인터넷을 긁어모으는 게 아니라, 고차원 공간에서 정보를 재구성해 결과물을 만들어낸다는 설명입니다. 과연 AI 학습의 윤리적 논쟁은 언제쯤 끝나게 될까요? ⚖️",
+        "link": "https://www.reddit.com/r/singularity/comments/1xnckte/this_ai_is_theft_narrative_always_weirds_me_out/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI윤리",
+          "AI학습",
+          "창작논란",
+          "지적재산권"
+        ]
+      }
+    ],
+    "tech_deep_dive": [
+      {
+        "title": "ChatGPT와 코덱스, 현실 세계 엔지니어링 속도 끌어올린다! 🛠️",
+        "summary": "ChatGPT와 코덱스가 CAD, PCB 설계, 시뮬레이션 등 실제 물리 세계 엔지니어링 워크플로우를 가속화하며 혁신을 이끌고 있어요.",
+        "content": "OpenAI의 ChatGPT와 코덱스가 엔지니어링 분야의 게임 체인저로 떠오르고 있습니다. 컴퓨터 지원 설계(CAD), 인쇄 회로 기판(PCB) 설계, 복잡한 시뮬레이션 등 물리 세계의 다양한 엔지니어링 작업에 AI가 깊이 관여하며 개발 속도를 놀랍도록 끌어올리고 있다는 소식이에요. 이제 복잡한 설계도 AI에게 맡기고 퇴근 시간 땡! ⏰",
+        "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "OpenAI",
+          "엔지니어링",
+          "CAD",
+          "PCB"
+        ]
+      },
+      {
+        "title": "시스코, OpenAI와 손잡고 머신 스피드 보안 시대 연다! 🔒",
+        "summary": "시스코가 네트워크 인텔리전스와 OpenAI 모델을 결합해 기업 보안을 강화하고, 더욱 적응력 있는 방어 시스템을 구축하고 있습니다.",
+        "content": "사이버 보안 분야의 거물 시스코가 OpenAI와 협력하여 기업 보안 수준을 한 단계 끌어올립니다. 네트워크 인텔리전스에 OpenAI 모델을 접목해 '머신 스피드'로 위협에 대응하고, 스스로 학습하며 진화하는 보안 시스템을 만들고 있다고 해요. 이제 해커들은 AI 방어벽을 뚫기 위해 더 똑똑한 AI를 고용해야 할지도? 😅",
+        "link": "https://openai.com/index/cisco-cyber",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "시스코",
+          "사이버보안",
+          "OpenAI",
+          "네트워크"
+        ]
+      },
+      {
+        "title": "OpenAI의 대규모 Git 관리 비법은? '판도'를 열다! 💾",
+        "summary": "OpenAI가 코덱스 덕분에 가능해진 대규모 개발 환경에 맞춰 Git 호환 백엔드 'Pando'를 구축한 방법을 공개했어요.",
+        "content": "수많은 개발자가 협업하는 OpenAI에서는 코드 관리도 차원이 다릅니다. 코덱스 덕분에 개발 규모가 폭발적으로 커지면서 기존 Git 시스템으로는 한계가 왔다고 해요. 그래서 OpenAI는 Git과 호환되는 새로운 백엔드 시스템 'Pando'를 직접 만들었다는 소식! 복잡한 개발 환경을 효율적으로 관리하는 그들의 노하우, 개발자라면 솔깃할 만한 이야기죠? 🤓",
+        "link": "https://openai.com/index/scaling-git-at-openai",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Git",
+          "OpenAI",
+          "코드관리",
+          "개발자"
+        ]
+      },
+      {
+        "title": "OpenAI, 국가 안보 AI 책임자로 '댄 드리스콜' 임명! 🛡️",
+        "summary": "OpenAI가 국가 안보 현대화 및 사이버 복원력을 위한 책임감 있는 AI 사용을 자문할 댄 드리스콜을 선임하며 AI의 안보 이슈에 적극 대응합니다.",
+        "content": "AI 기술이 국가 안보의 핵심 요소로 떠오르면서 OpenAI도 이에 발맞춰 움직이고 있습니다. 댄 드리스콜을 국가 안보 현대화를 위한 AI 활용 고문으로 임명했는데요. 그는 사이버 복원력과 미국 동맹국과의 협력 등 중요한 안보 문제에 AI를 어떻게 책임감 있게 적용할지 자문하게 될 예정입니다. AI가 전장에서도 활약할 날이 머지않은 걸까요? geopolitics meets AI! 🌍",
+        "link": "https://openai.com/index/dan-driscoll-joins-openai",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "OpenAI",
+          "국가안보",
+          "AI윤리",
+          "사이버보안"
+        ]
+      },
+      {
+        "title": "앤트로픽, 독립 평가자 업데이트! AI 안전 검증에 진심? 🧐",
+        "summary": "앤트로픽이 독립 평가자들에 대한 업데이트를 발표했어요. AI 모델의 안전과 신뢰성 검증에 얼마나 신경 쓰고 있는지 엿볼 수 있는 부분이죠.",
+        "content": "AI 안전을 최우선으로 내세우는 앤트로픽(Anthropic)이 독립적인 평가자들과의 협력 현황을 업데이트했습니다. AI 모델의 편향성, 유해성 등을 외부 전문가들이 객관적으로 검증하는 과정은 AI의 투명성과 신뢰성을 높이는 데 필수적인데요. 앤트로픽이 이 분야에서 어떤 노력을 기울이고 있는지 관심이 쏠립니다. 우리 클로드, 잘 크고 있니? 👶",
+        "link": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "source": "Anthropic News",
+        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/d2e351e6311a0ada8ea4a0304ce6cda39243eaf4-1200x630.jpg",
+        "tags": [
+          "Anthropic",
+          "AI안전",
+          "평가모델",
+          "투명성"
+        ]
+      },
+      {
+        "title": "2026년 미국 중간선거, AI가 판을 바꾼다?! 🗳️",
+        "summary": "앤트로픽이 2026년 미국 중간선거를 앞두고 AI의 역할과 잠재적 위험에 대비하고 있어요. AI와 민주주의, 공존할 수 있을까요?",
+        "content": "다가오는 2026년 미국 중간선거에서 AI의 영향력은 무시할 수 없는 수준이 될 것으로 보입니다. 앤트로픽은 선거 과정에서 AI가 미칠 수 있는 긍정적/부정적 영향을 심도 있게 분석하고, 잠재적 위험에 대한 대비책을 마련하고 있다고 해요. AI가 민주주의의 꽃인 선거를 돕는 도구가 될지, 아니면 혼란을 야기할 폭탄이 될지... AI 시대의 선거는 더욱 복잡해지겠네요. 🤯",
+        "link": "https://www.anthropic.com/news/2026-us-midterms",
+        "source": "Anthropic News",
+        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg",
+        "tags": [
+          "Anthropic",
+          "선거",
+          "AI윤리",
+          "사회적영향"
+        ]
+      },
+      {
+        "title": "LLM 기억력 테스트! StateBench로 장문 독해 능력 검증! 🧠",
+        "summary": "Hugging Face 블로그에서 LLM이 긴 문서에서 상태 변화를 얼마나 잘 추적하는지 테스트하는 StateBench를 소개했어요. LLM의 장문 기억력이 궁금하다면 클릭!",
+        "content": "LLM의 '기억력'은 얼마나 좋을까요? 특히 긴 문서에서 시시각각 변하는 정보를 얼마나 정확히 추적하는지는 LLM의 핵심 역량 중 하나인데요. Hugging Face에서 선보인 StateBench는 이런 LLM의 '장문 독해 및 상태 추적 능력'을 집중적으로 평가하는 도구입니다. 복잡한 서류나 대화를 처리할 때 LLM이 얼마나 믿을 만한지, 이제 수치로 확인할 수 있겠네요! 📝✨",
+        "link": "https://huggingface.co/blog/allenai/statebench",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png",
+        "tags": [
+          "LLM",
+          "HuggingFace",
+          "벤치마크",
+          "장문처리"
+        ]
+      },
+      {
+        "title": "Hugging Face 모델, AWS Trainium에서 초고속으로! 🚀 TorchNeuron 등장!",
+        "summary": "Hugging Face 모델을 AWS Trainium에서 그 어느 때보다 쉽게 실행할 수 있게 해주는 TorchNeuron이 공개되었어요. AI 모델 배포가 더욱 빨라집니다!",
+        "content": "AI 모델을 빠르게 돌리고 싶은 개발자들 주목! Hugging Face 모델들을 AWS Trainium이라는 엔비디아의 AI 가속기에서 더 쉽고 빠르게 실행할 수 있게 해주는 TorchNeuron이 출시됐습니다. 이제 복잡한 설정 없이도 고성능 하드웨어에서 Hugging Face 모델들을 슝슝 돌릴 수 있게 된 거죠. AI 배포의 문턱이 한층 낮아진 셈입니다! 💨",
+        "link": "https://huggingface.co/blog/hf-torchneuron",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/hf-torchneuron/thumbnail.png",
+        "tags": [
+          "HuggingFace",
+          "AWS",
+          "Trainium",
+          "LLM배포"
+        ]
+      },
+      {
+        "title": "LLM 용의자가 거짓말하는 탐정 게임? 🕵️‍♀️ 'Uncracked City' 출동!",
+        "summary": "LLM 용의자들이 거짓말을 하는 탐정 게임 'Uncracked City'가 등장했어요. AI가 거짓말을 한다니, 이건 진짜 수사잖아! 🤫",
+        "content": "게임 좀 해봤다 하는 분들, 이 게임 주목! 'Uncracked City'는 LLM으로 만들어진 용의자들을 심문하며 사건을 해결하는 탐정 게임입니다. 놀랍게도 이 LLM 용의자들은 거짓말을 할 수 있다고 해요! AI가 지어낸 거짓말을 파헤쳐 진실을 찾아야 한다니, 스릴 넘치겠죠? Android와 iOS에서 만나볼 수 있다니, 당장 다운로드 고고! 📱",
+        "link": "https://uncracked.city",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://uncracked.city/og/en.png",
+        "tags": [
+          "LLM게임",
+          "탐정게임",
+          "AI거짓말",
+          "HackerNews"
+        ]
+      },
+      {
+        "title": "고작 3KB로 LLM 추론 엔진을?! 🤯 C언어의 마법!",
+        "summary": "단 3KB의 C언어 코드로 LLM 추론 엔진을 구현한 프로젝트가 Hacker News에 등장했어요. 초소형 AI 시대의 서막일까요? ✨",
+        "content": "여러분, 놀라지 마세요! C언어로 단 3KB의 코드만으로 LLM 추론 엔진을 만들어냈다는 소식이 Hacker News를 강타했습니다. 보통 LLM은 거대한 모델 크기 때문에 경량화가 중요한데, 이렇게 작게 구현했다니! 폰이나 임베디드 기기에서도 LLM을 돌릴 수 있는 가능성을 열어주는 대단한 발견입니다. \"Bytesized\"라는 이름답게, 정말 작고 강력하네요! 💪",
+        "link": "https://github.com/utsav1033/bytesized",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://opengraph.githubassets.com/84d9970e0707d68519ce5143217ea4fefbb48a577b5a16bb08c30c5df836cafc/utsav1033/bytesized",
+        "tags": [
+          "LLM",
+          "C언어",
+          "경량화",
+          "추론엔진"
+        ]
+      },
+      {
+        "title": "제프 베이조스 머리숱 풍성? 👨‍🦲 \"AI 가짜 뉴스\" 주의보!",
+        "summary": "제프 베이조스와 제이슨 스타뎀의 풍성한 머리숱 사진이 인터넷에 돌고 있지만, 이는 AI 등으로 조작된 가짜 이미지라고 합니다. 속지 마세요! 🙅‍♀️",
+        "content": "최근 소셜 미디어에 제프 베이조스와 제이슨 스타뎀이 갑자기 머리숱이 풍성해진 사진이 돌면서 화제가 됐죠? 하지만 놀랍게도 이 사진들은 AI나 포토샵으로 조작된 '가짜' 이미지라고 해요. 역시 세상에 공짜 머리숱은 없나 봅니다... 😅 AI의 발전이 유머를 넘어 가짜 뉴스 생성에도 활발히 쓰이고 있으니, 이제 온라인에서 본 건 다시 한번 의심해봐야겠어요! 🧐",
+        "link": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "AI가짜뉴스",
+          "딥페이크",
+          "제프베이조스",
+          "사이버보안"
+        ]
+      },
+      {
+        "title": "시리가 드디어 타사 앱과 연동?! 🍎 애플 생태계 AI 개방 시작!",
+        "summary": "애플이 iOS 27.3 업데이트를 통해 시리 AI가 타사 앱에서 동작을 수행할 수 있도록 개방했어요. 이제 시리가 할 수 있는 일이 훨씬 많아집니다!",
+        "content": "애플이 드디어 시리(Siri)를 타사 앱에 개방하기 시작했습니다! iOS 27.3 업데이트로 시리가 사용자 문맥을 이해하고, 자연어 처리 능력을 활용해 타사 앱 내에서 다양한 작업을 수행할 수 있게 됐다고 해요. \"앱 스킬\" 기능으로 여러 작업을 한 번에 처리할 수도 있다니, 시리가 드디어 진정한 AI 비서로 거듭나는 걸까요? Siri, 너 이제 일 좀 하는구나! 🤩",
+        "link": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "애플",
+          "시리",
+          "AI비서",
+          "iOS"
+        ]
+      },
+      {
+        "title": "챗GPT, 구글 검색 시장 20% 점유! 📈 \"이제 구글 대신 챗하세요!\"",
+        "summary": "OpenAI가 챗GPT 검색 쿼리량이 구글의 20%에 달한다고 발표했어요. \"구글링\" 대신 \"챗GPT\"가 일상이 될 날이 머지않았습니다!",
+        "content": "검색 시장의 절대 강자 구글의 아성이 흔들리고 있습니다! OpenAI가 챗GPT를 통한 검색 쿼리량이 구글 전체 검색량의 20%에 육박한다고 발표했어요. 아담 프라이 OpenAI 제품 책임자는 이제 많은 사람들이 \"구글링\" 대신 \"챗\"을 이용한다고 말했는데요. 정의나 간단한 질문을 넘어 웹 검색까지 챗GPT로 하는 사용자가 늘고 있다는 의미죠. 구글, 긴장해야 할 것 같습니다! 🥊",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "챗GPT",
+          "구글",
+          "검색엔진",
+          "시장경쟁"
+        ]
+      },
+      {
+        "title": "넷플릭스 \"AI Discover\" 탭으로 취향 저격 드라마 찾기! 📺",
+        "summary": "넷플릭스가 새로운 \"AI Discover\" 탭을 통해 AI 기반의 테마별 콘텐츠 추천 기능을 선보입니다. 이제 '오늘은 뭘 보지?' 고민 끝!",
+        "content": "넷플릭스에서 '정주행할 작품'을 고르느라 시간을 낭비하던 시대는 이제 안녕! 새로운 \"AI Discover\" 탭이 등장해서 '가벼운 거', '가족 영화', '짧게 볼 것' 등 기분에 맞춰 AI가 알아서 작품을 추천해준다고 해요. 당신이 싫어하는 작품은 기억하고 알아서 필터링해주니, 이제 넷플릭스가 당신의 완벽한 '취향 탐색가'가 되어줄 겁니다! 🍿✨",
+        "link": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "넷플릭스",
+          "AI추천",
+          "개인화",
+          "콘텐츠"
+        ]
+      },
+      {
+        "title": "데이터센터 전력난 비상! ⚡️ 해결책은 '구형 제트 엔진'?! 황당 반전!",
+        "summary": "데이터센터 건설자들이 전력 공급 부족으로 인해 대기 시간이 길어지자, 구형 제트 엔진을 전력원으로 사용하기 시작했대요. 상상 초월의 전력난!",
+        "content": "전 세계적으로 AI 학습에 필요한 데이터센터가 폭증하면서 '전력난'이 심각한 문제로 떠오르고 있습니다. 새로운 터빈이나 전력망 연결을 기다리기 지친 데이터센터 건설자들이 심지어 '오래된 제트 엔진'을 임시방편으로 쓰고 있다고 하는데요! 효율성도 낮고 환경에도 좋지 않지만, 당장의 전력 공급이 더 시급하다는 거죠. AI가 제트 엔진 소리를 들으며 학습하는 아이러니한 상황이 펼쳐지고 있습니다. 🤯✈️",
+        "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "데이터센터",
+          "전력난",
+          "AI인프라",
+          "환경문제"
+        ]
+      },
+      {
+        "title": "구글 \"AI 쓸까 말까? 검색 기능과 맞바꿔라!\" 학교에 초강수 둔 AI 정책! 📚",
+        "summary": "구글이 학교가 AI 도구를 비활성화할 수 있도록 허용했지만, 그 대가로 구글 검색 기능까지 사용할 수 없게 만들었습니다. AI 없는 교육은 상상할 수 없게 만드는 구글의 전략?",
+        "content": "교육 현장의 AI 도입을 두고 구글이 또 한 번 논란의 중심에 섰습니다. 학교가 구글의 AI 도구를 사용하지 않겠다고 선택할 경우, 아예 구글 검색 기능까지 사용할 수 없게 만들었다는 건데요. 이제 AI는 교육의 필수 요소가 되었다는 강력한 메시지를 전달하는 동시에, 학교의 선택권을 제한한다는 비판도 받고 있습니다. AI 시대의 교육, 어떤 길을 가야 할까요? 🍎",
+        "link": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "구글",
+          "AI교육",
+          "검색엔진",
+          "정책논란"
+        ]
+      },
+      {
+        "title": "AI도 기억 이식 가능?! 🧠 'NURESA'가 연 뉴런 기반 메모리 시대!",
+        "summary": "'NURESA'라는 새로운 신경망 레이어가 시냅스 없이도 AI 모델 간 기억을 전이시키는 기술을 선보였어요. AI 학습의 패러다임을 바꿀 충격적인 발견! 🤯",
+        "content": "AI 모델에 기억을 이식할 수 있다면 어떨까요? 'NURESA'라는 획기적인 신경망 레이어가 바로 이 일을 해냈습니다! 기존 AI 모델이 시냅스에만 의존했던 학습 방식에서 벗어나, 뉴런 내부에 지속적인 메모리(intra-unit memory)를 도입해 학습된 능력을 다른 AI 모델에 '제로샷'으로 전이시킬 수 있대요. 마치 인간이 기억을 공유하듯이 AI도 가능해진 거죠. 학습 데이터 없이도 1분 안에 수십억 매개변수 모델에 기억을 심다니, AI 교육 방식에 혁명이 올 것 같습니다! ✨",
+        "link": "https://arxiv.org/abs/2611.00186",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "AI학습",
+          "메모리전이",
+          "뉴런",
+          "신경망"
+        ]
+      },
+      {
+        "title": "LLM '긴 글 처리' 달인 만들기! 📜 'MEMENTO'가 컨텍스트 관리 해결!",
+        "summary": "MEMENTO 프레임워크가 LLM 에이전트의 긴 문맥 처리 능력을 혁신적으로 개선, Qwen3-8B의 정확도를 36.9%에서 67.8%로 끌어올렸어요.",
+        "content": "LLM 에이전트가 긴 문서를 처리할 때 핵심만 쏙쏙 뽑아 기억하는 능력은 정말 중요한데요. MEMENTO라는 새로운 프레임워크가 이 '컨텍스트 관리' 문제를 해결했습니다! 이 프레임워크는 AI가 스스로 중요한 내용을 요약하고 기억하도록 훈련시켜, Qwen3-8B 모델의 정확도를 거의 두 배 가까이 높였다고 해요. GPT-5.5 에이전트보다 훨씬 저렴한 비용으로 비슷한 성능을 낸다니, 장문 처리의 고수가 드디어 탄생했습니다! 📚💡",
+        "link": "https://arxiv.org/abs/2611.00244",
+        "source": "arXiv cs.CL",
+        "og_image": null,
+        "tags": [
+          "LLM",
+          "컨텍스트",
+          "AI에이전트",
+          "Qwen"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "Understanding vLLM with a Hands On Demo",
+        "channel": "KodeKloud",
+        "link": "https://www.youtube.com/watch?v=qdPkA5mxLhg",
+        "thumbnail": "https://i.ytimg.com/vi/qdPkA5mxLhg/mqdefault.jpg",
+        "description": "vLLM이 무엇인지, 그리고 직접 사용해보는 데모를 통해 LLM 추론 서버의 성능을 어떻게 최적화하는지 쉽게 이해할 수 있는 영상이에요. LLM을 실제 서비스에 적용하고 싶은 개발자라면 꼭 봐야 할 필수 가이드! 🚀"
+      },
+      {
+        "title": "How to Self-Host an LLM: Local AI Inference with vLLM",
+        "channel": "IBM Developer",
+        "link": "https://www.youtube.com/watch?v=OuBxnfPA15g",
+        "thumbnail": "https://i.ytimg.com/vi/OuBxnfPA15g/mqdefault.jpg",
+        "description": "LLM을 내 서버에 직접 호스팅하는 방법을 찾고 있나요? vLLM을 활용해 로컬 환경에서 LLM 추론을 최적화하고 운영하는 과정을 IBM 개발자가 상세히 설명해줍니다. 비용 절감과 성능 향상을 동시에 잡는 비법을 알려줄 거예요! 💡"
+      },
+      {
+        "title": "vLLM Explained: Run a Production LLM Server in One Command",
+        "channel": "AI TechBook",
+        "link": "https://www.youtube.com/watch?v=bmXBZm69Mc8",
+        "thumbnail": "https://i.ytimg.com/vi/bmXBZm69Mc8/mqdefault.jpg",
+        "description": "vLLM이 왜 LLM 추론의 게임 체인저인지 궁금하다면 이 영상을 보세요! 단 한 줄의 명령어로 프로덕션급 LLM 서버를 구축하는 마법 같은 방법을 AI TechBook이 쉽고 명확하게 설명해드립니다. LLM 배포의 고수가 되어보세요! ✨"
+      }
+    ]
+  }
+}
