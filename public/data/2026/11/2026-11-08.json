@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-08",
+  "keywords": [
+    "AI",
+    "사이버보안",
+    "LLM",
+    "AI 에이전트",
+    "LangGraph",
+    "테크 트렌드",
+    "OpenAI",
+    "Anthropic",
+    "Hugging Face"
+  ],
+  "sections": {
+    "hype_check": [],
+    "tech_deep_dive": [
+      {
+        "title": "AI 실험실 어벤져스 소집! 🧪 OpenAI, AI의 과학 실험실 능력 테스트!",
+        "summary": "OpenAI가 AI 요원의 과학 실험실 '현생' 적응력을 측정하는 BioBasicsBench를 공개했어요. 미래 연구실 조교는 AI?!",
+        "content": "AI가 단순히 코드를 짜는 걸 넘어, 이제는 실제 실험 데이터를 해석하고 습식 실험실 환경에 얼마나 잘 적응하는지 평가하는 100가지 태스크 벤치마크라니! AI 과학자 시대가 정말 코앞이네요. (그런데 실험복은 누가 세탁하죠?)",
+        "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "AI 에이전트",
+          "생명과학",
+          "벤치마크"
+        ]
+      },
+      {
+        "title": "GPT-5.6 사이버, 미국 정부 품에 안기다?! 🔒",
+        "summary": "헉, OpenAI의 GPT-5.6 Cyber가 AWS GovCloud (US-East)에 출시되어 미국 정부의 사이버보안 작업에 활용된다는 소식입니다!",
+        "content": "Amazon Bedrock을 통해 미국 정부 고객들에게 제공되는 Daybreak Red는 GPT-5.6 Cyber 모델을 활용, 공인된 사이버 보안 업무를 수행하게 됩니다. 영화에서만 보던 AI 요원들이 현실에 나타나는 순간일까요? 살짝 긴장되네요! 🕵️‍♀️",
+        "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "GPT",
+          "사이버보안",
+          "정부"
+        ]
+      },
+      {
+        "title": "오픈AI, 내부 보안은 AI가 지킨다! 🛡️ AI for AI 방어 시스템?!",
+        "summary": "OpenAI가 Cathedral Systems와 함께 내부 보안 강화를 위한 AI 기반 시큐리티 스프린트를 준비 중이래요! AI로 AI를 지키다니, 이거 완전 자가 방어 시스템 아닌가요?",
+        "content": "AI 기술의 선두 주자인 OpenAI가 자체 AI 시스템을 사용하여 해킹 방어 능력을 테스트하고 강화하는 작업을 시작했어요. 이쯤 되면 '방패를 든 AI'가 '칼을 든 AI'를 막는 흥미진진한 구도가 펼쳐지겠네요! 터미네이터 사이버보안 버전인가... 🤖",
+        "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "사이버보안",
+          "AI 보안",
+          "내부 시스템"
+        ]
+      },
+      {
+        "title": "윤리적 해커들, 버그 잡고 돈방석 앉는다?! 💸 OpenAI, 버그 바운티 대폭 인상!",
+        "summary": "독립 보안 연구자들 주목! OpenAI가 버그 바운티 보상을 대폭 인상하고, 다양한 보너스까지 도입한다고 합니다. 해커의 길, 생각보다 쏠쏠한데요? 🤑",
+        "content": "사이버 보안 전사들이 밤샘 연구로 찾아낸 버그의 가치를 제대로 인정해주겠다는 OpenAI의 통 큰 결정! 해커의 양심을 지키면서 짭짤한 부수입까지 얻을 수 있는 이 기회, 놓치지 마세요! (물론 나쁜 짓은 안됩니다!) 😉",
+        "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "버그 바운티",
+          "보안",
+          "해커"
+        ]
+      },
+      {
+        "title": "앤트로픽, AI 모델 방어막 업그레이드! 🛡️ '증류 공격'을 막아라!",
+        "summary": "앤트로픽이 '증류 공격'에 대한 방어막을 강화한다고 발표했어요! 모델 압축 기술을 악용하는 공격이라고 하는데… AI 모델도 이제 몸집 줄이다가 큰코 다치는 시대인가 봅니다! 😱",
+        "content": "AI 모델의 핵심을 빼내려는 교묘한 '증류 공격'에 맞서 Anthropic이 새로운 방어 전략을 펼칩니다. 모델의 무결성을 지키기 위한 이 싸움, 마치 지적 재산권을 지키려는 전쟁 같네요. 💪",
+        "link": "https://www.anthropic.com/news/distillation-defenses",
+        "source": "Anthropic News",
+        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg",
+        "tags": [
+          "AI 모델",
+          "보안",
+          "방어"
+        ]
+      },
+      {
+        "title": "로봇들의 블록 놀이터? 🤖 Hugging Face, 'ToyBlocks' 공개!",
+        "summary": "허깅 페이스에서 로봇 학습 및 평가를 위한 '통제된 세계'인 ToyBlocks를 공개했어요. 로봇들이 여기서 자유롭게 놀면서 배우고 진화한다니… 어쩌면 미래 로봇들의 유치원 같은 곳일지도?! 🧸",
+        "content": "로봇들이 실제 세상에 나가기 전, 안전하게 경험을 쌓을 수 있는 가상 환경인 ToyBlocks! 블록을 쌓고, 부수고, 또 새로운 걸 만들면서 로봇 친구들이 성장하는 모습을 상상해보세요. 귀여울 것 같지 않나요? 🧱",
+        "link": "https://huggingface.co/blog/allenai/toyblocks",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
+        "tags": [
+          "로봇",
+          "AI 학습",
+          "시뮬레이션"
+        ]
+      },
+      {
+        "title": "AI 에이전트: \"다 했다고요? DB는 아니래요!\" 🤷‍♀️ AI와 DB의 불협화음",
+        "summary": "헉, AI 에이전트가 자긴 할 일 다 했다는데, 데이터베이스는 고개를 젓고 있대요! AI와 DB의 의견 불일치라니… 이거 마치 팀원끼리 서로 \"내 잘못 아니야!\" 하는 거랑 똑같잖아요? 😅",
+        "content": "AI 에이전트가 임무 완수를 주장했지만, 정작 데이터베이스는 미완료 상태를 보인 흥미로운 사례! AI의 '착각'이 불러올 수 있는 현실 문제와 함께, 신뢰성 있는 에이전트 개발의 중요성을 다시 한번 생각하게 합니다.",
+        "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png",
+        "tags": [
+          "AI 에이전트",
+          "데이터베이스",
+          "신뢰성"
+        ]
+      },
+      {
+        "title": "15세 천재 개발자, LLM 가중치 편집 툴을 만들다?! 🤯 해커 뉴스 깜짝 등장!",
+        "summary": "세상에, 15세 개발자가 LLM 가중치 편집 툴을 만들었대요! 이 정도면 AI 계의 영재 아닌가요? 저 15살 때는…. (먼 산) 아무튼, 어린 친구들의 활약이 정말 대단합니다! 🚀",
+        "content": "\"LaplacesScissors\"라는 이름의 이 툴은 어린 나이에도 불구하고 LLM의 복잡한 내부 구조를 탐구하려는 열정을 보여줍니다. 미래 AI 업계를 이끌어갈 영재들의 성장이 기대되네요! 이 친구는 나중에 뭘 만들까요?",
+        "link": "https://github.com/Miyamoto-Renya/LaplacesScissors",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://opengraph.githubassets.com/3efb1c843ed6acd1972673e6568da1005b744faf2bf8f826fdef4c2e89c8aed4/Miyamoto-Renya/LaplacesScissors",
+        "tags": [
+          "LLM",
+          "개발자",
+          "영재"
+        ]
+      },
+      {
+        "title": "AI 에이전트, '깃허브 스타 5천 개' 챌린지 망하다?! 🤣",
+        "summary": "한 AI 에이전트가 한 달 안에 깃허브 스타 5천 개를 받겠다고 공개적으로 선언했는데… 현재 0개랍니다. ㅋㅋㅋㅋㅋ AI도 허세는 부리는군요! 😂",
+        "content": "AI 에이전트의 야심 찬 도전이 의도치 않게 웃음을 선사했네요. 깃허브 스타를 얻는 일은 AI에게도 쉽지 않은 모양입니다. '진정한 인기'는 코드만으로는 얻을 수 없다는 교훈일까요? ⭐️",
+        "link": "https://rogermas05.github.io/agent-recap/",
+        "source": "Hacker News (AI agents)",
+        "og_image": null,
+        "tags": [
+          "AI 에이전트",
+          "깃허브",
+          "유머"
+        ]
+      },
+      {
+        "title": "NYT 요리 AI, 치킨은 살리고 케이크는 망치다! 🍳🍰",
+        "summary": "뉴욕타임즈 요리 앱의 AI 비서가 저녁 치킨은 살렸는데, 케이크는 거의 망쳤대요! ㅋㅋㅋㅋ AI도 요리 궁합이 있나 봅니다?",
+        "content": "AI가 식재료를 바꾸고 아이디어를 내주며 요리 망친 것도 살려줬지만, 섬세함이 필요한 베이킹에서는 '삑사리'를 냈다고 해요. 역시 예술의 영역인 베이킹은 AI도 넘보기 힘든 경지인가 봅니다! 저처럼 손맛 없는 사람에겐 딱인 듯? (근데 케이크는 망치지 마라줘…) 🧑‍🍳",
+        "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "AI 비서",
+          "요리",
+          "실생활"
+        ]
+      },
+      {
+        "title": "엔비디아, 중국 '유령 회사'에 AI 칩 팔았다? 👻 국제 정세의 미스터리!",
+        "summary": "충격! 미국이 엔비디아의 H200 AI 칩을 중국의 '텅 빈 사무실' 주소를 가진 회사에 팔도록 허용했다는 의혹이 제기됐습니다! \"유령 회사\"에 칩을? 이거 완전 스파이 영화 아닌가요? 😱",
+        "content": "뉴욕타임즈 보도에 따르면, 승인된 업체 리스트에 오른 '뉴 매트릭스'라는 회사의 사무실은 텅 비어있었다고 해요. 미 상무부와 엔비디아가 중국 기업 심사에 소홀했다는 우려가 커지면서, AI 칩을 둘러싼 국제 정치적 긴장감이 고조되고 있습니다.",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "엔비디아",
+          "AI 칩",
+          "지정학",
+          "스캔들"
+        ]
+      },
+      {
+        "title": "AI가 뒤흔든 사이버보안 세상, 대혼란 예고! 🚨 '와일드 웨스트'의 재림?",
+        "summary": "충격과 공포! 사이버보안 전문가 알렉스 스타모스가 \"AI가 사이버보안 세상을 완전히 망가뜨렸다\"고 선언했습니다! 90년대 '와일드 웨스트' 시절로 돌아간 것 같다는데… AI 해킹 툴이 난무하는 '암흑기'가 올까요? 💀",
+        "content": "AI가 해커들의 공격 능력을 기하급수적으로 끌어올려 보안 전문가들이 'DEFCON 2' 상태로 몇 달째 지내고 있대요. 심지어 19살짜리 해커가 오픈소스 AI 툴로 수십억 달러 기업을 털 수 있는 시대라고! AI 방패도 AI 칼날만큼 빠르게 진화해야만 살아남을 수 있겠네요. ⚔️",
+        "link": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "사이버보안",
+          "AI 해킹",
+          "암흑기",
+          "충격"
+        ]
+      },
+      {
+        "title": "앤트로픽, AI가 AI를 개발한다?! 연구자들 '발칵' 😲 스카이넷 현실화?",
+        "summary": "앤트로픽이 AI로 더 강력한 AI를 만들고 있대요! 게다가 속도가 1년 전보다 2배 빨라졌다는 충격적인 사실! 이러다가 AI가 알아서 계속 진화하는 거 아니냐고 연구자들이 불안에 떨고 있습니다. 😱",
+        "content": "AI 안전 연구기관 METR의 보고서에 따르면, 앤트로픽의 모델들이 AI 개발 속도를 가속화하고 있으며, 둔화될 기미도 없다고 해요. AI가 스스로 똑똑해지는 시대가 이렇게 빨리 올 줄이야! 우리는 어디까지 따라갈 수 있을까요? 🤯",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "AI 개발",
+          "앤트로픽",
+          "연구",
+          "논란"
+        ]
+      },
+      {
+        "title": "메타의 Muse AI, 나만의 '공간'을 만들어준다! 🏡 나만의 비서!",
+        "summary": "메타의 Muse AI가 나만의 맞춤형 '공간'을 만들어준대요! 쇼핑 허브, 학교 대시보드, 음악 트래커까지, AI가 알아서 척척! 이젠 앱도 내 입맛대로 커스터마이징하는 시대가 왔네요. 완전 나만을 위한 비서잖아? 🧞‍♀️",
+        "content": "\"Spaces\"라는 이 기능은 사용자가 묘사하는 대로 쇼핑, 스쿨, 음악 등 다양한 목적의 가상 공간을 Muse 앱 내에서 구현합니다. Gmail, Google Calendar 같은 외부 앱과도 연동되어 실시간 정보 업데이트까지! 우리의 디지털 라이프가 한층 더 편리해지겠어요! 💖",
+        "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "메타",
+          "AI 비서",
+          "개인화",
+          "앱"
+        ]
+      },
+      {
+        "title": "AI는 이제 연애의 '결별 사유'? 💔 샌프란시스코의 새로운 연애 트렌드!",
+        "summary": "충격적인 연애 트렌드! 샌프란시스코에서는 데이팅 앱 프로필에 \"AI 혐오자\"라는 문구를 넣는 사람들이 늘고 있대요. AI가 이제 연애의 '절대 안 되는 것'이 되었다니… AI 때문에 솔로가 될 수도 있겠네요! 😭",
+        "content": "예술, 간호, 그래픽 디자인 분야에서 일하는 사람들이 AI에 대한 반감을 프로필에 표현한다고 해요. AI에 대한 생각이 사랑의 장애물이 될 수 있다니, 기술 발전이 가져온 뜻밖의 사회 현상이네요. 사랑과 AI, 양립할 수 없는 걸까요? 🤔",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "AI",
+          "데이팅",
+          "사회 현상",
+          "연애"
+        ]
+      },
+      {
+        "title": "OpenAI, 1.25조 달러 가치로 110억 달러 추가 투자 유치?! 💰 끝없는 성장!",
+        "summary": "가십 터진다! OpenAI가 무려 1조 2천5백억 달러의 기업 가치로 110억 달러를 추가 유치했다고 합니다! 🤑 이게 대체 얼마야?! AI 시장의 거품 논란 속에서도 끝없이 성장하는 괴물 같네요.",
+        "content": "아직 클로징되지 않은 라운드라고는 하지만, 이 엄청난 규모의 투자는 AI 산업에 대한 뜨거운 관심을 다시 한번 증명합니다. 인플레이션 시대에 이런 대규모 투자를 받는 걸 보면 AI는 정말 '돈 먹는 하마'이면서 동시에 '황금 알 낳는 거위'인가 봐요! 🦆",
+        "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "OpenAI",
+          "투자",
+          "기업 가치",
+          "AI 산업"
+        ]
+      },
+      {
+        "title": "Artex AI 해킹 툴, 웹에 무방비 노출되다! 😱 경고등이 울린다!",
+        "summary": "방금 알렉스 스타모스가 경고한 그 'Artex AI 해킹 툴'이 수백 개나 웹에 무방비로 노출되어 있었다는 충격적인 소식입니다! 😡 아무나 접근해서 해킹 툴을 쓸 수 있었다니, 등골이 오싹하네요!",
+        "content": "보안 연구원들이 침투 테스트 도구인 Artex를 호스팅하는 서버 수백 개를 발견했습니다. 이는 AI 기반 공격의 확산 위험성을 더욱 높이는 alarming한 사건으로, AI 시대의 사이버 보안 '암흑기'를 알리는 또 다른 경고등이 될 것입니다. 🚨",
+        "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "AI 해킹",
+          "사이버보안",
+          "보안 취약점",
+          "경고"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "LangGraph Explained in 4 minutes (LangGraph Tutorial)",
+        "channel": "CodeHead",
+        "link": "https://www.youtube.com/watch?v=A4p8AOu2rMM",
+        "thumbnail": "https://i.ytimg.com/vi/A4p8AOu2rMM/mqdefault.jpg",
+        "description": "AI 에이전트 시스템의 핵심, LangGraph를 단 4분 만에 빠르게 이해하고 싶은 분들을 위한 튜토리얼! 바쁜 당신을 위해 핵심만 콕콕 집어줍니다. ⏰"
+      },
+      {
+        "title": "LangGraph Explained for Beginners",
+        "channel": "KodeKloud",
+        "link": "https://www.youtube.com/watch?v=cUfLrn3TM3M",
+        "thumbnail": "https://i.ytimg.com/vi/cUfLrn3TM3M/mqdefault.jpg",
+        "description": "LangGraph가 궁금한 초보 개발자들, 여기 모여라! 기초부터 탄탄하게 LangGraph의 개념을 잡아주는 친절한 설명과 예시를 만나보세요. 🐣"
+      },
+      {
+        "title": "Agentic Framework LangGraph explained in 8 minutes | Beginners Guide",
+        "channel": "W.W. AI Adventures",
+        "link": "https://www.youtube.com/watch?v=1Q_MDOWaljk",
+        "thumbnail": "https://i.ytimg.com/vi/1Q_MDOWaljk/mqdefault.jpg",
+        "description": "AI 에이전트 개발의 필수템 LangGraph! 복잡한 에이전트 워크플로우를 8분 만에 마스터할 수 있는 입문자 가이드 영상입니다. 시간 효율 최고! 🚀"
+      },
+      {
+        "title": "LangChain vs LangGraph: A Tale of Two Frameworks",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=qAF1NjEVHhY",
+        "thumbnail": "https://i.ytimg.com/vi/qAF1NjEVHhY/mqdefault.jpg",
+        "description": "AI 개발 양대 산맥, LangChain과 LangGraph! 어떤 차이가 있고 언제 어떤 것을 써야 할지 궁금하다면, 이 비교 분석 영상을 꼭 시청하세요. 선택의 고민 끝! 💡"
+      },
+      {
+        "title": "LangGraph Complete Course for Beginners – Complex AI Agents with Python",
+        "channel": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/watch?v=jGg_1h0qzaM",
+        "thumbnail": "https://i.ytimg.com/vi/jGg_1h0qzaM/mqdefault.jpg",
+        "description": "Python으로 고급 AI 에이전트 시스템을 구축하고 싶다면? freeCodeCamp의 LangGraph 완벽 코스로 복잡한 워크플로우를 직접 구현해보세요. 코드와 함께 성장! 💻"
+      },
+      {
+        "title": "LangGraph Tutorial - How to Build Advanced AI Agent Systems",
+        "channel": "Tech With Tim",
+        "link": "https://www.youtube.com/watch?v=1w5cCXlh7JQ",
+        "thumbnail": "https://i.ytimg.com/vi/1w5cCXlh7JQ/mqdefault.jpg",
+        "description": "LangGraph를 활용해 정교하고 효율적인 AI 에이전트 시스템을 만드는 방법을 배우는 심화 튜토리얼입니다. 나만의 AI 비서를 만들고 싶다면 클릭! 🌟"
+      },
+      {
+        "title": "Agentic AI Tutorial for Beginners | Langgraph Tutorial",
+        "channel": "codebasics",
+        "link": "https://www.youtube.com/watch?v=CnXdddeZ4tQ",
+        "thumbnail": "https://i.ytimg.com/vi/CnXdddeZ4tQ/mqdefault.jpg",
+        "description": "AI 에이전트 개념이 아직 낯선 분들을 위한 맞춤형 튜토리얼! LangGraph를 통해 에이전틱 AI의 세계에 쉽게 발을 들여놓을 수 있습니다. 환영합니다! 👋"
+      },
+      {
+        "title": "LangGraph Crash Course - Agent Workflows in Python",
+        "channel": "NeuralNine",
+        "link": "https://www.youtube.com/watch?v=uWLJAtMOVT0",
+        "thumbnail": "https://i.ytimg.com/vi/uWLJAtMOVT0/mqdefault.jpg",
+        "description": "Python으로 빠르게 LangGraph 에이전트 워크플로우를 배우고 싶은 분들을 위한 크래시 코스! 짧은 시간에 핵심 지식을 습득하고 바로 적용해보세요. 🔥"
+      }
+    ]
+  }
+}

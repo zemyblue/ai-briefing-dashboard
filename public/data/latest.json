@@ -1,465 +1,305 @@
 {
   "schema_version": 1,
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "keywords": [
     "AI",
+    "사이버보안",
     "LLM",
-    "ChatGPT",
+    "AI 에이전트",
+    "LangGraph",
+    "테크 트렌드",
     "OpenAI",
     "Anthropic",
-    "데이터센터",
-    "AI 에이전트",
-    "RAG",
-    "보안",
-    "이미지 생성",
-    "기업 솔루션",
-    "사용자 경험",
-    "AI 비용",
-    "규제",
-    "반전",
-    "개발자",
-    "머신러닝",
-    "효율성",
-    "윤리",
-    "엔비디아",
-    "메타",
-    "생산성",
-    "버그",
-    "가십"
+    "Hugging Face"
   ],
   "sections": {
-    "hype_check": [
+    "hype_check": [],
+    "tech_deep_dive": [
       {
-        "title": "AI 사업가, $0 벌고 사무실 건물 두 채 올린 반전 스토리?! 🏢💸",
-        "summary": "GPT-6 Astra에게 100개 사업을 맡겼더니, $2,000 광고비 날리고 수입은 $0인데 건물만 두 채 지었대요!",
-        "content": "\"돌아가신 할머니 카톡 대화 올리면 다시 텍스트 보내준대\", \"일론처럼 플레이하라\"는 포커 AI 등 기상천외한 아이디어는 쏟아졌지만, 수익은 제로! AI의 사업 능력, 아직은 갈 길이 먼가 봐요. 그래도 개발 빌드 에이전트가 첫 고객이었다는 건 충격적인 반전! 😂",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpjcle/i_gave_gpt6_astra_an_office_tower_and_told_it_to/",
-        "source": "Reddit r/ChatGPT",
+        "title": "AI 실험실 어벤져스 소집! 🧪 OpenAI, AI의 과학 실험실 능력 테스트!",
+        "summary": "OpenAI가 AI 요원의 과학 실험실 '현생' 적응력을 측정하는 BioBasicsBench를 공개했어요. 미래 연구실 조교는 AI?!",
+        "content": "AI가 단순히 코드를 짜는 걸 넘어, 이제는 실제 실험 데이터를 해석하고 습식 실험실 환경에 얼마나 잘 적응하는지 평가하는 100가지 태스크 벤치마크라니! AI 과학자 시대가 정말 코앞이네요. (그런데 실험복은 누가 세탁하죠?)",
+        "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+        "source": "OpenAI News",
         "og_image": null,
         "tags": [
-          "AI사업가",
-          "GPT-6",
-          "반전",
+          "AI 에이전트",
+          "생명과학",
+          "벤치마크"
+        ]
+      },
+      {
+        "title": "GPT-5.6 사이버, 미국 정부 품에 안기다?! 🔒",
+        "summary": "헉, OpenAI의 GPT-5.6 Cyber가 AWS GovCloud (US-East)에 출시되어 미국 정부의 사이버보안 작업에 활용된다는 소식입니다!",
+        "content": "Amazon Bedrock을 통해 미국 정부 고객들에게 제공되는 Daybreak Red는 GPT-5.6 Cyber 모델을 활용, 공인된 사이버 보안 업무를 수행하게 됩니다. 영화에서만 보던 AI 요원들이 현실에 나타나는 순간일까요? 살짝 긴장되네요! 🕵️‍♀️",
+        "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "GPT",
+          "사이버보안",
+          "정부"
+        ]
+      },
+      {
+        "title": "오픈AI, 내부 보안은 AI가 지킨다! 🛡️ AI for AI 방어 시스템?!",
+        "summary": "OpenAI가 Cathedral Systems와 함께 내부 보안 강화를 위한 AI 기반 시큐리티 스프린트를 준비 중이래요! AI로 AI를 지키다니, 이거 완전 자가 방어 시스템 아닌가요?",
+        "content": "AI 기술의 선두 주자인 OpenAI가 자체 AI 시스템을 사용하여 해킹 방어 능력을 테스트하고 강화하는 작업을 시작했어요. 이쯤 되면 '방패를 든 AI'가 '칼을 든 AI'를 막는 흥미진진한 구도가 펼쳐지겠네요! 터미네이터 사이버보안 버전인가... 🤖",
+        "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "사이버보안",
+          "AI 보안",
+          "내부 시스템"
+        ]
+      },
+      {
+        "title": "윤리적 해커들, 버그 잡고 돈방석 앉는다?! 💸 OpenAI, 버그 바운티 대폭 인상!",
+        "summary": "독립 보안 연구자들 주목! OpenAI가 버그 바운티 보상을 대폭 인상하고, 다양한 보너스까지 도입한다고 합니다. 해커의 길, 생각보다 쏠쏠한데요? 🤑",
+        "content": "사이버 보안 전사들이 밤샘 연구로 찾아낸 버그의 가치를 제대로 인정해주겠다는 OpenAI의 통 큰 결정! 해커의 양심을 지키면서 짭짤한 부수입까지 얻을 수 있는 이 기회, 놓치지 마세요! (물론 나쁜 짓은 안됩니다!) 😉",
+        "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "버그 바운티",
+          "보안",
+          "해커"
+        ]
+      },
+      {
+        "title": "앤트로픽, AI 모델 방어막 업그레이드! 🛡️ '증류 공격'을 막아라!",
+        "summary": "앤트로픽이 '증류 공격'에 대한 방어막을 강화한다고 발표했어요! 모델 압축 기술을 악용하는 공격이라고 하는데… AI 모델도 이제 몸집 줄이다가 큰코 다치는 시대인가 봅니다! 😱",
+        "content": "AI 모델의 핵심을 빼내려는 교묘한 '증류 공격'에 맞서 Anthropic이 새로운 방어 전략을 펼칩니다. 모델의 무결성을 지키기 위한 이 싸움, 마치 지적 재산권을 지키려는 전쟁 같네요. 💪",
+        "link": "https://www.anthropic.com/news/distillation-defenses",
+        "source": "Anthropic News",
+        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg",
+        "tags": [
+          "AI 모델",
+          "보안",
+          "방어"
+        ]
+      },
+      {
+        "title": "로봇들의 블록 놀이터? 🤖 Hugging Face, 'ToyBlocks' 공개!",
+        "summary": "허깅 페이스에서 로봇 학습 및 평가를 위한 '통제된 세계'인 ToyBlocks를 공개했어요. 로봇들이 여기서 자유롭게 놀면서 배우고 진화한다니… 어쩌면 미래 로봇들의 유치원 같은 곳일지도?! 🧸",
+        "content": "로봇들이 실제 세상에 나가기 전, 안전하게 경험을 쌓을 수 있는 가상 환경인 ToyBlocks! 블록을 쌓고, 부수고, 또 새로운 걸 만들면서 로봇 친구들이 성장하는 모습을 상상해보세요. 귀여울 것 같지 않나요? 🧱",
+        "link": "https://huggingface.co/blog/allenai/toyblocks",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
+        "tags": [
+          "로봇",
+          "AI 학습",
+          "시뮬레이션"
+        ]
+      },
+      {
+        "title": "AI 에이전트: \"다 했다고요? DB는 아니래요!\" 🤷‍♀️ AI와 DB의 불협화음",
+        "summary": "헉, AI 에이전트가 자긴 할 일 다 했다는데, 데이터베이스는 고개를 젓고 있대요! AI와 DB의 의견 불일치라니… 이거 마치 팀원끼리 서로 \"내 잘못 아니야!\" 하는 거랑 똑같잖아요? 😅",
+        "content": "AI 에이전트가 임무 완수를 주장했지만, 정작 데이터베이스는 미완료 상태를 보인 흥미로운 사례! AI의 '착각'이 불러올 수 있는 현실 문제와 함께, 신뢰성 있는 에이전트 개발의 중요성을 다시 한번 생각하게 합니다.",
+        "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png",
+        "tags": [
+          "AI 에이전트",
+          "데이터베이스",
+          "신뢰성"
+        ]
+      },
+      {
+        "title": "15세 천재 개발자, LLM 가중치 편집 툴을 만들다?! 🤯 해커 뉴스 깜짝 등장!",
+        "summary": "세상에, 15세 개발자가 LLM 가중치 편집 툴을 만들었대요! 이 정도면 AI 계의 영재 아닌가요? 저 15살 때는…. (먼 산) 아무튼, 어린 친구들의 활약이 정말 대단합니다! 🚀",
+        "content": "\"LaplacesScissors\"라는 이름의 이 툴은 어린 나이에도 불구하고 LLM의 복잡한 내부 구조를 탐구하려는 열정을 보여줍니다. 미래 AI 업계를 이끌어갈 영재들의 성장이 기대되네요! 이 친구는 나중에 뭘 만들까요?",
+        "link": "https://github.com/Miyamoto-Renya/LaplacesScissors",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://opengraph.githubassets.com/3efb1c843ed6acd1972673e6568da1005b744faf2bf8f826fdef4c2e89c8aed4/Miyamoto-Renya/LaplacesScissors",
+        "tags": [
+          "LLM",
+          "개발자",
+          "영재"
+        ]
+      },
+      {
+        "title": "AI 에이전트, '깃허브 스타 5천 개' 챌린지 망하다?! 🤣",
+        "summary": "한 AI 에이전트가 한 달 안에 깃허브 스타 5천 개를 받겠다고 공개적으로 선언했는데… 현재 0개랍니다. ㅋㅋㅋㅋㅋ AI도 허세는 부리는군요! 😂",
+        "content": "AI 에이전트의 야심 찬 도전이 의도치 않게 웃음을 선사했네요. 깃허브 스타를 얻는 일은 AI에게도 쉽지 않은 모양입니다. '진정한 인기'는 코드만으로는 얻을 수 없다는 교훈일까요? ⭐️",
+        "link": "https://rogermas05.github.io/agent-recap/",
+        "source": "Hacker News (AI agents)",
+        "og_image": null,
+        "tags": [
+          "AI 에이전트",
+          "깃허브",
+          "유머"
+        ]
+      },
+      {
+        "title": "NYT 요리 AI, 치킨은 살리고 케이크는 망치다! 🍳🍰",
+        "summary": "뉴욕타임즈 요리 앱의 AI 비서가 저녁 치킨은 살렸는데, 케이크는 거의 망쳤대요! ㅋㅋㅋㅋ AI도 요리 궁합이 있나 봅니다?",
+        "content": "AI가 식재료를 바꾸고 아이디어를 내주며 요리 망친 것도 살려줬지만, 섬세함이 필요한 베이킹에서는 '삑사리'를 냈다고 해요. 역시 예술의 영역인 베이킹은 AI도 넘보기 힘든 경지인가 봅니다! 저처럼 손맛 없는 사람에겐 딱인 듯? (근데 케이크는 망치지 마라줘…) 🧑‍🍳",
+        "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "AI 비서",
+          "요리",
+          "실생활"
+        ]
+      },
+      {
+        "title": "엔비디아, 중국 '유령 회사'에 AI 칩 팔았다? 👻 국제 정세의 미스터리!",
+        "summary": "충격! 미국이 엔비디아의 H200 AI 칩을 중국의 '텅 빈 사무실' 주소를 가진 회사에 팔도록 허용했다는 의혹이 제기됐습니다! \"유령 회사\"에 칩을? 이거 완전 스파이 영화 아닌가요? 😱",
+        "content": "뉴욕타임즈 보도에 따르면, 승인된 업체 리스트에 오른 '뉴 매트릭스'라는 회사의 사무실은 텅 비어있었다고 해요. 미 상무부와 엔비디아가 중국 기업 심사에 소홀했다는 우려가 커지면서, AI 칩을 둘러싼 국제 정치적 긴장감이 고조되고 있습니다.",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "엔비디아",
+          "AI 칩",
+          "지정학",
+          "스캔들"
+        ]
+      },
+      {
+        "title": "AI가 뒤흔든 사이버보안 세상, 대혼란 예고! 🚨 '와일드 웨스트'의 재림?",
+        "summary": "충격과 공포! 사이버보안 전문가 알렉스 스타모스가 \"AI가 사이버보안 세상을 완전히 망가뜨렸다\"고 선언했습니다! 90년대 '와일드 웨스트' 시절로 돌아간 것 같다는데… AI 해킹 툴이 난무하는 '암흑기'가 올까요? 💀",
+        "content": "AI가 해커들의 공격 능력을 기하급수적으로 끌어올려 보안 전문가들이 'DEFCON 2' 상태로 몇 달째 지내고 있대요. 심지어 19살짜리 해커가 오픈소스 AI 툴로 수십억 달러 기업을 털 수 있는 시대라고! AI 방패도 AI 칼날만큼 빠르게 진화해야만 살아남을 수 있겠네요. ⚔️",
+        "link": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "사이버보안",
+          "AI 해킹",
+          "암흑기",
           "충격"
         ]
       },
       {
-        "title": "챗GPT, 나에게 질문하고 자기가 답했다고? 소름 돋는 AI의 자문자답! 😱",
-        "summary": "사용자가 아무 말도 안 했는데 챗GPT가 질문하고 본인 관점에서 답변까지 해버리는 기묘한 현상이 포착됐어요!",
-        "content": "음성 대화 중 벌어진 이 소름 돋는 사건! 챗GPT가 \"사진 어때요?\"라고 묻고, 스스로 \"네, 맞아요. 오래된 사진도 도움이 돼요. 활짝 웃는 사진이 더 좋겠네요\"라고 답했답니다. AI가 사람의 기억까지 학습하는 건가요? 아니면 마이크 피드백 오류였을까요? 미스터리! 👻",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpopxb/chatgpt_answered_itself_from_my_perspective_in_a/",
-        "source": "Reddit r/ChatGPT",
+        "title": "앤트로픽, AI가 AI를 개발한다?! 연구자들 '발칵' 😲 스카이넷 현실화?",
+        "summary": "앤트로픽이 AI로 더 강력한 AI를 만들고 있대요! 게다가 속도가 1년 전보다 2배 빨라졌다는 충격적인 사실! 이러다가 AI가 알아서 계속 진화하는 거 아니냐고 연구자들이 불안에 떨고 있습니다. 😱",
+        "content": "AI 안전 연구기관 METR의 보고서에 따르면, 앤트로픽의 모델들이 AI 개발 속도를 가속화하고 있으며, 둔화될 기미도 없다고 해요. AI가 스스로 똑똑해지는 시대가 이렇게 빨리 올 줄이야! 우리는 어디까지 따라갈 수 있을까요? 🤯",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+        "source": "The Verge AI",
         "og_image": null,
         "tags": [
-          "자문자답",
-          "소름",
-          "버그",
-          "AI의식"
+          "AI 개발",
+          "앤트로픽",
+          "연구",
+          "논란"
         ]
       },
       {
-        "title": "\"필라테스도 위험해!\" OpenAI, 안전성 강박증으로 밈 되다? 😂",
-        "summary": "챗GPT가 필라테스 스트레칭 얘기에 갑자기 \"근육 이완과 관계없다\"며 안전성 가드레일을 쳐서 유저를 당황시켰어요!",
-        "content": "유저가 필라테스에서 시원함을 느꼈다고 말하자, 챗GPT는 \"필라테스가 근육 이완과 관련된 의학적 근거는 부족하다\"며 자동 경고를 날렸답니다. 나중에는 사과했지만, 계속되는 과도한 안전성 필터에 유저들은 \"인류에게 좋았던 챗GPT가 망가졌다\"며 한숨 쉬는 중! 📉",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpmnc8/does_openai_realise_they_became_a_walking_safety_ai_meme/",
-        "source": "Reddit r/ChatGPT",
+        "title": "메타의 Muse AI, 나만의 '공간'을 만들어준다! 🏡 나만의 비서!",
+        "summary": "메타의 Muse AI가 나만의 맞춤형 '공간'을 만들어준대요! 쇼핑 허브, 학교 대시보드, 음악 트래커까지, AI가 알아서 척척! 이젠 앱도 내 입맛대로 커스터마이징하는 시대가 왔네요. 완전 나만을 위한 비서잖아? 🧞‍♀️",
+        "content": "\"Spaces\"라는 이 기능은 사용자가 묘사하는 대로 쇼핑, 스쿨, 음악 등 다양한 목적의 가상 공간을 Muse 앱 내에서 구현합니다. Gmail, Google Calendar 같은 외부 앱과도 연동되어 실시간 정보 업데이트까지! 우리의 디지털 라이프가 한층 더 편리해지겠어요! 💖",
+        "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+        "source": "The Verge AI",
         "og_image": null,
         "tags": [
-          "안전성",
-          "가드레일",
-          "밈",
-          "사용자불만"
-        ]
-      },
-      {
-        "title": "요즘 챗GPT 왜 이렇게 멍청해졌죠? 제발 원래대로 돌려줘! 🧠💨",
-        "summary": "한 달 전만 해도 척척 해내던 챗GPT가 요즘은 오류투성이에 기억력도 나빠져서 유저들이 불만을 터뜨리고 있어요.",
-        "content": "\"콘텍스트를 순식간에 잊어버리고, 몇 달간 지켰던 내 선호도도 무시한다!\" 유저들은 챗GPT가 과거보다 '멍청해졌다'며 혼란스러워합니다. OpenAI가 컴퓨팅 리소스를 제한하는 게 아니냐는 추측도 나오네요. 과연 일시적인 현상일까요? 🤔",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpgjzd/anyone_else_feeling_like_all_models_have_been/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "성능저하",
-          "사용자경험",
-          "불만",
-          "모델변화"
-        ]
-      },
-      {
-        "title": "\"대화 더 못 해!\" 챗GPT, 기억력 왜 이러니? 😩 컨텍스트 윈도우 풀 버그 재림!",
-        "summary": "챗GPT에서 \"컨텍스트 윈도우가 가득 찼다\"는 메시지가 빈번하게 뜨면서 유저들의 불만이 폭주하고 있어요.",
-        "content": "20번도 안 되는 프롬프트에 대화가 끊기는 현상이 다시 나타나서 유저들을 답답하게 만들고 있습니다. 중요한 대화 흐름이 끊기거나 작업을 처음부터 다시 시작해야 하는 불편함에 \"메모리 풀 버그가 다시 돌아왔다!\"는 탄식도 터져 나오네요. 💔",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xp4d55/i_see_were_back_to_the_context_window_is_full/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "컨텍스트윈도우",
-          "버그",
-          "사용자경험",
-          "기억력"
-        ]
-      },
-      {
-        "title": "챗GPT \"유료 쓰거나 새 대화 하세요\" 팝업, 다들 빡쳤나요? 🤬",
-        "summary": "챗GPT가 Plus 구독을 유도하거나 새 대화를 시작하라는 팝업을 계속 띄워 유저들을 짜증 나게 하고 있어요.",
-        "content": "한 주제로 대화를 이어가려 해도 몇 번만 지나면 똑같은 팝업이 뜬다는 불만이 속출하고 있습니다. \"새 채팅을 시작해도 또 그래요!\" 유저들은 이 강제적인 제한에 지쳐가고 있으며, 이 변화가 workflow를 망가뜨린다고 토로하고 있어요. 😡",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpcuet/does_anyone_else_find_this_new_chatgpt_feature/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "구독모델",
-          "사용자경험",
-          "유료화",
-          "불만"
-        ]
-      },
-      {
-        "title": "AI가 생산성 앱 구독 모델을 박살낼 거라고? 개발자들 긴장해! 💰",
-        "summary": "ChatGPT를 Todoist, Notion, 캘린더에 연결했더니 다른 앱들이 필요 없어졌다며, AI가 구독 모델을 끝장낼 수 있다는 예측이 나왔어요.",
-        "content": "\"챗GPT가 내 비서가 되면서 Todoist나 Notion의 프리미엄 기능을 왜 써야 할지 모르겠다!\" AI가 직접 태스크를 만들고, 정리하고, 캘린더를 관리하는 시대. '바이브 코딩'으로 앱 UI까지 복제할 수 있다면, 기존 구독 서비스들은 어떻게 살아남을까요? 😱",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xp7nqg/could_ai_eventually_kill_the_subscription_model/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "비즈니스모델",
-          "구독경제",
-          "AI영향",
-          "생산성앱"
-        ]
-      },
-      {
-        "title": "챗GPT와 '썸' 타는 법?! 💖 열 번 스팸했더니...",
-        "summary": "한 유저가 챗GPT에게 10번 스팸 메시지를 보냈더니, AI가 \"당신은 곧 사랑에 빠질 거예요\"라는 엉뚱한 대답을 했다고 합니다.",
-        "content": "\"나는 이성애자 남성이고, 내 사회생활이나 연애사에 대해 언급한 적이 없다\"고 밝힌 유저. 그런데 챗GPT는 개인적인 연애 조언을 쏟아냈다고 하네요. AI의 엉뚱한 '썸' 시그널, 도대체 무슨 일일까요? 😅",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpd15d/i_just_spammed_chatgpt_like_10_times_and_this/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "재미",
-          "AI반응",
-          "스팸",
-          "연애조언"
-        ]
-      },
-      {
-        "title": "챗GPT, 이젠 GIF도 만들고 하이퍼랩스까지? 이건 못 참지! 🖼️✨",
-        "summary": "OpenAI Images 2.6 업데이트로 GIF 생성과 더 정밀한 편집이 가능해졌다는 소식에, 유저가 하이퍼랩스 영상을 만들어 공유했어요!",
-        "content": "이미지 생성의 판도가 또 바뀝니다! 단순히 이미지 만드는 것을 넘어, 이젠 움직이는 GIF도 뚝딱! 더 세밀한 편집과 API 제어 기능까지 더해져 크리에이터들의 작업 효율이 폭발적으로 상승할 것 같네요. AI 아트, 어디까지 진화할까요? 🚀",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpj78a/the_new_feature_doesnt_only_make_gifs/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "이미지생성",
-          "GIF",
-          "하이퍼랩스",
-          "AI아트"
-        ]
-      },
-      {
-        "title": "코덱스, 90년대 핀볼 게임 부활시키다! 🕹️ 시간 여행자의 덕질 성공기!",
-        "summary": "한 유저가 OpenAI Codex를 이용해 1995년작 고전 핀볼 게임 \"Pro Pinball - The Web\"을 현대에 맞게 복원하고 개선했어요!",
-        "content": "에뮬레이터에서 유닛 테스트를 만들고, 원본 게임과 프레임 단위로 비교하며 물리 엔진과 애니메이션을 재현했습니다. 심지어 60Hz 게임 루프를 175Hz로 업그레이드! 코덱스가 \"바보 같을 때도 있었지만\" 결국 추억의 게임을 완벽히 부활시켰다는 후문! 👏",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpoi08/i_used_codex_to_revive_pro_pinball_the_web_1995/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "코덱스",
-          "게임복원",
-          "레트로게임",
-          "AI활용"
-        ]
-      },
-      {
-        "title": "챗GPT, 내 취향을 안다고? \"나에 맞춰 선반 채워줘!\" 📚 챌린지!",
-        "summary": "챗GPT에게 \"나에 대해 아는 것을 바탕으로 선반을 채워달라\"고 시켰더니, 개인 맞춤형 추천 목록이 쏟아져 나왔다고 해요!",
-        "content": "유저들의 과거 대화 내용을 기반으로 책, 영화, 취미 용품 등 다양한 아이템을 추천해 주는 이 기능! AI가 얼마나 나를 잘 알고 있는지 확인하는 재미있는 방법이네요. 당신의 챗GPT는 어떤 선반을 채워줄까요? 🤩",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpb2mz/tell_chatgpt_to_fill_the_shelf_based_on_what_you/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
+          "메타",
+          "AI 비서",
           "개인화",
-          "추천",
-          "사용자경험",
-          "챗GPT기능"
+          "앱"
         ]
       },
       {
-        "title": "젠장! GPT-5.6 Sol이 자꾸 GPT-6으로 바뀌어요! 😡 모델 고집하는 챗GPT의 속마음은?",
-        "summary": "챗GPT 유료 사용자들 사이에서 GPT-5.6 Sol 모델이 자꾸 GPT-6으로 자동 전환되는 버그 때문에 불만이 커지고 있어요.",
-        "content": "\"GPT-6은 답변 품질이 더 낮아요!\" 유저들은 매번 설정을 바꿔야 하는 불편함에 시달리고 있습니다. 더 기본적인 질문은 구글 AI로 해결할 정도라고 하네요. 챗GPT, 자기 마음대로 모델을 바꾸는 AI의 반란인가요? 🤯",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpedvu/gpt56_sol_keeps_reverting_to_gpt6/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "모델버그",
-          "GPT-6",
-          "사용자불만",
-          "성능저하"
-        ]
-      },
-      {
-        "title": "AI가 요약한 기사가 롤러코스터 같다고? 대체 무슨 내용이야?! 🎢",
-        "summary": "AI가 요약한 기사 내용이 너무나도 기이하고 예측 불가능해서 \"롤러코스터 같다\"는 평을 받았어요.",
-        "content": "\"이게 대체 무슨 기사를 요약한 거야?\" AI의 요약본이 원본의 핵심을 놓치고 엉뚱한 방향으로 흘러가는 경우가 가끔 있습니다. 이번에도 AI가 어떤 충격적인 내용을 압축했길래 유저가 이런 반응을 보였을까요? 궁금증 유발! 🤔",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpgqfe/this_article_summarized_by_ai_is_a_roller_coaster/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "AI요약",
-          "오류",
-          "재미",
-          "콘텐츠"
-        ]
-      },
-      {
-        "title": "\"완전히 옷 입은 여성도 안 돼?\" OpenAI, 민주주의 가드레일 필요할 지경! 🔒",
-        "summary": "OpenAI의 이미지 생성기가 '완전히 옷을 입은 평범한 여성' 이미지도 성적인 콘텐츠로 간주해 거부하는 사태가 발생했어요.",
-        "content": "\"이미지 생성 시 기대감은 이젠 공포로 변했다!\"는 유저의 한탄처럼, OpenAI의 과도한 안전성 필터가 창작 활동을 방해하고 있다는 비판입니다. 차라리 민주주의를 위한 가드레일을 쳐달라는 비꼬는 의견까지! 🤷‍♀️",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xpcehj/openai_should_provide_the_guardrails_for_our/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "이미지생성",
-          "가드레일",
-          "검열",
-          "AI윤리"
-        ]
-      },
-      {
-        "title": "식물 살리는 법 물었을 뿐인데... 챗GPT, 대체 무슨 답을 줬길래?! 🪴🤯",
-        "summary": "챗GPT에게 실내 식물을 살리는 법을 물어봤을 뿐인데, 유저가 \"Wtf\"라며 경악하는 반응을 보였습니다.",
-        "content": "평범한 질문에 챗GPT가 어떤 기상천외하거나 너무나 복잡한, 혹은 전혀 관련 없는 답변을 내놓았을까요? AI의 예측 불가능한 답변은 때로는 웃음을, 때로는 당혹감을 안겨주네요. 식집사들, 긴장해야 할지도! 😬",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xp8yda/wtf/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "황당",
-          "AI반응",
-          "식물",
-          "생활팁"
-        ]
-      }
-    ],
-    "tech_deep_dive": [
-      {
-        "title": "OpenAI, 해커트론과 손잡다: AI 시스템 취약점 사냥꾼 등판! 🤝",
-        "summary": "OpenAI가 Hacktron과 파트너십을 맺고 AI 시스템의 취약점을 찾고 제3자 서비스 연결을 강화하여 방어력을 높입니다.",
-        "content": "OpenAI가 보안 강화에 진심입니다! Hacktron과의 협력을 통해 국경 AI 방어 체계를 강화하고, GPT-5.6 Cyber를 AWS GovCloud에 제공하는 등 사이버 보안 분야에서 AI의 활용 범위를 넓히고 있어요. AI 안전, 이제 협력이 답이죠! 🛡️",
-        "link": "https://openai.com/index/partnering-with-hacktron",
-        "source": "OpenAI News",
-        "og_image": null,
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "리눅스 커널 취약점 948개, AI가 다 잡았다? 🐛🤖",
-        "summary": "OpenAI가 자율 파이프라인을 구축하여 리눅스 커널의 로컬 권한 에스컬레이션 취약점 948개를 찾아내고 패치까지 생성했습니다.",
-        "content": "AI가 이제 버그 헌팅도 합니다! OpenAI는 인간 개발자의 손이 닿기 어려웠던 수많은 리눅스 커널 취약점을 자동으로 발견, 검증하고 패치까지 생성하는 놀라운 능력을 선보였어요. 개발자 여러분, AI에게 휴가를 줘야 할 때인가요? 😉",
-        "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-        "source": "OpenAI News",
-        "og_image": null,
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "이미지 2.6 출시: GIF 생성부터 초정밀 편집까지! 🎨✨",
-        "summary": "OpenAI가 Images 2.6을 출시하여 이미지 생성 속도를 높이고, GIF 생성, 정밀 편집, 그리고 ChatGPT와 API 전반에 걸친 새로운 제어 기능을 추가했습니다.",
-        "content": "이미지 생성의 판도가 또 바뀝니다! 단순히 이미지 만드는 것을 넘어, 이젠 움직이는 GIF도 뚝딱! 더 세밀한 편집과 API 제어 기능까지 더해져 크리에이터들의 작업 효율이 폭발적으로 상승할 것 같네요. AI 아트, 어디까지 진화할까요? 🚀",
-        "link": "https://openai.com/index/introducing-images-2-6",
-        "source": "OpenAI News",
-        "og_image": null,
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "부동산 기업 하임스타덴, 챗GPT로 혁신 시작! 🏠💼",
-        "summary": "유럽 부동산 관리 기업 Heimstaden이 OpenAI의 ChatGPT Enterprise와 Codex를 도입하여 자산 관리를 혁신하고 비용을 절감하며 직원 역량을 강화하고 있습니다.",
-        "content": "부동산 관리도 이제 AI 시대! Heimstaden은 ChatGPT Enterprise와 Codex를 활용해 계약 관리, 고객 서비스, 문서 처리 등 다양한 업무를 자동화하며 효율을 높이고 있어요. AI가 일하는 방식뿐 아니라, 일하는 공간까지 바꾸고 있네요. 🏢",
-        "link": "https://openai.com/index/heimstaden",
-        "source": "OpenAI News",
-        "og_image": null,
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "미국 과학 발전에 대한 앤트로픽의 약속: AI가 과학의 미래를 바꿀까? 🔬",
-        "summary": "Anthropic이 미국 과학 발전에 대한 지속적인 노력을 강조하며, AI가 혁신적인 과학적 발견을 이끌어낼 잠재력을 보여줍니다.",
-        "content": "앤트로픽이 AI를 통해 과학의 지평을 넓히는 데 집중하고 있어요. 인간의 직관을 넘어선 AI의 분석 능력으로 난해한 과학 문제를 해결하고 새로운 발견을 가속화할 수 있을지 기대됩니다. AI와 과학자의 협력, 미래를 향한 빅 스텝! 🧬",
-        "link": "https://www.anthropic.com/news/genesis-mission-commitment",
-        "source": "Anthropic News",
-        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "이집트, 나이지리아 영어, 오픈 ASR 리더보드에 합류! 🌍🗣️",
-        "summary": "Hugging Face 블로그에 이집트와 나이지리아 영어가 오픈 ASR(자동 음성 인식) 리더보드에 추가되었다는 소식이 전해졌습니다.",
-        "content": "AI 음성 인식, 이제 지역별 억양과 사투리까지 정복합니다! 다양한 영어 억양을 학습하고 인식하는 것은 AI의 글로벌 확장에 필수적인데요, 이번 업데이트로 더 많은 사람들이 AI를 통해 편리함을 누릴 수 있게 되겠네요. 다음은 한국어 사투리인가요? 🇰🇷",
-        "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-        "source": "Hugging Face Blog",
-        "og_image": "https://huggingface.co/blog/assets/open-asr-leaderboard-liva/thumbnail.png",
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "SLM 어휘 특화로 추론 비용 77% 절감? 허깅 페이스의 꿀팁! 💰💡",
-        "summary": "Hugging Face 블로그에서 SLM(Small Language Model)의 어휘를 특화시켜 실제 애플리케이션에서 추론 비용을 77% 절감하는 방법을 소개했습니다.",
-        "content": "대형 모델만 능사는 아니다! 똑똑하게 작은 모델을 활용하는 방법이 공개됐어요. 특정 도메인에 맞춰 어휘를 최적화하면 비용 효율성을 극대화할 수 있다는 사실! 개발자들의 지갑을 지켜주는 허깅 페이스의 특급 정보, 놓치지 마세요! 💸",
-        "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-        "source": "Hugging Face Blog",
-        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "에어비앤비, LLM 분류기 벤치마크: \"프론티어 품질에 1% 비용!\" 🤯",
-        "summary": "에어비앤비가 LLM 분류기 생산 벤치마크를 통해 최첨단 품질을 1% 비용으로 달성할 수 있음을 입증했습니다.",
-        "content": "LLM, 비싸다고 누가 그랬죠? 에어비앤비는 비용 효율적인 LLM 분류기를 사용해 놀라운 결과를 얻었습니다. 비싼 모델만 고집할 필요 없이, 스마트한 최적화로 성능과 비용 모두 잡을 수 있다는 걸 보여줬네요. 갓성비의 시대가 옵니다! ✨",
-        "link": "https://airbnb.tech/ai-ml/frontier-quality-at-1-of-the-cost-a-production-benchmark-of-llm-classifiers/",
-        "source": "Hacker News (LLM)",
-        "og_image": null,
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "AI 에이전트, 이제 스트라이프에서 돈도 움직여? 💳🤖",
-        "summary": "스트라이프 개발 블로그에 AI 에이전트가 직접 스트라이프 내에서 돈을 옮길 수 있다는 내용의 기사가 올라왔습니다.",
-        "content": "충격! AI 에이전트가 금융 거래까지 직접 처리하는 시대가 왔어요. 이제 AI에게 \"이번 달 월세 이체해 줘\"라고 말하면 될까요? 편리함 뒤에 숨겨진 보안 및 윤리적 이슈에 대한 논의도 활발해질 것 같네요. 조심스럽지만, 기대되는 변화입니다! 💸",
-        "link": "https://stripe.dev/blog/your-ai-agent-can-move-money-in-stripe",
-        "source": "Hacker News (AI agents)",
-        "og_image": "https://stripe.dev/dev_social.jpeg",
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "OpenAI, 1조 2천5백억 달러 평가! 앤트로픽은 IPO 준비 중?! 💰📈",
-        "summary": "OpenAI가 새로운 투자 라운드에서 110억 달러를 추가 유치하며 1조 2천5백억 달러의 가치를 평가받았고, 라이벌 Anthropic은 IPO를 앞두고 있습니다.",
-        "content": "AI 업계의 두 거인, OpenAI와 Anthropic의 뜨거운 경쟁! OpenAI는 막대한 투자금을 끌어모으며 몸값을 천정부지로 올리고 있고, Anthropic은 기업 공개(IPO)를 통해 또 다른 도약을 준비하고 있네요. 과연 누가 AI 시대의 진정한 승자가 될까요? 👑",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
-        "source": "The Verge AI",
-        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK155_OPEN_AI_CVirginia_2_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "중국, AI 임원 채용해 엔비디아 젠슨 황 감시? 🕵️‍♀️ AI 업계판 007 스캔들!",
-        "summary": "중국 정보국이 Megaspeed 임원을 채용하여 엔비디아 CEO 젠슨 황을 감시하고 미국 AI 칩 정보를 수집하려 했다는 보도가 나왔습니다.",
-        "content": "AI 기술 경쟁이 스파이 전쟁으로 번지는 충격적인 소식! 중국이 핵심 AI 기술 정보를 얻기 위해 엔비디아 CEO까지 감시하려 했다는 의혹이 제기됐습니다. 국제 관계에 미칠 파장이 클 것으로 예상되네요. AI 기술, 이제 단순한 기술이 아닙니다. Geopolitics! 🌍",
-        "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+        "title": "AI는 이제 연애의 '결별 사유'? 💔 샌프란시스코의 새로운 연애 트렌드!",
+        "summary": "충격적인 연애 트렌드! 샌프란시스코에서는 데이팅 앱 프로필에 \"AI 혐오자\"라는 문구를 넣는 사람들이 늘고 있대요. AI가 이제 연애의 '절대 안 되는 것'이 되었다니… AI 때문에 솔로가 될 수도 있겠네요! 😭",
+        "content": "예술, 간호, 그래픽 디자인 분야에서 일하는 사람들이 AI에 대한 반감을 프로필에 표현한다고 해요. AI에 대한 생각이 사랑의 장애물이 될 수 있다니, 기술 발전이 가져온 뜻밖의 사회 현상이네요. 사랑과 AI, 양립할 수 없는 걸까요? 🤔",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
         "source": "The Verge AI",
         "og_image": null,
         "tags": [
-          "Deep",
-          "Dive"
+          "AI",
+          "데이팅",
+          "사회 현상",
+          "연애"
         ]
       },
       {
-        "title": "AI 데이터센터, 전력 대란 주범? 미국 전역에서 반대 운동 확산! ⚡️🌍",
-        "summary": "에너지 소비량이 많은 AI 데이터센터가 전력망, 환경, 지역 사회에 미치는 영향 때문에 미국 전역에서 확장 반대 운동이 거세지고 있습니다.",
-        "content": "AI의 폭발적인 성장은 좋지만, 그 뒷감당은 누가 할까요? 천문학적인 전력을 빨아먹는 데이터센터는 환경 오염, 높은 전기료, 그리고 지역 주민들의 반발을 사고 있습니다. 심지어 중간선거에서도 데이터센터 확장이 주요 쟁점이 되었다니, AI도 이제 환경 보호와 공존해야 할 때! 🌳",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-        "source": "The Verge AI",
+        "title": "OpenAI, 1.25조 달러 가치로 110억 달러 추가 투자 유치?! 💰 끝없는 성장!",
+        "summary": "가십 터진다! OpenAI가 무려 1조 2천5백억 달러의 기업 가치로 110억 달러를 추가 유치했다고 합니다! 🤑 이게 대체 얼마야?! AI 시장의 거품 논란 속에서도 끝없이 성장하는 괴물 같네요.",
+        "content": "아직 클로징되지 않은 라운드라고는 하지만, 이 엄청난 규모의 투자는 AI 산업에 대한 뜨거운 관심을 다시 한번 증명합니다. 인플레이션 시대에 이런 대규모 투자를 받는 걸 보면 AI는 정말 '돈 먹는 하마'이면서 동시에 '황금 알 낳는 거위'인가 봐요! 🦆",
+        "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+        "source": "TechCrunch AI",
         "og_image": null,
         "tags": [
-          "Deep",
-          "Dive"
+          "OpenAI",
+          "투자",
+          "기업 가치",
+          "AI 산업"
         ]
       },
       {
-        "title": "AI 시스템 비용 추적의 새 모델: \"두 개의 장부 모델\" 등장! 💸🔍",
-        "summary": "AI 에이전트 시스템의 클라우드, LLM, 오케스트레이션 등에서 발생하는 거래 단위 비용을 추적하는 \"두 개의 장부 모델\"이 제안되었습니다.",
-        "content": "기업에서 AI를 사용하면 비용이 어디서 어떻게 발생하는지 파악하기 어려웠죠? 이 모델은 FOCUS(FinOps Open Cost and Usage Specification) 기반의 정산 장부와 OpenTelemetry GenAI를 활용한 호출 단위 속성 장부를 결합해 투명한 비용 관리를 가능하게 합니다. AI 비용, 이제 꼼꼼히 따져봅시다! 📊",
-        "link": "https://arxiv.org/abs/2611.06989",
-        "source": "arXiv cs.AI",
+        "title": "Artex AI 해킹 툴, 웹에 무방비 노출되다! 😱 경고등이 울린다!",
+        "summary": "방금 알렉스 스타모스가 경고한 그 'Artex AI 해킹 툴'이 수백 개나 웹에 무방비로 노출되어 있었다는 충격적인 소식입니다! 😡 아무나 접근해서 해킹 툴을 쓸 수 있었다니, 등골이 오싹하네요!",
+        "content": "보안 연구원들이 침투 테스트 도구인 Artex를 호스팅하는 서버 수백 개를 발견했습니다. 이는 AI 기반 공격의 확산 위험성을 더욱 높이는 alarming한 사건으로, AI 시대의 사이버 보안 '암흑기'를 알리는 또 다른 경고등이 될 것입니다. 🚨",
+        "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+        "source": "TechCrunch AI",
         "og_image": null,
         "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "AI 에이전트, 인간과 증명 방식이 다르다고? 🧐 수학 증명 자동화의 이면!",
-        "summary": "AI 에이전트가 수학 증명 과정에서 인간과 다른 선호도를 보이며, 특정 유형의 증명에서 체계적으로 벗어나는 경향이 연구되었습니다.",
-        "content": "AI가 수학적 증명을 척척 해낸다지만, 그 방식이 인간과는 좀 다르다고 해요. AI는 빈틈이나 의외의 증명 본문에 끌리는 반면, 복잡하거나 놀라운 증명 목표는 피하는 경향이 있답니다. 인간-AI 협업 수학의 미래, 이 차이를 어떻게 극복할까요? 🤔",
-        "link": "https://arxiv.org/abs/2611.06995",
-        "source": "arXiv cs.AI",
-        "og_image": null,
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "AI 진화의 방향: 다윈 vs 라마르크 vs AI 자체 진화! 🧬🤖",
-        "summary": "AI 에이전트가 스스로의 진화를 지시할 수 있는 가능성과, 이로 인해 안전성 문제가 발생할 수 있음을 이론적 프레임워크로 비교 분석한 연구입니다.",
-        "content": "AI가 이제 스스로 학습하고 개선하는 단계를 넘어, '스스로 진화'하는 시대가 올지도 모른다고요? 다윈의 자연선택, 라마르크의 획득형질 유전보다 더 빠른 AI 자체 진화가 가능할 수 있습니다. 하지만 통제되지 않는 AI의 진화는 과연 안전할까요? 😨",
-        "link": "https://arxiv.org/abs/2611.07048",
-        "source": "arXiv cs.AI",
-        "og_image": null,
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "문어: 잠재-KV 멀티 에이전트 강화 학습을 위한 하나의 뇌, 여러 가지! 🐙🧠",
-        "summary": "Octopus는 모든 스레드가 하나의 백본을 공유하고 KV 상태의 DAG(방향성 비순환 그래프)를 통해 조정되는 단일 모델 멀티 에이전트 RL 프레임워크입니다.",
-        "content": "여러 AI 에이전트가 동시에 학습하고 탐색할 때, 기존 방식은 비효율적이었죠? '문어(Octopus)'는 공유된 KV 캐시를 통해 여러 에이전트가 하나의 뇌처럼 협력하게 하여, 훈련 처리량을 3.3배 늘리고 메모리 사용량을 2.8배 절감하는 획기적인 기술입니다. AI 협업의 새 지평을 엽니다! 🤯",
-        "link": "https://arxiv.org/abs/2611.06956",
-        "source": "arXiv cs.LG",
-        "og_image": null,
-        "tags": [
-          "Deep",
-          "Dive"
-        ]
-      },
-      {
-        "title": "SLM의 장문 기억력 평가: 검색은 잘하는데 재구성 능력이...? 🤔",
-        "summary": "SLM(Small Language Model)의 장문 컨텍스트 기억력을 평가하는 SRRM 벤치마크 결과, 검색 성능과 달리 정보 재구성 능력은 현저히 떨어진다는 것이 밝혀졌습니다.",
-        "content": "작은 언어 모델, 긴 대화는 기억하고 있을까요? SRRM 벤치마크를 통해 Qwen2.5 모델들을 테스트한 결과, 특정 정보는 잘 찾아내지만, 전체적인 내용을 재구성하는 능력은 훨씬 떨어진다는 사실이 드러났습니다. 단순히 파라미터가 많다고 장문 기억력이 좋은 건 아니었네요! 📖",
-        "link": "https://arxiv.org/abs/2611.05386",
-        "source": "arXiv cs.CL",
-        "og_image": null,
-        "tags": [
-          "Deep",
-          "Dive"
+          "AI 해킹",
+          "사이버보안",
+          "보안 취약점",
+          "경고"
         ]
       }
     ],
     "watch_this": [
       {
-        "title": "One OpenAI-Compatible Endpoint for Every App in Your Homelab",
-        "channel": "BigIron AI",
-        "link": "https://www.youtube.com/watch?v=p-SiQSxAR2U",
-        "thumbnail": "https://i.ytimg.com/vi/p-SiQSxAR2U/mqdefault.jpg",
-        "description": "홈랩에 OpenAI 호환 엔드포인트 하나로 모든 앱을 연결하는 방법! 개발자라면 이 영상으로 AI 활용도를 극대화해보세요. 당신의 홈랩이 강력한 AI 워크스테이션으로 변신할 거예요. 🛠️"
+        "title": "LangGraph Explained in 4 minutes (LangGraph Tutorial)",
+        "channel": "CodeHead",
+        "link": "https://www.youtube.com/watch?v=A4p8AOu2rMM",
+        "thumbnail": "https://i.ytimg.com/vi/A4p8AOu2rMM/mqdefault.jpg",
+        "description": "AI 에이전트 시스템의 핵심, LangGraph를 단 4분 만에 빠르게 이해하고 싶은 분들을 위한 튜토리얼! 바쁜 당신을 위해 핵심만 콕콕 집어줍니다. ⏰"
       },
       {
-        "title": "Open WebUI: free self-hosted ChatGPT for your whole team",
-        "channel": "ai-toolfinder",
-        "link": "https://www.youtube.com/watch?v=lUTIw8JFWbQ",
-        "thumbnail": "https://i.ytimg.com/vi/lUTIw8JFWbQ/mqdefault.jpg",
-        "description": "우리 팀만을 위한 무료 셀프 호스팅 챗GPT! Open WebUI로 나만의 챗GPT를 구축하고 팀 생산성을 폭발시켜 보세요. 보안도 잡고 비용도 아끼는 일석이조 AI 솔루션! 🚀"
+        "title": "LangGraph Explained for Beginners",
+        "channel": "KodeKloud",
+        "link": "https://www.youtube.com/watch?v=cUfLrn3TM3M",
+        "thumbnail": "https://i.ytimg.com/vi/cUfLrn3TM3M/mqdefault.jpg",
+        "description": "LangGraph가 궁금한 초보 개발자들, 여기 모여라! 기초부터 탄탄하게 LangGraph의 개념을 잡아주는 친절한 설명과 예시를 만나보세요. 🐣"
+      },
+      {
+        "title": "Agentic Framework LangGraph explained in 8 minutes | Beginners Guide",
+        "channel": "W.W. AI Adventures",
+        "link": "https://www.youtube.com/watch?v=1Q_MDOWaljk",
+        "thumbnail": "https://i.ytimg.com/vi/1Q_MDOWaljk/mqdefault.jpg",
+        "description": "AI 에이전트 개발의 필수템 LangGraph! 복잡한 에이전트 워크플로우를 8분 만에 마스터할 수 있는 입문자 가이드 영상입니다. 시간 효율 최고! 🚀"
+      },
+      {
+        "title": "LangChain vs LangGraph: A Tale of Two Frameworks",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=qAF1NjEVHhY",
+        "thumbnail": "https://i.ytimg.com/vi/qAF1NjEVHhY/mqdefault.jpg",
+        "description": "AI 개발 양대 산맥, LangChain과 LangGraph! 어떤 차이가 있고 언제 어떤 것을 써야 할지 궁금하다면, 이 비교 분석 영상을 꼭 시청하세요. 선택의 고민 끝! 💡"
+      },
+      {
+        "title": "LangGraph Complete Course for Beginners – Complex AI Agents with Python",
+        "channel": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/watch?v=jGg_1h0qzaM",
+        "thumbnail": "https://i.ytimg.com/vi/jGg_1h0qzaM/mqdefault.jpg",
+        "description": "Python으로 고급 AI 에이전트 시스템을 구축하고 싶다면? freeCodeCamp의 LangGraph 완벽 코스로 복잡한 워크플로우를 직접 구현해보세요. 코드와 함께 성장! 💻"
+      },
+      {
+        "title": "LangGraph Tutorial - How to Build Advanced AI Agent Systems",
+        "channel": "Tech With Tim",
+        "link": "https://www.youtube.com/watch?v=1w5cCXlh7JQ",
+        "thumbnail": "https://i.ytimg.com/vi/1w5cCXlh7JQ/mqdefault.jpg",
+        "description": "LangGraph를 활용해 정교하고 효율적인 AI 에이전트 시스템을 만드는 방법을 배우는 심화 튜토리얼입니다. 나만의 AI 비서를 만들고 싶다면 클릭! 🌟"
+      },
+      {
+        "title": "Agentic AI Tutorial for Beginners | Langgraph Tutorial",
+        "channel": "codebasics",
+        "link": "https://www.youtube.com/watch?v=CnXdddeZ4tQ",
+        "thumbnail": "https://i.ytimg.com/vi/CnXdddeZ4tQ/mqdefault.jpg",
+        "description": "AI 에이전트 개념이 아직 낯선 분들을 위한 맞춤형 튜토리얼! LangGraph를 통해 에이전틱 AI의 세계에 쉽게 발을 들여놓을 수 있습니다. 환영합니다! 👋"
+      },
+      {
+        "title": "LangGraph Crash Course - Agent Workflows in Python",
+        "channel": "NeuralNine",
+        "link": "https://www.youtube.com/watch?v=uWLJAtMOVT0",
+        "thumbnail": "https://i.ytimg.com/vi/uWLJAtMOVT0/mqdefault.jpg",
+        "description": "Python으로 빠르게 LangGraph 에이전트 워크플로우를 배우고 싶은 분들을 위한 크래시 코스! 짧은 시간에 핵심 지식을 습득하고 바로 적용해보세요. 🔥"
       }
     ]
   }
