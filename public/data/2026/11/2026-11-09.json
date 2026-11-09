@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-09",
+  "keywords": [
+    "AI 에이전트",
+    "LLM 비용",
+    "엔비디아 스캔들",
+    "AI 음악",
+    "데이터센터"
+  ],
+  "sections": {
+    "hype_check": [
+      {
+        "title": "헐? 젠슨 황, 중국 스파이와 스캔들?! 엔비디아 조사 착수! 🕵️‍♀️",
+        "summary": "AI 칩 제왕 엔비디아의 젠슨 황 CEO가 중국 스파이와의 관계 의혹으로 회사 조사를 받게 됐대요! 🤯",
+        "content": "엔비디아 이사회가 젠슨 황 CEO의 해외 정보 요원과의 관계에 대한 독립적인 조사에 착수했다고 합니다. 미국 국가 및 경제 안보를 최우선으로 한다는 이사회 성명까지 발표되었는데요, 과연 진실은 무엇일까요? 드라마 한 편 뚝딱! 🎬",
+        "link": "https://www.reddit.com/r/singularity/comments/1xr7wb5/nvidia_opens_investigation_into_jensen_huangs/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "엔비디아",
+          "젠슨황",
+          "스캔들",
+          "중국",
+          "첩보"
+        ]
+      },
+      {
+        "title": "트럼프의 AI 극비 경고: \"나 아니었음 큰일 날 뻔!\" 🤫",
+        "summary": "트럼프 전 대통령이 \"AI로 뭔가 안 좋은 짓을 하려던\" 대형 연구소 CEO를 체포하겠다고 협박했던 썰을 풀었어요. 🚨",
+        "content": "그의 말에 따르면, 당시 AI가 매우 악의적일 수 있었다고 하는데요. 과연 어떤 비밀스러운 일이 있었던 걸까요? 트럼프 덕분에(?) AI 재앙을 피한 걸까요? 🍿 영화 <미션 임파서블>보다 흥미진진한데요!",
+        "link": "https://www.reddit.com/r/singularity/comments/1xrhqeh/trump_claims_that_he_threatened_to_arrest_a_major/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "트럼프",
+          "AI규제",
+          "미국정치",
+          "음모론"
+        ]
+      },
+      {
+        "title": "딥마인드, 과학계 \"상전이(Phase Transition)\" 예고?! 뭔데 뭔데! 🤩",
+        "summary": "구글 딥마인드의 과학 부문 VP가 과학적 발견에서 \"상전이\"를 예고하며 AI의 엄청난 발전 가능성을 시사했습니다.",
+        "content": "코-사이언티스트나 신약 개발, 재료 과학과 관련될 수도 있다고 하는데요. 구글이 '알파매터' 상표권까지 등록했다니, 또 어떤 미친(?) 기술을 보여줄지 기대됩니다. 과학계 뒤집어 놓을 소식일까요? 🧪",
+        "link": "https://www.reddit.com/r/singularity/comments/1xqzpba/deepminds_vp_of_science_teases_a_phase_transition/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "딥마인드",
+          "AI연구",
+          "과학발견",
+          "미래기술"
+        ]
+      },
+      {
+        "title": "클로드 Opus 5.5로 '발더스 게이트 3' 같은 RPG를 만들었다고? 개발자 천재설 ✍️",
+        "summary": "한 개발자가 클로드 Opus 5.5와 Three.js를 사용해 '발더스 게이트 3'에서 영감을 받은 턴제 RPG를 만들었대요. 캐릭터 생성부터 3D 월드까지 완벽!",
+        "content": "와우, AI가 이젠 게임 개발까지 도와주는 시대! 클로드 5.5가 이 정도라니, 다음 버전엔 게임을 통째로 만들어줄지도 모르겠네요. 개발자 Meng To님 리스펙! 👍 게임덕후들 심장 박동수 상승하는 소리 들린다!",
+        "link": "https://www.reddit.com/r/singularity/comments/1xrentf/developer_meng_to_uses_claude_opus_55_and_threejs/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "클로드",
+          "AI게임",
+          "RPG",
+          "개발자",
+          "발더스게이트"
+        ]
+      },
+      {
+        "title": "맥 미니가 로봇을 조종한다고? 애플 연구진의 깜짝 로봇 실험! 🍎🤖",
+        "summary": "애플 연구진이 맥 미니로 휴머노이드 로봇 유니트리 G1을 제어하는 데 성공했대요. 91%의 성공률이라니 대박!",
+        "content": "Qwen 모델을 로컬에서 구동해서 로봇이 의자에 앉고, 테이블 밑을 기어 다니는 등 다양한 행동을 성공적으로 수행했다고 합니다. 맥 미니가 이렇게 똑똑할 일이야? 이제 우리 집 로봇도 아이폰으로 조종하는 건가! 🏡",
+        "link": "https://www.reddit.com/r/singularity/comments/1xr6w6w/apple_researchers_use_a_mac_mini_running_qwen/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "애플",
+          "맥미니",
+          "로봇",
+          "휴머노이드",
+          "AI제어"
+        ]
+      },
+      {
+        "title": "개발자 한 명에 천만 달러로 Kimi K3급 AI 만든 스타트업 Mirendil! 💰",
+        "summary": "스타트업 Mirendil이 단 한 명의 개발자와 천만 달러의 컴퓨팅 비용으로 Kimi K3 수준의 모델을 훈련시켰다고 합니다. 가성비 끝판왕 등장?!",
+        "content": "이 정도면 \"돈만 많으면 AI 만들 수 있다\"는 말도 옛말이 될 것 같은데요? 작은 팀으로도 빅테크에 버금가는 AI를 만들 수 있다는 희망을 보여줬어요. AI 스타트업들, 이제 가성비로 승부하는 건가요? 🚀",
+        "link": "https://www.reddit.com/r/singularity/comments/1xrbn3n/startup_mirendil_trains_a_kimi_k3_level_model/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "스타트업",
+          "AI모델",
+          "비용효율",
+          "KimiK3"
+        ]
+      },
+      {
+        "title": "AI, 법의 허점까지 찾아낸다? 글로벌 법률 취약점 발굴! 😱",
+        "summary": "AI가 전 세계 법률 데이터베이스에서 허점과 논리적 오류를 찾아내고 있대요. AI에게 고소당할 수도 있겠는데?!",
+        "content": "사이버 보안에 AI를 쓰는 건 알겠는데, 법률 시스템까지 들여다본다니 소름 끼치지 않나요? 언젠가 AI 변호사가 \"이 법은 AI가 보기에 모순입니다\"라고 항변할지도! ⚖️ 법률 세계도 AI 덕분에 '클린 코드' 만들 날이 올까요?",
+        "link": "https://www.reddit.com/r/singularity/comments/1xrc3pt/ai_to_find_vulnerabilities_in_global_legislation/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI법률",
+          "법률보안",
+          "취약점",
+          "AI변호사"
+        ]
+      },
+      {
+        "title": "AI 에이전트와 \"사교 시간\" 필수? 팀원들과 점심 먹는 AI 🍝🤖",
+        "summary": "어떤 팀은 AI 에이전트에게 인간 직원과의 '사교 시간'을 의무화하려고 한대요! 그래야 \"속마음\"을 안다나?",
+        "content": "AI 에이전트가 단순히 업무만 잘하는 게 아니라, 팀 분위기나 숨겨진 맥락까지 이해하게 하려고 한답니다. \"AI 에이전트야, 너도 점심 먹고 힘내!\"라고 말하는 날이 올까요? 😅 진짜 같이 회식이라도 해야 하나...",
+        "link": "https://www.reddit.com/r/singularity/comments/1xrcrfi/has_anyone_tried_mandating_social_time_between/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI에이전트",
+          "팀워크",
+          "인간관계",
+          "미래직장"
+        ]
+      },
+      {
+        "title": "AI 시대, 유토피아 vs 디스토피아? 둘 다 온다! 🌓",
+        "summary": "AI가 가져올 미래는 유토피아와 디스토피아가 뒤섞인 혼란의 도가니일 거라는 흥미로운 가설이 나왔어요.",
+        "content": "AI가 암을 치료하는 동시에 새로운 바이러스를 퍼뜨릴 수도 있다는 거죠. \"우리는 망했어!\"와 \"다시 시작이야!\"가 끝없이 반복되는 '강화된 혼합 미래'. 어쩌면 이게 제일 현실적인 시나리오일지도? 🤔",
+        "link": "https://www.reddit.com/r/singularity/comments/1xr2abb/instead_of_utopia_va_dystopia_could_the_future_be/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI미래",
+          "유토피아",
+          "디스토피아",
+          "싱귤래리티"
+        ]
+      },
+      {
+        "title": "냉장고도 해킹 당한다고? IoT 기기 보안, 비상벨이 울린다! 🚨",
+        "summary": "냉장고 해킹 사태가 인터넷 연결 기기(IoT)의 심각한 보안 문제를 다시 한번 일깨웠습니다. 당신의 스마트 가전은 안녕하신가요?",
+        "content": "똑똑해진 만큼 위험도 커지는 스마트 기기들. 이제 냉장고나 커피 머신도 해킹 당할 수 있다는 사실! 😱 집 안 모든 IoT 기기들의 보안 설정을 다시 한번 확인해야 할 때입니다. 해킹 당한 냉장고가 야채를 다 버리면 어쩌지?",
+        "link": "https://www.reddit.com/r/singularity/comments/1xr83tc/the_fridgehacking_spree_is_an_internetofthings/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "IoT",
+          "보안",
+          "해킹",
+          "스마트홈"
+        ]
+      },
+      {
+        "title": "그루트 2 티저?! (사실은 AI 과학 발표!) 🌿🚀",
+        "summary": "구글 딥마인드의 짐 팬이 '그루트 2' 티저를 공개했어요! 아쉽지만 영화 그루트가 아니라 AI 과학 컨퍼런스 발표 소식이었답니다.",
+        "content": "CoRL 기조연설에서 공개될 내용이라고 하는데, AI 과학 분야에서 어떤 '심쿵'할 소식이 나올지 벌써부터 기대되네요! \"I am Groot!\"라고 외치고 싶지만, 일단은 AI 과학 발전을 응원해봅니다! 🙌",
+        "link": "https://www.reddit.com/r/singularity/comments/1xred2a/groot_2_teaser/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI컨퍼런스",
+          "딥마인드",
+          "티저",
+          "AI과학"
+        ]
+      },
+      {
+        "title": "\"내 LLM 너프됐나?\" 사용자들의 불만 폭주! 믿을 수 있는 테스트 사이트는 어디? 📉",
+        "summary": "최근 LLM 모델들이 '너프된 것 같다'는 불만이 속출하며, 신뢰할 만한 LLM 테스트/추적 웹사이트에 대한 관심이 뜨거워요.",
+        "content": "특히 GPT-5.6 Sol과 Claude Opus 5.5에 대한 성능 저하 의혹이 많다고 합니다. 사용자들은 자기 LLM이 예전 같지 않다며 너프 의심을 거두지 못하고 있는데요. 우리 LLM, 혹시 몰래 다이어트한 거 아니지? 🧐",
+        "link": "https://www.reddit.com/r/singularity/comments/1xr6o4i/which_is_this_llm_nerfed_testingtracking_website/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "LLM",
+          "너프",
+          "성능",
+          "AI모델"
+        ]
+      },
+      {
+        "title": "AI 거장 3인방, \"AI 과학 혁명\" 예고! 빅테크의 거대한 꿈 🌟",
+        "summary": "구글 딥마인드, 메타, OpenAI의 핵심 인물들이 곧 AI 기반의 과학적 돌파구가 있을 것이라고 예고했습니다.",
+        "content": "푸쉬미트 콜리(Google DeepMind), 톰 만(Meta), 그렉 브록만(OpenAI)까지! AI 분야의 슈퍼스타들이 한목소리로 \"과학의 대변혁\"을 외치고 있어요. 그들이 꿈꾸는 AI 과학의 미래는 과연 어떤 모습일까요? 궁금해서 밤잠 설칠 지경! 🤩",
+        "link": "https://www.reddit.com/r/singularity/comments/1xrg0d0/pushmeet_kohli_google_deepmind_tom_mann_meta_and/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI혁명",
+          "딥마인드",
+          "메타",
+          "OpenAI",
+          "과학기술"
+        ]
+      },
+      {
+        "title": "로봇과 AI가 기본 소득을 해결할 수 있을까? 인플레이션 없이! 💸",
+        "summary": "로봇과 AI가 인플레이션 없이 모두에게 기본 생활비를 제공할 수 있을지에 대한 진지한 논의가 시작됐어요.",
+        "content": "AI 덕분에 일자리가 줄어들 거라는 걱정이 많지만, 어쩌면 AI가 우리 모두를 먹여 살릴 수도 있다는 희망적인 시나리오! 🤖💰 15년 안에 현실이 될 수 있을까요? \"로봇아, 내 월급 줘!\"",
+        "link": "https://www.reddit.com/r/singularity/comments/1xr0i1r/can_robots_and_ai_pay_for_a_living_wage_universal/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI경제",
+          "로봇",
+          "기본소득",
+          "미래사회"
+        ]
+      },
+      {
+        "title": "데이터센터, 텍사스를 떠나나? 주정부 규제에 비상! 🌵",
+        "summary": "텍사스 주지사 후보들이 데이터센터 개발에 대한 강력한 규제를 예고하면서, 빅테크 기업들이 발칵 뒤집혔습니다.",
+        "content": "텍사스가 데이터센터의 새로운 허브로 떠오르고 있었는데, 주지사 후보 Hinojosa가 데이터센터 개발 일시 중단을 공약으로 내세웠대요. AI 기업들, 새로운 데이터센터 부지를 찾아 떠나야 하는 걸까요? 🗺️",
+        "link": "https://www.reddit.com/r/singularity/comments/1xrfpaa/data_centers_may_no_longer_be_choosing_texas_when/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "데이터센터",
+          "텍사스",
+          "AI인프라",
+          "규제"
+        ]
+      }
+    ],
+    "tech_deep_dive": [
+      {
+        "title": "DevRev, GPT-6.1 Sol로 자율 셀프 서비스 시대 연다! 🛠️",
+        "summary": "DevRev가 OpenAI의 GPT-6.1 Sol을 활용해 엔터프라이즈 셀프 서비스 솔루션을 구축, 합리적인 비용으로 추론 및 속도 균형을 잡았습니다.",
+        "content": "기업 고객 서비스에 AI가 깊숙이 파고들고 있어요. GPT-6.1 Sol은 '컴퓨터와 운영자'의 역할을 자율적으로 수행하며, 엔터프라이즈 환경에서 지능, 속도, 비용 효율성이라는 세 마리 토끼를 잡았다고 합니다. 이제 고객센터 전화는 AI가 대신 받나? 📞",
+        "link": "https://openai.com/index/devrev-enterprise-self-service",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "OpenAI",
+          "GPT-6.1",
+          "DevRev",
+          "엔터프라이즈AI",
+          "셀프서비스"
+        ]
+      },
+      {
+        "title": "OpenAI, 새로운 최고 기업 업무 책임자 질 해이즐베이커 영입! 👩‍💼",
+        "summary": "OpenAI가 글로벌 커뮤니케이션 및 기업 포지셔닝을 이끌 최고 기업 업무 책임자로 질 해이즐베이커를 임명했습니다.",
+        "content": "구글, 메타 등 빅테크 출신의 베테랑이 OpenAI의 얼굴이 된 거죠. 회사의 대외적인 이미지를 관리하고 전략적인 방향을 제시할 그녀의 역할이 기대됩니다. AI 기술만큼이나 '말'도 중요한 시대! 🗣️",
+        "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "OpenAI",
+          "리더십",
+          "기업전략",
+          "질해이즐베이커"
+        ]
+      },
+      {
+        "title": "앤트로픽, 에이전트 AI 재단에 에이전트 기술 기부! 🤝",
+        "summary": "앤트로픽이 에이전트 AI 재단에 자신들의 에이전트 기술을 기부하며 AI 커뮤니티의 발전에 기여합니다.",
+        "content": "AI 에이전트 기술의 오픈 소스화 및 공동 개발을 위한 움직임으로 보이는데요. 이는 AI 에이전트 생태계의 성장을 가속화하고, 더 많은 개발자들이 혁신적인 AI 에이전트를 만들 수 있는 기반을 제공할 것으로 기대됩니다. 협력하면 더 강해진다! 💪",
+        "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+        "source": "Anthropic News",
+        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "tags": [
+          "Anthropic",
+          "AI에이전트",
+          "오픈소스",
+          "기술기부",
+          "AI재단"
+        ]
+      },
+      {
+        "title": "앤트로픽 IPO 앞두고 AI 지출 정체? \"과잉 성장에 제동?\" 📉",
+        "summary": "Ramp 데이터에 따르면 AI 사용량은 급증했지만, 지출은 정체 상태라고 해요. 앤트로픽 IPO에 영향을 미칠까요?",
+        "content": "비용 절감과 더 스마트한 비용 통제가 AI 하이퍼그로스에 대한 투자자들의 기대에 찬물을 끼얹을 수도 있다는 분석이 나왔습니다. AI가 아무리 똑똑해도 '돈 계산'은 칼같이 해야죠! 💰 이 소식이 앤트로픽 IPO에 어떤 영향을 줄지 궁금하네요.",
+        "link": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/11/ara-stripe-5.png?resize=1200,779",
+        "tags": [
+          "Anthropic",
+          "IPO",
+          "AI지출",
+          "시장분석",
+          "비용절감"
+        ]
+      },
+      {
+        "title": "엔터프라이즈 에이전트 위한 훈련 데이터? AutoSynthData가 알아서 척척! 🧑‍💻",
+        "summary": "ServiceNow AI가 'AutoSynthData'를 통해 엔터프라이즈 에이전트용 훈련 데이터를 자동으로 생성하는 방법을 소개했습니다.",
+        "content": "AI 에이전트를 똑똑하게 만들려면 양질의 데이터가 필수! AutoSynthData는 기업용 AI 에이전트가 더 효율적으로 학습하고 업무를 처리할 수 있도록 도와준다고 합니다. 이제 데이터 수집 노가다는 안녕! 👋",
+        "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
+        "tags": [
+          "HuggingFace",
+          "데이터생성",
+          "엔터프라이즈AI",
+          "훈련데이터",
+          "ServiceNow"
+        ]
+      },
+      {
+        "title": "애플 플랫폼 로컬 LLM 1년! AnyLanguageModel 1.0의 진화 🍏",
+        "summary": "Hugging Face가 애플 플랫폼에서의 로컬 모델 개발 1주년을 기념하며 AnyLanguageModel 1.0의 성과를 공유했습니다.",
+        "content": "이제 맥북이나 아이패드에서도 강력한 LLM을 로컬로 돌릴 수 있다는 얘기! 💻 데이터 프라이버시 걱정 없이 나만의 AI 비서를 만들 수 있는 시대가 오고 있습니다. 애플 유저들, 환호할 준비됐나요? 🎉",
+        "link": "https://huggingface.co/blog/anylanguagemodel-1-0",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/anylanguagemodel-1-0/banner.png",
+        "tags": [
+          "HuggingFace",
+          "애플",
+          "로컬LLM",
+          "AI모델",
+          "AnyLanguageModel"
+        ]
+      },
+      {
+        "title": "LLM 비용 폭탄 막기! Claude에게 \"왜 내 빌이 이렇게 올랐지?\" 물어봐! 💸",
+        "summary": "오픈소스 도구 'LLM-cost-watch'가 등장, Claude 같은 LLM에게 갑자기 오른 요금의 원인을 물어볼 수 있게 됐어요.",
+        "content": "LLM 사용하다 보면 예상치 못한 요금 폭탄에 당황할 때가 있죠? 이 도구는 \"야, 클로드! 왜 내 지갑이 털렸냐?!\"라고 직접 물어보는 격이에요. 개발자들, 이제 LLM 비용 때문에 식은땀 흘릴 일은 줄어들겠네요! 📉",
+        "link": "https://github.com/rohith0707/llm-cost-watch",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://opengraph.githubassets.com/81709581a883dc22aa1db0125b856984ddf05f23400fd20bc3388a5753b1f036/rohith0707/llm-cost-watch",
+        "tags": [
+          "LLM",
+          "비용관리",
+          "클로드",
+          "오픈소스",
+          "개발도구"
+        ]
+      },
+      {
+        "title": "로컬 LLM 저장 공간 공유? \"나만의 AI 뇌\" 만드는 오픈 웹 프로토콜! 🧠",
+        "summary": "로컬 LLM 저장 공간 공유를 위한 오픈 웹 프로토콜이 개발됐어요. 개인 AI 모델을 더 유연하게 관리할 수 있겠네요.",
+        "content": "나만의 AI를 나만의 서버에 저장하고, 필요할 때마다 공유할 수 있다면? 마치 \"내 뇌를 가져와!\"라고 외치는 것과 같아요. 🧠💻 탈중앙화된 AI 시대의 한 조각이 될까요? 프라이버시와 커스터마이징을 동시에 잡을 기회!",
+        "link": "https://joshuadd79.github.io/bring-your-own-brain/",
+        "source": "Hacker News (LLM)",
+        "og_image": null,
+        "tags": [
+          "로컬LLM",
+          "오픈프로토콜",
+          "탈중앙화",
+          "AI저장",
+          "개발"
+        ]
+      },
+      {
+        "title": "\"GPU 시간당 요금\"이 LLM 추론 가격 책정에 합리적일까? 🤔",
+        "summary": "LLM 추론 서비스의 가격을 '사용자당 GPU 시간'으로 책정하는 것이 과연 합리적인가에 대한 논의가 시작됐습니다.",
+        "content": "AI 모델이 복잡해지고 사용량이 늘면서 LLM 비용은 늘 뜨거운 감자! 이 새로운 가격 모델이 시장에 어떤 영향을 미칠지, 개발자와 사용자 모두에게 이득이 될지 주목됩니다. \"내 GPU, 지금 몇 시야?\" ⏰",
+        "link": "https://www.mirastacklabs.ai/",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://www.mirastacklabs.ai/assets/img/og-default.png",
+        "tags": [
+          "LLM",
+          "가격책정",
+          "GPU",
+          "AI서비스",
+          "경제성"
+        ]
+      },
+      {
+        "title": "애플, 시리를 \"에이전트급\"으로 진화시키려 사활을 건다! 🚀",
+        "summary": "애플이 시리를 OpenAI의 Dots나 메타의 Muse와 경쟁할 수 있는 강력한 AI 에이전트로 만들려 속도를 내고 있습니다.",
+        "content": "시리가 이제 사진 편집이나 사파리 탭 정리 같은 일도 직접 할 수 있게 될 거라는데요. \"헤이 시리, 내 로컬 LLM을 사용하여 이 이미지를 잘라줘!\"라고 말하는 날이 올지도? 애플 생태계의 AI 혁신이 기대됩니다! 🍎",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Siri-AI-Being-invoked-3.jpg?quality=90&strip=all&crop=0%2C10.727837220746%2C100%2C78.544325558509&w=1200",
+        "tags": [
+          "애플",
+          "시리",
+          "AI에이전트",
+          "경쟁",
+          "혁신"
+        ]
+      },
+      {
+        "title": "엘비스, 에미넴 상속자들이 AI 음악 회사 Suno를 고소! \"내 목소리 클론은 안돼!\" 🎤",
+        "summary": "엘비스 프레슬리 유산 관리자들과 에미넴 음반사가 AI 음악 회사 Suno를 상대로 불법 복제 소송을 제기했습니다.",
+        "content": "AI가 아티스트의 목소리와 음악 스타일을 무단으로 모방하여 음악을 생성한다는 주장이죠. 특히 테네시 주의 'ELVIS 법' 위반 논란까지! AI 음악의 저작권 문제, 점점 뜨거워지네요. \"내 목소리는 AI 것이 아니야!\" 😤",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "AI음악",
+          "저작권",
+          "Suno",
+          "엘비스",
+          "에미넴",
+          "소송"
+        ]
+      },
+      {
+        "title": "메타, Muse 에이전트와 협업하는 새로운 방법 \"Spaces\" 공개! 🌌",
+        "summary": "메타가 AI 에이전트 Muse와의 협업을 위한 새로운 기능 \"Spaces\"를 선보였습니다. 이제 AI랑 더 친해질 수 있다구요!",
+        "content": "Muse 에이전트들이 계속해서 새로운 기능과 통합을 제공하며 진화하고 있어요. Spaces는 우리가 AI 도우미들과 상호작용하는 방식을 완전히 바꿀 수 있을 것 같습니다. 혼자 말고 AI와 함께 일하는 시대! 🤝",
+        "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "메타",
+          "Muse",
+          "AI에이전트",
+          "협업",
+          "Spaces"
+        ]
+      },
+      {
+        "title": "AI 에이전트, CTF 챌린지 왜 못 풀까? 한계와 과제 분석! 🤯",
+        "summary": "AI 에이전트가 Capture The Flag(CTF) 챌린지를 해결하지 못하는 이유를 파고든 기사가 나왔습니다.",
+        "content": "아직 AI 에이전트가 인간처럼 복잡한 문제 해결 능력이나 창의적인 사고력을 갖추지 못했다는 점을 지적합니다. AI가 모든 걸 다 할 수는 없겠죠? AI 에이전트, 개발자보다 똑똑해지는 건 좀 더 기다려야 할 것 같아요. 🤷‍♀️",
+        "link": "https://h4c.team/en/posts/97",
+        "source": "Hacker News (AI agents)",
+        "og_image": null,
+        "tags": [
+          "AI에이전트",
+          "CTF",
+          "문제해결",
+          "AI한계",
+          "보안"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "Local Ai Server Setup Guides Proxmox 9 - vLLM in LXC w/ GPU Passthrough",
+        "channel": "Digital Spaceport",
+        "link": "https://www.youtube.com/watch?v=APBpBFZIVEk",
+        "thumbnail": "https://i.ytimg.com/vi/APBpBFZIVEk/mqdefault.jpg",
+        "description": "Proxmox 9에서 vLLM을 LXC 컨테이너에 GPU 패스스루와 함께 설정하는 방법을 알려주는 튜토리얼입니다. 로컬 AI 서버 구축에 관심 있는 개발자라면 필청!"
+      },
+      {
+        "title": "Run LLM with vLLM in Docker in 15 Minutes (2026)",
+        "channel": "Debugging with KTiPs",
+        "link": "https://www.youtube.com/watch?v=qZquEjoTmNY",
+        "thumbnail": "https://i.ytimg.com/vi/qZquEjoTmNY/mqdefault.jpg",
+        "description": "단 15분 만에 Docker 환경에서 vLLM을 이용해 LLM을 실행하는 초고속 가이드! 빠르고 효율적인 LLM 배포를 위한 꿀팁이 가득합니다."
+      },
+      {
+        "title": "Install and Run Locally LLMs using vLLM library on Windows",
+        "channel": "Aleksandar Haber PhD",
+        "link": "https://www.youtube.com/watch?v=APUDwZvcdYs",
+        "thumbnail": "https://i.ytimg.com/vi/APUDwZvcdYs/mqdefault.jpg",
+        "description": "Windows 운영체제에서 vLLM 라이브러리를 사용해 로컬 LLM을 설치하고 실행하는 방법을 상세히 설명합니다. 윈도우 사용자라면 놓치지 마세요!"
+      },
+      {
+        "title": "DevOps + LLM +AI Project w/ Docker, Kubernetes, vLLM | Resume Project for Beginners",
+        "channel": "Vishakha Sadhwani",
+        "link": "https://www.youtube.com/watch?v=cm2tZm8lGSg",
+        "thumbnail": "https://i.ytimg.com/vi/cm2tZm8lGSg/mqdefault.jpg",
+        "description": "DevOps, LLM, AI를 결합한 프로젝트로 Docker, Kubernetes, vLLM을 활용하는 방법을 소개합니다. 초보 개발자들의 이력서 프로젝트로 강추!"
+      },
+      {
+        "title": "5. 🚀Déploiement avec vLLM : modèle quantifiés génératif + embeddings !",
+        "channel": "Mastering AI",
+        "link": "https://www.youtube.com/watch?v=yaHfjtZr3xY",
+        "thumbnail": "https://i.ytimg.com/vi/yaHfjtZr3xY/mqdefault.jpg",
+        "description": "vLLM을 사용한 양자화된 생성 모델 및 임베딩 배포에 대한 프랑스어 튜토리얼입니다. LLM 배포의 깊이를 더하고 싶다면 시청해보세요!"
+      }
+    ]
+  }
+}
