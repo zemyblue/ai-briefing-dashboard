@@ -1,525 +1,263 @@
 {
   "schema_version": 1,
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "keywords": [
-    "젠슨 황",
+    "젠슨황 스캔들",
     "AI 에이전트",
-    "챗GPT",
-    "RAG",
-    "벡터 데이터베이스"
+    "LLM 최적화",
+    "AI 코딩",
+    "AI 비즈니스",
+    "구글 제미나이",
+    "엔비디아",
+    "오픈AI",
+    "앤스로픽",
+    "사이버 보안"
   ],
   "sections": {
-    "hype_check": [
-      {
-        "title": "AI 면접? 그거 그냥 웃고 즐기면 되는 거 아니었어? 🤣",
-        "summary": "AI 면접에서 떨어지는 기막힌 방법! 혹시 내 얘기...? 🤫",
-        "content": "AI 면접, 이제는 필수가 되었죠? 그런데 한 레딧 유저가 AI 면접에서 보기 좋게 떨어지는 방법을 공유해서 화제예요. 단순한 오타부터 황당한 답변까지, \"이렇게 하면 100% 탈락!\" 이라는 팁들이 쏟아졌다는 소문! 여러분의 AI 면접 썰도 궁금하네요. 🎤",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtouqs/how_to_fail_an_ai_job_interview/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "AI면접",
-          "채용",
-          "꿀팁",
-          "실패담"
-        ]
-      },
-      {
-        "title": "의사 필체 해독 챌린지: 챗GPT도 두 손 들었다?! 🤯",
-        "summary": "챗GPT가 의사의 악필을 해독하는 새로운 벤치마크 테스트에서 참패했다고? ㅋㅋㅋ",
-        "content": "세상에서 가장 어려운 AI 챌린지가 등장했어요! 바로 \"의사 필체 해독\" 챌린지인데요. 챗GPT도 \"Z로 시작하는 것 같고...\", \"Cof... 인가?\" 하며 쩔쩔매는 모습이 포착됐답니다. 역시 AI도 인간의 영역은 넘볼 수 없는 걸까요? (농담!) 이 정도면 의료 드라마에서 의사들이 왜 항상 차트 보면서 고민하는지 알겠네요. 🧐",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtmutk/new_benchmark_just_dropped/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "의사필체",
-          "유머",
-          "챌린지",
-          "AI한계"
-        ]
-      },
-      {
-        "title": "AI 숙제 들켰다! 학생들, 좀 더 티 안 나게 써보자규! 🕵️‍♀️",
-        "summary": "교수님들 눈을 피할 수 없는 AI 숙제의 뻔한 증거들! 혹시 당신도?",
-        "content": "레딧에서 난리 난 'AI 숙제 들킨 썰'! 😱 똑같은 워크숍 레이아웃이 5개나 코드팩스로 생성된 걸 보고 \"이건 너무 티 나잖아!\"라며 교수님이 분노했다는데요. AI를 쓰는 건 좋지만, 좀 더 영리하게 써야겠죠? 단순 복붙은 이제 그만! AI는 이해를 돕는 도구일 뿐, 모든 걸 맡기면... 🚨 큰코다칩니다!",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtan70/they_didnt_even_try_to_hide_it/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "AI숙제",
-          "학교생활",
-          "코드팩스",
-          "윤리"
-        ]
-      },
-      {
-        "title": "AI가 뚝딱! 넷플릭스 뺨치는 홈 서버 앱, 용량은 겨우 15MB?! 🤩",
-        "summary": "AI로 만든 넷플릭스 스타일 홈 미디어 서버 앱 'HolyArrs'가 깃허브에서 핫하대요!",
-        "content": "한 개발자가 AI를 활용해 넷플릭스 같은 홈 미디어 서버 앱 'HolyArrs'를 만들었는데, 무려 15MB밖에 안 된다는 사실! ✨ 24시간 만에 깃허브 스타 650개를 받으며 폭발적인 반응을 얻고 있어요. AI는 코드를 빨리 짜지만 용량 관리는 신경 안 쓴다는 교훈까지 얻었다니, 실용적인 AI 활용의 좋은 예시네요! 👍",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtdqs9/i_used_ai_to_build_a_15_mb_netflixstyle_app_for/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": "https://preview.redd.it/5jtt7a1sfy0i1.jpeg?width=1920&format=pjpg&auto=webp&s=03f138ccaa906b22bc3e03bec158401a12859354",
-        "tags": [
-          "AI개발",
-          "홈서버",
-          "HolyArrs",
-          "생산성"
-        ]
-      },
-      {
-        "title": "챗GPT 라이브, 나랑 지금 장난해? 🤦‍♀️ 똑똑한 비서 돌려줘!",
-        "summary": "\"GPT Live? 그 바보 같은 리셉셔니스트랑은 얘기하기 싫어!\" 챗GPT 유저의 극대노 사연!",
-        "content": "\"챗GPT 라이브 정말 못 참겠어!\"라는 유저의 분노가 레딧을 들썩이게 했어요. 똑똑한 챗GPT 모델과 직접 소통하고 싶은데, 마치 \"멍청한 비서\"를 거쳐야 하는 것 같다나요? 😩 실시간 대화 기능은 좋지만, 핵심은 AI의 지능인데... 여러분도 공감하시나요? 저는 가끔 챗봇이 제 말을 못 알아들을 때 속 터지는 기분 아는데... 😅",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtckv5/gpt_live_is_unbearable_i_want_to_talk_to_chatgpt/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "챗GPT라이브",
-          "사용자경험",
-          "불만",
-          "음성AI"
-        ]
-      },
-      {
-        "title": "챗GPT가 바보가 됐다고?! 🤯 단순 작업도 버벅이는 AI, 무슨 일이야?",
-        "summary": "\"오늘은 챗GPT가 트위들 덤(바보)이 됐어!\" 레딧에서 터져 나온 챗GPT 성능 저하 논란!",
-        "content": "충격! 😱 평소엔 복잡한 작업도 척척 해내던 챗GPT가 갑자기 \"바보\"가 됐다는 불만이 쏟아졌어요. 단순한 파일 정리 작업을 8시간 넘게 걸리고, 계속 같은 실수를 반복하며 유저를 미치게 만들었다네요. 혹시 여러분의 챗GPT도 요즘 좀... \"멍\" 때리나요? 🤖 AI 컨디션 난조의 원인은 과연?!",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtvxbb/has_anyone_else_noticed_chatgpt_has_gone_super/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "챗GPT",
-          "성능저하",
-          "AI논란",
-          "사용자경험"
-        ]
-      },
-      {
-        "title": "참전용사 2만 명에게 챗GPT Plus 1년 무료! 🇺🇸 AI로 제2의 삶 응원!",
-        "summary": "OpenAI가 미국 참전용사와 전역 군인 2만 명에게 챗GPT Plus 1년 무료 구독을 선물했대요!",
-        "content": "따뜻한 소식이에요! OpenAI가 미국 참전용사와 전역 군인들에게 챗GPT Plus 1년 무료 구독권을 제공하며 새로운 경력 준비를 돕고 있답니다. 💖 무려 2만 명이 넘는 분들이 이 혜택을 받았다고 하니, AI가 사회에 긍정적인 영향을 미치는 좋은 사례가 될 것 같아요. 👏👏",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtnb1t/more_than_20000_veterans_and_transitioning/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "OpenAI",
-          "사회공헌",
-          "챗GPT플러스",
-          "참전용사"
-        ]
-      },
-      {
-        "title": "챗GPT야, 질문 좀 그만하고 답을 해줘! 😩 끝없는 질문 폭탄 논란!",
-        "summary": "\"챗GPT가 왜 이렇게 질문만 해대고 제대로 된 답변을 안 해주는 거야?\" 유저들의 새로운 불만!",
-        "content": "챗GPT가 요즘 들어 답변 대신 끝없는 질문만 쏟아낸다는 불평이 많아요. 🙄 마치 대화를 결론으로 이끌지 않고 계속해서 \"그건 어떻게 생각하세요?\", \"이런 경우는요?\"라고 되묻는 기분이라는데요. 유저들은 \"대화가 끝없이 반복된다\"며 피로감을 호소하고 있습니다. AI와의 대화도 기싸움이 필요한 시대가 된 걸까요? ⚔️",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtgbdq/why_does_chatgpt_now_asks_endless_questions/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "챗GPT",
-          "대화방식",
-          "사용자경험",
-          "AI소통"
-        ]
-      },
-      {
-        "title": "2026년 AI 현실 vs. 내 상상 속 AI! 💀 (사운드 필수)",
-        "summary": "2026년 AI에 대한 기대와 현실을 유머러스하게 비교한 영상이 빵 터졌어요!",
-        "content": "AI 기술이 발전하는 속도를 보면 가끔 \"내가 상상했던 미래는 이런 게 아니었는데...\" 싶을 때가 있죠? 😅 한 레딧 유저가 만든 영상이 바로 그 마음을 대변하고 있답니다. 2026년의 AI가 얼마나 \"dumb\" 한지 유머러스하게 보여주며 많은 공감을 얻었어요. \"AGI는 오고 있다...lol!\" 과연? 🤖",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtbpha/ai_in_2026_vs_how_i_imagined_ai_in_2026_sound_on/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "AI미래",
-          "유머",
-          "AGI",
-          "기술기대"
-        ]
-      },
-      {
-        "title": "🗣️ \"스탠다드 보이스 지켜내!\" 챗GPT 유저들, 집단 반발 나섰다!",
-        "summary": "챗GPT의 '스탠다드 보이스' 기능이 사라진다고? 유저들이 반대 서명 운동에 돌입했어요!",
-        "content": "오픈AI가 12월 11일부터 챗GPT의 '스탠다드 보이스'를 없앤다고 발표하자, 유저들이 격렬히 반발하고 있어요. 😠 'GPT 라이브'가 더 자연스럽다고 하지만, 많은 이들이 스탠다드 보이스의 명확한 전달력을 선호했거든요. 심지어 청원 운동까지 시작됐다는데, 과연 오픈AI는 유저들의 목소리에 귀 기울일까요? 👂",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtj37g/standard_voice_is_being_removed_if_you_want_to/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "오픈AI",
-          "챗GPT음성",
-          "정책변경",
-          "사용자반발"
-        ]
-      },
-      {
-        "title": "\"우리 정부는 챗GPT Plus 공짜로 준다!\" 🇲🇹 부러우면 지는 거야...",
-        "summary": "몰타 정부가 챗GPT Plus 1년 무료 구독을 지원한다는 소식에 전 세계가 술렁!",
-        "content": "충격적인 소식! 🤩 몰타에서는 정부가 챗GPT Plus 1년 구독료를 지원해준다고 해요. 짧은 온라인 코스를 이수하고 시험만 통과하면 된다니, 이거 완전 개이득 아닌가요? 다른 나라 유저들은 \"우리 정부는 뭐 하냐!\"며 부러움을 감추지 못하고 있답니다. AI 교육의 좋은 선례가 될 것 같아요! 🌍",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtjah8/my_government_pays_for_my_chatgpt_plus_what_about/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "정부지원",
-          "챗GPT",
-          "몰타",
-          "AI교육"
-        ]
-      },
-      {
-        "title": "텍스트를 고품질 오디오로! 🎧 코드팩스로 만든 '프라테카' 앱 대박 예감!",
-        "summary": "코드팩스로 만든 모바일 앱 '프라테카'가 어떤 텍스트든 고품질 오디오로 바꿔준다고?",
-        "content": "와우! 🤩 코드팩스를 활용해 PDF, 블로그, 심지어 사진 속 텍스트까지 고품질 오디오로 변환해주는 모바일 앱 '프라테카(Frateca)'가 등장했어요. 백그라운드 재생은 물론, 개인 정보 보호까지 신경 썼다고 하니, 책이나 기사를 눈으로 읽기 힘들 때 정말 유용할 것 같아요. 귀로 듣는 콘텐츠 시대, 한 걸음 더! 👂",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtujni/i_built_an_app_with_codex_that_converts_any_text/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "AI앱",
-          "텍스트음성변환",
-          "코드팩스",
-          "프라테카"
-        ]
-      },
-      {
-        "title": "오픈AI, 왜 자꾸 '스탠다드 보이스'를 죽이려 해?! 😡 유저 분노 폭발!",
-        "summary": "챗GPT 유저들이 \"스탠다드 보이스는 우리가 원했던 바로 그것!\"이라며 오픈AI의 정책 변경에 맹비난을 퍼붓고 있어요.",
-        "content": "챗GPT '스탠다드 보이스' 논란이 점점 뜨거워지고 있어요! 🔥 한 유저는 \"오픈AI는 우리가 원했던 걸 줬다가 왜 다시 빼앗으려 하냐\"며 격분했답니다. 지적이고 심도 깊은 대화를 원했던 유저들에게는 'GPT 라이브'의 캐주얼한 대화 방식이 영 못마땅한 모양이에요. 고객의 목소리는 중요하지 않은 걸까요? 💬",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xtt6at/openai_gave_us_exactly_what_we_wanted_with/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "OpenAI",
-          "챗GPT음성",
-          "사용자불만",
-          "정책논란"
-        ]
-      },
-      {
-        "title": "챗GPT 쓴다고 바보 취급? 🤬 \"넌 AI 안 써봤지?!\" 반격의 외침!",
-        "summary": "\"AI는 단순한 검색 엔진\"이라는 비난에 챗GPT 유저들이 폭발했어요!",
-        "content": "\"챗GPT 쓴다고 바보냐고? 넌 제대로 써본 적 없잖아!\" 😤 AI를 단순한 검색 엔진이나 숙제 도우미로 폄하하는 시선에 유저들이 반격에 나섰어요. AI가 사회에 부정적인 영향을 미친다는 비판도 많지만, AI의 진정한 가치를 모른 채 비난만 하는 사람들에게 일침을 가하는 사이다 발언들이 쏟아졌답니다. AI 활용, 제대로 알고 얘기하자고요! 🗣️",
-        "link": "https://www.reddit.com/r/ChatGPT/comments/1xto2uk/how_do_you_feel_and_what_do_you_say_when_people/",
-        "source": "Reddit r/ChatGPT",
-        "og_image": null,
-        "tags": [
-          "AI활용",
-          "사회적시선",
-          "사용자옹호",
-          "챗GPT논쟁"
-        ]
-      }
-    ],
+    "hype_check": [],
     "tech_deep_dive": [
       {
-        "title": "🚨 엔비디아 젠슨 황 CEO, 충격 스캔들로 해고 위기?! (반전의 연속!) 🚨",
-        "summary": "엔비디아의 수장 젠슨 황 CEO가 불륜 스캔들로 이사회에서 해고될 위기에 처했다는 충격적인 소식이 들려왔어요!",
-        "content": "엔비디아를 AI 시대의 제왕으로 이끈 젠슨 황 CEO에게 엄청난 스캔들이 터졌습니다! 😱 중국 스파이 의혹 여성과의 불륜에 이어, 엔비디아 임원과의 또 다른 불륜 의혹까지 터지면서 이사회가 그의 해고를 논의 중이라는 보도가 나왔습니다. 이 소식에 엔비디아 주가가 급락하고, 그의 후임에 대한 추측까지 난무하고 있어요. AI 반도체 시장에 엄청난 파장을 예고하는 소식입니다. 🤯",
-        "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+        "title": "젠슨 황 스캔들, 끝나지 않은 그의 '로맨스(?)'와 퇴출 드라마! 💔",
+        "summary": "엔비디아의 '총각' CEO 젠슨 황이 갑작스럽게 사임! 알고 보니 사내 스캔들과 중국 스파이 의혹까지 얽힌 대형 막장 드라마였다구요? 😱",
+        "content": "엔비디아의 절대 권력자 젠슨 황이 충격적으로 CEO 자리에서 물러났습니다. 처음엔 그가 '불릿프루프'일 줄 알았죠? 하지만 부하 직원과의 불륜, 심지어 중국 스파이 의혹까지 터지면서 이사회가 해고를 검토했고, 결국 사임 발표! 실리콘밸리의 최고 권력자가 이렇게 허무하게 무너지다니, AI 세상은 드라마보다 더 드라마틱하네요. 한 편의 막장 드라마, 지금부터 시작입니다!",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
         "source": "The Verge AI",
-        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25824934/2192224191.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&strip=all&crop=0%2C12.339110464558%2C100%2C75.321779070884&w=1200",
         "tags": [
-          "젠슨황",
-          "엔비디아",
-          "스캔들",
-          "AI리더십",
-          "충격"
+          "Deep",
+          "Dive"
         ]
       },
       {
-        "title": "참전용사 위한 챗GPT Plus 무료 지원, OpenAI의 훈훈한 행보! 💖",
-        "summary": "OpenAI가 참전용사 및 전역 군인 2만 명에게 챗GPT Plus 1년 무료 구독을 제공, 새로운 경력 설계를 돕고 있어요.",
-        "content": "OpenAI가 2만 명이 넘는 참전용사와 전역 군인들에게 챗GPT Plus 1년 무료 구독 혜택을 제공하며 민간 경력 전환을 지원하고 있습니다. 교육과 직업 훈련 등 다양한 분야에서 AI를 활용해 새로운 미래를 준비하는 데 도움을 받을 수 있을 것으로 기대됩니다. 🌟",
-        "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+        "title": "젠슨 황 아웃! 중국 스파이는 그에게서 뭘 원했을까? 🕵️‍♀️💰",
+        "summary": "젠슨 황의 사임 배경에는 중국 스파이와의 관계가 얽혀있다고? 과연 중국은 엔비디아의 핵심 기술을 원했을까, 아니면 더 큰 그림을 그렸을까? 미스터리 풀이 시작됩니다! 🧐",
+        "content": "젠슨 황의 퇴진을 둘러싼 가장 큰 의문은 바로 '중국 스파이' 앨리스 황의 역할입니다. 중국은 엔비디아의 최첨단 칩 설계도를 원했을까요? 아니면 젠슨 황이 트럼프와 친하다는 점을 이용해 미국의 AI 정책에 영향력을 행사하려 했을까요? 전문가들은 후자에 더 무게를 둔다고 하네요. AI 시대, 기술 전쟁 뒤에는 늘 보이지 않는 정보전이 펼쳐지고 있나 봅니다. 정말 흥미진진하죠?",
+        "link": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD_1112_Site.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "민주당, 엔비디아 ‘스파이 게이트’ 국정조사 칼 빼들다! 🔪💥",
+        "summary": "젠슨 황 스캔들에 정치권까지 참전! 민주당이 엔비디아와 트럼프 전 대통령 간의 '불법 공모' 의혹을 제기하며 전면적인 국정조사를 예고했습니다. 📈",
+        "content": "젠슨 황의 스캔들이 일파만파 커지며 이제는 미국 정치판까지 뒤흔들고 있습니다! 민주당은 젠슨 황이 트럼프 전 대통령과 함께 중국 수출 규제를 회피하려 했다는 '불법 공모' 의혹을 제기하며 강력한 국정조사를 요구하고 나섰습니다. 기술과 정치, 그리고 스캔들이 한데 엉킨 초대형 블록버스터가 따로 없네요. 엔비디아는 과연 이 폭풍을 헤쳐나갈 수 있을까요? 🍿",
+        "link": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205211212-1.jpg?resize=1200,800",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "젠슨 황에게 '세 번째 불륜' 상대가?! 🔥 스캔들 대환장 파티!",
+        "summary": "로이터 통신발 속보! 젠슨 황에게 알려진 두 명 외에, 엔비디아 내부 직원이 또 다른 불륜 상대였다는 소식입니다. 이 정도면 스캔들 그랜드 슬램? 🤯",
+        "content": "아니, 젠슨 황 이 양반! 한 명도 아니고 두 명도 아니고, 무려 세 번째 불륜 상대가 있었다는 충격적인 보도가 나왔습니다. 로이터 통신은 아직 신원을 공개하지 않았지만, 역시 엔비디아 소속 직원이라고 하네요. 그의 'AI 리더십'은 인정하지만, '사랑(?) 리더십'은 좀… 과했네요. 실리콘밸리 최고의 가십이 탄생하는 순간입니다. 🗣️",
+        "link": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "젠슨 황 퇴진, 엔비디아의 오픈소스 사랑은 이제 끝? 💔",
+        "summary": "오픈소스 AI의 강력한 옹호자였던 젠슨 황이 떠나면서, 엔비디아가 허깅페이스 인수, 오픈웨이트 모델 등 오픈소스 생태계에 대한 지원을 유지할지 의문이 커지고 있습니다.",
+        "content": "젠슨 황은 그동안 엔비디아가 오픈소스 AI에 적극적으로 투자하고 커뮤니티를 지원하는 데 핵심적인 역할을 해왔습니다. 특히 허깅페이스 인수나 오픈웨이트 모델 지지 등 그의 오픈소스 철학은 엔비디아의 방향을 결정하는 중요한 요소였죠. 그런데 그가 떠나버렸으니, 엔비디아가 앞으로도 오픈소스에 대한 애정을 이어갈지는 미지수입니다. AI 생태계의 한 축이 흔들릴 수도 있다는 우려가 나오네요. 걱정 한 바가지... 😟",
+        "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2290097570.jpg?w=1024",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "AI 에이전트, 마야 유적 발견? 알고 보니 AI발 '가짜 뉴스' 🤥",
+        "summary": "구글 연구원이 AI 에이전트 덕분에 미지의 마야 유적을 찾았다고 주장했지만, 사실은 이미 학술지에 발표된 곳이었다는 충격적인 반전! AI도 팩트 체크는 필수! 🤣",
+        "content": "\"AI 에이전트가 미발견 마야 유적을 찾았다고?! 대박!\"이라고 외쳤던 구글 연구원. 하지만 고고학자들은 \"이미 작년에 발표된 곳인데?\"라며 코웃음을 쳤습니다. AI는 이미지 속 규칙적인 패턴을 잘 찾았지만, '이미 발견된 것'과 '새롭게 발견된 것'을 구분할 전문가적 지혜는 없었던 거죠. AI, 똑똑하긴 한데 가끔은 어딘가 엉뚱하단 말이야~ 🤷‍♀️",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/maya-sites.jpg?quality=90&strip=all&crop=2.4327168367347%2C0%2C95.134566326531%2C100&w=1200",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "내 폰을 백그라운드에서 조종하는 AI 비서, 'Senku' 등장! 📱🤖",
+        "summary": "OTP 입력 같은 귀찮은 일, 이제 AI가 대신한다? 백그라운드에서 스마트폰을 조종하는 AI 에이전트 'Senku'가 등장해 개인 비서 시장에 혁명을 예고합니다.",
+        "content": "드디어 내 손안의 비서가 진짜 '비서'가 되는 건가요? 'Senku'라는 AI 에이전트가 무선 디버깅을 이용해 가상 디스플레이에서 앱을 열고 백그라운드에서 작업을 처리할 수 있답니다. 매번 OTP 입력하느라 고생했는데, 이젠 AI가 알아서 해준다고 생각하니 벌써부터 마음이 편안~해지네요! 안드로이드 사용자분들, 기대해도 좋겠죠? 😎",
+        "link": "https://www.heysenku.com/",
+        "source": "Hacker News (AI agents)",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "카자흐 해커, AI 에이전트로 정부 기관 스파이 활동! 🌐💀",
+        "summary": "AI 에이전트의 어두운 면이 드러났다? 카자흐스탄 연계 해커들이 중앙아시아 정부를 염탐하는 데 AI 에이전트를 사용했다는 소식입니다. AI, 양날의 검 맞네요!",
+        "content": "AI 에이전트가 우리 삶을 편리하게만 하는 건 아닌가 봅니다. 카자흐스탄과 연결된 해커들이 AI 에이전트를 활용해 중앙아시아 정부 기관을 감시했다는 충격적인 소식이 전해졌어요. AI 기술의 발전이 사이버 보안 위협을 얼마나 더 복잡하게 만들지, 우리 모두 더 심각하게 고민해야 할 시점인 것 같습니다. 😨 AI의 윤리적 사용, 정말 중요한 문제죠.",
+        "link": "https://therecord.media/kazakhstan-hackers-central-asia",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://cms.therecord.media/uploads/Central_Asia_7feabe2c24.jpg",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "브랜드 맞춤형 인플루언서 찾아주는 AI 에이전트 'Nectar' 🐝",
+        "summary": "Nectar가 인플루언서 마케팅의 모든 것을 자동화하는 AI 에이전트를 출시했습니다! 브랜드에 딱 맞는 크리에이터를 찾아주고, 협업 관리까지 한 번에!",
+        "content": "인플루언서 마케팅, 이제 AI가 알아서 해줍니다! Nectar가 새로운 AI 에이전트를 선보였는데요, 브랜드가 원하는 크리에이터를 자동으로 찾아주고, 아웃리치부터 파트너십 관리, 캠페인 결과 추적까지 모두 도맡아 처리해준다고 해요. 마케터들의 노가다를 확 줄여줄 꿀템이 될 것 같네요! 🍯 AI 덕분에 마케팅도 스마트하게!",
+        "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2023/10/misbahfarah-together.jpg?resize=1200,676",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "LLM 3배 압축?! 'Spectra'로 램 걱정 끝! 🚀",
+        "summary": "LLM을 단 한 번의 클릭으로 3배까지 압축해주는 'Spectra'가 등장했습니다! 메모리 사용량을 50MB 미만으로 줄여 거의 손실 없이 모델을 돌릴 수 있다니, 개발자들 환호성 지르는 소리 들리시죠? 🎉",
+        "content": "LLM 돌리다 램 부족에 눈물 흘린 개발자들 주목! 'Spectra'라는 신기술이 LLM을 무려 3배까지 압축해준다고 합니다. 그것도 '거의 손실 없이' 말이죠! vLLM의 후계자로 불릴 만한 이 기술 덕분에, 이제 더 가볍고 빠르게 LLM을 돌릴 수 있게 될 거예요. 엣지 디바이스에서도 LLM이 활약할 날이 머지않았네요! 💡 대박 소식 아닌가요?",
+        "link": "https://ecosistemastartup.com/spectra-comprime-llms-3x-en-menos-de-50-mb-de-ram/",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://ecosistemastartup.com/wp-content/uploads/2026/11/spectra-compresion-llm-ia-borde-1200x675.jpg",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "LLM 전용 마크업 언어 'LLMON' 등장! 📚✨",
+        "summary": "허깅페이스에서 LLM에 최적화된 새로운 마크업 언어 'LLMON'을 공개했습니다! 이제 Granite 4.1 모델에서 만나볼 수 있다니, LLM과의 대화가 더 똑똑해지겠네요.",
+        "content": "LLM과 더 효율적으로 소통하고 싶으셨죠? 허깅페이스에서 LLM-Native 마크업 언어인 'LLMON'을 선보였습니다! 텍스트뿐만 아니라 복잡한 구조와 의미를 LLM이 더 잘 이해하도록 돕는다고 해요. Granite 4.1 3B 및 8B 모델에 적용되었다니, 개발자분들은 당장 써봐야 할 신문물입니다! 🤓 AI 친구랑 더 똑똑하게 대화할 수 있겠네요!",
+        "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+        "source": "Hugging Face Blog",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "3D 생성 모델, 파인튜닝 끝판왕 가이드 나왔다! 🎨🛠️",
+        "summary": "허깅페이스에서 3D 생성 모델의 성능을 극대화할 수 있는 '최종 파인튜닝 가이드'를 공개했습니다! 이제 여러분도 멋진 3D 콘텐츠 장인이 될 수 있어요.",
+        "content": "3D 모델 생성, 아직도 어렵게 느껴지시나요? 허깅페이스가 3D 생성 모델을 위한 파인튜닝 가이드를 발표하며, 누구나 고품질 3D 콘텐츠를 만들 수 있도록 돕습니다. LoRA 같은 기술을 활용해 모델을 정교하게 다듬는 방법을 알려준다니, 3D 아티스트와 개발자들에게는 단비 같은 소식이겠네요! 🌧️✨ 이제 똥손도 금손될 기회?",
+        "link": "https://huggingface.co/blog/3d-lora-finetuning",
+        "source": "Hugging Face Blog",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "OpenAI 모델로 Amplitude, 🚀1-2일 만에 제품 개선 완료!",
+        "summary": "Amplitude가 OpenAI 모델 기반의 'Wave' 에이전트로 1~2일 만에 제품 개선을 뚝딱! AI가 아이디어부터 코드, 성과 측정까지 다 해준다니, 일잘러 등극은 시간 문제네요. ⚡",
+        "content": "Amplitude가 OpenAI 모델을 활용해 제품 개선 주기를 1~2일로 단축시키는 마법을 부리고 있습니다. 'Wave'라는 자체 에이전트가 어떤 기능을 만들지 제안하고, 코딩 에이전트가 직접 개발하며, 심지어 그 효과까지 측정한다고 해요. AI가 이렇게까지 일잘러가 될 수 있다니, 우리도 빨리 배워서 써봐야겠어요! 🏃‍♀️ 진짜 AI는 못 하는 게 뭐야?",
+        "link": "https://openai.com/business/customer-stories/amplitude",
         "source": "OpenAI News",
         "og_image": null,
         "tags": [
-          "OpenAI",
-          "챗GPT플러스",
-          "사회공헌",
-          "재취업"
+          "Deep",
+          "Dive"
         ]
       },
       {
-        "title": "챗GPT, 이제 비즈니스도 관리해준다?! 📈 기업용 기능 대폭 강화!",
-        "summary": "챗GPT에 기업 정보 관리와 비즈니스 인사이트 기능을 추가하여 기업 활동을 지원합니다.",
-        "content": "챗GPT가 이제 단순 대화를 넘어 기업의 비즈니스 정보를 관리하고, 비즈니스 성과에 대한 인사이트를 제공하기 시작했어요. 📊 고객의 관심사를 행동으로 전환시키는 데 도움을 주어, 기업들이 챗GPT를 더 다양하게 활용할 수 있도록 지원합니다. AI가 비즈니스 효율을 어떻게 바꿀지 기대되네요!",
-        "link": "https://openai.com/index/introducing-businesses-chatgpt",
-        "source": "OpenAI News",
+        "title": "구글 제미나이 4 하이드로젠, 질문 이해력 '초월' 🤯",
+        "summary": "구글의 새 제미나이 4 하이드로젠 모델이 복잡하고 난해한 질문까지 척척 이해하고 답변한다고 합니다! 오타나 여러 질문이 섞인 것도 문제없다니, 검색의 신세계를 경험할 준비 되셨나요?",
+        "content": "\"내 질문이 너무 복잡했나...\"라고 자책할 필요 이제 없습니다! 구글의 새로운 제미나이 4 하이드로젠 모델이 출시되었는데, 오타가 있거나 여러 파트가 섞인 질문, 심지어 엄청나게 구체적인 요청까지 완벽하게 이해하고 답변을 내놓는다고 합니다. 복잡한 문제를 단계별로 쪼개어 설명까지 해준다니, 이제 AI 비서에게 못 물어볼 질문은 없겠네요! 🧠 와우, 말귀 잘 알아듣는 AI가 최고!",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+        "source": "The Verge AI",
         "og_image": null,
         "tags": [
-          "챗GPT",
-          "기업용AI",
-          "비즈니스",
-          "OpenAI"
+          "Deep",
+          "Dive"
         ]
       },
       {
-        "title": "싱가포르 항공, OpenAI 기술로 고객 만족도 2배 향상?! ✈️",
-        "summary": "싱가포르 항공이 OpenAI 모델과 API를 활용해 고객 서비스 및 직원 생산성을 혁신, CSAT(고객 만족도)를 두 배로 끌어올렸습니다.",
-        "content": "싱가포르 항공이 OpenAI의 모델과 API를 도입해 고객 지원, 여행 상품 발견, 직원 생산성 등 여러 분야에서 놀라운 성과를 거두고 있어요. 특히 '크리스 챗봇'의 고객 만족도를 무려 두 배나 높였다고 하니, AI가 서비스 산업에 가져올 변화가 더욱 기대됩니다. 다음 여행은 AI 챗봇의 도움을 받아볼까요? 🌍",
-        "link": "https://openai.com/index/singapore-airlines-travel-work",
-        "source": "OpenAI News",
-        "og_image": null,
-        "tags": [
-          "싱가포르항공",
-          "OpenAI",
-          "고객서비스",
-          "생산성",
-          "API"
-        ]
-      },
-      {
-        "title": "OpenAI와 Cogent, AI 기반 사이버 방어 공장 건설! 🛡️ 해킹 걱정 끝?",
-        "summary": "Cogent와 OpenAI가 협력하여 기업의 사이버 취약점을 자동으로 보완하는 AI 에이전트 기반의 사이버 방어 시스템을 구축합니다.",
-        "content": "기업의 사이버 보안, 이제 AI가 지킨다! Cogent가 OpenAI 모델에 기업별 맥락을 결합해 AI 에이전트 기반의 '사이버 방어 공장'을 짓고 있습니다. 🤖 이 시스템은 취약점을 자동으로 식별하고 해결해 준다고 해요. 해킹 위협이 날로 커지는 요즘, AI가 든든한 방패가 되어줄 수 있을까요?",
-        "link": "https://openai.com/index/cogent-security",
-        "source": "OpenAI News",
-        "og_image": null,
-        "tags": [
-          "사이버보안",
-          "AI에이전트",
-          "OpenAI",
-          "기업보안"
-        ]
-      },
-      {
-        "title": "🔥 클로드의 앤트로픽, 드디어 IPO 초읽기 돌입! 시장의 빅 플레이어 되나?",
-        "summary": "챗GPT의 대항마 '클로드'를 만든 앤트로픽이 미 증권거래위원회(SEC)에 기업공개(IPO)를 위한 S-1 서류를 제출했어요!",
-        "content": "샘 알트만의 오픈AI와 AI 시장에서 치열한 경쟁을 펼치고 있는 앤트로픽(Anthropic)이 드디어 IPO 절차에 돌입했습니다! 🚀 미 증권거래위원회에 S-1 서류를 제출하며 상장 준비를 본격화했어요. AI 시장의 판도를 뒤흔들 빅 플레이어가 될지 주목됩니다. 과연 어떤 반전을 보여줄까요?",
-        "link": "https://www.anthropic.com/news/s1-sec",
+        "title": "앤스로픽, 드디어 상장?! 💰 IPO 로드쇼 시작!",
+        "summary": "클로드(Claude) 개발사 앤스로픽이 드디어 기업공개(IPO)를 위한 로드쇼를 시작했습니다! AI 스타트업들의 상장 러시, 이제 시작인가요? 🚀",
+        "content": "샘 알트먼의 오픈AI와 경쟁하는 AI 스타트업 앤스로픽이 기업공개(IPO)를 위한 대장정을 시작했습니다. 투자자들을 만나 클로드의 비전과 기술력을 설명하는 로드쇼에 돌입했는데요, 과연 얼마나 대규모 자금을 유치하며 AI 시장의 판도를 뒤흔들지 귀추가 주목됩니다. 돈의 힘으로 AGI를 더 빨리 만날 수 있을까요? 🤔 과연 대박 날까?",
+        "link": "https://www.anthropic.com/news/roadshow-launch",
         "source": "Anthropic News",
-        "og_image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+        "og_image": null,
         "tags": [
-          "앤트로픽",
-          "IPO",
-          "클로드",
-          "AI경쟁",
-          "주식"
+          "Deep",
+          "Dive"
         ]
       },
       {
-        "title": "스마트폰 속 '나만의 AI 비서', 봇사이(BotPsy)가 온다! 📱",
-        "summary": "10억 미만 파라미터의 에이전트 언어 모델을 활용한 온디바이스 개인 비서 '봇사이(BotPsy)'가 등장했어요.",
-        "content": "이제 스마트폰 안에서 나만의 AI 비서가 똑똑하게 작동하는 시대가 오고 있습니다! 🤖 허깅페이스 블로그에 소개된 '봇사이(BotPsy)'는 10억 미만 파라미터의 작은 에이전트 언어 모델로, 기기 자체에서 개인 비서 역할을 수행한다고 해요. 클라우드 연결 없이도 작동하니, 개인 정보 보호와 반응 속도 면에서 큰 장점이 있겠죠?",
-        "link": "https://huggingface.co/blog/qvac/botpsy",
-        "source": "Hugging Face Blog",
-        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png",
-        "tags": [
-          "온디바이스AI",
-          "AI비서",
-          "BotPsy",
-          "LLM"
-        ]
-      },
-      {
-        "title": "허깅페이스 허브, 이제 구글 클라우드로 결제 가능! ☁️ 개발자 희소식!",
-        "summary": "허깅페이스 허브 이용료를 구글 클라우드 계정으로 지불할 수 있게 되어 개발자들의 편의성이 높아졌어요.",
-        "content": "개발자 여러분, 희소식입니다! 🎉 이제 허깅페이스 허브(Hugging Face Hub)를 이용할 때, 구글 클라우드 계정으로 편리하게 결제할 수 있게 되었어요. GCP 마켓플레이스를 통해 접근할 수 있게 되면서, 클라우드 서비스를 사용하는 개발자들이 더욱 유연하게 AI 리소스를 활용할 수 있게 되었답니다.",
-        "link": "https://huggingface.co/blog/hub-gcp-marketplace",
-        "source": "Hugging Face Blog",
-        "og_image": "https://huggingface.co/blog/assets/hub-gcp-marketplace/thumbnail.jpg",
-        "tags": [
-          "허깅페이스",
-          "구글클라우드",
-          "개발자",
-          "AI플랫폼"
-        ]
-      },
-      {
-        "title": "데이터베이스 채점도 AI 에이전트에게? 🤖 강화 학습으로 똑똑하게!",
-        "summary": "마이크로소프트의 'ThinkingBox'를 통해 데이터베이스 채점을 강화 학습 보상으로 활용하여 AI 에이전트를 훈련하는 방법이 소개되었습니다.",
-        "content": "마이크로소프트가 'ThinkingBox'를 활용해 데이터베이스 채점 결과를 강화 학습(RL) 보상으로 사용하는 기발한 방법을 공개했어요. 💡 이를 통해 AI 에이전트가 데이터베이스 작업 후 훈련되는 과정을 개선할 수 있다고 하네요. AI가 학습과 평가 방식까지 혁신하는 모습, 정말 놀랍죠?",
-        "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-        "source": "Hugging Face Blog",
-        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
-        "tags": [
-          "강화학습",
-          "AI에이전트",
-          "마이크로소프트",
-          "데이터베이스"
-        ]
-      },
-      {
-        "title": "LLM 프롬프트 속 개인 정보 유출 막는 '로컬 프록시' 등장! 🔒",
-        "summary": "LLM 프롬프트에서 이름, 이메일, 전화번호와 같은 민감한 개인 정보를 보호하는 로컬 프록시 솔루션이 소개되었습니다.",
-        "content": "LLM을 사용하면서 개인 정보 유출 걱정 많으셨죠? 🤫 이제 걱정 마세요! 로컬 프록시를 통해 민감한 정보가 LLM 프롬프트에 직접 포함되지 않도록 막을 수 있는 솔루션이 나왔습니다. 프라이버시를 지키면서 똑똑하게 AI를 활용할 수 있는 길이 열린 셈이죠!",
-        "link": "https://github.com/rmpmrepo1278/swapback",
-        "source": "Hacker News (LLM)",
-        "og_image": "https://opengraph.githubassets.com/b55bd376f5b29d73a88a27d431c8112193942e98e8614e777d36c3c5400d1412/rmpmrepo1278/swapback",
-        "tags": [
-          "LLM",
-          "개인정보보호",
-          "프록시",
-          "보안"
-        ]
-      },
-      {
-        "title": "LLM 인프라, 이제 '검증 가능'해진다! 🧐 에이전트 기반 증명 기술!",
-        "summary": "LLM 인프라의 투명성과 신뢰성을 높이기 위해 AI 에이전트가 구현한 추론 과정을 에이전트가 직접 증명하는 기술이 연구되고 있습니다.",
-        "content": "LLM의 추론 결과, 정말 믿을 수 있을까? 🤔 이제 AI 에이전트가 스스로 수행한 추론 과정까지 증명하는 기술이 연구되고 있답니다. '검증 가능한 LLM 인프라'를 향한 중요한 발걸음인데요. AI 시스템의 투명성과 신뢰성을 높이는 데 크게 기여할 것으로 보입니다!",
-        "link": "https://haoailab.com/blogs/verifiable-llm-infra/",
+        "title": "Air-LLM: Broadcasting AI Weights for Edge LLM Inference via RF Computing",
+        "summary": "Article URL: https://arxiv.org/abs/2610.00465 Comments URL: https://news.ycombinator.com/item?id=50471658 Points: 1 # Comments: 0",
+        "content": "Article URL: https://arxiv.org/abs/2610.00465 Comments URL: https://news.ycombinator.com/item?id=50471658 Points: 1 # Comments: 0",
+        "link": "https://arxiv.org/abs/2610.00465",
         "source": "Hacker News (LLM)",
         "og_image": null,
         "tags": [
-          "LLM",
-          "AI인프라",
-          "검증가능성",
-          "투명성"
-        ]
-      },
-      {
-        "title": "RAG 더 빠르고 똑똑하게! 🚀 애플 머신러닝의 초고속 검색 비법!",
-        "summary": "애플 머신러닝 팀이 RAG(Retrieval-Augmented Generation) 시스템의 검색 속도를 혁신적으로 향상시켜 더욱 효율적인 AI를 구현하는 방법을 공개했습니다.",
-        "content": "애플 머신러닝 팀이 RAG 시스템의 성능을 한 단계 끌어올렸다는 소식입니다! 🍎 더 빠르고 효율적인 검색(Retrieval)을 통해 RAG 모델의 답변 품질과 속도를 모두 향상시키는 연구 결과를 발표했어요. 정보 검색이 빨라지면 AI 에이전트도 훨씬 더 똑똑해지겠죠?",
-        "link": "https://machinelearning.apple.com/research/faster-retrieval",
-        "source": "Hacker News (RAG)",
-        "og_image": null,
-        "tags": [
-          "RAG",
-          "애플",
-          "머신러닝",
-          "검색효율"
-        ]
-      },
-      {
-        "title": "\"AI 앱 만들고 싶지, RAG 파이프라인 유지보수는 싫어!\" 🛠️ 개발자 속마음 대변!",
-        "summary": "RAG 파이프라인 유지보수의 고통에서 벗어나 AI 애플리케이션 개발에 집중할 수 있는 새로운 도구가 소개되었습니다.",
-        "content": "RAG 파이프라인 구축하고 유지보수하는 데 지쳤다고요? 😵‍💫 한 개발자가 \"우리는 AI 앱을 만들고 싶지, RAG 파이프라인을 유지보수하고 싶지 않았다!\"며 자신들의 고통을 해결해 줄 새로운 도구를 선보였어요. 개발자들이 더 중요한 AI 애플리케이션 자체에 집중할 수 있도록 돕는 솔루션이랍니다.",
-        "link": "https://akropolys.cloud/docs/",
-        "source": "Hacker News (RAG)",
-        "og_image": null,
-        "tags": [
-          "RAG",
-          "AI개발",
-          "파이프라인",
-          "개발자도구"
-        ]
-      },
-      {
-        "title": "AI 에이전트, '법률 용어' 프롬프트 주입에 속수무책?! 🤯",
-        "summary": "AI 에이전트의 가드레일을 법률 용어를 사용한 '프롬프트 주입' 방식으로 우회하는 놀라운 공격 기법이 공개되었습니다.",
-        "content": "AI 에이전트의 보안 가드레일, 과연 튼튼할까요? 🤫 한 연구자가 '법률 용어'를 사용한 교묘한 '프롬프트 주입(Prompt Injection)' 방식으로 AI 에이전트의 안전장치를 뚫는 데 성공했다고 해요. \"변호사 말장난으로 AI를 해킹한다\"니, 정말 기발한 동시에 오싹한 기술이죠?",
-        "link": "https://www.mrnice.dev/posts/heavyweight-guardrails/",
-        "source": "Hacker News (AI agents)",
-        "og_image": null,
-        "tags": [
-          "AI에이전트",
-          "프롬프트주입",
-          "보안취약점",
-          "가드레일"
-        ]
-      },
-      {
-        "title": "💥 MLflow API 키 유출! 당신의 AI 에이전트도 위험하다?!",
-        "summary": "MLflow에서 API 키 유출 취약점이 발견되었으며, 이로 인해 AI 에이전트도 비슷한 보안 위험에 노출될 수 있다는 경고가 나왔습니다.",
-        "content": "AI 개발자들이 주로 사용하는 MLflow에서 API 키 유출 취약점이 발견되어 충격을 주고 있어요. 😨 이 문제는 단순히 MLflow에 국한되지 않고, 여러분이 사용하는 AI 에이전트도 비슷한 방식으로 API 키를 노출할 수 있다는 경고로 이어집니다. AI 보안, 이제 더는 남의 일이 아니네요!",
-        "link": "https://github.com/ralis-ai/weir/blob/main/docs/cve-2026-116691.md",
-        "source": "Hacker News (AI agents)",
-        "og_image": null,
-        "tags": [
-          "API키유출",
-          "MLflow",
-          "AI에이전트",
-          "보안경고"
-        ]
-      },
-      {
-        "title": "유나이티드 항공, \"AI 에이전트 예약? 절대 안 돼!\" 🚫 철벽 방어!",
-        "summary": "유나이티드 항공이 개인 AI 에이전트의 항공권 예약을 금지하며, 개인 정보 보호 및 규제 문제를 이유로 들었습니다.",
-        "content": "AI 에이전트에게 비행기 표 예약을 맡기려던 분들, 주목! 📢 유나이티드 항공이 AI 에이전트를 통한 항공권 예약을 전면 금지했습니다. 개인 정보 유출 위험과 의도치 않은 구매, 그리고 항공 규정 위반 가능성 등을 이유로 들었는데요. AI 에이전트의 활약이 늘어나는 만큼, 규제와 안전에 대한 논의도 활발해질 것 같습니다.",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-        "source": "The Verge AI",
-        "og_image": null,
-        "tags": [
-          "AI에이전트",
-          "항공권예약",
-          "개인정보보호",
-          "유나이티드항공"
-        ]
-      },
-      {
-        "title": "구글의 새 AI 실험, '테이블탑'으로 나만의 협업 앱 뚝딱! 🛠️",
-        "summary": "구글이 맞춤형 협업 앱을 AI로 쉽게 만들 수 있는 실험적인 도구 '테이블탑(Tabletop)'을 공개했습니다.",
-        "content": "구글이 D&D 같은 보드게임이 아닌, AI로 맞춤형 협업 앱을 뚝딱 만들 수 있는 '테이블탑(Tabletop)'을 선보였습니다. 🤩 가족이나 친구들과의 소통을 돕는 이 앱은, 설명을 입력하기만 하면 예산 추적기, 집안일 차트, 이벤트 계획 등을 자동으로 생성해줘요. AI가 우리의 일상 협업 방식을 얼마나 더 스마트하게 바꿀지 기대되네요!",
-        "link": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
-        "source": "The Verge AI",
-        "og_image": null,
-        "tags": [
-          "구글AI",
-          "테이블탑",
-          "협업앱",
-          "AI생성"
-        ]
-      },
-      {
-        "title": "어도비의 AI 마법! 🪄 사진 속을 거닐고, 캐릭터와 대화까지?!",
-        "summary": "어도비가 사진을 탐색 가능한 3D 장면으로 바꾸고, AI 캐릭터와 대화하여 성격을 형성하는 등 기발한 AI 실험들을 선보였습니다.",
-        "content": "어도비가 또 한 번 AI 마법을 부렸습니다! ✨ 연례 Max 컨퍼런스에서 사진을 탐색 가능한 3D 장면으로 바꾸거나, AI 캐릭터와 직접 대화하며 성격을 만들어가는 등 혁신적인 AI 실험 기술을 공개했어요. 특히 '프로젝트 스크린 테스트'는 AI 캐릭터 개발에 새로운 지평을 열 것으로 보입니다.",
-        "link": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
-        "source": "The Verge AI",
-        "og_image": null,
-        "tags": [
-          "어도비AI",
-          "3D변환",
-          "AI캐릭터",
-          "콘텐츠제작"
+          "논문",
+          "arXiv"
         ]
       }
     ],
     "watch_this": [
       {
-        "title": "Chroma vs Qdrant vs Milvus: Which Vector Database Should You Use for Your Local AI in 2026",
-        "channel": "Riflo animations",
-        "link": "https://www.youtube.com/watch?v=05wmuH_NXZI",
-        "thumbnail": "https://i.ytimg.com/vi/05wmuH_NXZI/mqdefault.jpg",
-        "description": "로컬 AI 프로젝트를 위한 최적의 벡터 데이터베이스는? Chroma, Qdrant, Milvus의 2026년 최신 비교 분석! 당신의 선택을 도와줄 심층 가이드입니다. 🔍"
+        "title": "Everything You Need to Know About Coding with AI // NOT vibe coding",
+        "channel": "ForrestKnight",
+        "link": "https://www.youtube.com/watch?v=5fhcklZe-qE",
+        "thumbnail": "https://i.ytimg.com/vi/5fhcklZe-qE/mqdefault.jpg",
+        "description": "AI와 함께 코딩하는 방법에 대한 모든 것을 파헤칩니다! 단순히 감에 의존하는 '바이브 코딩'이 아니라, 실제 생산성을 높이는 AI 활용법을 알려줘요. 개발자들이라면 꼭 봐야 할 AI 코딩 가이드! 🚀"
       },
       {
-        "title": "What is a Vector Database? Powering Semantic Search &amp; AI Applications",
+        "title": "My AI Coding Workflow That Actually Works",
+        "channel": "Chris Titus Tech",
+        "link": "https://www.youtube.com/watch?v=wcRR5P0S2Us",
+        "thumbnail": "https://i.ytimg.com/vi/wcRR5P0S2Us/mqdefault.jpg",
+        "description": "직접 경험하고 검증된 AI 코딩 워크플로우를 소개합니다. 어떻게 AI를 개발 과정에 효과적으로 통합하여 실제 결과물을 만들어내는지, 실용적인 팁과 노하우를 공개해요. 당신의 생산성을 한 단계 업그레이드! ✨"
+      },
+      {
+        "title": "Spec-Driven Development: AI Assisted Coding Explained",
         "channel": "IBM Technology",
-        "link": "https://www.youtube.com/watch?v=gl1r1XV0SLw",
-        "thumbnail": "https://i.ytimg.com/vi/gl1r1XV0SLw/mqdefault.jpg",
-        "description": "벡터 데이터베이스가 도대체 뭘까요? AI 애플리케이션과 의미론적 검색을 가능하게 하는 핵심 기술을 IBM Technology가 쉽고 명확하게 설명해 줍니다. AI의 심장을 이해해보세요! ❤️"
+        "link": "https://www.youtube.com/watch?v=mViFYTwWvcM",
+        "thumbnail": "https://i.ytimg.com/vi/mViFYTwWvcM/mqdefault.jpg",
+        "description": "스펙(Spec) 기반 개발에 AI를 활용하는 방법을 상세히 설명합니다. AI가 코드 작성에 어떻게 도움을 주고, 개발 프로세스를 어떻게 최적화하는지 궁금하다면 시청하세요. IBM이 제시하는 개발의 미래! 🤖"
       },
       {
-        "title": "Vector DB Comparison 2026: Which One Won&#39;t Betray You in Production",
-        "channel": "The Mr. Ozz",
-        "link": "https://www.youtube.com/watch?v=T7_SnSxMqNY",
-        "thumbnail": "https://i.ytimg.com/vi/T7_SnSxMqNY/mqdefault.jpg",
-        "description": "2026년 벡터 데이터베이스 비교! 프로덕션 환경에서 당신을 배신하지 않을, 가장 믿을 수 있는 DB는 무엇일까요? The Mr. Ozz가 꼼꼼하게 따져봅니다. 🤝"
+        "title": "AI-Assisted Coding Tutorial – OpenClaw, GitHub Copilot, Claude Code, CodeRabbit, Gemini CLI",
+        "channel": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/watch?v=wlpBCazAY9Q",
+        "thumbnail": "https://i.ytimg.com/vi/wlpBCazAY9Q/mqdefault.jpg",
+        "description": "다양한 AI 코딩 도구들(OpenClaw, GitHub Copilot, Claude Code, CodeRabbit, Gemini CLI)을 활용한 AI 보조 코딩 튜토리얼입니다. 각 도구의 장단점과 실제 사용법을 익혀보세요! 코딩 초보도 프로처럼! 🧑‍💻"
       },
       {
-        "title": "Are Vector Databases Still Needed? RAG, AI Agents &amp; Search",
+        "title": "Prompt to Production: The Future of AI Code Workflows",
         "channel": "IBM Technology",
-        "link": "https://www.youtube.com/watch?v=rXFV1ivDe6c",
-        "thumbnail": "https://i.ytimg.com/vi/rXFV1ivDe6c/mqdefault.jpg",
-        "description": "벡터 데이터베이스, 과연 여전히 필요할까요? RAG, AI 에이전트, 검색 기술의 발전 속에서 그 역할과 미래를 IBM Technology가 심도 있게 분석합니다. 💡"
+        "link": "https://www.youtube.com/watch?v=bs1qPy_CWkM",
+        "thumbnail": "https://i.ytimg.com/vi/bs1qPy_CWkM/mqdefault.jpg",
+        "description": "프롬프트 입력부터 실제 서비스 배포(Production)까지, AI 코드 워크플로우의 미래를 조명합니다. AI가 소프트웨어 개발의 전 과정을 어떻게 혁신할지 통찰력을 얻을 수 있습니다. 개발자라면 필청! 💡"
       },
       {
-        "title": "🔥 Vector Databases 2026: Ultimate Comparison Guide (Benchmarks, Pricing, Speed) 🚀",
-        "channel": "Learn AI Bytes",
-        "link": "https://www.youtube.com/watch?v=3MK3XktBw9s",
-        "thumbnail": "https://i.ytimg.com/vi/3MK3XktBw9s/mqdefault.jpg",
-        "description": "2026년 벡터 데이터베이스 끝판왕 가이드! 벤치마크, 가격, 속도 등 모든 것을 비교 분석하여 최고의 선택을 돕습니다. AI 프로젝트 성공의 열쇠를 여기서 찾으세요! 🗝️"
+        "title": "mattpocock/skills: A complete AI Coding workflow, end-to-end",
+        "channel": "Matt Pocock",
+        "link": "https://www.youtube.com/watch?v=M6mYodf0dJM",
+        "thumbnail": "https://i.ytimg.com/vi/M6mYodf0dJM/mqdefault.jpg",
+        "description": "Matt Pocock이 직접 보여주는 완벽한 AI 코딩 워크플로우입니다. 아이디어 구상부터 최종 코드 완성까지, AI를 활용한 모든 단계를 end-to-end로 상세하게 설명해줍니다. 개발 고수가 되는 지름길! 🎯"
       },
       {
-        "title": "Vector Database Comparison 2026: Qdrant vs Pinecone vs Chroma — Deep Dive | effloow.com",
-        "channel": "Effloow",
-        "link": "https://www.youtube.com/watch?v=H1ZcniNh4B0",
-        "thumbnail": "https://i.ytimg.com/vi/H1ZcniNh4B0/mqdefault.jpg",
-        "description": "2026년 벡터 데이터베이스 대전! Qdrant, Pinecone, Chroma의 심층 비교 분석을 통해 각 DB의 장단점을 파헤칩니다. effloow.com에서 제공하는 전문가 가이드를 만나보세요. ⚔️"
-      },
-      {
-        "title": "Comprehensive Review and Comparison of the Vector Database Ecosystem for AI Applications",
-        "channel": "LOUIS PYTHON",
-        "link": "https://www.youtube.com/watch?v=k_Rlaro9Wqc",
-        "thumbnail": "https://i.ytimg.com/vi/k_Rlaro9Wqc/mqdefault.jpg",
-        "description": "AI 애플리케이션을 위한 벡터 데이터베이스 생태계의 종합적인 리뷰 및 비교! LOUIS PYTHON 채널에서 다양한 벡터 DB를 심층 분석하고 최적의 솔루션을 찾아보세요. 🌐"
-      },
-      {
-        "title": "Vector DB Showdown: pgvector vs Pinecone vs Chroma vs Weaviate (2026)",
-        "channel": "Data & AI with Varath",
-        "link": "https://www.youtube.com/watch?v=16jwWXsRCkI",
-        "thumbnail": "https://i.ytimg.com/vi/16jwWXsRCkI/mqdefault.jpg",
-        "description": "벡터 DB 빅매치 2026! pgvector, Pinecone, Chroma, Weaviate 중 누가 승자가 될까요? Data & AI with Varath 채널에서 흥미진진한 비교 분석을 확인하세요! 🏆"
+        "title": "I Tried Every AI Coding Agent... Here's My 2026 Setup",
+        "channel": "Your Average Tech Bro",
+        "link": "https://www.youtube.com/watch?v=zgxorh9LhiE",
+        "thumbnail": "https://i.ytimg.com/vi/zgxorh9LhiE/mqdefault.jpg",
+        "description": "시중에 나와 있는 거의 모든 AI 코딩 에이전트를 직접 사용해 본 테크 브로의 2026년 최신 코딩 셋업을 공개합니다. 어떤 에이전트가 최고인지, 실사용 후기를 통해 알아보세요! 개발 템빨의 끝판왕! 🎮"
       }
     ]
   }

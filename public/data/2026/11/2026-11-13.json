@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-13",
+  "keywords": [
+    "젠슨황 스캔들",
+    "AI 에이전트",
+    "LLM 최적화",
+    "AI 코딩",
+    "AI 비즈니스",
+    "구글 제미나이",
+    "엔비디아",
+    "오픈AI",
+    "앤스로픽",
+    "사이버 보안"
+  ],
+  "sections": {
+    "hype_check": [],
+    "tech_deep_dive": [
+      {
+        "title": "젠슨 황 스캔들, 끝나지 않은 그의 '로맨스(?)'와 퇴출 드라마! 💔",
+        "summary": "엔비디아의 '총각' CEO 젠슨 황이 갑작스럽게 사임! 알고 보니 사내 스캔들과 중국 스파이 의혹까지 얽힌 대형 막장 드라마였다구요? 😱",
+        "content": "엔비디아의 절대 권력자 젠슨 황이 충격적으로 CEO 자리에서 물러났습니다. 처음엔 그가 '불릿프루프'일 줄 알았죠? 하지만 부하 직원과의 불륜, 심지어 중국 스파이 의혹까지 터지면서 이사회가 해고를 검토했고, 결국 사임 발표! 실리콘밸리의 최고 권력자가 이렇게 허무하게 무너지다니, AI 세상은 드라마보다 더 드라마틱하네요. 한 편의 막장 드라마, 지금부터 시작입니다!",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&strip=all&crop=0%2C12.339110464558%2C100%2C75.321779070884&w=1200",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "젠슨 황 아웃! 중국 스파이는 그에게서 뭘 원했을까? 🕵️‍♀️💰",
+        "summary": "젠슨 황의 사임 배경에는 중국 스파이와의 관계가 얽혀있다고? 과연 중국은 엔비디아의 핵심 기술을 원했을까, 아니면 더 큰 그림을 그렸을까? 미스터리 풀이 시작됩니다! 🧐",
+        "content": "젠슨 황의 퇴진을 둘러싼 가장 큰 의문은 바로 '중국 스파이' 앨리스 황의 역할입니다. 중국은 엔비디아의 최첨단 칩 설계도를 원했을까요? 아니면 젠슨 황이 트럼프와 친하다는 점을 이용해 미국의 AI 정책에 영향력을 행사하려 했을까요? 전문가들은 후자에 더 무게를 둔다고 하네요. AI 시대, 기술 전쟁 뒤에는 늘 보이지 않는 정보전이 펼쳐지고 있나 봅니다. 정말 흥미진진하죠?",
+        "link": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD_1112_Site.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "민주당, 엔비디아 ‘스파이 게이트’ 국정조사 칼 빼들다! 🔪💥",
+        "summary": "젠슨 황 스캔들에 정치권까지 참전! 민주당이 엔비디아와 트럼프 전 대통령 간의 '불법 공모' 의혹을 제기하며 전면적인 국정조사를 예고했습니다. 📈",
+        "content": "젠슨 황의 스캔들이 일파만파 커지며 이제는 미국 정치판까지 뒤흔들고 있습니다! 민주당은 젠슨 황이 트럼프 전 대통령과 함께 중국 수출 규제를 회피하려 했다는 '불법 공모' 의혹을 제기하며 강력한 국정조사를 요구하고 나섰습니다. 기술과 정치, 그리고 스캔들이 한데 엉킨 초대형 블록버스터가 따로 없네요. 엔비디아는 과연 이 폭풍을 헤쳐나갈 수 있을까요? 🍿",
+        "link": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205211212-1.jpg?resize=1200,800",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "젠슨 황에게 '세 번째 불륜' 상대가?! 🔥 스캔들 대환장 파티!",
+        "summary": "로이터 통신발 속보! 젠슨 황에게 알려진 두 명 외에, 엔비디아 내부 직원이 또 다른 불륜 상대였다는 소식입니다. 이 정도면 스캔들 그랜드 슬램? 🤯",
+        "content": "아니, 젠슨 황 이 양반! 한 명도 아니고 두 명도 아니고, 무려 세 번째 불륜 상대가 있었다는 충격적인 보도가 나왔습니다. 로이터 통신은 아직 신원을 공개하지 않았지만, 역시 엔비디아 소속 직원이라고 하네요. 그의 'AI 리더십'은 인정하지만, '사랑(?) 리더십'은 좀… 과했네요. 실리콘밸리 최고의 가십이 탄생하는 순간입니다. 🗣️",
+        "link": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "젠슨 황 퇴진, 엔비디아의 오픈소스 사랑은 이제 끝? 💔",
+        "summary": "오픈소스 AI의 강력한 옹호자였던 젠슨 황이 떠나면서, 엔비디아가 허깅페이스 인수, 오픈웨이트 모델 등 오픈소스 생태계에 대한 지원을 유지할지 의문이 커지고 있습니다.",
+        "content": "젠슨 황은 그동안 엔비디아가 오픈소스 AI에 적극적으로 투자하고 커뮤니티를 지원하는 데 핵심적인 역할을 해왔습니다. 특히 허깅페이스 인수나 오픈웨이트 모델 지지 등 그의 오픈소스 철학은 엔비디아의 방향을 결정하는 중요한 요소였죠. 그런데 그가 떠나버렸으니, 엔비디아가 앞으로도 오픈소스에 대한 애정을 이어갈지는 미지수입니다. AI 생태계의 한 축이 흔들릴 수도 있다는 우려가 나오네요. 걱정 한 바가지... 😟",
+        "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2290097570.jpg?w=1024",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "AI 에이전트, 마야 유적 발견? 알고 보니 AI발 '가짜 뉴스' 🤥",
+        "summary": "구글 연구원이 AI 에이전트 덕분에 미지의 마야 유적을 찾았다고 주장했지만, 사실은 이미 학술지에 발표된 곳이었다는 충격적인 반전! AI도 팩트 체크는 필수! 🤣",
+        "content": "\"AI 에이전트가 미발견 마야 유적을 찾았다고?! 대박!\"이라고 외쳤던 구글 연구원. 하지만 고고학자들은 \"이미 작년에 발표된 곳인데?\"라며 코웃음을 쳤습니다. AI는 이미지 속 규칙적인 패턴을 잘 찾았지만, '이미 발견된 것'과 '새롭게 발견된 것'을 구분할 전문가적 지혜는 없었던 거죠. AI, 똑똑하긴 한데 가끔은 어딘가 엉뚱하단 말이야~ 🤷‍♀️",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/maya-sites.jpg?quality=90&strip=all&crop=2.4327168367347%2C0%2C95.134566326531%2C100&w=1200",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "내 폰을 백그라운드에서 조종하는 AI 비서, 'Senku' 등장! 📱🤖",
+        "summary": "OTP 입력 같은 귀찮은 일, 이제 AI가 대신한다? 백그라운드에서 스마트폰을 조종하는 AI 에이전트 'Senku'가 등장해 개인 비서 시장에 혁명을 예고합니다.",
+        "content": "드디어 내 손안의 비서가 진짜 '비서'가 되는 건가요? 'Senku'라는 AI 에이전트가 무선 디버깅을 이용해 가상 디스플레이에서 앱을 열고 백그라운드에서 작업을 처리할 수 있답니다. 매번 OTP 입력하느라 고생했는데, 이젠 AI가 알아서 해준다고 생각하니 벌써부터 마음이 편안~해지네요! 안드로이드 사용자분들, 기대해도 좋겠죠? 😎",
+        "link": "https://www.heysenku.com/",
+        "source": "Hacker News (AI agents)",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "카자흐 해커, AI 에이전트로 정부 기관 스파이 활동! 🌐💀",
+        "summary": "AI 에이전트의 어두운 면이 드러났다? 카자흐스탄 연계 해커들이 중앙아시아 정부를 염탐하는 데 AI 에이전트를 사용했다는 소식입니다. AI, 양날의 검 맞네요!",
+        "content": "AI 에이전트가 우리 삶을 편리하게만 하는 건 아닌가 봅니다. 카자흐스탄과 연결된 해커들이 AI 에이전트를 활용해 중앙아시아 정부 기관을 감시했다는 충격적인 소식이 전해졌어요. AI 기술의 발전이 사이버 보안 위협을 얼마나 더 복잡하게 만들지, 우리 모두 더 심각하게 고민해야 할 시점인 것 같습니다. 😨 AI의 윤리적 사용, 정말 중요한 문제죠.",
+        "link": "https://therecord.media/kazakhstan-hackers-central-asia",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://cms.therecord.media/uploads/Central_Asia_7feabe2c24.jpg",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "브랜드 맞춤형 인플루언서 찾아주는 AI 에이전트 'Nectar' 🐝",
+        "summary": "Nectar가 인플루언서 마케팅의 모든 것을 자동화하는 AI 에이전트를 출시했습니다! 브랜드에 딱 맞는 크리에이터를 찾아주고, 협업 관리까지 한 번에!",
+        "content": "인플루언서 마케팅, 이제 AI가 알아서 해줍니다! Nectar가 새로운 AI 에이전트를 선보였는데요, 브랜드가 원하는 크리에이터를 자동으로 찾아주고, 아웃리치부터 파트너십 관리, 캠페인 결과 추적까지 모두 도맡아 처리해준다고 해요. 마케터들의 노가다를 확 줄여줄 꿀템이 될 것 같네요! 🍯 AI 덕분에 마케팅도 스마트하게!",
+        "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2023/10/misbahfarah-together.jpg?resize=1200,676",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "LLM 3배 압축?! 'Spectra'로 램 걱정 끝! 🚀",
+        "summary": "LLM을 단 한 번의 클릭으로 3배까지 압축해주는 'Spectra'가 등장했습니다! 메모리 사용량을 50MB 미만으로 줄여 거의 손실 없이 모델을 돌릴 수 있다니, 개발자들 환호성 지르는 소리 들리시죠? 🎉",
+        "content": "LLM 돌리다 램 부족에 눈물 흘린 개발자들 주목! 'Spectra'라는 신기술이 LLM을 무려 3배까지 압축해준다고 합니다. 그것도 '거의 손실 없이' 말이죠! vLLM의 후계자로 불릴 만한 이 기술 덕분에, 이제 더 가볍고 빠르게 LLM을 돌릴 수 있게 될 거예요. 엣지 디바이스에서도 LLM이 활약할 날이 머지않았네요! 💡 대박 소식 아닌가요?",
+        "link": "https://ecosistemastartup.com/spectra-comprime-llms-3x-en-menos-de-50-mb-de-ram/",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://ecosistemastartup.com/wp-content/uploads/2026/11/spectra-compresion-llm-ia-borde-1200x675.jpg",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "LLM 전용 마크업 언어 'LLMON' 등장! 📚✨",
+        "summary": "허깅페이스에서 LLM에 최적화된 새로운 마크업 언어 'LLMON'을 공개했습니다! 이제 Granite 4.1 모델에서 만나볼 수 있다니, LLM과의 대화가 더 똑똑해지겠네요.",
+        "content": "LLM과 더 효율적으로 소통하고 싶으셨죠? 허깅페이스에서 LLM-Native 마크업 언어인 'LLMON'을 선보였습니다! 텍스트뿐만 아니라 복잡한 구조와 의미를 LLM이 더 잘 이해하도록 돕는다고 해요. Granite 4.1 3B 및 8B 모델에 적용되었다니, 개발자분들은 당장 써봐야 할 신문물입니다! 🤓 AI 친구랑 더 똑똑하게 대화할 수 있겠네요!",
+        "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+        "source": "Hugging Face Blog",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "3D 생성 모델, 파인튜닝 끝판왕 가이드 나왔다! 🎨🛠️",
+        "summary": "허깅페이스에서 3D 생성 모델의 성능을 극대화할 수 있는 '최종 파인튜닝 가이드'를 공개했습니다! 이제 여러분도 멋진 3D 콘텐츠 장인이 될 수 있어요.",
+        "content": "3D 모델 생성, 아직도 어렵게 느껴지시나요? 허깅페이스가 3D 생성 모델을 위한 파인튜닝 가이드를 발표하며, 누구나 고품질 3D 콘텐츠를 만들 수 있도록 돕습니다. LoRA 같은 기술을 활용해 모델을 정교하게 다듬는 방법을 알려준다니, 3D 아티스트와 개발자들에게는 단비 같은 소식이겠네요! 🌧️✨ 이제 똥손도 금손될 기회?",
+        "link": "https://huggingface.co/blog/3d-lora-finetuning",
+        "source": "Hugging Face Blog",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "OpenAI 모델로 Amplitude, 🚀1-2일 만에 제품 개선 완료!",
+        "summary": "Amplitude가 OpenAI 모델 기반의 'Wave' 에이전트로 1~2일 만에 제품 개선을 뚝딱! AI가 아이디어부터 코드, 성과 측정까지 다 해준다니, 일잘러 등극은 시간 문제네요. ⚡",
+        "content": "Amplitude가 OpenAI 모델을 활용해 제품 개선 주기를 1~2일로 단축시키는 마법을 부리고 있습니다. 'Wave'라는 자체 에이전트가 어떤 기능을 만들지 제안하고, 코딩 에이전트가 직접 개발하며, 심지어 그 효과까지 측정한다고 해요. AI가 이렇게까지 일잘러가 될 수 있다니, 우리도 빨리 배워서 써봐야겠어요! 🏃‍♀️ 진짜 AI는 못 하는 게 뭐야?",
+        "link": "https://openai.com/business/customer-stories/amplitude",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "구글 제미나이 4 하이드로젠, 질문 이해력 '초월' 🤯",
+        "summary": "구글의 새 제미나이 4 하이드로젠 모델이 복잡하고 난해한 질문까지 척척 이해하고 답변한다고 합니다! 오타나 여러 질문이 섞인 것도 문제없다니, 검색의 신세계를 경험할 준비 되셨나요?",
+        "content": "\"내 질문이 너무 복잡했나...\"라고 자책할 필요 이제 없습니다! 구글의 새로운 제미나이 4 하이드로젠 모델이 출시되었는데, 오타가 있거나 여러 파트가 섞인 질문, 심지어 엄청나게 구체적인 요청까지 완벽하게 이해하고 답변을 내놓는다고 합니다. 복잡한 문제를 단계별로 쪼개어 설명까지 해준다니, 이제 AI 비서에게 못 물어볼 질문은 없겠네요! 🧠 와우, 말귀 잘 알아듣는 AI가 최고!",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "앤스로픽, 드디어 상장?! 💰 IPO 로드쇼 시작!",
+        "summary": "클로드(Claude) 개발사 앤스로픽이 드디어 기업공개(IPO)를 위한 로드쇼를 시작했습니다! AI 스타트업들의 상장 러시, 이제 시작인가요? 🚀",
+        "content": "샘 알트먼의 오픈AI와 경쟁하는 AI 스타트업 앤스로픽이 기업공개(IPO)를 위한 대장정을 시작했습니다. 투자자들을 만나 클로드의 비전과 기술력을 설명하는 로드쇼에 돌입했는데요, 과연 얼마나 대규모 자금을 유치하며 AI 시장의 판도를 뒤흔들지 귀추가 주목됩니다. 돈의 힘으로 AGI를 더 빨리 만날 수 있을까요? 🤔 과연 대박 날까?",
+        "link": "https://www.anthropic.com/news/roadshow-launch",
+        "source": "Anthropic News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "Air-LLM: Broadcasting AI Weights for Edge LLM Inference via RF Computing",
+        "summary": "Article URL: https://arxiv.org/abs/2610.00465 Comments URL: https://news.ycombinator.com/item?id=50471658 Points: 1 # Comments: 0",
+        "content": "Article URL: https://arxiv.org/abs/2610.00465 Comments URL: https://news.ycombinator.com/item?id=50471658 Points: 1 # Comments: 0",
+        "link": "https://arxiv.org/abs/2610.00465",
+        "source": "Hacker News (LLM)",
+        "og_image": null,
+        "tags": [
+          "논문",
+          "arXiv"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "Everything You Need to Know About Coding with AI // NOT vibe coding",
+        "channel": "ForrestKnight",
+        "link": "https://www.youtube.com/watch?v=5fhcklZe-qE",
+        "thumbnail": "https://i.ytimg.com/vi/5fhcklZe-qE/mqdefault.jpg",
+        "description": "AI와 함께 코딩하는 방법에 대한 모든 것을 파헤칩니다! 단순히 감에 의존하는 '바이브 코딩'이 아니라, 실제 생산성을 높이는 AI 활용법을 알려줘요. 개발자들이라면 꼭 봐야 할 AI 코딩 가이드! 🚀"
+      },
+      {
+        "title": "My AI Coding Workflow That Actually Works",
+        "channel": "Chris Titus Tech",
+        "link": "https://www.youtube.com/watch?v=wcRR5P0S2Us",
+        "thumbnail": "https://i.ytimg.com/vi/wcRR5P0S2Us/mqdefault.jpg",
+        "description": "직접 경험하고 검증된 AI 코딩 워크플로우를 소개합니다. 어떻게 AI를 개발 과정에 효과적으로 통합하여 실제 결과물을 만들어내는지, 실용적인 팁과 노하우를 공개해요. 당신의 생산성을 한 단계 업그레이드! ✨"
+      },
+      {
+        "title": "Spec-Driven Development: AI Assisted Coding Explained",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=mViFYTwWvcM",
+        "thumbnail": "https://i.ytimg.com/vi/mViFYTwWvcM/mqdefault.jpg",
+        "description": "스펙(Spec) 기반 개발에 AI를 활용하는 방법을 상세히 설명합니다. AI가 코드 작성에 어떻게 도움을 주고, 개발 프로세스를 어떻게 최적화하는지 궁금하다면 시청하세요. IBM이 제시하는 개발의 미래! 🤖"
+      },
+      {
+        "title": "AI-Assisted Coding Tutorial – OpenClaw, GitHub Copilot, Claude Code, CodeRabbit, Gemini CLI",
+        "channel": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/watch?v=wlpBCazAY9Q",
+        "thumbnail": "https://i.ytimg.com/vi/wlpBCazAY9Q/mqdefault.jpg",
+        "description": "다양한 AI 코딩 도구들(OpenClaw, GitHub Copilot, Claude Code, CodeRabbit, Gemini CLI)을 활용한 AI 보조 코딩 튜토리얼입니다. 각 도구의 장단점과 실제 사용법을 익혀보세요! 코딩 초보도 프로처럼! 🧑‍💻"
+      },
+      {
+        "title": "Prompt to Production: The Future of AI Code Workflows",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=bs1qPy_CWkM",
+        "thumbnail": "https://i.ytimg.com/vi/bs1qPy_CWkM/mqdefault.jpg",
+        "description": "프롬프트 입력부터 실제 서비스 배포(Production)까지, AI 코드 워크플로우의 미래를 조명합니다. AI가 소프트웨어 개발의 전 과정을 어떻게 혁신할지 통찰력을 얻을 수 있습니다. 개발자라면 필청! 💡"
+      },
+      {
+        "title": "mattpocock/skills: A complete AI Coding workflow, end-to-end",
+        "channel": "Matt Pocock",
+        "link": "https://www.youtube.com/watch?v=M6mYodf0dJM",
+        "thumbnail": "https://i.ytimg.com/vi/M6mYodf0dJM/mqdefault.jpg",
+        "description": "Matt Pocock이 직접 보여주는 완벽한 AI 코딩 워크플로우입니다. 아이디어 구상부터 최종 코드 완성까지, AI를 활용한 모든 단계를 end-to-end로 상세하게 설명해줍니다. 개발 고수가 되는 지름길! 🎯"
+      },
+      {
+        "title": "I Tried Every AI Coding Agent... Here's My 2026 Setup",
+        "channel": "Your Average Tech Bro",
+        "link": "https://www.youtube.com/watch?v=zgxorh9LhiE",
+        "thumbnail": "https://i.ytimg.com/vi/zgxorh9LhiE/mqdefault.jpg",
+        "description": "시중에 나와 있는 거의 모든 AI 코딩 에이전트를 직접 사용해 본 테크 브로의 2026년 최신 코딩 셋업을 공개합니다. 어떤 에이전트가 최고인지, 실사용 후기를 통해 알아보세요! 개발 템빨의 끝판왕! 🎮"
+      }
+    ]
+  }
+}
