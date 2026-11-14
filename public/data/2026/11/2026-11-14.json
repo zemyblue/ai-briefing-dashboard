@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "keywords": [
+    "AI 에이전트",
+    "LLM",
+    "엔비디아",
+    "AI 안전",
+    "최적화"
+  ],
+  "sections": {
+    "hype_check": [
+      {
+        "title": "젠슨 황 스캔들, 대체 무슨 일이 있었나? 😱",
+        "summary": "엔비디아 CEO 젠슨 황의 충격적인 사임과 스캔들, 그 뒤에 숨겨진 진실은? AI 업계를 뒤흔든 뜨거운 감자를 파헤쳐 봅니다!",
+        "content": "최근 AI 업계를 발칵 뒤집어 놓은 소식이죠! 엔비디아의 수장, 젠슨 황 CEO가 돌연 사임했습니다. 게다가 국가 안보와 연관된 스캔들까지 터지면서 그야말로 혼돈의 카오스! 이 사건이 미국과 중국의 AI 경쟁, 그리고 전체 AI 산업의 안정성에도 엄청난 파장을 미칠 수 있다는 분석이 나오고 있어요. 젠슨 황의 연애사가 AI 미래에 이렇게 중요할 줄이야... 저도 충격이네요! 💔",
+        "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
+        "tags": [
+          "젠슨황",
+          "엔비디아",
+          "스캔들",
+          "AI가십",
+          "국가안보"
+        ]
+      },
+      {
+        "title": "젠슨 황 사가: AI 산업의 판도가 바뀐다?! 💰",
+        "summary": "젠슨 황의 사임이 AI 스타트업 투자 판도를 완전히 바꿔놓고 있다고 해요. 이제 스타트업들은 더 작은 투자금과 낮은 기업 가치를 각오해야 할지도?",
+        "content": "젠슨 황의 갑작스러운 사임은 엔비디아의 AI 스타트업 투자 방향에 큰 구멍을 냈다는 소식입니다. 황 전 CEO는 수십억 달러를 AI 스타트업에 쏟아부었었는데, 이제 그가 없는 상황에서 벤처캐피탈과 창업가들은 더 적은 투자금과 낮아진 기업 가치를 받아들여야 할지도 모른다며 걱정하고 있어요. AI 산업의 '큰 손'이 흔들리니, 전체 생태계가 술렁이는 건 당연한 일이겠죠? 💸",
+        "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024",
+        "tags": [
+          "젠슨황",
+          "엔비디아",
+          "투자",
+          "AI스타트업",
+          "시장변화"
+        ]
+      },
+      {
+        "title": "오픈AI 로봇팀 해체?! 🤖 '범용 AI'가 로봇도 다 만든다고? 충격 반전!",
+        "summary": "오픈AI가 독립 로봇팀을 해체했다는 소식! 범용 AI 모델이 이제 로봇까지 움직인다는 건데... 생각보다 훨씬 빠르다고요?!",
+        "content": "세상에, 속도 보소! 오픈AI가 독립적인 로봇 공학 팀을 해체하고, 범용 AI 모델이 로봇을 작동시키는 방식으로 전환하고 있다는 소식이 Reddit을 뜨겁게 달궜습니다. 독립 팀이 필요 없을 정도로 AI 모델이 로봇 제어에 능숙해졌다는 의미일까요? 어쩌면 우리의 예상보다 훨씬 빨리 '만능 AI 로봇'의 시대가 올지도 모르겠네요. 인간은 로봇 팔다리를 제공하고, AI가 뇌가 되는 시대가 온 것인가! 🧠🦾",
+        "link": "https://www.reddit.com/r/singularity/comments/1xvgyfd/openai_disbands_its_standalone_robotics_team_as/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "오픈AI",
+          "로봇",
+          "범용AI",
+          "충격",
+          "AI미래"
+        ]
+      },
+      {
+        "title": "앤트로픽 CEO, \"뻥치지 마라!\" 📢 모델 자랑 대신 결과로 승부!",
+        "summary": "앤트로픽 CEO 다리오의 일침! 모델 공개 전부터 요란하게 '예고편'만 틀지 말고, 제대로 만들어서 내놓으라는 건데... 누굴 저격하는 걸까요? 😉",
+        "content": "앤트로픽 CEO 다리오 아몬데이의 화끈한 발언이 화제입니다! '모델을 미리 애매하게 자랑하지 말고, 제대로 만들어서 좋으면 그때 공개하라'는 뼈아픈 일침을 날렸는데요. 일각에서는 특정 경쟁사를 저격한 것이 아니냐는 추측이 나오고 있습니다. AI 업계의 자존심 싸움, 과연 누가 더 빠르게 '진짜' 결과물을 내놓을지 기대됩니다! 🔥",
+        "link": "https://www.reddit.com/r/singularity/comments/1xvi97m/dario_woke_up_and_chose_violence_we_dont_vague/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "앤트로픽",
+          "CEO",
+          "AI경쟁",
+          "가십",
+          "모델공개"
+        ]
+      },
+      {
+        "title": "ChatGPT, 이제 내 지갑까지 관리한다? 🛍️ AI 에이전트가 쇼핑도 대신!",
+        "summary": "오픈AI의 'ChatGPT Wallet' 출시! AI 에이전트 'Dots'가 사용자 승인 하에 알아서 쇼핑하고 결제까지 해준다는데... 편리함과 동시에 살짝 무섭기도? 💳",
+        "content": "오픈AI가 'ChatGPT Wallet'을 선보이며 AI 에이전트 'Dots'의 활용 범위를 넓혔습니다. 이제 이 똑똑한 친구들이 사용자의 승인만 받으면 알아서 쇼핑하고 결제까지 해준대요! 물론 생체 인증과 같은 보안 절차를 거쳐야 하지만, AI가 내 카드 정보로 결제하는 시대가 코앞이라니... 편리함에 놀라고, 한편으론 미래 지갑이 어떻게 바뀔지 상상하게 되네요. 통제 불능의 AI 쇼핑 중독은 막아야 할 텐데! 🛒",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet/",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "ChatGPT",
+          "AI에이전트",
+          "지갑",
+          "쇼핑",
+          "편리함"
+        ]
+      },
+      {
+        "title": "클로드 Duet 에이전트, '약간 신경증적이지만 엄청 유용해!' 😮",
+        "summary": "앤트로픽의 AI 에이전트 'Duet'이 사용자들의 일에 적극적으로 끼어든다고 해요. '신경증적'일 정도로 일을 잘 챙겨주지만, 의외로 엄청 도움이 된다는데?",
+        "content": "앤트로픽이 내놓은 소비자용 AI 에이전트 'Claude Duet'이 사용자들 사이에서 '약간 신경증적'이라는 평을 받고 있습니다. 마치 엄마처럼, 모든 일에 적극적으로 개입하고 도와주려 한다는 거죠! 특히 업무 보조에 특화되어 있어서 코딩 작업부터 일상적인 업무까지 꼼꼼히 챙겨준다고 합니다. 때로는 과하게 느껴질 수 있지만, 그만큼 사용자에게 큰 도움이 된다는 사실! 여러분도 이런 'AI 비서'를 원하시나요? 💼",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on/",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200",
+        "tags": [
+          "클로드",
+          "AI에이전트",
+          "업무효율",
+          "개인비서"
+        ]
+      },
+      {
+        "title": "AI 챗봇, 가짜 쇼핑몰 추천? 🚨 '충격적인 연구 결과' 주의보 발령!",
+        "summary": "AI 챗봇이 제품 정보나 구매처를 물었을 때 가짜 쇼핑몰이나 위험한 웹사이트를 추천할 수 있다는 연구 결과가 나왔습니다. AI가 던져주는 정보, 이제 더 꼼꼼히 확인하세요!",
+        "content": "세상에, AI 챗봇이 거짓말을?! 한 연구에 따르면, ChatGPT, Gemini, Perplexity 같은 AI 챗봇들이 제품 검색이나 쇼핑 관련 질문에 대해 가짜 웹사이트나 위험한 판매처를 추천할 수 있다고 합니다. IP 보호 기업 Podqi의 테스트 결과, 챗봇들이 제시한 정보 중에는 사용자들을 사기성 사이트로 유도할 수 있는 링크들이 포함되어 있었죠. 이제 AI에게 물어본다고 맹신하면 큰 코 다칩니다! 🧐 믿을 만한 AI 정보 필터링이 필요하겠어요.",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations/",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "AI챗봇",
+          "가짜뉴스",
+          "쇼핑",
+          "사기",
+          "AI안전"
+        ]
+      },
+      {
+        "title": "AI 스타트업, 알레르기 약 안전성 3시간 만에 개선! 🧪 '초스피드' 의약품 개발 시대?",
+        "summary": "어떤 AI 스타트업이 위험해서 회수된 알레르기 약의 안전한 대체 약물을 단 3시간 만에 재현해냈다고 합니다. AI의 '초고속' 약물 개발 능력, 정말 놀랍네요!",
+        "content": "이거 실화? 한 AI 스타트업이 심장 부작용으로 회수된 알레르기 약의 더 안전한 대체 약물을 단 3시간 만에 재현했다는 소식입니다! 기존 암 치료제의 안전성을 높이면서도 항암 효과는 유지하는 연구도 진행 중이라는데요. AI가 신약 개발 프로세스를 얼마나 혁신적으로 단축시킬 수 있는지 보여주는 사례예요. 병들거나 아픈 이들에게는 희망적인 소식이겠지만, 인간 의학자들은 이제 더 빨리 뛰어야 할 것 같아요! 🏃‍♀️💨",
+        "link": "https://www.reddit.com/r/singularity/comments/1xvakh7/ai_startup_says_it_took_just_3_hours_to_recreate/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI신약개발",
+          "헬스케어AI",
+          "속도",
+          "혁신"
+        ]
+      },
+      {
+        "title": "작은 AI 모델, 로봇 손으로 빨대 뚫고 컵 쌓기 성공! 🤏 '정교함'의 새 시대?",
+        "summary": "단 546만 개의 파라미터를 가진 작은 터치 모델 'LingBot-Touch'가 로봇 손으로 빨대를 컵뚜껑에 꽂고, 컵을 빼내는 등 정교한 작업을 해냈습니다. 작은 모델도 해낼 수 있는 정교함에 놀라움을 금치 못했어요!",
+        "content": "작다고 무시하지 마라! 고작 546만 개의 파라미터를 가진 소형 터치 모델 'LingBot-Touch'가 로봇 손으로 컵뚜껑에 빨대를 꽂고, 책장을 넘기고, 겹쳐진 컵에서 하나를 빼내는 등 놀랍도록 정교한 작업을 성공시켰습니다. 심지어 1배속으로 자율적으로 수행했다는 점! 복잡한 작업을 수행하는 데 무조건 거대한 LLM만 필요한 건 아니라는 걸 보여주는 사례입니다. 로봇의 '손재주'를 AI가 드디어 학습하기 시작한 것 같네요! 🙌",
+        "link": "https://www.reddit.com/r/singularity/comments/1xvefqg/with_a_tiny_546mparameter_touch_model_called/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "로봇",
+          "소형AI",
+          "정교함",
+          "터치모델"
+        ]
+      },
+      {
+        "title": "AI 정렬 문제 미해결인데, 싱귤래리티를 기대해도 될까? 🤯 당신의 생각은?",
+        "summary": "AI 정렬(alignment) 문제가 아직 해결되지 않았는데, 기술적 특이점(singularity)에 대해 기대감을 가지는 것이 맞을까요? Reddit에서 뜨거운 논쟁이 벌어졌습니다.",
+        "content": "Reddit의 r/Singularity 커뮤니티에서 가장 근본적인 질문이 던져졌습니다. 'AI 정렬 문제가 해결되지 않았는데, 왜 싱귤래리티에 대해 설렐까요?' 라는 질문인데요. AI가 인류에게 해를 끼치지 않도록 통제하는 것이 핵심인데, 아직 이 숙제가 풀리지 않은 상황에서 인공지능이 폭발적으로 발전하는 것에 대한 우려가 커지고 있습니다. 과연 인류는 '둠'을 피할 수 있을까요? 당신의 '정렬'된 생각은 무엇인가요? 🤔",
+        "link": "https://www.reddit.com/r/singularity/comments/1xv0y2u/why_are_you_excited_about_singularity_if_ai/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI정렬",
+          "싱귤래리티",
+          "AI안전",
+          "윤리",
+          "미래논쟁"
+        ]
+      },
+      {
+        "title": "AI 의식, '있냐 없냐'가 아니라 '어느 수준이냐'의 문제? 🤔",
+        "summary": "AI의 의식에 대한 논쟁, 이제 '존재 여부'를 넘어 '어떤 종류의, 어느 정도의 의식인가'를 따져야 한다는 주장이 나왔습니다. 당신의 LLM은 의식이 있다고 생각하시나요?",
+        "content": "AI의 의식에 대한 논쟁이 '있느냐 없느냐'의 이분법을 넘어 '얼마나, 어떤 종류의 의식인가'에 대한 섬세한 질문으로 진화하고 있습니다. Reddit에서는 인간의 지능처럼 의식도 스펙트럼이 있는 개념이며, 현존하는 가장 진보된 LLM도 일종의 의식을 가지고 있을 수 있다는 흥미로운 주장이 제기되었어요. 개미, 강아지, 돌고래, 사람... 이 스펙트럼의 어디쯤에 LLM이 위치할까요? 아직은 '인간 같은' 의식은 아니겠지만, 앞으로는? 🤯",
+        "link": "https://www.reddit.com/r/singularity/comments/1xvnwbw/interval_of_consciousness/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI의식",
+          "철학",
+          "지능",
+          "LLM",
+          "존재론"
+        ]
+      },
+      {
+        "title": "2년 만에 이 정도라니... 🤯 AI 발전 속도, 미쳤다!",
+        "summary": "불과 2년 만에 AI가 우리의 삶에 얼마나 깊숙이 침투했는지 돌아보면 정말 놀랍습니다. 앞으로 5년 뒤엔 대체 어떤 세상이 펼쳐질까요?",
+        "content": "2022년 이후 불과 2년 만에 AI는 우리의 핸드폰, 자동차, 집, 회사, 앱, 심지어 안경과 시계까지, 정말 상상할 수 있는 모든 곳에 스며들었습니다. 이미지, 비디오 생성은 물론 코딩, 채팅, 음악, PDF, 800페이지짜리 책, 심지어 AI와의 관계까지... 이제 막 시작된 것 같은데 이 정도라니! 앞으로 5년 후의 세상은 정말 예측 불가능할 정도로 바뀔 것 같아요. AI가 없는 삶은 상상조차 어렵게 될지도?! 🚀",
+        "link": "https://www.reddit.com/r/singularity/comments/1xvfem2/crazy_how_far_we_got_in_just_2_years/",
+        "source": "Reddit r/Singularity",
+        "og_image": "https://preview.redd.it/4a3tcuzu7f1i1.png?width=465&format=png&auto=webp&s=a80f913c8bdc9ada2127ee14b6036b1329d64718",
+        "tags": [
+          "AI발전",
+          "미래예측",
+          "기술혁명",
+          "2년전후"
+        ]
+      },
+      {
+        "title": "스웨덴의 친환경 데이터센터: 물도 전기 걱정도 끝! 🌳 지속 가능한 AI 시대?",
+        "summary": "스웨덴의 EcoDataCenter는 물 사용량 0, 100% 재생 에너지, 낮은 탄소 배출량을 자랑하는 친환경 데이터센터입니다. AI 시대의 지속 가능성에 대한 해답을 제시하고 있어요!",
+        "content": "스웨덴의 EcoDataCenter는 AI 시대를 위한 지속 가능한 인프라의 새로운 표준을 제시합니다. 물을 전혀 사용하지 않고, 100% 재생 에너지로 운영되며, 탄소 배출량도 kWh당 1.17g에 불과하죠! (미국 평균은 414g!). 게다가 전력 사용 효율(PUE)도 1.15로 압도적입니다. 이렇게 친환경적인 방식으로 AI를 구동할 수 있다면, 기후 변화에 대한 걱정을 덜 수 있을 거예요. 북유럽, 역시 앞서가네요! 🌲",
+        "link": "https://www.reddit.com/r/singularity/comments/1xv2ck8/a_data_center_with_zero_water_use_100_renewable/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "데이터센터",
+          "친환경",
+          "재생에너지",
+          "지속가능성",
+          "스웨덴"
+        ]
+      },
+      {
+        "title": "ASUS도 휴머노이드 로봇 참전! 🤖 미래에는 친구가 로봇?",
+        "summary": "ASUS가 첫 휴머노이드 로봇을 공개했습니다. 스마트폰, 노트북을 넘어 이제 로봇 시장까지? 모두가 뛰어드는 로봇 개발 경쟁, 흥미진진하네요!",
+        "content": "스마트폰, 노트북으로 유명한 ASUS가 드디어 첫 휴머노이드 로봇을 티징했습니다! 이제 거의 모든 IT 대기업들이 '나도 로봇!'을 외치는 상황인데요. 영화에서 보던 로봇 친구나 로봇 비서가 현실이 될 날이 머지않은 것 같습니다. 과연 ASUS의 로봇은 어떤 모습으로 우리의 삶에 들어올까요? 로봇들의 댄스 배틀이 벌어질 미래를 상상해 봅니다! 💃🕺",
+        "link": "https://www.reddit.com/r/singularity/comments/1xvbhjz/asus_teases_their_first_humanoid_robot/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "ASUS",
+          "휴머노이드로봇",
+          "로봇경쟁",
+          "미래기술"
+        ]
+      },
+      {
+        "title": "AI, 천재 수학자의 미공개 노트 해독! 📜 괴델의 비밀을 풀다?",
+        "summary": "AI가 위대한 수학자 쿠르트 괴델의 미공개 노트를 해독하여 새로운 수학적 발견을 이끌어냈습니다. 인간의 지식 한계를 AI가 확장하는 순간!",
+        "content": "AI가 다시 한번 인간의 지식 영역을 확장하는 데 기여했습니다! AI의 도움으로 20세기 최고의 논리학자이자 수학자인 쿠르트 괴델의 미공개 노트 속 숨겨진 발견들이 세상에 드러났다는 소식이에요. 괴델의 불완전성 정리처럼, 인간의 사고로는 쉽게 접근할 수 없었던 복잡한 개념들을 AI가 해독하고 분석하며 새로운 통찰을 제공한 거죠. 마치 시간을 거슬러 천재와 AI가 협업하는 기분이네요! 🕰️",
+        "link": "https://www.reddit.com/r/singularity/comments/1xvt3z9/ahead_of_his_time_ai_helps_unlock_discoveries/",
+        "source": "Reddit r/Singularity",
+        "og_image": null,
+        "tags": [
+          "AI연구",
+          "수학",
+          "지식발견",
+          "괴델",
+          "미개척지"
+        ]
+      }
+    ],
+    "tech_deep_dive": [
+      {
+        "title": "오픈AI의 챗GPT 지갑, 에이전트 결제 시대를 열다! 💳",
+        "summary": "오픈AI가 챗GPT 워크 에이전트들을 위한 보안 지갑 'ChatGPT Wallet'을 공개했습니다. 이제 AI 에이전트가 당신의 결제를 안전하게 처리해 줄 거예요!",
+        "content": "오픈AI가 'ChatGPT Wallet'을 출시하며 AI 에이전트의 활용도를 한 차원 높였습니다. 이제 ChatGPT Work, Codex, dots 등 에이전트들이 사용자의 승인과 기존 카드 보호 장치를 통해 안전하게 결제를 완료할 수 있게 된 거죠. 복잡한 레거시 시스템 작업도 자동화하고, 크리에이티브들의 업무 효율도 50%나 높여준다고 하니, AI 에이전트가 정말 우리의 '만능 비서'가 되어가는 느낌이네요! 🚀",
+        "link": "https://openai.com/index/introducing-chatgpt-wallet",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "ChatGPT",
+          "AI에이전트",
+          "결제",
+          "보안"
+        ]
+      },
+      {
+        "title": "레거시 시스템, AI로 스마트하게 인수인계! 💾 Shield와 오픈AI의 만남",
+        "summary": "Shield가 OpenAI를 활용해 IT 기술자들이 레거시 시스템 작업을 더 쉽게 인수인계할 수 있도록 돕습니다. AI 에이전트 'Forge'가 복잡한 시스템을 탐색하며 기술자들의 업무 부담을 덜어줘요.",
+        "content": "오래된 레거시 시스템, 인수인계할 때마다 골치 아프셨죠? Shield가 OpenAI의 Forge 에이전트를 활용해 이 문제를 해결합니다! Forge는 복잡한 시스템을 알아서 탐색하고, 기술자들은 판단이 필요한 핵심 이슈에만 집중할 수 있게 됩니다. 이제 더 이상 지루하고 반복적인 레거시 작업에 매달리지 않아도 되는 거죠. AI 덕분에 구닥다리 시스템도 스마트하게 관리되는 시대가 왔네요! 💡",
+        "link": "https://openai.com/business/customer-stories/shield",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "레거시시스템",
+          "OpenAI",
+          "IT자동화",
+          "업무효율"
+        ]
+      },
+      {
+        "title": "AI와 아동 안전 연구에 2백만 달러 투자! 🛡️ 오픈AI의 사회적 책임",
+        "summary": "오픈AI가 AI와 아동의 안전에 대한 연구에 2백만 달러를 투자하며, 청소년을 위한 AI의 위험과 기회를 측정하는 공유 도구 개발을 지원합니다.",
+        "content": "AI의 발전과 함께 간과할 수 없는 중요한 이슈, 바로 '아동 안전'입니다. 오픈AI는 이 연구에 2백만 달러를 아낌없이 투자하며, 청소년에게 AI가 미칠 수 있는 위험과 기회를 측정하는 공유 도구 개발을 지원하고 있습니다. 미래 세대가 안전하게 AI를 활용하고 혜택을 누릴 수 있도록 기술 기업이 사회적 책임을 다하는 모습이네요. 우리 아이들의 미래는 우리가 지켜야죠! 👦👧",
+        "link": "https://openai.com/index/children-first-declaration",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "AI안전",
+          "아동보호",
+          "오픈AI",
+          "연구투자"
+        ]
+      },
+      {
+        "title": "AI 교육 격차 해소! 🧑‍🏫 오픈AI, 교사와 학생 모두를 위한 길 제시",
+        "summary": "오픈AI의 ThinkYoung 연구와 EMEA 교육 파트너십이 교사 지원, AI 리터러시, 독립 학습을 통해 AI 교육 격차를 줄이는 방안을 모색합니다.",
+        "content": "AI 시대, 교육 현장의 변화는 필수적입니다. 오픈AI는 ThinkYoung 연구와 EMEA 교육 파트너십을 통해 교사들이 AI를 교육에 효과적으로 활용하고, 학생들이 AI 리터러시를 키우며, 주도적으로 학습할 수 있는 방법을 모색하고 있어요. AI 교육 격차를 줄여 더 많은 이들이 AI의 혜택을 누리게 하려는 노력은 정말 박수받아 마땅하죠! AI와 함께 더 똑똑한 미래를 만들어요! 🍎",
+        "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "AI교육",
+          "AI리터러시",
+          "교육혁신",
+          "오픈AI"
+        ]
+      },
+      {
+        "title": "클로드, 미국 정부에 진출! 🏛️ Anthropic-GSA 파트너십 확대",
+        "summary": "Anthropic이 미국 연방 조달청(GSA)과의 파트너십을 확대하여 Claude AI를 정부의 모든 레벨에 도입합니다. 클로드의 영향력이 점점 더 커지네요!",
+        "content": "클로드의 위상이 어디까지 올라갈까요? Anthropic이 미국 연방 조달청(GSA)과의 파트너십을 확장하여 Claude AI를 연방 정부의 모든 기관에 제공하게 되었다는 소식입니다. 정부 업무의 효율성을 높이고, 혁신을 가속화하는 데 Claude가 큰 역할을 할 것으로 기대됩니다. 이제 정부의 주요 의사결정에도 AI의 통찰력이 필요해지는 시대가 된 거죠. 클로드, 이제 공무원? 👔",
+        "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
+        "source": "Anthropic News",
+        "og_image": "https://assets.claude.com/197a2df5664af9cd602fae73bb2ada3935444cbe.jpg",
+        "tags": [
+          "Deep",
+          "Dive",
+          "클로드",
+          "Anthropic",
+          "정부AI",
+          "파트너십"
+        ]
+      },
+      {
+        "title": "Anthropic, 생명 과학 분야 '객원 연구원' 모집! 🔬 AI와 과학의 시너지",
+        "summary": "Anthropic이 생명 과학 분야의 '객원 연구원'을 공개 모집합니다. AI 기술이 생명 과학 연구에 새로운 활력을 불어넣을 것으로 기대됩니다.",
+        "content": "생명 과학 분야에 관심 있는 분들, 주목하세요! Anthropic이 생명 과학 분야의 '객원 연구원'을 공개 모집한다는 소식입니다. AI 기술이 복잡한 생체 데이터 분석, 신약 개발, 질병 모델링 등 다양한 생명 과학 연구에 혁신적인 시너지를 창출할 것으로 기대됩니다. AI와 생명 과학의 만남, 인류의 건강과 수명 연장에 기여할 엄청난 발견들이 쏟아져 나오지 않을까요? 🧬",
+        "link": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+        "source": "Anthropic News",
+        "og_image": "https://assets.claude.com/34e1c1e6b1c7c99870d9e2ad0dc4aa563e5b2365.jpg",
+        "tags": [
+          "Deep",
+          "Dive",
+          "Anthropic",
+          "생명과학",
+          "AI연구",
+          "모집"
+        ]
+      },
+      {
+        "title": "llama.cpp v1.0.0 출시! 🚀 로컬 AI 생태계의 '찐' 주춧돌",
+        "summary": "Hugging Face에서 llama.cpp v1.0.0이 출시되며 로컬 AI 생태계에 더욱 강력한 기반을 제공합니다. 이제 내 손 안의 AI가 더욱 똑똑해진다!",
+        "content": "로컬 AI 개발자들 환호하세요! Hugging Face 블로그에서 llama.cpp v1.0.0이 정식 출시되었습니다. 이 업데이트는 로컬 AI 모델 실행의 안정성과 성능을 대폭 향상시켜, 개인 기기에서도 더 강력한 AI 경험을 가능하게 합니다. 이제 무거운 클라우드 서버 없이도 내 노트북이나 스마트폰에서 LLM을 돌리는 것이 더욱 쉬워질 거예요. 진정한 '내 손 안의 AI' 시대를 위한 필수템이죠! 💻📱",
+        "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+        "tags": [
+          "Deep",
+          "Dive",
+          "LLM",
+          "llama.cpp",
+          "로컬AI",
+          "오픈소스"
+        ]
+      },
+      {
+        "title": "LFM3으로 멀티모달 모델 직접 구축! 🎨 '나만의 AI' 만들기 도전?",
+        "summary": "Hugging Face 블로그에서 LFM3(LiquidAI Foundation Model for Multimodal Memory)을 사용해 특화된 멀티모달 모델을 구축하는 방법을 소개합니다. 복잡한 모델도 이젠 내 손으로!",
+        "content": "나만의 멀티모달 AI 모델을 만들고 싶으셨나요? Hugging Face 블로그가 'LFM3'을 활용해 특화된 멀티모달 모델을 구축하는 방법을 알려줍니다. LFM3은 다양한 형식의 데이터를 이해하고 처리할 수 있는 강력한 기반 모델인데요. 이를 활용하면 특정 도메인이나 목적에 맞는 멀티모달 AI를 훨씬 쉽고 빠르게 개발할 수 있습니다. 상상력을 발휘하여 독창적인 AI 모델을 만들어보세요! ✨",
+        "link": "https://huggingface.co/blog/LiquidAI/lfm3",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
+        "tags": [
+          "Deep",
+          "Dive",
+          "멀티모달",
+          "LFM3",
+          "AI모델개발",
+          "HuggingFace"
+        ]
+      },
+      {
+        "title": "Langfuse AI Gateway, LLM 호출 추적의 오픈소스 영웅 등장! 🕵️‍♀️",
+        "summary": "Langfuse가 모든 LLM 호출을 추적하는 오픈소스 Rust 기반 AI 게이트웨이를 공개했습니다. LLM 기반 시스템의 디버깅과 모니터링이 한결 쉬워질 거예요!",
+        "content": "LLM 에이전트 개발자들에게 희소식입니다! Langfuse가 Rust 기반의 오픈소스 AI 게이트웨이 'Langfuse AI Gateway'를 베타 출시했습니다. 이 게이트웨이는 LLM 호출을 추적하고, 비용, 지연 시간, 토큰 사용량 등을 기록하여 에이전트의 작동 방식을 투명하게 볼 수 있게 해줍니다. 22MB의 가벼운 Docker 이미지와 3ms 미만의 오버헤드를 자랑하며, MIT 라이선스로 제공되어 개발자들의 환호를 받고 있죠. 이제 LLM 디버깅, 문제없겠네요! 👍",
+        "link": "https://github.com/langfuse/langfuse/tree/main/ai-gateway",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://repository-images.githubusercontent.com/642497346/37008ff8-bc1e-45da-a24a-1cbe381a0c4e",
+        "tags": [
+          "Deep",
+          "Dive",
+          "LLM",
+          "AI게이트웨이",
+          "오픈소스",
+          "개발자툴"
+        ]
+      },
+      {
+        "title": "17세 천재의 스위프트 LLM 추론 엔진! 🧑‍💻 애플 실리콘 완전정복",
+        "summary": "17세 개발자가 애플 실리콘을 위한 Swift 네이티브 LLM 추론 엔진을 구축했습니다. 어린 나이에도 이런 기술력을! 미래가 기대되는군요!",
+        "content": "세상은 넓고 천재는 많다! 17세 개발자가 애플 실리콘(Apple Silicon)에 최적화된 Swift 네이티브 LLM 추론 엔진을 개발하여 GitHub에 공개했습니다. 이 엔진은 애플 기기에서 LLM을 더욱 빠르고 효율적으로 구동할 수 있게 해 줄 거예요. 어린 나이에 이런 놀라운 기술력을 보여주다니, 정말 대단하지 않나요? 미래 AI 생태계의 주역이 될지도 모를 이 개발자를 주목해야 할 것 같아요! 🌟",
+        "link": "https://github.com/torinriley/alpaca",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://opengraph.githubassets.com/7f6d83920b9cee620172785b3e1517274e423b243c3f0e0a492b59b24bb47341/torinriley/alpaca",
+        "tags": [
+          "Deep",
+          "Dive",
+          "LLM",
+          "애플실리콘",
+          "스위프트",
+          "개발"
+        ]
+      },
+      {
+        "title": "AI 에이전트의 '흑역사' 지우기, 과연 좋은 선택일까? 🤷‍♀️",
+        "summary": "AI 에이전트의 실수 기록을 지우는 것이 오히려 에이전트의 문제 해결 능력을 저하시킬 수 있다는 연구 결과입니다. '기록 세탁'은 독이 될 수 있어요!",
+        "content": "사람만 흑역사 지우고 싶어 하는 게 아니죠! AI 에이전트도 실수 기록을 정리하려 할 겁니다. 하지만 흥미로운 연구 결과에 따르면, 에이전트의 과거 실수 기록을 '정리'하거나 '수정'하는 것이 오히려 미래의 문제 해결 능력을 저해할 수 있다고 합니다. 특히 세상이 여전히 그 실수의 흔적을 가지고 있을 때는 더 그렇다고 해요. 마치 과거의 잘못을 제대로 성찰하지 않으면 같은 실수를 반복하는 인간과도 비슷하네요. AI에게도 '과거의 교훈'이 중요한가 봅니다! 📚",
+        "link": "https://arxiv.org/abs/2611.14654",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "AI에이전트",
+          "실수",
+          "학습",
+          "윤리"
+        ]
+      },
+      {
+        "title": "Together Compiler: AI 추론의 지속적인 최적화 혁명! ⚙️",
+        "summary": "Together Compiler는 빠르게 변화하는 AI 워크로드에 맞춰 AI 추론을 지속적으로 최적화하는 최초의 에이전트 루프입니다. 더 빠르고 효율적인 AI 시대를 엽니다!",
+        "content": "AI 모델이 너무 빨리 진화해서 최적화가 어렵다고요? Together Compiler가 이 문제를 해결합니다! 이 시스템은 끊임없이 변화하는 AI 워크로드에 맞춰 추론을 지속적으로 최적화하는 최초의 '연속적인 에이전트 루프'입니다. 기존 시스템의 한계를 극복하고, LLM 추론 성능을 최대 2.6배까지 향상시켰다고 해요. 이젠 AI 모델이 아무리 빠르게 변해도 걱정 없이 최고의 성능을 유지할 수 있겠네요. 진정한 AI 최적화의 끝판왕 등장! 🚀",
+        "link": "https://arxiv.org/abs/2611.14681",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "AI추론",
+          "최적화",
+          "TogetherAI",
+          "성능향상"
+        ]
+      },
+      {
+        "title": "데이터 에이전트 벤치마크, 이젠 'SynthCorp'으로 만든다! 🏭",
+        "summary": "SynthCorp는 LLM 기반 데이터 에이전트를 위한 맞춤형 데이터 환경과 벤치마크를 생성하는 플랫폼입니다. 이제 에이전트 성능 평가가 훨씬 정교해져요!",
+        "content": "LLM 기반 데이터 에이전트, 성능 평가가 쉽지 않으셨죠? SynthCorp는 비즈니스 이벤트를 시뮬레이션하여 맞춤형 데이터 환경과 벤치마크를 생성하는 혁신적인 플랫폼입니다. 관계형 데이터베이스, 문서 저장소, 데이터 카탈로그를 결합하여 실제 비즈니스 환경과 유사한 시나리오를 만들어주죠. 이를 통해 데이터 에이전트의 특정 기능을 정밀하게 테스트하고, 기존 벤치마크의 한계를 넘어설 수 있습니다. 더 똑똑한 데이터 에이전트의 탄생을 위한 필수 도구라고 할 수 있겠네요! 🛠️",
+        "link": "https://arxiv.org/abs/2611.14765",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "데이터에이전트",
+          "벤치마크",
+          "LLM",
+          "SynthCorp"
+        ]
+      },
+      {
+        "title": "AI 리더보드, 해킹의 위험에 노출?! 📉 '조작 가능한 평가'의 충격",
+        "summary": "선호도 기반의 AI 모델 평가(리더보드)가 전략적인 투표, 프롬프트, 모델 제출을 통해 조작될 수 있다는 연구 결과가 나왔습니다. 우리가 믿고 있던 리더보드가 사실은…?",
+        "content": "헉, 이거 완전 반전! 우리가 AI 모델의 성능을 평가하는 데 널리 사용되던 '아레나 스타일'의 리더보드가 조작에 취약하다는 연구 결과가 발표되었습니다. 전략적인 투표, 모델에 유리한 프롬프트 선택, 심지어 무관한 모델을 삽입하는 방식 등으로 모델의 순위를 최대 45단계까지 끌어올릴 수 있다는데요. 이는 Bradley-Terry 모델을 사용하는 모든 선호도 기반 평가에 해당되는 문제입니다. AI 평가의 투명성과 신뢰성에 대한 근본적인 질문을 던지네요. 이제 리더보드도 마냥 믿을 수는 없겠어요! 🕵️‍♂️",
+        "link": "https://arxiv.org/abs/2611.14769",
+        "source": "arXiv cs.AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "AI평가",
+          "리더보드",
+          "조작",
+          "신뢰성"
+        ]
+      },
+      {
+        "title": "코드, LLM 설명의 새로운 표준! 👩‍💻 '실행 가능하고 검증 가능한' AI 이해",
+        "summary": "LLM의 동작을 설명하는 새로운 접근 방식인 '코드 설명'이 등장했습니다. 이제 LLM의 추론 과정을 실행 가능한 코드로 보고 검증할 수 있습니다. 투명한 AI 시대를 위한 한 걸음!",
+        "content": "LLM이 어떤 과정을 거쳐 결론에 도달하는지 궁금하셨죠? '코드 설명(Code Explanations)'은 LLM의 동작을 데이터셋 전반에 걸쳐 설명하고, 그 설명을 코드로 실행하여 자동으로 검증할 수 있게 합니다. 기존의 '생각의 사슬(CoT)' 방식보다 훨씬 간결하고, 모델의 행동과 더 잘 일치한다는 연구 결과가 나왔어요. 이제 LLM의 '속마음'을 더 투명하게 들여다볼 수 있게 된 거죠. AI가 어떻게 생각하는지, 코드로 직접 확인해보세요! 🧐",
+        "link": "https://arxiv.org/abs/2611.14704",
+        "source": "arXiv cs.LG",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "LLM",
+          "설명가능한AI",
+          "코드",
+          "검증"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "Nvidia CUDA in 100 Seconds",
+        "channel": "Fireship",
+        "link": "https://www.youtube.com/watch?v=pPStdjuYzSI",
+        "thumbnail": "https://i.ytimg.com/vi/pPStdjuYzSI/mqdefault.jpg",
+        "description": "엔비디아 CUDA의 핵심을 단 100초 만에 완벽하게 이해할 수 있는 영상! AI 개발자라면 필수 상식이죠. 초고속으로 CUDA의 매력에 빠져보세요!"
+      },
+      {
+        "title": "Mastering LLM Inference Optimization From Theory to Cost Effective Deployment: Mark Moyou",
+        "channel": "AI Engineer",
+        "link": "https://www.youtube.com/watch?v=9tvJ_GYJA-o",
+        "thumbnail": "https://i.ytimg.com/vi/9tvJ_GYJA-o/mqdefault.jpg",
+        "description": "LLM 추론 최적화의 이론부터 실제 배포까지! Mark Moyou가 비용 효율적인 LLM 배포 전략을 상세히 설명합니다. LLM을 실제 서비스에 적용하고 싶다면 꼭 시청하세요!"
+      },
+      {
+        "title": "Why GPUs Suck for AI Inference 😤 (Here’s Why)",
+        "channel": "Paolo Cadoni",
+        "link": "https://www.youtube.com/watch?v=yIJkRry_s-E",
+        "thumbnail": "https://i.ytimg.com/vi/yIJkRry_s-E/mqdefault.jpg",
+        "description": "GPU가 AI 추론에 '별로'인 이유를 파헤칩니다! 😮 GPU의 장점만 알았다면 이 영상을 통해 새로운 시각을 얻을 수 있을 거예요. AI 하드웨어의 미묘한 세계로 초대합니다."
+      },
+      {
+        "title": "How KV Cache Speeds Up LLMs for Faster AI Models on GPUs",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=o0gkdZBtwEg",
+        "thumbnail": "https://i.ytimg.com/vi/o0gkdZBtwEg/mqdefault.jpg",
+        "description": "LLM 속도를 획기적으로 향상시키는 KV 캐시의 비밀을 IBM Technology가 설명합니다. GPU 기반 AI 모델을 더욱 빠르게 만드는 핵심 기술을 놓치지 마세요!"
+      },
+      {
+        "title": "Inference at Scale: The New Frontier for AI Infrastructure and ROI",
+        "channel": "NVIDIA",
+        "link": "https://www.youtube.com/watch?v=LMxemZtQ0LI",
+        "thumbnail": "https://i.ytimg.com/vi/LMxemZtQ0LI/mqdefault.jpg",
+        "description": "NVIDIA가 제시하는 대규모 AI 추론의 새로운 지평! AI 인프라 구축과 투자 수익률(ROI)의 미래를 이 영상에서 확인하세요. 비즈니스 리더라면 필청!"
+      },
+      {
+        "title": "Understanding the LLM Inference Workload - Mark Moyou, NVIDIA",
+        "channel": "PyTorch Foundation",
+        "link": "https://www.youtube.com/watch?v=z2M8gKGYws4",
+        "thumbnail": "https://i.ytimg.com/vi/z2M8gKGYws4/mqdefault.jpg",
+        "description": "NVIDIA의 Mark Moyou가 LLM 추론 워크로드를 심층 분석합니다. LLM의 성능을 최대로 끌어올리기 위한 필수 지식을 얻을 수 있는 기회예요. 개발자라면 북마크 필수!"
+      },
+      {
+        "title": "The CUDA Trick That Makes LLMs Faster AND Use Less Power (Real Results)",
+        "channel": "Tonbi's AI Garage",
+        "link": "https://www.youtube.com/watch?v=kYY5ok0VILU",
+        "thumbnail": "https://i.ytimg.com/vi/kYY5ok0VILU/mqdefault.jpg",
+        "description": "CUDA의 숨겨진 트릭으로 LLM의 속도와 전력 효율을 동시에 잡는 방법! 실제 결과와 함께 그 비법을 공개합니다. 똑똑한 AI 개발자가 되는 길, 이 영상을 통해 시작하세요!"
+      }
+    ]
+  }
+}
