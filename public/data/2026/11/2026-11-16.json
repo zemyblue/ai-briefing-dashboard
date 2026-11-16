@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-16",
+  "keywords": [
+    "AI 에이전트",
+    "RAG",
+    "엔비디아 스캔들",
+    "애플 헬스 AI",
+    "오픈AI 과학"
+  ],
+  "sections": {
+    "hype_check": [],
+    "tech_deep_dive": [
+      {
+        "title": "⚡️GPT-6 Astra, 양자역학 표준 모델 정의에 등판? AI가 물리학계를 구원하나!",
+        "summary": "오픈AI가 GPT-6 Astra와 함께 양자장론의 난제를 풀기 위한 대담한 시도를 하고 있어요. 이론 물리학에 AI가 끼어들다니, 이건 거의 반칙 아닌가요?",
+        "content": "양자역학의 표준 모델은 우주의 기본 입자와 힘을 설명하는 대장 이론인데요, 이걸 '격자(lattice)'라는 비섭동적인 방식으로 정의하려는 연구에 GPT-6 Astra가 아이디어를 구체화하는 데 도움을 줬다고 해요. AI가 최첨단 과학 연구의 최전선에 서다니, 공상과학 영화가 현실이 되는 중! 🌌",
+        "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "OpenAI",
+          "GPT-6 Astra",
+          "양자역학",
+          "과학연구"
+        ]
+      },
+      {
+        "title": "법률계의 혁명가? AI로 다시 쓰는 법률 비즈니스 가이드!",
+        "summary": "Gilbert + Tobin이라는 법률 회사가 AI를 전면에 내세워 법률 서비스를 완전히 재정의하고 있대요. AI 변호사 시대가 코앞이라고요?",
+        "content": "파트너이자 CEO인 샘 닉클레스와의 대화에서, AI가 법률 연구, 문서 검토, 심지어 전략 수립까지 어떻게 뒤엎고 있는지 상세히 들을 수 있었어요. 딱딱하고 보수적인 법률 업계에도 AI 바람이 거세게 불고 있네요! 변호사님들, 이제 AI와 친구해야 할 때! 🤝",
+        "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "OpenAI",
+          "AI법률",
+          "비즈니스혁신"
+        ]
+      },
+      {
+        "title": "클로드의 아빠 Anthropic, 동남아시아 접수하러 싱가포르 상륙!",
+        "summary": "Anthropic이 싱가포르에 새 오피스를 열고 정부와 MOU를 맺었어요. 아시아 시장 공략의 신호탄일까요? 🇸🇬",
+        "content": "Claude로 유명한 Anthropic이 동남아시아의 허브, 싱가포르에 지사를 설립하며 글로벌 확장 가속페달을 밟았습니다. 싱가포르 정부와의 협력은 AI 기술이 이 지역에서 어떤 파급 효과를 가져올지 기대하게 만드네요. K-pop만 한류가 아니죠, C-AI (Claude AI)도 글로벌! 🌍",
+        "link": "https://www.anthropic.com/news/singapore-office-opening",
+        "source": "Anthropic News",
+        "og_image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+        "tags": [
+          "Anthropic",
+          "글로벌확장",
+          "싱가포르"
+        ]
+      },
+      {
+        "title": "🤖 로봇 조립 꿈나무 모여라! SimReady 에셋으로 로봇 팔 마스터하기!",
+        "summary": "SimReady 에셋을 활용해서 로봇 픽앤플레이스 시뮬레이션을 만드는 방법! 이제 내 손으로 로봇 팔을 움직여 볼 시간이에요! 🕹️",
+        "content": "Hugging Face 블로그에서 NVIDIA와 협력하여 로봇이 물건을 집어 옮기는 '픽앤플레이스' 작업을 시뮬레이션하는 꿀팁을 공유했어요. SimReady 에셋 덕분에 실제와 같은 환경에서 로봇 행동을 미리 테스트해볼 수 있다니, 미래의 로봇공학자들에게 단비 같은 소식! 🏗️",
+        "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
+        "tags": [
+          "HuggingFace",
+          "로봇공학",
+          "시뮬레이션"
+        ]
+      },
+      {
+        "title": "AI 모델도 소프트웨어처럼 '업데이트' 한다고? 편리함의 끝판왕 'Granite Switch'!",
+        "summary": "IBM Granite의 'Granite Switch 4.1.1'이 마치 소프트웨어를 업데이트하듯 AI 모델을 관리하는 새로운 방식을 제시했어요. 모델 관리, 더 이상 골치 아프지 않아요! 🔄",
+        "content": "AI 모델도 끊임없이 개선되고 바뀌는데, 그걸 관리하는 건 여간 번거로운 일이 아니었죠. Granite Switch는 모델 배포와 업데이트를 소프트웨어처럼 쉽고 효율적으로 만들어준대요. 개발자 여러분, 이제 밤샘 모델 업데이트는 그만! 편안하게 새 모델로 스위치하세요! 🥳",
+        "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+        "source": "Hugging Face Blog",
+        "og_image": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/az6afuuoAkyiMImufSePe.png",
+        "tags": [
+          "HuggingFace",
+          "모델관리",
+          "GraniteSwitch"
+        ]
+      },
+      {
+        "title": "RAG 에이전트가 삐걱거린다고? DB 쿼리 플래너의 힘을 빌려 고쳐봐!",
+        "summary": "멀티 인덱스 RAG 에이전트의 문제를 해결하기 위해 데이터베이스의 쿼리 플래너를 빌려왔대요. RAG 성능 향상의 새로운 지평이 열릴까? ✨",
+        "content": "복잡한 문서에서 정보를 찾아오는 RAG(Retrieval Augmented Generation) 에이전트가 여러 인덱스를 다룰 때 종종 길을 잃는 경우가 있는데요. 이 개발자는 데이터베이스의 쿼리 플래너 개념을 도입해서 이 문제를 똑똑하게 해결했다고 합니다. 오래된 기술에서 새로운 통찰을 얻는 건 언제나 짜릿하죠! 🧠",
+        "link": "https://medium.com/@sankeerthan.kasilingam/i-borrowed-the-query-planner-from-databases-to-fix-a-multi-index-rag-agent-110350f14a5d",
+        "source": "Hacker News (RAG)",
+        "og_image": null,
+        "tags": [
+          "HackerNews",
+          "RAG",
+          "데이터베이스",
+          "최적화"
+        ]
+      },
+      {
+        "title": "🍕 'Pizza' 에이전트 등장! 'while true' 지옥에서 벗어나자!",
+        "summary": "개발자의 숙적 'while true' 없이 작동하는 이벤트 기반 AI 에이전트 'Pizza'가 나왔어요. 이름부터 맛있겠는 걸요? 😋",
+        "content": "대부분의 AI 에이전트가 무한 루프 속에 갇혀 있는 경우가 많은데, 이 'Pizza' 에이전트는 이벤트 기반의 상태 머신으로 작동해서 훨씬 효율적이고 직관적이라고 해요. 게다가 컨텍스트 압축, 세션 브랜치 기능까지! 개발자분들, 이제 'while true' 노이로제에서 해방될 시간입니다! 🚀",
+        "link": "https://pizza.hertzbeat.com/",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://pizza.hertzbeat.com/media/pizza-studio.webp",
+        "tags": [
+          "HackerNews",
+          "AI에이전트",
+          "오픈소스"
+        ]
+      },
+      {
+        "title": "🤯 'AI 에이전트 오케스트레이터' 그만 만들라고? 벌써 636개나 있다고?!",
+        "summary": "누군가 AI 에이전트 오케스트레이터 목록을 만들었는데, 그 수가 무려 636개! 이제 그만 만들 때가 된 것 같대요. 너무 많잖아! 😵‍💫",
+        "content": "AI 에이전트가 뜨면서, 이 에이전트들을 조율하고 관리하는 '오케스트레이터'도 우후죽순처럼 생겨나고 있는데요. 한 개발자가 이들을 모아보니 636개라는 엄청난 숫자가 나왔다고 합니다. 혁신도 좋지만, 이제는 뭘 쓸지 고르는 게 더 큰일이 될 지경이에요. 선택 장애 유발주의보 발령! 🚨",
+        "link": "https://github.com/erson/awesome-agent-orchestrators/",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://opengraph.githubassets.com/75f37f7b17688ce32efba88c6b97e90d1b1e3e1703bc03bfc67dd6969bb7c35e/erson/awesome-agent-orchestrators",
+        "tags": [
+          "HackerNews",
+          "AI에이전트",
+          "오케스트레이터",
+          "생태계"
+        ]
+      },
+      {
+        "title": "젠슨 황의 파란만장한 나날들: 엔비디아 스캔들 요약본!",
+        "summary": "엔비디아 CEO 젠슨 황의 사임과 중국 스파이 스캔들, 그리고 그 파장까지! AI 산업을 뒤흔든 드라마틱한 한 주를 요약해봤어요. 🤯",
+        "content": "10월 29일, 뉴욕타임스가 젠슨 황 CEO가 중국 스파이 계획의 표적이었을 수 있다고 보도하면서 AI 업계는 발칵 뒤집혔죠. 결국 그는 사임했고, 엔비디아 리더십 위기는 물론, 미국 AI 생태계의 안정성까지 위협받는다는 평가가 나오고 있어요. 이건 단순한 CEO 교체가 아니라고요! 😱",
+        "link": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&strip=all&crop=0%2C14.751764993408%2C100%2C70.496470013184&w=1200",
+        "tags": [
+          "Verge",
+          "엔비디아",
+          "젠슨황",
+          "스캔들"
+        ]
+      },
+      {
+        "title": "스파이 스캔들 후폭풍! 미 의회, AI 칩 수출 규제 더 꽉 조인다!",
+        "summary": "젠슨 황 스캔들 이후, 미 의회가 AI 칩 수출 규제를 대폭 강화하려는 움직임을 보이고 있어요. AI 반도체 전쟁, 더 뜨거워질 조짐?! 🔥",
+        "content": "전 엔비디아 CEO 젠슨 황과 관련된 중국 스파이 스캔들 이후, 미국 의회는 초당적으로 AI 칩 수출 규제 강화에 목소리를 내고 있어요. 척 슈머 상원 소수당 원내대표는 젠슨 황과 트럼프 행정부가 의회에 답변해야 한다고 주장하며, AI 반도체 지형에 큰 변화가 예상됩니다. 미중 기술 패권 전쟁의 서막이 다시 오르고 있네요. ⚔️",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "Verge",
+          "엔비디아",
+          "수출규제",
+          "미중관계"
+        ]
+      },
+      {
+        "title": "🍎 애플, AI 건강 도구 연구 시작! 더 똑똑한 건강 비서를 만든다고?",
+        "summary": "애플이 AI 건강 도구가 실제 사용자에게 얼마나 유용한지 알아보기 위한 연구에 착수했어요. 이제 '시리'가 내 건강도 챙겨줄 날이 오려나? 🩺",
+        "content": "애플은 OpenEvidence와 협력하여 사람들이 AI 건강 도구와 어떻게 상호작용하고, 그 답변이 얼마나 효과적인지 파악하기 위한 연구를 진행 중입니다. 새로운 iOS 앱을 통해 의료 질문을 하고 AI 답변의 정확성, 상세함, 관련성을 평가한다고 하니, 미래의 스마트 헬스케어에 대한 애플의 비전을 엿볼 수 있겠어요! 🚀",
+        "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Verge",
+          "애플",
+          "AI헬스",
+          "스마트헬스케어"
+        ]
+      },
+      {
+        "title": "🛍️ 아마존, 전 세계 쇼핑 데이터 다 끌어모아 '월드 프로덕트 그래프' 구축!",
+        "summary": "아마존이 인터넷에 존재하는 모든 제품 정보를 모아서 자체 플랫폼에 인덱싱하려는 거대한 계획을 발표했어요. 이제 '아마존 검색 = 세상의 모든 제품 검색'이 될지도! 🛒",
+        "content": "이 야심 찬 프로젝트의 이름은 '월드 프로덕트 그래프'! 아마존이 직접 팔지 않는 제품까지 포함해서 모든 온라인 쇼핑 데이터를 수집하고, 이를 자사 사이트에서 검색 가능하게 만들겠대요. 궁극적으로는 AI 에이전트까지 아마존의 방대한 데이터에 의존하게 만들겠다는 전략인데요, 이 정도면 AI 시대의 '쇼핑 제왕' 등극 각 아닌가요? 👑",
+        "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Verge",
+          "아마존",
+          "AI쇼핑",
+          "빅데이터"
+        ]
+      },
+      {
+        "title": "🚨일론 머스크 외 '셀럽'들 총출동! '젠슨 황을 돌려줘!' 복귀 청원 서명 대란!",
+        "summary": "젠슨 황의 사임에 항의하며 일론 머스크를 포함한 수많은 테크 거물들이 그의 복귀를 요구하는 청원서에 서명했어요. 이 정도면 거의 국민 청원급? 🙏",
+        "content": "엔비디아의 핵심 인물이었던 젠슨 황의 사임은 많은 이들에게 충격이었나 봅니다. 일론 머스크와 에픽게임즈 CEO 팀 스위니 등 유명 인사들이 '젠슨 황을 복귀시켜라'는 공개 서한에 지지하며 11만 5천명 이상의 서명이 모였다고 해요. 그가 없는 엔비디아는 상상할 수 없다는 건가요? 😮",
+        "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "TechCrunch",
+          "엔비디아",
+          "젠슨황",
+          "일론머스크"
+        ]
+      },
+      {
+        "title": "젠슨 황의 위기가 AI 산업 전체의 위기일까? '젠슨 이즈 엔비디아'!",
+        "summary": "젠슨 황 사태가 엔비디아를 넘어 AI 산업 전체에 먹구름을 드리울지 논의가 뜨겁습니다. 한 사람의 운명이 산업 전체를 좌우할 수 있을까요? 🤔",
+        "content": "젠슨 황은 단순한 엔비디아의 CEO가 아니라, '젠슨 이즈 엔비디아'라고 불릴 정도로 회사 그 자체였습니다. 그런 그의 퇴진이 엔비디아를 넘어 AI 기술 발전과 경제 전반에 어떤 영향을 미칠지 관심이 집중되고 있어요. AI 산업의 미래는 과연 어디로 향할까요? 🔮",
+        "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "TechCrunch",
+          "엔비디아",
+          "젠슨황",
+          "AI산업"
+        ]
+      },
+      {
+        "title": "엔비디아 보안팀은 대체 어디에? 젠슨 황 스캔들의 '블랙홀'!",
+        "summary": "젠슨 황 스캔들의 배경에는 엔비디아 보안팀의 미스터리한 부재가 있었어요. 보안 책임자는 스캔들 직전 조용히 퇴사했다는데, 이건 음모론 각? 🕵️‍♀️",
+        "content": "젠슨 황 스캔들이 터지기 직전인 8월에 엔비디아의 보안 책임자가 조용히 회사를 떠났다는 사실이 밝혀졌어요. 전직 정보 장교는 이런 유형의 '일상적인 대화' 유출은 대부분의 기업 보안팀이 제대로 잡기 어렵다고 지적합니다. 과연 엔비디아는 이 사태를 어떻게 수습할까요? 뒤숭숭한 분위기네요... 🤫",
+        "link": "https://techcrunch.com/2026/11/14/where-was-nvidia-s-security-team/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "TechCrunch",
+          "엔비디아",
+          "보안",
+          "스캔들"
+        ]
+      },
+      {
+        "title": "Sandlock: Confining AI Agent Code with Unprivileged Linux Primitives",
+        "summary": "Article URL: https://arxiv.org/abs/2605.26298 Comments URL: https://news.ycombinator.com/item?id=50506416 Points: 2 # Comments: 0",
+        "content": "Article URL: https://arxiv.org/abs/2605.26298 Comments URL: https://news.ycombinator.com/item?id=50506416 Points: 2 # Comments: 0",
+        "link": "https://arxiv.org/abs/2605.26298",
+        "source": "Hacker News (AI agents)",
+        "og_image": null,
+        "tags": [
+          "논문",
+          "arXiv"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "Vector Databases Explained: The Complete Guide for 2026",
+        "channel": "Aishwarya Srinivasan",
+        "link": "https://www.youtube.com/watch?v=4pUYfY-b5CQ",
+        "thumbnail": "https://i.ytimg.com/vi/4pUYfY-b5CQ/mqdefault.jpg",
+        "description": "2026년을 위한 완벽한 벡터 데이터베이스 가이드! RAG의 핵심 기술인 벡터 DB가 무엇인지, 왜 중요한지, 그리고 어떻게 활용되는지 궁금하다면 이 영상을 꼭 보세요. AI 시대 필수 지식 습득! 💡"
+      },
+      {
+        "title": "Why RAG Solutions Fail with Complex Documents &amp; Vector Databases",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=xc63tFIIfeA",
+        "thumbnail": "https://i.ytimg.com/vi/xc63tFIIfeA/mqdefault.jpg",
+        "description": "복잡한 문서와 벡터 데이터베이스를 사용할 때 RAG 솔루션이 왜 실패하는지 궁금증을 풀어줄 영상! RAG 구현 시 흔히 겪는 문제점과 그 해결책을 IBM 전문가들이 알려줍니다. RAG 완벽 마스터를 위한 필수 시청! 🛠️"
+      }
+    ]
+  }
+}
