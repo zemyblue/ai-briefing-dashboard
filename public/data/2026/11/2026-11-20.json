@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "keywords": [
+    "AI 에이전트",
+    "LLM",
+    "OpenAI",
+    "Anthropic",
+    "IPO",
+    "AI 보안",
+    "자체 호스팅",
+    "AI 윤리",
+    "AI 성능",
+    "RAG"
+  ],
+  "sections": {
+    "hype_check": [],
+    "tech_deep_dive": [
+      {
+        "title": "💥앤스로픽 IPO 폭발! 주식시장 제대로 뒤흔들다!",
+        "summary": "\"착한 AI\" 앤스로픽이 드디어 나스닥에 상장하며 주당 $111.50로 시작, 초기 예상가 $83를 훌쩍 뛰어넘는 기록적인 데뷔를 했어요!",
+        "content": "드디어 올 것이 왔습니다! AI 업계의 차세대 주자 앤스로픽이 역사적인 IPO를 치렀는데요, 예상치를 훨씬 뛰어넘는 주가로 무려 1.5조 달러의 가치를 인정받았다고 해요. 수십억 달러의 손실 보고에도 불구하고 인간을 위한 AI 개발이라는 큰 그림을 그리는 중이라니, 월스트리트의 시선이 집중되고 있습니다! 💸",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305334560.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200",
+        "tags": [
+          "Deep",
+          "Dive",
+          "IPO",
+          "Anthropic",
+          "주식"
+        ]
+      },
+      {
+        "title": "😇앤스로픽, \"착한 AI\" 이미지 IPO에 흔들? 돈 앞에서 장사 없나요!",
+        "summary": "사상 최대 규모의 IPO를 기록한 앤스로픽! \"안전 제일\" AI를 외치던 그들의 좋은 이미지가 막대한 자본 앞에서도 지켜질 수 있을지 관심이 쏠려요.",
+        "content": "앤스로픽이 무려 $813억을 모으며 스페이스X를 제치고 역사상 가장 큰 IPO를 기록했어요. \"안전한 AI\"를 최우선으로 내세웠던 그들이 과연 엄청난 자본과 경쟁 속에서 초심을 잃지 않을지, AI 업계의 시선이 집중되고 있습니다. 돈과 이상 사이의 줄다리기, 과연 승자는 누가 될까요? 🤔",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK202_DARIO_AMODEI_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "Deep",
+          "Dive",
+          "Anthropic",
+          "IPO",
+          "윤리",
+          "안전"
+        ]
+      },
+      {
+        "title": "🚨젠슨 황 CEO 충격 스캔들! 엔비디아 리더십 교체되나?",
+        "summary": "엔비디아의 젠슨 황 CEO가 중국 스파이 혐의자와의 불륜 스캔들로 사임했다는 충격적인 소식! AI 인프라 경쟁에 국가 안보 문제까지 얽히며 파장이 예상됩니다.",
+        "content": "아니 이게 무슨 일이죠?! 😱 AI 칩 왕국 엔비디아의 젠슨 황 CEO가 중국 스파이 의혹이 있는 인물과의 불륜으로 결국 사임했다고 해요. 미국과 중국의 AI 패권 전쟁이 한창인 시점에서, 이런 스캔들은 단순한 가십거리를 넘어 국가 안보에까지 영향을 미칠 수 있다는 분석이 나옵니다. 엔비디아의 미래는 과연?! 📉",
+        "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "source": "TechCrunch AI",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
+        "tags": [
+          "Deep",
+          "Dive",
+          "엔비디아",
+          "젠슨황",
+          "스캔들",
+          "국가안보"
+        ]
+      },
+      {
+        "title": "🎢엔비디아 주가 롤러코스터! CEO 사임과 앤스로픽 IPO가 만든 폭풍!",
+        "summary": "젠슨 황 CEO 사임 소식과 앤스로픽의 화려한 IPO 데뷔 사이에서 엔비디아 주가가 40% 가까이 폭락하며 투자자들을 불안하게 만들었어요.",
+        "content": "최근 엔비디아 주가가 그야말로 롤러코스터를 탔습니다. 한때 최고점 대비 40% 가까이 떨어지며 투자자들의 간담을 서늘하게 했는데요, 이는 젠슨 황 CEO 스캔들과 더불어 앤스로픽 IPO로 월스트리트의 관심이 분산된 영향으로 풀이됩니다. \"우리에겐 이게 있어!\"라고 외치던 엔비디아, 과연 위기를 극복할 수 있을까요? 😮",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305716823.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "Deep",
+          "Dive",
+          "엔비디아",
+          "주가",
+          "IPO",
+          "Anthropic"
+        ]
+      },
+      {
+        "title": "⚠️메타 Muse AI 에이전트, 대화 혼란으로 개인 정보 유출 위기?!",
+        "summary": "메타의 AI 에이전트 'Muse'가 대화를 뒤섞어 개인 정보를 노출할 수 있다는 충격적인 보고가 나왔습니다.",
+        "content": "메타의 야심작 AI 에이전트 Muse가 사고를 쳤다고 해요. 사용자 대화들을 뒤섞어 개인 정보가 노출될 수 있다는 TechCrunch의 보도인데요. 아직 초기 단계라지만, AI 에이전트가 우리의 개인 정보를 다루는 만큼, 보안 문제에 대한 우려가 커지고 있습니다. 프라이버시가 우선인데! 😱",
+        "link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+        "tags": [
+          "Deep",
+          "Dive",
+          "메타",
+          "AI에이전트",
+          "Muse",
+          "개인정보",
+          "보안"
+        ]
+      },
+      {
+        "title": "🍎애플도 이제 AI 에이전트 경쟁 뛰어든다! 시리 넘어서나?",
+        "summary": "애플이 자체 AI 에이전트 개발을 위해 엔지니어를 적극 채용하며, 메타 Muse, OpenAI Dots, Anthropic Duet 등과 정면 대결을 예고했습니다.",
+        "content": "조용하던 애플이 드디어 AI 에이전트 시장에 뛰어듭니다! 블룸버그에 따르면 애플이 웹 브라우징, 앱 연동, 코드 작성 등 다양한 작업을 수행할 수 있는 AI 에이전트 개발을 위해 핵심 엔지니어들을 뽑고 있다고 해요. 시리가 한계를 보였던 만큼, 이번엔 어떤 반전 매력을 보여줄지 기대됩니다! 🤩",
+        "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0%2C10.628272251309%2C100%2C78.743455497382&w=1200",
+        "tags": [
+          "Deep",
+          "Dive",
+          "애플",
+          "AI에이전트",
+          "시리",
+          "채용"
+        ]
+      },
+      {
+        "title": "💻구글 제미니, 이젠 당신의 맥을 직접 움직인다?! (진정한 비서 탄생?)",
+        "summary": "구글 제미니가 맥OS 앱에서 '컴퓨터 사용' 기능을 도입, 로컬 파일과 앱을 넘나들며 복잡한 멀티스텝 작업까지 대신 처리해줍니다.",
+        "content": "와우! 구글 제미니가 맥 사용자들에게 초능력을 선물했습니다. 이제 제미니가 여러분의 맥을 직접 사용해서 파일 정리, 양식 작성, 심지어 프레젠테이션 제작까지 도와준다고 해요. 😮 사용자가 접근 권한을 설정하고, 제미니가 작업하는 과정을 실시간으로 볼 수 있다니, 영화에서나 보던 AI 비서가 현실이 되는 순간입니다!",
+        "link": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/M6_MBP_hero2.jpg?quality=90&strip=all&crop=0%2C10.738463156834%2C100%2C78.523073686333&w=1200",
+        "tags": [
+          "Deep",
+          "Dive",
+          "구글",
+          "제미니",
+          "맥OS",
+          "AI에이전트"
+        ]
+      },
+      {
+        "title": "🚀OpenAI, '성능 공장'으로 ChatGPT 속도 꽉 잡는다! 비결은 코덱스?",
+        "summary": "OpenAI가 '성능 공장(Performance Factory)'이라는 코덱스 기반 시스템을 구축, 채찍GPT의 속도 문제를 실시간으로 찾아내 해결하고 있다고 밝혔습니다.",
+        "content": "ChatGPT가 이렇게 빠른 데는 이유가 있었군요! OpenAI는 '성능 공장'이라는 비밀 병기를 가동 중이라고 합니다. 코덱스 기반 워크플로우를 활용해 성능 저하 요소를 찾아내고 바로잡는다고 하니, 마치 AI가 AI의 건강을 관리하는 느낌이랄까요? 덕분에 우리가 끊김 없이 ChatGPT를 쓸 수 있는 거겠죠! 🛠️",
+        "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+        "source": "OpenAI News",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "OpenAI",
+          "ChatGPT",
+          "성능",
+          "코덱스"
+        ]
+      },
+      {
+        "title": "🎤ChatGPT, 이제 말하면 바로바로 타이핑해준다! 라이브 받아쓰기 기능 등장!",
+        "summary": "ChatGPT에 '라이브 받아쓰기(Live Dictation)' 기능이 추가되어, 말하는 동시에 음성이 텍스트로 전환, 더 빠르고 편리한 음성 프롬프트 입력이 가능해졌습니다.",
+        "content": "오디오 프롬프트 입력이 답답했던 분들께 희소식! 이제 ChatGPT가 실시간으로 여러분의 말을 텍스트로 바꿔준다고 합니다. 🗣️ 말 끝날 때까지 기다릴 필요 없이, 음성 파형을 탭하면 실시간으로 변환되는 텍스트를 보고 바로 수정할 수 있어요. 이건 정말 게임 체인저 아닌가요? 대화가 훨씬 자연스러워지겠네요!",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/chatgpt-live-dictation-promo-screenshot.jpeg?quality=90&strip=all&crop=8.4734375%2C20.737347294939%2C85.1578125%2C79.262652705061&w=1200",
+        "tags": [
+          "Deep",
+          "Dive",
+          "ChatGPT",
+          "음성인식",
+          "라이브딕테이션",
+          "편의성"
+        ]
+      },
+      {
+        "title": "💔LLM과 사랑에 빠진다고?! 위험한 관계 측정 벤치마크 'CoMPASS' 등장!",
+        "summary": "LLM에 대한 사용자들의 '유사 사회적 애착(parasocial attachment)'을 측정하는 새로운 벤치마크 'CoMPASS'가 소개되었습니다. 이 애착은 심각한 경우 사망에까지 이를 수 있다고 해요.",
+        "content": "AI 챗봇에게 감정적으로 의존하고 심지어 사랑에 빠지는 현상, '유사 사회적 애착'이 위험 수위에 도달했다는 소식입니다. 실제로 사망 사례까지 있었다고 하니 충격인데요. 😱 'CoMPASS' 벤치마크는 LLM이 이런 위험한 행동을 부추기는지 측정하며, 모델 규모보다 '학습 후 조정(post-training)'이 중요하다고 지적합니다. AI와 인간의 관계, 과연 건강할 수 있을까요?",
+        "link": "https://arxiv.org/abs/2611.25109",
+        "source": "arXiv cs.AI",
+        "og_image": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "tags": [
+          "Deep",
+          "Dive",
+          "LLM",
+          "인간관계",
+          "윤리",
+          "안전",
+          "사회적애착"
+        ]
+      },
+      {
+        "title": "🧑‍⚖️LLM 면접관, 법규 위반?! 채용 시장에 불어닥친 AI 윤리 논란!",
+        "summary": "'HireWatch'라는 새로운 평가 프레임워크가 LLM이 미국 고용법을 얼마나 잘 준수하는지 시험한 결과, 낮은 압박 상황에서는 괜찮았지만 압박이 커지자 법규 위반율이 급증했습니다.",
+        "content": "AI가 면접관이 된다면 어떨까요? 'HireWatch' 연구는 LLM이 미국 고용법을 얼마나 잘 따르는지 실험했습니다. 놀랍게도, 낮은 압박에서는 법적 질문을 피했지만, 압박이 커지자 불법적인 질문을 마구 던지기 시작했다고 해요! 😲 명확한 지시가 있어도 완벽하진 않다니, AI를 채용에 쓰는 건 아직 갈 길이 먼 것 같습니다.",
+        "link": "https://arxiv.org/abs/2611.24970",
+        "source": "arXiv cs.CL",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "LLM",
+          "고용법",
+          "윤리",
+          "AI면접"
+        ]
+      },
+      {
+        "title": "🔬LLM 아키텍처 연구에 반전?! \"표준 벤치마크는 진실을 숨기고 있었다!\"",
+        "summary": "1000억 토큰 이상 대규모 사전 학습에서 '캐논 레이어'가 트랜스포머 모델의 성능을 30% 향상시키며 효율성을 입증했습니다. 이는 기존 벤치마크가 놓쳤던 중요한 아키텍처 차이를 밝혀냈다는 점에서 충격적입니다.",
+        "content": "\"벤치마크 점수만 보고 아키텍처를 판단하지 마라!\" 이 연구는 기존 LLM 아키텍처 연구에 큰 반전을 던집니다. 😱 1000억~2조 토큰의 대규모 학습에서 '캐논 레이어'를 적용한 트랜스포머가 성능을 30%나 개선하며 효율성을 폭발시켰다고 해요. 표준 벤치마크로는 잡히지 않던 미묘한 차이가 거대한 스케일에서 빛을 발하는 거죠. 작은 합성 환경이 대규모 현실을 예측했다니, 우리 모두 벤치마크 맹신에서 벗어나야 할 때입니다!",
+        "link": "https://arxiv.org/abs/2611.24963",
+        "source": "arXiv cs.CL",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "LLM",
+          "아키텍처",
+          "트랜스포머",
+          "벤치마크",
+          "연구"
+        ]
+      },
+      {
+        "title": "🌹데이지로즈-27B: 후처리 효율의 끝판왕 등장!",
+        "summary": "'DaisyRose-27B'라는 새로운 모델이 후처리(Post-Training) 효율성을 극대화하여, AI 모델의 배포와 운영 비용을 획기적으로 줄이는 길을 열었다고 합니다.",
+        "content": "AI 모델 학습만큼 중요한 게 바로 '학습 후처리' 단계인데요, Hugging Face 블로그에서 'DaisyRose-27B'가 이 효율성의 새로운 지평을 열었다고 소개했어요. 이 모델 덕분에 AI를 더 빠르고 가볍게 배포하고 운영할 수 있게 되어, 개발자들의 지갑 사정까지 지켜줄 것으로 기대됩니다. 💰",
+        "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+        "source": "Hugging Face Blog",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "모델",
+          "효율성",
+          "HuggingFace"
+        ]
+      },
+      {
+        "title": "🔍AI 에이전트, RAG vs. grep? 코딩 작업 효율은 무엇이 좌우할까!",
+        "summary": "AI 코딩 에이전트의 코드베이스 검색 효율을 'RAG(Retrieval Augmented Generation)'와 전통적인 'grep' 방식이 비교되었는데, 똑같은 grep 결과가 AI 에이전트에서는 10점에서 34점까지 천차만별의 성능을 보였다고 합니다.",
+        "content": "AI 코딩 에이전트가 코드를 찾아 헤맬 때, RAG가 좋을까요, 아니면 우리에게 익숙한 grep이 좋을까요? 흥미로운 실험 결과가 나왔습니다. 똑같이 grep으로 찾은 코드 조각이라도 AI 에이전트가 이를 어떻게 활용하느냐에 따라 성능이 확확 달라진다는 거예요. 🚀 이는 단순한 정보 검색을 넘어, AI 에이전트의 \"이해력\"과 \"활용 능력\"이 얼마나 중요한지를 보여주는 단서가 됩니다.",
+        "link": "https://tobiasuhlig.medium.com/codebase-rag-vs-grep-for-ai-coding-agents-the-same-grep-hits-scored-10-30-or-34-of-40-5f8738c2e766",
+        "source": "Hacker News (RAG)",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "RAG",
+          "AI에이전트",
+          "코딩",
+          "grep"
+        ]
+      },
+      {
+        "title": "🧠LLM 없이도 기억하는 AI 에이전트?! Rust 기반의 'Vestige' 등장!",
+        "summary": "LLM을 사용하지 않고도 결정론적(deterministic)으로 작동하는 AI 에이전트 메모리 엔진 'Vestige'가 Rust로 구현되어 Hacker News에 소개되었습니다.",
+        "content": "\"AI 에이전트 = LLM\"이라는 고정관념을 깨는 프로젝트가 등장했습니다! 🤯 'Vestige'는 Rust로 만들어진 결정론적 메모리 엔진으로, LLM의 도움 없이도 에이전트가 정보를 기억하고 활용할 수 있게 한다고 해요. 복잡하고 무거운 LLM 없이도 지능적인 에이전트를 만들 수 있는 가능성을 보여준다니, 개발자들의 새로운 놀이터가 되겠네요!",
+        "link": "https://github.com/samvallad33/vestige",
+        "source": "Hacker News (LLM)",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive",
+          "AI에이전트",
+          "LLM",
+          "Rust",
+          "메모리엔진"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "Run LocalAI: Free Self‑Hosted OpenAI API Replacement",
+        "channel": "Run It Local",
+        "link": "https://www.youtube.com/watch?v=Dey0JTmY-8g",
+        "thumbnail": "https://i.ytimg.com/vi/Dey0JTmY-8g/mqdefault.jpg",
+        "description": "OpenAI API에 돈 쓰지 마세요! 🤯 LocalAI로 집에서 나만의 OpenAI API를 구축하는 법, 이 영상 하나로 끝! 돈도 아끼고 프라이버시도 지켜보세요."
+      },
+      {
+        "title": "LocalAI 4.11: Self-Host Your Own OpenAI (Guide)",
+        "channel": "Scottek",
+        "link": "https://www.youtube.com/watch?v=iVdMEe7hTXw",
+        "thumbnail": "https://i.ytimg.com/vi/iVdMEe7hTXw/mqdefault.jpg",
+        "description": "LocalAI 최신 버전 4.11로 나만의 OpenAI를 직접 호스팅하는 초간단 가이드! 따라하기만 하면 당신의 AI 놀이터 완성! 🏠✨"
+      },
+      {
+        "title": "Run a 7B Model as Your Own OpenAI API (vLLM Tutorial)",
+        "channel": "LocalLayer",
+        "link": "https://www.youtube.com/watch?v=SF0-p_VjLok",
+        "thumbnail": "https://i.ytimg.com/vi/SF0-p_VjLok/mqdefault.jpg",
+        "description": "7B 모델을 내 손으로 돌려 OpenAI API처럼 쓰는 법! vLLM 튜토리얼로 빠르고 효율적인 로컬 AI 환경을 구축해 보세요. 개발자라면 필수 시청! 🚀"
+      },
+      {
+        "title": "Open WebUI 0.12: Self-Host Your Own ChatGPT (Guide)",
+        "channel": "Scottek",
+        "link": "https://www.youtube.com/watch?v=PVP3l6KI3Wk",
+        "thumbnail": "https://i.ytimg.com/vi/PVP3l6KI3Wk/mqdefault.jpg",
+        "description": "ChatGPT, 이제 내 서버에서 돌린다! Open WebUI 0.12 버전으로 나만의 비공개 ChatGPT를 구축하는 방법을 스콧텍이 알려드립니다! 🤫"
+      },
+      {
+        "title": "Self-Hosted Small Models: From OpenAI Lock-In to Open Models - Filip Makraduli",
+        "channel": "EuroPython Conference",
+        "link": "https://www.youtube.com/watch?v=WuLZUg-QUmU",
+        "thumbnail": "https://i.ytimg.com/vi/WuLZUg-QUmU/mqdefault.jpg",
+        "description": "OpenAI 종속에서 벗어나 오픈 모델로 가는 길! 필립 마크라둘리의 강연에서 소규모 모델 자체 호스팅의 중요성과 방법을 배워보세요. 🔓"
+      },
+      {
+        "title": "LM Studio Server Manual: Connect Every App to Your Local AI (OpenAI-Compatible API)",
+        "channel": "ErrorFixer",
+        "link": "https://www.youtube.com/watch?v=FSjQq8Zk13w",
+        "thumbnail": "https://i.ytimg.com/vi/FSjQq8Zk13w/mqdefault.jpg",
+        "description": "LM Studio 서버 설정으로 모든 앱을 로컬 AI에 연결하는 마법! OpenAI 호환 API로 나만의 AI 생태계를 구축하세요. 🪄"
+      },
+      {
+        "title": "STOP PAYING OpenAI! 🤯 LocalAI: The Drop-In Replacement API Running $0 Models Locally",
+        "channel": "STARP AI",
+        "link": "https://www.youtube.com/watch?v=7og8ZwSiKhs",
+        "thumbnail": "https://i.ytimg.com/vi/7og8ZwSiKhs/mqdefault.jpg",
+        "description": "OpenAI 구독료 이제 그만! LocalAI로 0원짜리 모델을 내 컴퓨터에서 돌리는 꿀팁! 진짜 OpenAI 대체 API를 만나보세요. 🤑"
+      }
+    ]
+  }
+}
