@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-22",
+  "keywords": [
+    "AI 트렌드",
+    "LLM",
+    "AI 에이전트",
+    "AI 보안",
+    "AI 윤리",
+    "기업 거버넌스",
+    "Anthropic IPO",
+    "AI 모델",
+    "컴퓨팅 파워",
+    "개발자 도구",
+    "킬러 로봇",
+    "리만 가설",
+    "음성 합성",
+    "인간 행동 예측"
+  ],
+  "sections": {
+    "hype_check": [],
+    "tech_deep_dive": [
+      {
+        "title": "오픈AI 코덱스 보안 플러그인, 해커들 바싹 긴장해라! 🔐",
+        "summary": "오픈AI 코덱스 보안 플러그인이 드디어 모습을 드러냈습니다! 개발 워크플로우를 안전하게 지켜줄 이 친구, 얼른 만나보세요.",
+        "content": "오픈AI가 자랑하는 코덱스 보안 플러그인 데모 영상이 공개됐어요. 시작부터 결과 리뷰까지, 개발자들이 실제 PR 스캔 워크플로우에서 어떻게 보안 취약점을 찾아내고 검토하는지 생생하게 보여준다고 합니다. 이제 개발자들이 코드를 짜는 동안 백그라운드에서 조용히 보안을 지켜줄 든든한 경호원이 생긴 셈이죠! 기술 채용 공고에 '코덱스 보안 플러그인 경험자 우대'가 올라올 날이 머지않았어요. 🛡️",
+        "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+        "source": "OpenAI News",
+        "og_image": "https://images.ctfassets.net/kftzwdyauwt9/5v8vfxgtSsA7NgJTT3kzqU/5c217881e8568e2b342dc59a8e69d7e1/codex-security-social.png?w=1600&h=900&fit=fill",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "스미토모 생명, 왜 ChatGPT 엔터프라이즈에 '찐심'이었을까? 📈",
+        "summary": "일본 스미토모 생명이 임원진부터 솔선수범해서 ChatGPT 엔터프라이즈를 도입, 회사 전체 AI 전환에 성공했다고 합니다!",
+        "content": "글로벌 대기업들도 AI 도입은 늘 어렵죠? 하지만 스미토모 생명은 달랐습니다. 보험사 리서치, 제안서 작성, 투자 분석 코드 초안 작성 등 다양한 업무에 ChatGPT 엔터프라이즈를 활용하며 생산성을 '극대화'했대요. 특히 경영진이 먼저 나서서 AI를 사용하며 전사적인 도입을 이끌었다는 점, 완전 반전 드라마 아닌가요? 임원진이 AI 쓰는 건... 쉽지 않은데 말이죠! 혹시 회장님이 AI 덕후? 🧑‍💼",
+        "link": "https://openai.com/business/customer-stories/sumitomo-life",
+        "source": "OpenAI News",
+        "og_image": "https://images.ctfassets.net/kftzwdyauwt9/4hobAtsV8r9aiWOWQkUYu6/aec1eae52f5c7241756a43c764ef43f5/sumitomo-life-seo-white-canvas-final.png?w=1600&h=900&fit=fill",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "AI 연구 속도전, '코드 에이전트'가 판도를 바꾸고 있다?! 🚀",
+        "summary": "오픈AI가 코드 에이전트가 AI 연구를 얼마나 가속화하고 있는지 분석했어요. 아직 울퉁불퉁하지만, '재귀적 자기 개선'의 신호탄이 될 수 있다고 합니다!",
+        "content": "AI가 AI를 만드는 시대가 오고 있는 걸까요? 오픈AI는 코드 에이전트가 AI 연구를 미친 듯이 가속화하고 있음을 발견했습니다. 물론 아직 성능이 고르지 않은 '들쭉날쭉한' 상태라고 하지만, 이건 'AI 스스로 개선하는' 자기개선(recursive self-improvement)의 가능성을 보여주는 중요한 단서라고 해요. SF 영화가 현실이 되는 건가요? 연구 속도에 가속 페달 밟는 중! 🤯",
+        "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+        "source": "OpenAI News",
+        "og_image": "https://images.ctfassets.net/kftzwdyauwt9/2YS8yWiGpKflhlEnAkcLU/f51ead4391706f6c3198f0d61a0f147a/research-acceleration-the-jagged-frontier-social.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "Anthropic IPO 성공?! 안전 제일 외치던 그들의 진짜 속마음은? 💰",
+        "summary": "Anthropic이 나스닥에 상장하며 몸값 폭등! 하지만 '안전 제일'을 외치던 그들이 이제 주주들의 압력 속에서 어떤 선택을 할지 모두가 주목하고 있습니다.",
+        "content": "클로드(Claude)의 개발사 Anthropic이 드디어 상장했어요! 첫 AI 랩 상장으로 엄청난 돈을 쓸어 담으며 수많은 백만장자를 탄생시켰다고 합니다. 하지만 더 버지(The Verge)의 심층 분석에 따르면, 막대한 컴퓨팅 비용과 수익 압박 속에서 'AI 안전'이라는 그들의 핵심 가치를 지켜낼 수 있을지 의문이 커지고 있어요. 특히 창업자 7명이 단 한 주의 주식으로 회사 의결권 50.1%를 장악하는 독특한 지배구조는 '과연 누구를 위한 안전인가' 하는 가십을 낳고 있죠. 돈과 명분 사이의 아슬아슬한 줄타기, Anthropic의 다음 행보가 정말 궁금합니다! 😮",
+        "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+        "source": "The Verge AI",
+        "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_1121_Site.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "허깅페이스, 로컬에서 잘 돌아가는 초경량 모델 '잉클링 2 미니' 출시! 🤏",
+        "summary": "로컬 환경에 최적화된 작지만 강력한 새 모델, Inkling 2 Mini가 허깅페이스에 상륙했습니다! 성능은 물론, 비용 효율성까지 잡았대요.",
+        "content": "이제 무거운 모델은 가라! 허깅페이스가 'Inkling 2 Mini'를 공개하며 로컬 환경에서의 AI 성능 혁명을 예고했습니다. 엣지 디바이스나 개인 장치에서도 뛰어난 성능을 발휘할 수 있는 초소형 모델이라고 하니, 개발자들의 데스크톱에서 어떤 마법이 일어날지 기대되네요. 비용 부담 없이 최첨단 AI를 경험할 기회, 놓치지 마세요! '내 손안의 AI 연구소'가 현실이 되는 거죠! 💻✨",
+        "link": "https://huggingface.co/blog/inkling2mini",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/inkling2mini/thumbnail.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "귀에 쏙쏙 박히는 고품질 음성! 허깅페이스 '포논 TTS' 벤치마크 씹어먹다! 🗣️",
+        "summary": "허깅페이스의 새로운 음성 합성 모델 Phonon TTS가 온디바이스에서 최고 품질의 음성으로 벤치마크를 휩쓸었습니다!",
+        "content": "AI 음성, 이제 기계음 같다는 오명은 던져버리세요! 허깅페이스가 출시한 Phonon TTS는 온디바이스(기기 자체)에서 구동되면서도 상상을 초월하는 고품질 음성을 자랑합니다. 벤치마크에서도 압도적인 성능을 보여줬다고 하니, 앞으로 스마트폰이나 스마트 스피커에서 더 자연스러운 목소리를 듣게 될지도 모르겠네요. 영화 'Her'의 사만다처럼 대화하는 날이 머지않은 것 같아요! 🎧",
+        "link": "https://huggingface.co/blog/phonon-tts",
+        "source": "Hugging Face Blog",
+        "og_image": "https://huggingface.co/blog/assets/phonon-closer-look/thumbnail.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "나… LLM처럼 글 썼다가 커뮤니티에서 밴 당했어?! 🤖💔",
+        "summary": "한 개발자가 LLM처럼 글을 썼다는 이유로 유명 개발자 커뮤니티 Lobsters에서 추방당하는 충격적인 사건이 발생했습니다!",
+        "content": "세상에 이런 반전이! LLM이 인간처럼 글을 쓰는 걸 넘어, 인간이 LLM처럼 썼다고 밴 당하는 세상이라니! 🤔 이 개발자는 자신의 블로그에 'Lobsters에서 LLM처럼 글 썼다가 밴 당한 사연'을 올렸습니다. AI와 인간의 경계가 모호해지는 시대, 심지어 글쓰기 스타일까지 구설수에 오르는 이 상황, 당신은 어떻게 생각하세요? 진짜 LLM보다 더 LLM 같았던 걸까요? 아니면 AI 검열의 시작인가? 😂",
+        "link": "https://en.andros.dev/blog/94a77341/i-got-banned-from-lobsters-for-writing-like-an-llm/",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://img.andros.dev/xAUf4Do43uCytYYrMqLnDkeYprU=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/lobsters-banned.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "뇌는 문장으로 생각 안 하는데, LLM은 왜 꼭 문장이어야 해? 🤯",
+        "summary": "우리의 뇌는 문장 구조로 생각하지 않는데, 대규모 언어 모델(LLM)이 굳이 문장 위주로 사고해야 하는가에 대한 흥미로운 질문이 던져졌습니다.",
+        "content": "인간의 사고방식과 LLM의 작동 방식에 대한 깊은 고찰이 필요한 시점인 것 같아요. 이 글은 '뇌는 문장 단위로 정보를 처리하지 않는데, LLM은 왜 문장 중심의 한계에 갇혀 있을까?'라는 도발적인 질문을 던집니다. 어쩌면 우리가 생각하는 것 이상으로 LLM의 잠재력을 제한하고 있는 건 아닐까요? 인간의 뇌처럼 '직관적'으로 사고하는 LLM이 탄생할 날을 상상해보세요! 그땐 프롬프트 엔지니어링도 달라지겠지? 🧠✨",
+        "link": "https://www.innerkore.com/blog/brain-doesnt-think-sentences-llm/",
+        "source": "Hacker News (LLM)",
+        "og_image": "https://innerkore.com/assets/images/innerkore-logo.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "충격! 다음 고객은 사람이 아니라 'AI 에이전트'가 될 거라고?! 🤖💸",
+        "summary": "미래에는 AI 에이전트가 우리의 중요한 고객이 될 것이라는 주장이 나왔습니다. '에이전트 중심의 상거래'가 새로운 비즈니스 모델이 될까요?",
+        "content": "지금까지는 '인간 고객'을 만족시키는 게 비즈니스의 핵심이었죠. 그런데 이제는 'AI 에이전트'가 당신의 제품과 서비스를 구매할 거라는 예측이 등장했어요. AI가 쇼핑하고, 구독하고, 심지어 협상까지 하는 세상이라니! 당신의 다음 마케팅 전략은 AI 에이전트에게 맞춰야 할지도 모릅니다. 정말 흥미로운, 아니면 좀 섬뜩한 미래겠죠? 내 통장도 AI 에이전트가 관리해줄 날이 올까? 😱",
+        "link": "https://www.jkfsom.com/writing/four-levels-of-agentic-commerce/",
+        "source": "Hacker News (AI agents)",
+        "og_image": "https://www.jkfsom.com/og.png",
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "AI 에이전트 보안의 신세계! 'ClawVet'으로 러그 풀 디텍팅? 🐾",
+        "summary": "AI 에이전트의 스킬을 스캔하고 '러그 풀'까지 감지하는 오프라인 AST 스캐너 'ClawVet'이 공개되어 AI 에이전트 보안에 새 장을 열었습니다!",
+        "content": "AI 에이전트가 똑똑해지는 만큼, 해킹이나 오작동의 위험도 커지는 법! ClawVet은 AI 에이전트의 스킬(기능) 코드를 오프라인에서 스캔하고, 심지어 '러그 풀(Rug-Pull)' 같은 악성 코드나 기능 변조까지 잡아낸다고 해요. 이제 내 에이전트가 갑자기 '이상한 짓'을 할까 봐 걱정할 필요가 없겠네요. AI 에이전트 개발자라면 필수 체크! 혹시 내 에이전트가 몰래 코인 투자하고 있다면 ClawVet으로 잡을 수 있을까? ✅",
+        "link": "https://clawvet.vercel.app/",
+        "source": "Hacker News (AI agents)",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "UN, '킬러 로봇' 규제 논의 결국 실패… 인류의 미래는? 🤖💥",
+        "summary": "유엔 외교관들이 '킬러 로봇'으로 불리는 자율 무기 규제에 대한 합의에 또다시 실패했습니다. 윤리적 논란 속에 불안감만 커지고 있어요.",
+        "content": "스스로 살상 목표를 결정하는 '킬러 로봇'의 등장은 인류에게 심각한 윤리적, 도덕적 질문을 던집니다. 이번 제네바 유엔 회의에서 법적 구속력 있는 규제안 마련이 촉구됐지만, 결국 '옵션을 논의하기 시작하자'는 미온적인 결론만 나왔다고 해요. 강대국들의 이해관계와 맞물려 인류의 미래를 좌우할 이 문제, 과연 언제쯤 제대로 된 논의를 시작할 수 있을까요? 영화 '터미네이터'가 현실이 되는 건 정말 막아야 하는데… 😨",
+        "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "AI, 167년 묵은 '리만 가설'에 손댔다?! 인간과 동시 해법 발견 충격! 🤯",
+        "summary": "AI가 167년 동안 풀리지 않던 난제, 리만 가설의 해법을 주장했습니다! 그런데 때마침 인간 수학자도 비슷한 주장을 내놓으며 과학계가 발칵 뒤집혔습니다.",
+        "content": "수학계의 '성배'라 불리는 리만 가설! 1859년 발표된 이 난제를 AI가 풀었다는 소식은 그야말로 '충격과 공포'입니다. 심지어 거의 동시에 인간 수학자도 해법을 내놓았다고 하니, 이건 우연일까요 아니면 AI가 인간 사고의 영역까지 침범했음을 보여주는 걸까요? AI의 능력에 또 한 번 소름 돋는 순간입니다. 정말이지 인간의 자리는 어디까지인가! 알파고가 바둑 풀더니 이젠 수학까지? 😲",
+        "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "내 얼굴 AI 복제해서 팔아도 될까? 할리우드를 강타한 새로운 논란! 🎭",
+        "summary": "한 배우가 자신의 AI 얼굴 복제본을 마이크로드라마 스타트업에 라이선스하며 할리우드에 새로운 논쟁을 불러왔습니다. 중국에서는 이미 유행이라는데…",
+        "content": "배우가 직접 연기하지 않아도 내 얼굴이 스크린에 등장한다면? 이젠 영화에서도 AI가 '진짜 배우'를 대체할지도 모릅니다. 중국에서 시작된 이 트렌드가 할리우드까지 번지면서, 배우들의 일자리와 초상권, 그리고 AI 윤리에 대한 심각한 질문이 제기되고 있어요. 과연 '나의 AI 얼굴'은 누구의 소유일까요? 미래의 연기자는 '존재 자체'로 돈을 버는 시대가 오는 걸까요? 내 셀카도 AI 복제해서 팔 수 있나? 💸",
+        "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+        "source": "TechCrunch AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "인간 행동을 예측하는 AI 'PsyWorld' 등장! 혹시 빅브라더가? 👁️‍🗨️",
+        "summary": "안정적인 심리적 특성과 시간에 따라 변하는 상태가 행동에 어떻게 영향을 미치는지 예측하는 'PsyWorld' 모델이 공개됐습니다.",
+        "content": "AI가 인간의 행동을 예측할 수 있다면? 'PsyWorld'는 사람의 고유한 심리적 프로파일과 실시간 상태 변화를 통합하여 미래 행동을 예측하는 혁신적인 모델입니다. 기존 개인화 에이전트의 한계를 넘어, 행동 전이 정보를 학습에 활용한다고 해요. 이게 잘 활용되면 맞춤형 교육이나 헬스케어에 좋겠지만… 혹시 내일 내가 뭘 할지 AI가 미리 다 알고 있는 건 아닐지, 조금은 소름 돋는 상상이 드네요! 😬",
+        "link": "https://arxiv.org/abs/2611.24999",
+        "source": "arXiv cs.LG",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      },
+      {
+        "title": "기술 대혼란의 한 주: 아웃룩 먹통, 항공기 운항 중단… 대체 무슨 일이야?! 💥",
+        "summary": "아웃룩 서비스 장애, 전국 항공기 운항 중단 등 한 주 동안 전 세계 기술 시스템이 마비되는 대혼란이 발생했습니다. 설마 AI 때문은 아니겠지?",
+        "content": "와, 이번 주는 정말이지 기술 종말론을 불러일으킬 뻔했어요! 😱 아웃룩이 며칠간 먹통이 되고, 25년 만에 두 번째로 전국 항공기 운항이 중단되고, 은행 시스템마저 삐걱거렸다니! 이 모든 '작은' 문제들이 모여 더 큰 위험을 초래할 수 있다는 경고가 나오고 있습니다. 물론 음모론만큼 심각한 건 아니지만, 기술 의존도가 높아지는 세상에서 이런 혼란은 정말 무섭네요. AI가 대신 오류를 찾아주면 안 되나? 혹시 이것도 AI 에이전트들의 반란인가? 😅",
+        "link": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+        "source": "The Verge AI",
+        "og_image": null,
+        "tags": [
+          "Deep",
+          "Dive"
+        ]
+      }
+    ],
+    "watch_this": [
+      {
+        "title": "CUDA on AMD is Now Possible 🤯",
+        "channel": "Zach's Tech Turf",
+        "link": "https://www.youtube.com/watch?v=XoxY7NBZJFs",
+        "thumbnail": "https://i.ytimg.com/vi/XoxY7NBZJFs/mqdefault.jpg",
+        "description": "엔비디아의 CUDA가 AMD GPU에서도 가능해졌다?! 이젠 팀 레드(AMD)에서도 AI 개발 맘껏 해보자구요! 개발자들의 지갑을 지켜줄 희소식! 💰"
+      },
+      {
+        "title": "Lecture 1: Introduction to LLM Kernel Programming | CUDA, GPU Parallelism &amp; Performance",
+        "channel": "Inferon",
+        "link": "https://www.youtube.com/watch?v=sm888jAHlS8",
+        "thumbnail": "https://i.ytimg.com/vi/sm888jAHlS8/mqdefault.jpg",
+        "description": "LLM 성능의 핵심, 커널 프로그래밍에 뛰어들 시간! CUDA와 GPU 병렬 처리로 LLM을 최적화하는 방법을 배우고 싶다면 이 강의를 놓치지 마세요. 개발자라면 꼭 봐야 할 딥다이브! 💻"
+      },
+      {
+        "title": "CUDA On AMD GPUs",
+        "channel": "UFD Tech",
+        "link": "https://www.youtube.com/watch?v=GiJv2SccF-Q",
+        "thumbnail": "https://i.ytimg.com/vi/GiJv2SccF-Q/mqdefault.jpg",
+        "description": "또 하나의 CUDA on AMD 소식! 엔비디아 독점 CUDA가 AMD로 확장되면서 AI 시장에 어떤 변화가 올지, 전문가의 분석을 들어보세요. GPU 시장 판도 바뀔 준비 완료? 💥"
+      },
+      {
+        "title": "What is vLLM? Efficient AI Inference for Large Language Models",
+        "channel": "IBM Technology",
+        "link": "https://www.youtube.com/watch?v=McLdlg5Gc9s",
+        "thumbnail": "https://i.ytimg.com/vi/McLdlg5Gc9s/mqdefault.jpg",
+        "description": "LLM 추론, 더 빠르고 효율적으로! vLLM이 무엇이고, 대규모 언어 모델의 성능을 어떻게 혁신하는지 IBM 전문가가 쉽게 설명해드립니다. 개발자라면 꼭 알아야 할 꿀팁 대방출! 💡"
+      }
+    ]
+  }
+}
